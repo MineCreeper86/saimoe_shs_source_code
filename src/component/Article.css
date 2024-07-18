@@ -1,10 +1,14 @@
 .Article {
     margin: 0 auto;
-    width: 80%;
+    width: 75em;
     font-family: 'Noto Serif SC', serif;
 }
 
 .Article h1 {
     text-align: center;
     font-size: 3em;
+}
+
+.Article p {
+    font-size: 1.2em;
 }

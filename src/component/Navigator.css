@@ -2,17 +2,17 @@
     width: 100%;
     height: 2em;
     font-size: 2em;
-    background-color: rgba(51, 223, 210, 0.8);
+    background-color: rgba(232, 218, 146, 0.2);
     font-family: 'Noto Serif SC', serif;
     font-weight: 500;
-    backdrop-filter: blur(4px);
+    backdrop-filter: blur(10px);
     transition: linear 0.2s;
     border-bottom: 1px solid rgba(186, 186, 186, 0.4);
 }
 
 .Navigator:hover {
-    background-color: rgba(51, 223, 210, 0.6);
-    backdrop-filter: blur(2px);
+    background-color: rgba(232, 218, 146, 0.8);
+    backdrop-filter: blur(10px);
 }
 
 @media(max-width: 900px) {
@@ -42,12 +42,29 @@
 
 .Navigator a {
     text-decoration: none;
-    color: white;
+    color: black;
     margin: 0 0.4em;
     width: 7em;
     text-align: center;
+    font-weight: 200;
+}
+
+.Navigator:hover a {
+    font-weight: 700;
 }
 
 .Navigator a:hover {
     background-color: rgba(200, 200, 200, 0.39)
+}
+
+.Background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("/public/background.jpg");
+    z-index: -1;
+    background-size: cover;
+    opacity: 0.6;
 }

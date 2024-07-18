@@ -13,6 +13,7 @@ root.render(
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap"
               rel="stylesheet"/>
+        <div className="Background"></div>
         <Navigator/>
         <Router>
             <Routes>
