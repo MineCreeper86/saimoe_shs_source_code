@@ -1,0 +1,44 @@
+.Navigator {
+    width: 100%;
+    height: 2em;
+    font-size: 2em;
+    background-color: rgba(51, 223, 210, 0.8);
+    font-family: sans-serif;
+    font-weight: 500;
+    backdrop-filter: blur(4px);
+}
+
+@media(max-width: 900px) {
+    .Navigator {
+        display: none;
+    }
+}
+
+.Logo {
+    float: left;
+    height: 100%;
+    vertical-align: middle;
+    font-family: '楷体', serif;
+}
+
+.Menu {
+    position: relative;
+    right: 0;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+}
+
+.Navigator a {
+    text-decoration: none;
+    color: white;
+    margin: 0 0.4em;
+    width: 7em;
+    text-align: center;
+}
+
+.Navigator a:hover {
+    background-color: rgba(200, 200, 200, 0.39)
+}

@@ -1,0 +1,10 @@
+.Article {
+    margin: 0 auto;
+    width: 80%;
+    font-family: sans-serif;
+}
+
+.Article h1 {
+    text-align: center;
+    font-size: 3em;
+}
