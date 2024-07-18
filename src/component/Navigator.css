@@ -3,9 +3,16 @@
     height: 2em;
     font-size: 2em;
     background-color: rgba(51, 223, 210, 0.8);
-    font-family: sans-serif;
+    font-family: 'Noto Serif SC', serif;
     font-weight: 500;
     backdrop-filter: blur(4px);
+    transition: linear 0.2s;
+    border-bottom: 1px solid rgba(186, 186, 186, 0.4);
+}
+
+.Navigator:hover {
+    background-color: rgba(51, 223, 210, 0.6);
+    backdrop-filter: blur(2px);
 }
 
 @media(max-width: 900px) {
@@ -18,7 +25,9 @@
     float: left;
     height: 100%;
     vertical-align: middle;
-    font-family: '楷体', serif;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: 100;
+    font-size: 0.2em;
 }
 
 .Menu {

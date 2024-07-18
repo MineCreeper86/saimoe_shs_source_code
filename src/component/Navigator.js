@@ -9,8 +9,8 @@ function Navigator() {
             <span className="Menu">
                 <NavItem href={"/"} text="主页"/>
                 <NavItem href={"/playback"} text="往期赛况"/>
-                <NavItem href={"/playback"} text="赛程一览"/>
-                <NavItem href={"/playback"} text="投票提名"/>
+                <NavItem href={"/timeline"} text="赛程一览"/>
+                <NavItem href={"/vote"} text="投票提名"/>
             </span>
         </div>
     )

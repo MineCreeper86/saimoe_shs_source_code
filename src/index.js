@@ -8,14 +8,18 @@ import Navigator from "./component/Navigator";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-      <Navigator />
-      <Router>
-          <Routes>
-              <Route exact path="/" element={<Homepage/>} />
-          </Routes>
-      </Router>
-  </React.StrictMode>
+    <React.StrictMode>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap"
+              rel="stylesheet"/>
+        <Navigator/>
+        <Router>
+            <Routes>
+                <Route exact path="/" element={<Homepage/>}/>
+            </Routes>
+        </Router>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
