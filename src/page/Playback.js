@@ -72,7 +72,7 @@ function Playback() {
                 </tr>
                 </tbody>
             </table>
-            <p>表格：八强赛况（由于赛制原因，第5至8名不分先后，表格排名仅供参考）<a href={"https://www.bilibili.com/opus/769244263743488018"} target={"_blank"}>点此查看比赛详情</a></p>
+            <p>表格：八强赛况（第5~8名排名由后续排位赛决定，四强赛数据仅供参考）<a href={"https://www.bilibili.com/opus/769244263743488018"} target={"_blank"} rel="noreferrer">点此查看比赛详情</a></p>
             <table className="PlaybackStats">
 
             </table>

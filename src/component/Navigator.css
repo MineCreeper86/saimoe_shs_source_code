@@ -12,6 +12,10 @@
     border-bottom: 1px solid rgba(186, 186, 186, 0.4);
 }
 
+.Navigator a.Selected{
+    font-weight: 500;
+}
+
 .Navigator:hover {
     background-color: rgba(232, 218, 146, 0.8);
     backdrop-filter: blur(10px);
