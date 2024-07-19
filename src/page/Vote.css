@@ -1,0 +1,31 @@
+.Article .Portal {
+    font-size: 2em;
+    font-weight: 300;
+    padding: 0.3em 1.2em;
+    backdrop-filter: blur(4px);
+    border-radius: 12px;
+    border: 1px solid rgba(78, 78, 78, 0.4);
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: linear 0.2s;
+}
+
+.Article .Ended {
+    text-decoration: line-through;
+}
+
+.Article .NotStarted {
+    display: none;
+}
+
+.Article .Portal:hover {
+    backdrop-filter: blur(10px);
+    box-shadow: rgba(105, 105, 105, 0.37) 0 0 9px;
+}
+
+.Article .Active:hover {
+    background-color: rgba(178, 255, 134, 0.6);
+}
+
+.Article .Ended:hover {
+    background-color: rgba(255, 134, 134, 0.6);
+}

@@ -5,6 +5,10 @@ import Homepage from './page/Homepage';
 import reportWebVitals from './reportWebVitals';
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
 import Navigator from "./component/Navigator";
+import Footer from "./component/Footer";
+import Vote from "./page/Vote";
+import Playback from "./page/Playback";
+import Timeline from "./page/Timeline";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,8 +22,12 @@ root.render(
         <Router>
             <Routes>
                 <Route exact path="/" element={<Homepage/>}/>
+                <Route exact path="/playback" element={<Playback/>}/>
+                <Route exact path="/timeline" element={<Timeline/>}/>
+                <Route exact path="/vote" element={<Vote/>}/>
             </Routes>
         </Router>
+        <Footer/>
     </React.StrictMode>
 );
 

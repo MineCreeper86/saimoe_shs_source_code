@@ -1,5 +1,7 @@
 .Navigator {
-    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100vw;
     height: 2em;
     font-size: 2em;
     background-color: rgba(232, 218, 146, 0.4);
@@ -61,7 +63,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    width: 100vw;
     bottom: 0;
     background: url("/public/background.jpg");
     z-index: -1;

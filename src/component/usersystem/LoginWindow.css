@@ -73,10 +73,14 @@
     font-size: 0.9em;
 }
 
-.LoginWindow .Tips a {
-    text-decoration: none;
+.LoginWindow .Tips span {
+    color: #41bdff;
 }
 
-.LoginWindow .Tips a:hover {
+.LoginWindow .Tips span:hover {
     text-shadow: rgba(105, 105, 105, 0.37) 0 0 2px;
+}
+
+.LoginWindow .Detail {
+    font-size: 0.5em;
 }

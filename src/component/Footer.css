@@ -1,0 +1,9 @@
+.Footer {
+    width: 100%;
+    text-align: center;
+}
+
+.Footer a {
+    color: rgba(51, 223, 210, 0.8);
+    text-decoration: none;
+}
