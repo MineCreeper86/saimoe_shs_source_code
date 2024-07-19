@@ -13,3 +13,11 @@
     font-size: 1.2em;
     font-weight: 450;
 }
+
+.Article h2 {
+    font-size: 1.8em;
+}
+
+.Article a {
+    color: rgb(0, 128, 255);
+}

@@ -1,0 +1,35 @@
+.PlaybackStats tr th:nth-child(1) {
+    background-color: pink;
+}
+
+.PlaybackStats tr th:nth-child(2) {
+    background-color: lightblue;
+}
+
+.PlaybackStats tr th {
+    border: 1px solid dimgray;
+    text-align: center;
+    padding: 0.2em;
+}
+
+.PlaybackStats tr td {
+    border: 1px solid dimgray;
+    padding: 0.2rem 0.8rem;
+}
+
+.PlaybackStats tr:nth-child(2) td {
+    font-weight: bold;
+}
+
+.PlaybackStats tr td:nth-child(odd) {
+    width: 10em;
+}
+
+.PlaybackStats tr td:nth-child(even) {
+    width: 7em;
+}
+
+.PlaybackStats{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
