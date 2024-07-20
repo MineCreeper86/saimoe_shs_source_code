@@ -9,6 +9,10 @@
     transition: linear 0.2s;
 }
 
+.Article a {
+    text-decoration: none;
+}
+
 .Article .Ended {
     text-decoration: line-through;
 }
