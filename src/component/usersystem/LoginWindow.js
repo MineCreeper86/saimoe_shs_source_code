@@ -7,7 +7,28 @@ function LoginWindow() {
     const [moreinfo, setMoreInfo] = React.useState(false);
     const [state, setState] = React.useState(0);
     const [loading, setLoading] = React.useState(false);
+    const [searchResult, setSearchResult] = React.useState([]);
     const displayMoreInfo = () => {setMoreInfo(true);};
+    let schools = []
+    let pending = false
+    const OptionBar = (props) => {
+        const setType = (option, e) => {
+            document.getElementById("type").value = option.code;
+            document.getElementById("type_search").value = option.name;
+            searchType()
+        }
+        let children = []
+        for(let i=0; i<props.options.length; i++) {
+            children.push(<p className="TypeOption" key={"optionVal-"+i+"-"+props.options.code} onClick={(e) => setType(props.options[i],e)}>
+                {props.options[i].name}
+            </p>)
+        }
+        if(children.length === 0) {
+            return <div></div>
+        } else {
+            return <div><p className="Tips">目前仅收录2024年上海中考录取学校</p><div className={"TypeOptions"}>{children}</div></div>
+        }
+    }
     const login = async () => {
         let pwd_match = state === 1 || document.getElementById("password").value === document.getElementById("password_confirm").value
         if(!loading && pwd_match) {
@@ -75,6 +96,48 @@ function LoginWindow() {
         setCallback(result.data);
         setState(1);
     }
+    const fetchSchool = async () => {
+        const result = await axios.get('/schools.json')
+        schools = result.data
+        searchType()
+    }
+    const searchType = () => {
+        const keyword = document.getElementById("type_search").value
+        if(schools.length === 0 && !pending) {
+            pending = true
+            console.log("pending now")
+            fetchSchool()
+        } else if (schools.length !== 0) {
+            let response = [];
+            let available = true;
+            for(let i=0; i < schools.length; i++) {
+                if(response.length < 10) {
+                    if(schools[i].code < "000100") {
+                        response.push(schools[i]);
+                    }
+                    let k = schools[i].name
+                    let left_flag = 0
+                    if(schools[i].code >= "000100") {
+                        for(let right_flag = 0; right_flag < k.length; right_flag++) {
+                            if(k.charAt(right_flag) === keyword.charAt(left_flag)) left_flag++;
+                            if(left_flag === keyword.length) {
+                                response.push(schools[i])
+                                break;
+                            }
+                        }
+                    }
+                    if(schools[i].name === keyword
+                    && schools[i].code === document.getElementById("type").value) {
+                        available = false;
+                        break;
+                    }
+                }
+            }
+            if(available) setSearchResult(response);
+            else setSearchResult([]);
+        }
+        return [];
+    }
     useEffect(() => {
         if(state === 0) fetchData();
     })
@@ -99,18 +162,14 @@ function LoginWindow() {
                 <p>{state===2?"请额外填写学校及邮箱信息，这有助于促进投票的公平性。":"未创建的账户在填写完用户名密码后将以此创建账号。"}</p>
                 <p>用&ensp;户&ensp;名<input type="text" id="username"/></p>
                 <p>密&emsp;&emsp;码<input type="password" id="password"/></p>
+                {state===2 && <p>密码确认<input type="password" id="password_confirm"/></p>}
                 {
                     state===2 &&
-                    <p>密码确认<input type="password" id="password_confirm"/></p>
+                    <p>在读学校<input type="hidden" id="type"/>
+                        <input type="text" id="type_search" onInput={searchType}/></p>
                 }
-                {
-                    state===2 &&
-                    <p>在读学校<input type="text" id="type"/></p>
-                }
-                {
-                    state===2 &&
-                    <p>邮箱地址<input type="email" id="email"/></p>
-                }
+                {state===2 && <OptionBar options={searchResult}/>}
+                {state===2 && <p>邮箱地址<input type="email" id="email"/></p>}
                 <p className="Tips">创建账号即代表您同意上海中学和风社存储您的部分个人信息。
                     <span onClick={displayMoreInfo}>{moreinfo?"":"了解更多"}</span>
                 </p>
