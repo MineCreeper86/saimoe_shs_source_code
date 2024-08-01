@@ -153,6 +153,7 @@ function LoginWindow() {
             <div className="LoginWindow">
                 <h3>您已登入账号</h3>
                 <p>用户名：{callback.data.user.username}</p>
+                <p>邮箱：{callback.data.user.email}</p>
             </div>
         )
     } else if(state >= 1) {
