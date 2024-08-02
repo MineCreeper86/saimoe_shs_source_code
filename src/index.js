@@ -11,6 +11,8 @@ import Playback from "./page/Playback";
 import Timeline from "./page/Timeline";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+document.cookie = "wh="+window.outerHeight+"; domain=shswafu.club";
+document.cookie = "ww="+window.outerWidth+"; domain=shswafu.club";
 root.render(
     <React.StrictMode>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>

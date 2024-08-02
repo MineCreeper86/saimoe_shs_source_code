@@ -39,10 +39,6 @@ function LoginWindow() {
                     'https://api.shswafu.club/v0/user/login',
                     {},
                     {
-                        headers: {
-                            "Window-Param-Height": window.outerHeight,
-                            "Window-Param-Width": window.outerWidth
-                        },
                         params: {
                             username: document.getElementById("username").value,
                             password: document.getElementById("password").value
@@ -57,10 +53,6 @@ function LoginWindow() {
                         'https://api.shswafu.club/v0/user/register',
                         {},
                         {
-                            headers: {
-                                "Window-Param-Height": window.outerHeight,
-                                "Window-Param-Width": window.outerWidth
-                            },
                             params: {
                                 username: document.getElementById("username").value,
                                 password: document.getElementById("password").value,
@@ -86,10 +78,6 @@ function LoginWindow() {
         const result = await axios.get(
             'https://api.shswafu.club/v0/user/info',
             {
-                headers: {
-                    "Window-Param-Height": window.outerHeight,
-                    "Window-Param-Width": window.outerWidth
-                },
                 withCredentials: true
             }
         )
