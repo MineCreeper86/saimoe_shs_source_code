@@ -10,8 +10,8 @@ function Vote() {
             <Portal startTime="1721375167000" endTime="1999999999999" href="/appvote/3/group">第三届上萌 - 小组赛</Portal>
             <Portal startTime="1721375167000" endTime="1999999999999" href="/appvote/3/hachi">第三届上萌 - 八强赛</Portal>
             <Portal startTime="1721375167000" endTime="1999999999999" href="/appvote/3/yon">第三届上萌 - 四强赛</Portal>
-            <Portal startTime="1721375167000" endTime="1999999999999" href="/appvote/3/semifinal">第三届上萌 - 半决赛</Portal>
-            <Portal startTime="1721375167000" endTime="1999999999999" href="/appvote/3/final">第三届上萌 - 决赛与季军赛</Portal>
+            <Portal startTime="1721375167000" endTime="1999999999999" href="/appvote/3/semifinals">第三届上萌 - 半决赛</Portal>
+            <Portal startTime="1721375167000" endTime="1999999999999" href="/appvote/3/finals">第三届上萌 - 决赛与季军赛</Portal>
         </Article>
     )
 }
