@@ -142,7 +142,7 @@ function LoginWindow() {
                 <h3>您已登入账号</h3>
                 <p>用户名：{callback.data.user.username}</p>
                 <p className="Tips">{callback.data.user.type_display}</p>
-                <p>邮箱：{callback.data.user.email}&nbsp;{callback.data.user.verified?<font color="#adff2f">已验证</font>:<font color="darkgray">未验证</font>}</p>
+                <p>邮箱：{callback.data.user.email}&nbsp;{callback.data.user.verified?<font color="green">已验证</font>:<font color="darkgray">未验证</font>}</p>
             </div>
         )
     } else if(state >= 1) {

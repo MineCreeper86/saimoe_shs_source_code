@@ -118,3 +118,7 @@
     font-weight: bold;
     cursor: pointer;
 }
+
+.LoginWindow font {
+    font-size: 0.8em;
+}
