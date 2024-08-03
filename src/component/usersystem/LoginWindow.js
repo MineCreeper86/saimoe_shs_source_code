@@ -143,6 +143,8 @@ function LoginWindow() {
                 <p>用户名：{callback.data.user.username}</p>
                 <p className="Tips">{callback.data.user.type_display}</p>
                 <p>邮箱：{callback.data.user.email}&nbsp;{callback.data.user.verified?<font color="green">已验证</font>:<font color="darkgray">未验证</font>}</p>
+                {!callback.data.user.verified && <p className="Tips">未验证的用户无法投票，请通过绑定邮箱将任意内容的邮件发送至 verify@shswafu.club</p>}
+                {!callback.data.user.verified && <p className="Tips">一般验证过程需要等待 30s，请刷新页面以应用更新效果</p>}
             </div>
         )
     } else if(state >= 1) {
