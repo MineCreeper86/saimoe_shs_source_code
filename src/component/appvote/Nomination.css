@@ -1,9 +1,16 @@
 .Akarin {
     opacity: 0.6;
-    transition: linear 1s;
+    transition: linear 0.2s;
     font-weight: 100 !important;
 }
 
 .Akarin:hover {
     opacity: 0;
+}
+
+.MainApp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
