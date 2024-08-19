@@ -146,7 +146,6 @@ function LoginWindow() {
                     {!callback.data.user.verified && <p className="Tips">未验证的用户无法投票，请通过绑定邮箱将任意内容的邮件发送至 verify@shswafu.club</p>}
                     {!callback.data.user.verified && <p className="Tips">一般验证过程需要等待 30s，请刷新页面以应用更新效果</p>}
                 </div>)
-            }
         )
     } else if(state >= 1) {
         return (
