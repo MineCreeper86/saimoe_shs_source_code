@@ -18,7 +18,7 @@ function Nomination() {
                 Haruhi、团长</p>
             <p className="Akarin">&nbsp;&nbsp;赤座あかり&emsp;&emsp;搜索词：赤座あかり、赤座灯里、Akarin、あかざ あかり
                 、Akaza Akari、阿卡林、アッカリ〜ン</p>
-            <p onClick="createSubject">部分角色可能因为太新或太冷门而未被收录，如果您无法在搜索下拉框中找到您想要的角色，请单击此处创建新角色。</p>
+            <p onClick={createSubject}>部分角色可能因为太新或太冷门而未被收录，如果您无法在搜索下拉框中找到您想要的角色，请单击此处创建新角色。</p>
             <p>--- 请完成下方的登录弹窗（如有） ---</p>
             <LoginWindow hide="1"/>
             <p>--- 请完成上方的登录弹窗（如有） ---</p>
