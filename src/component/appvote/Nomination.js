@@ -17,7 +17,7 @@ function Nomination(props) {
             <p className="Akarin">&nbsp;&nbsp;赤座あかり&emsp;&emsp;搜索词：赤座あかり、赤座灯里、Akarin、あかざ あかり
                 、Akaza Akari、阿卡林、アッカリ〜ン</p>
             <p>部分角色可能因为太新或太冷门而未被收录，如果您无法在搜索下拉框中找到您想要的角色，请单击此处创建新角色。</p>
-            {loginPop && <LoginWindow/>}
+            <LoginWindow hide="1"/>
         </Article>
     )
 }
