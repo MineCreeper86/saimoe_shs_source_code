@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import './LoginWindow.css'
 import axios from "axios";
 
-function LoginWindow() {
+function LoginWindow(props) {
     const [callback, setCallback] = React.useState({code:-1,message:"",data:{}});
     const [moreInfo, setMoreInfo] = React.useState(false);
     const [state, setState] = React.useState(0);
