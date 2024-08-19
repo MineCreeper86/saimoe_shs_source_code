@@ -131,15 +131,15 @@ function LoginWindow() {
     })
     if(state === 0) {
         return (
-            {!props.hide && <div className="LoginWindow">
+            props.hide?(<div></div>):(<div className="LoginWindow">
                 <h3>少女祈祷中...</h3>
                 <p>正在加载用户资料</p>
-            </div>}
+            </div>)
         )
     } else if(state === 1 && callback.code === 0 && callback.data.logged){
         return (
             {
-                !(props.hide && callback.data.user.verified) && 
+                (props.hide && callback.data.user.verified)?<div></div>: 
                 <div className="LoginWindow">
                     <h3>您已登入账号</h3>
                     <p>用户名：{callback.data.user.username}</p>
