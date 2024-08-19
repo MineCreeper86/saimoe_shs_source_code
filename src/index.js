@@ -9,6 +9,7 @@ import Footer from "./component/Footer";
 import Vote from "./page/Vote";
 import Playback from "./page/Playback";
 import Timeline from "./page/Timeline";
+import Nomination from "./component/appvote/Nomination";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.cookie = "wh="+window.outerHeight+"; domain=shswafu.club";
@@ -27,6 +28,7 @@ root.render(
                 <Route exact path="/playback" element={<Playback/>}/>
                 <Route exact path="/timeline" element={<Timeline/>}/>
                 <Route exact path="/vote" element={<Vote/>}/>
+                <Route exact path="/appvote/3/nomination" element={<Nomination/>}/>
             </Routes>
         </Router>
         <Footer/>

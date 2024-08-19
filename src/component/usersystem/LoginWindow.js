@@ -4,7 +4,7 @@ import axios from "axios";
 
 function LoginWindow() {
     const [callback, setCallback] = React.useState({code:-1,message:"",data:{}});
-    const [moreinfo, setMoreInfo] = React.useState(false);
+    const [moreInfo, setMoreInfo] = React.useState(false);
     const [state, setState] = React.useState(0);
     const [loading, setLoading] = React.useState(false);
     const [searchResult, setSearchResult] = React.useState([]);
@@ -163,9 +163,9 @@ function LoginWindow() {
                 {state===2 && <OptionBar options={searchResult}/>}
                 {state===2 && <p>邮箱地址<input type="email" id="email"/></p>}
                 <p className="Tips">创建账号即代表您同意上海中学和风社存储您的部分个人信息。
-                    <span onClick={displayMoreInfo}>{moreinfo?"":"了解更多"}</span>
+                    <span onClick={displayMoreInfo}>{moreInfo?"":"了解更多"}</span>
                 </p>
-                <p className="Tips">{moreinfo?"（包括学校、年级及性别等画像特征信息，浏览器类型、IP地址及屏幕参数等设备特征信息及选票内容等信息，用于检测刷票及用户群分析）":""}</p>
+                <p className="Tips">{moreInfo?"（包括学校、年级及性别等画像特征信息，浏览器类型、IP地址及屏幕参数等设备特征信息及选票内容等信息，用于检测刷票及用户群分析）":""}</p>
                 <button className="SubmitButton" onClick={login}>{state===2?"注册":"登入"}</button>&emsp;
                 <button className="SwitchButton" onClick={switchType}>{state===1?"注册":"登入"}</button>
                 <p className="Tips">{loading?"加载中":<b><big>{callback.message}</big></b>}</p>

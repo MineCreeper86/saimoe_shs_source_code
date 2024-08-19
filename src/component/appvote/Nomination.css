@@ -1,0 +1,11 @@
+.Akarin {
+    opacity: 0.6;
+    transition: linear 1s;
+    font-weight: 100 !important;
+    height: 1em;
+}
+
+.Akarin:hover {
+    opacity: 0;
+    height: 0;
+}
