@@ -10,6 +10,7 @@
     backdrop-filter: blur(10px);
     transition: linear 0.2s;
     border-bottom: 1px solid rgba(186, 186, 186, 0.4);
+    z-index: 999;
 }
 
 .Navigator a.Selected{
