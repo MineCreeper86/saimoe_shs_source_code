@@ -138,7 +138,6 @@ function LoginWindow() {
         )
     } else if(state === 1 && callback.code === 0 && callback.data.logged){
         return (
-            {
                 (props.hide && callback.data.user.verified)?(<div></div>):(<div className="LoginWindow">
                     <h3>您已登入账号</h3>
                     <p>用户名：{callback.data.user.username}</p>
