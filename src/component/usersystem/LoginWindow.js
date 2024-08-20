@@ -152,16 +152,17 @@ function LoginWindow(props) {
             <div className="LoginWindow">
                 <h3>{state===2?"注册":"登入"}账号</h3>
                 <p>{state===2?"请额外填写学校及邮箱信息，这有助于促进投票的公平性。":"未创建的账户在填写完用户名密码后将以此创建账号。"}</p>
-                <p>用&ensp;户&ensp;名<input type="text" id="username"/></p>
-                <p>密&emsp;&emsp;码<input type="password" id="password"/></p>
-                {state===2 && <p>密码确认<input type="password" id="password_confirm"/></p>}
+                <p className="KeyInput"><span>用户名</span><input type="text" id="username"/></p>
+                <p className="KeyInput"><span>密码</span><input type="password" id="password"/></p>
+                {state===2 && <p className="KeyInput"><span>密码确认</span><input type="password" id="password_confirm"/></p>}
                 {
                     state===2 &&
-                    <p>在读学校<input type="hidden" id="type"/>
+                    <p className="KeyInput"><span>在读学校</span>
                         <input type="text" id="type_search" onInput={searchType}/></p>
                 }
+                <input type="hidden" id="type"/>
                 {state===2 && <OptionBar options={searchResult}/>}
-                {state===2 && <p>邮箱地址<input type="email" id="email"/></p>}
+                {state===2 && <p className="KeyInput"><span>邮箱地址</span><input type="email" id="email"/></p>}
                 <p className="Tips">创建账号即代表您同意上海中学和风社存储您的部分个人信息。
                     <span onClick={displayMoreInfo}>{moreInfo?"":"了解更多"}</span>
                 </p>

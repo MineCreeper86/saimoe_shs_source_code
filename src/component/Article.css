@@ -21,3 +21,15 @@
 .Article a {
     color: rgb(0, 128, 255);
 }
+
+@media(max-width: 900px) {
+    .Article {
+        font-family: sans-serif;
+    }
+    .Article p {
+        line-height: 1.6em;
+    }
+    .Article h1 {
+        text-align: left;
+    }
+}
