@@ -22,12 +22,6 @@
     backdrop-filter: blur(10px);
 }
 
-@media(max-width: 900px) {
-    .Navigator {
-        display: none;
-    }
-}
-
 .Logo {
     float: left;
     height: 100%;
@@ -74,4 +68,13 @@
     z-index: -1;
     background-size: cover;
     opacity: 0.35;
+}
+
+@media(max-width: 900px) {
+    .Navigator {
+        display: none;
+    }
+    .Background {
+        display: none;
+    }
 }
