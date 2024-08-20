@@ -25,6 +25,7 @@
 @media(max-width: 900px) {
     .Article {
         font-family: sans-serif;
+        margin: 0 auto;
     }
     .Article p {
         line-height: 1.6em;
@@ -32,9 +33,9 @@
     }
     .Article h1 {
         text-align: left;
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
     .Article h2 {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 }
