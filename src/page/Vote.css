@@ -33,3 +33,11 @@
 .Article .Ended:hover {
     background-color: rgba(255, 134, 134, 0.6);
 }
+
+@media (max-width: 900px) {
+    .Article .Portal {
+        font-size: 1em;
+        backdrop-filter: none;
+        margin-block: 0.6em;
+    }
+}
