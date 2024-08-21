@@ -149,10 +149,25 @@
     :root {
         --border-default-width: 2px;
     }
+    .LoginWindow .TipsWhenMobile {
+        font-size: 0.9em;
+    }
+    .LoginWindow .TypeOptions {
+        background: none;
+        width: 100%;
+        font-weight: 100;
+        font-size: 0.6em;
+    }
 }
 
 @media(max-width: 42em) {
     .LoginWindow .KeyInput {
         width: 90%;
+    }
+    .LoginWindow .KeyInput span {
+        display: none;
+    }
+    .LoginWindow input {
+        margin-left: 0;
     }
 }

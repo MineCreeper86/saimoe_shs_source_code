@@ -151,18 +151,18 @@ function LoginWindow(props) {
         return (
             <div className="LoginWindow">
                 <h3>{state===2?"注册":"登入"}账号</h3>
-                <p>{state===2?"请额外填写学校及邮箱信息，这有助于促进投票的公平性。":"未创建的账户在填写完用户名密码后将以此创建账号。"}</p>
-                <p className="KeyInput"><span>用户名</span><input type="text" id="username"/></p>
-                <p className="KeyInput"><span>密码</span><input type="password" id="password"/></p>
-                {state===2 && <p className="KeyInput"><span>密码确认</span><input type="password" id="password_confirm"/></p>}
+                <p className="TipsWhenMobile">{state===2?"请额外填写学校及邮箱信息，这有助于促进投票的公平性。":"未创建的账户在填写完用户名密码后将以此创建账号。"}</p>
+                <p className="KeyInput"><span>用户名</span><input type="text" id="username" placeholder="用户名"/></p>
+                <p className="KeyInput"><span>密码</span><input type="password" id="password" placeholder="密码"/></p>
+                {state===2 && <p className="KeyInput"><span>密码确认</span><input type="password" id="password_confirm" placeholder="密码确认"/></p>}
                 {
                     state===2 &&
                     <p className="KeyInput"><span>在读学校</span>
-                        <input type="text" id="type_search" onInput={searchType}/></p>
+                        <input type="text" id="type_search" onInput={searchType} placeholder="在读学校"/></p>
                 }
                 <input type="hidden" id="type"/>
                 {state===2 && <OptionBar options={searchResult}/>}
-                {state===2 && <p className="KeyInput"><span>邮箱地址</span><input type="email" id="email"/></p>}
+                {state===2 && <p className="KeyInput"><span>邮箱地址</span><input type="email" id="email" placeholder="电子邮箱地址"/></p>}
                 <p className="Tips">创建账号即代表您同意上海中学和风社存储您的部分个人信息。
                     <span onClick={displayMoreInfo}>{moreInfo?"":"了解更多"}</span>
                 </p>
