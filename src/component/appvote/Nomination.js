@@ -2,10 +2,58 @@ import React, {useState} from 'react';
 import Article from "../Article";
 import LoginWindow from "../usersystem/LoginWindow";
 import './Nomination.css'
+import axios from "axios";
 
 function Nomination() {
     const createSubject = () => {
         alert("功能开发中")
+    }
+    const SubjectInput = (props) => {
+        const [subjectId,setSubjectId] = React.useState(0);
+        const [lastRequestTime, setLastRequestTime] = React.useState(0);
+        const [searchResult, setSearchResult] = React.useState([]);
+        let status = true;
+        const searchSubject = async () => {
+            if(document.getElementById('input-'+props.vid).value) {
+                const result = await axios.get(
+                    'https://api.shswafu.club/v0/vote/nominate/search_character',
+                    {
+                        params: {
+                            keyword: document.getElementById('input-'+props.vid).value,
+                        },
+                        withCredentials: true
+                    }
+                );
+                if(result.data.code === 0) setSearchResult(result.data.data);
+            } else setSearchResult([]);
+        }
+        const searchSubjectByComp = () => {
+            status = true;
+            searchSubject();
+        }
+        const searchSubjectByInput = () => {
+            if(lastRequestTime < Date.now() - 800 && status) {
+                setLastRequestTime(Date.now())
+                searchSubject();
+            }
+        }
+        return <div>
+            <input type="hidden" id={'hidden-'+props.vid} value={subjectId}/>
+            <input type="text" className="NominationInput" id={'input-'+props.vid} onCompositionEnd={searchSubjectByComp} onCompositionStart={() => {status = false}} onInput={searchSubjectByInput}/>
+            {
+                searchResult.length !== 0 &&
+                <div className="SearchResultSet">
+                    get
+                </div>
+            }
+        </div>
+    }
+    const generateChildTree = (prefix) => {
+        let lst = []
+        for(let i = 0; i < 10; i++) {
+            lst.push(<SubjectInput vid={prefix+"-"+i}/>)
+        }
+        return lst
     }
     return (
         <Article>
@@ -25,9 +73,11 @@ function Nomination() {
             <div className="MainApp">
                 <div className="ChnlDivision ChnlFemale">
                     <h2>萌王提名</h2>
+                    {generateChildTree("fem")}
                 </div>
                 <div className="ChnlDivision ChnlMale">
                     <h2>燃王提名</h2>
+                    {generateChildTree("male")}
                 </div>
             </div>
         </Article>

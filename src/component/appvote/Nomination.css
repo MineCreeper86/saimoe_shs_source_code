@@ -1,3 +1,7 @@
+:root {
+    --border-default-width: 1px;
+}
+
 .Akarin {
     opacity: 0.6;
     transition: linear 0.2s;
@@ -14,3 +18,34 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+.MainApp .NominationInput {
+    width: 90%;
+    margin-left: 1em;
+    height: 1.5em;
+    border-radius: 15px;
+    border: var(--border-default-width) solid rgb(186, 186, 186);
+    padding-left: 0.8em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 0.8em;
+    transition: linear 0.2s;
+}
+
+.MainApp .NominationInput:hover {
+    box-shadow: rgba(105, 105, 105, 0.37) 0 0 6px;
+    border: var(--border-default-width) solid black;
+}
+
+@media(max-width: 900px) {
+    :root {
+        --border-default-width: 2px;
+    }
+
+    .MainApp {
+        flex-direction: column;
+    }
+}
+

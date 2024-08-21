@@ -48,7 +48,7 @@
 
 .LoginWindow input:hover{
     box-shadow: rgba(105, 105, 105, 0.37) 0 0 6px;
-    border: 1px solid black;
+    border: var(--border-default-width) solid black;
 }
 
 .LoginWindow input:focus{
