@@ -72,6 +72,23 @@
 
 @media(max-width: 900px) {
     .Navigator {
+        background-color: transparent;
+        position: static;
+        top: 0;
+        backdrop-filter: none;
+        font-family: sans-serif;
+        height: auto;
+        font-size: 1.2em;
+        padding: 0.5em;
+    }
+    .Navigator a {
+        text-align: left;
+        width: auto;
+    }
+    .Navigator:hover {
+        background-color: transparent;
+    }
+    .Logo {
         display: none;
     }
     .Background {
