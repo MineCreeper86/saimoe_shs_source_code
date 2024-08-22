@@ -39,6 +39,9 @@
     border: var(--border-default-width) solid black;
 }
 
+.MainApp .SearchResultSet p{
+    padding: 15px;
+}
 @media(max-width: 900px) {
     :root {
         --border-default-width: 2px;

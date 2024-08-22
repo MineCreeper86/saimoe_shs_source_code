@@ -1,10 +1,12 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Article from "../Article";
 import LoginWindow from "../usersystem/LoginWindow";
 import './Nomination.css'
 import axios from "axios";
 
 function Nomination() {
+    const [maleData, setMaleData] = useState([]);
+    const [femaleData, setFemaleData] = useState([]);
     const createSubject = () => {
         alert("功能开发中")
     }
@@ -37,21 +39,33 @@ function Nomination() {
                 searchSubject();
             }
         }
+        const transformResult = () => {
+            let resultObjects = []
+            searchResult.forEach(element => {
+                resultObjects.push(<p>{element.name_cn===undefined?element.name_jp:element.name_cn}</p>)
+            })
+            return resultObjects;
+        }
+        useEffect(() => {
+            if (props.defaultValue !== undefined && props.defaultValue !== null) {
+                document.getElementById("input-"+props.vid).value = props.defaultValue.name;
+            }
+        },[props.defaultValue]);
         return <div>
             <input type="hidden" id={'hidden-'+props.vid} value={subjectId}/>
             <input type="text" className="NominationInput" id={'input-'+props.vid} onCompositionEnd={searchSubjectByComp} onCompositionStart={() => {status = false}} onInput={searchSubjectByInput}/>
             {
                 searchResult.length !== 0 &&
                 <div className="SearchResultSet">
-                    get
+                    {transformResult()}
                 </div>
             }
         </div>
     }
-    const generateChildTree = (prefix) => {
+    const generateChildTree = (prefix, initial) => {
         let lst = []
         for(let i = 0; i < 10; i++) {
-            lst.push(<SubjectInput vid={prefix+"-"+i}/>)
+            lst.push(<SubjectInput vid={prefix+"-"+i} defaultValue={initial[i]}/>)
         }
         return lst
     }
@@ -73,11 +87,11 @@ function Nomination() {
             <div className="MainApp">
                 <div className="ChnlDivision ChnlFemale">
                     <h2>萌王提名</h2>
-                    {generateChildTree("fem")}
+                    {generateChildTree("fem",femaleData)}
                 </div>
                 <div className="ChnlDivision ChnlMale">
                     <h2>燃王提名</h2>
-                    {generateChildTree("male")}
+                    {generateChildTree("male",maleData)}
                 </div>
             </div>
         </Article>
