@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import Article from "../Article";
 import LoginWindow from "../usersystem/LoginWindow";
 import './Nomination.css'
@@ -32,25 +32,29 @@ function Nomination() {
             status = true;
             searchSubject();
         }
-        const searchSubjectByInput = () => {
-            if(lastRequestTime < Date.now() - 800 && status) {
-                setLastRequestTime(Date.now())
-                searchSubject();
-            }
+        const searchSubjectByInput = (event) => {
+            setLastRequestTime(Date.now())
+            event.target.style.backgroundColor = "white";
+            setTimeout((value)=>{
+                if(lastRequestTime < Date.now() - 500 && status && value === document.getElementById('input-'+props.vid).value) {
+                    searchSubject();
+                }
+            },600,document.getElementById('input-'+props.vid).value)
         }
         const transformResult = (belong) => {
             let resultObjects = [];
             let id = 0;
-
             const handleClick = (event) => {
-                const element = event.target;
+                let element = event.target;
+                if (element.children.length === 0) element = element.parentElement;
                 let fatherElement = "-" + element.id.split("-")[1] + "-" + element.id.split("-")[2];
                 const element1 = document.getElementById('input'+fatherElement);
                 const element2 = document.getElementById('hidden'+fatherElement);
-                element1.value = element.textContent
+                element1.value = element.children[0].innerText
+                element1.style.backgroundColor = "#dcffee";
                 element2.value = element.id.split("-")[4];
+                setSearchResult([])
             };
-
             searchResult.forEach(element => {
                 const uniqueId = belong + "-" + id;
                 resultObjects.push(
@@ -59,30 +63,31 @@ function Nomination() {
                         onClick={handleClick}
                         key={uniqueId}
                     >
-                        {element.name_cn === "" ? element.name_jp : element.name_cn}
+                        <span>{element.name_cn === "" ? element.name_jp : element.name_cn}</span>
+                        {element.src === "" ? <span className="AnimeNotFound">（无相关动漫）</span> : <span className="Anime">（{element.src}）</span>}
                     </p>
                 );
                 id++;
             });
-
             return resultObjects;
         }
-
-        const handleClick = (pRef) => {
-            console.log(pRef.current);
-        };
-
-
         useEffect(() => {
             if (props.defaultValue !== undefined && props.defaultValue !== null) {
                 document.getElementById("input-"+props.vid).value = props.defaultValue.name;
                 document.getElementById("hidden-"+props.vid).value = props.defaultValue.id;
             }
-        },[props.defaultValue]);
+        },[]);
         let fatherElementId = 'input-'+props.vid
         return <div>
             <input type="hidden" id={'hidden-'+props.vid}/>
-            <span className="SequenceTag">提名{1+parseInt(props.vid.split("-")[1])}</span><input type="text" className="NominationInput" id={fatherElementId} onCompositionEnd={searchSubjectByComp} onCompositionStart={() => {status = false}} onInput={searchSubjectByInput}/>
+            <span className="SequenceTag">提名{1+parseInt(props.vid.split("-")[1])}</span>
+            <input type="text" className="NominationInput" id={fatherElementId}
+                   onCompositionEnd={searchSubjectByComp}
+                   onCompositionStart={(event) => {
+                       status = false;
+                       event.target.style.backgroundColor = "white";
+                   }}
+                   onInput={searchSubjectByInput}/>
             {
                 searchResult.length !== 0 &&
                 <div className="SearchResultSet">
