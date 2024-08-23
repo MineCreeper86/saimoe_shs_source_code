@@ -130,8 +130,8 @@ function Nomination() {
                 params: {
                     channel: "nomination",
                     event: "submit",
-                    m: "["+male_submission.toString()+"]",
-                    f: "["+female_submission.toString()+"]"
+                    m: encodeURIComponent(JSON.stringify(male_submission)),
+                    f: encodeURIComponent(JSON.stringify(female_submission)),
                 },
                 withCredentials: true
             });
