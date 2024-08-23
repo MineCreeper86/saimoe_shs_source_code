@@ -39,8 +39,22 @@
     border: var(--border-default-width) solid black;
 }
 
+.MainApp .SearchResultSet{
+    margin: 10px;
+    padding: 0.1em 0.7em;
+    border: var(--border-default-width) solid rgba(186, 186, 186, 0.4);
+    background-color: #eee7d7;
+}
 .MainApp .SearchResultSet p{
-    padding: 15px;
+    border: var(--border-default-width) solid rgb(186, 186, 186);
+    padding: 5px 11px;
+    font-size: 0.8em;
+    border-radius: 18px;
+    background-color: #f3efe5;
+    transition: linear 0.2s;
+}
+.MainApp .SearchResultSet p:hover {
+    background-color: #e0c5a8;
 }
 @media(max-width: 900px) {
     :root {
