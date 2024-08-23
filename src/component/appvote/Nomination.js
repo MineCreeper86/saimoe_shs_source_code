@@ -130,8 +130,8 @@ function Nomination() {
                 params: {
                     channel: "nomination",
                     event: "submit",
-                    m: male_submission,
-                    f: female_submission
+                    m: "["+male_submission.toString()+"]",
+                    f: "["+female_submission.toString()+"]"
                 },
                 withCredentials: true
             });
