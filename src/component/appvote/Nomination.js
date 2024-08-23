@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import Article from "../Article";
 import LoginWindow from "../usersystem/LoginWindow";
 import './Nomination.css'
@@ -11,7 +11,6 @@ function Nomination() {
         alert("功能开发中")
     }
     const SubjectInput = (props) => {
-        const [subjectId,setSubjectId] = React.useState(0);
         const [lastRequestTime, setLastRequestTime] = React.useState(0);
         const [searchResult, setSearchResult] = React.useState([]);
         let status = true;
@@ -39,25 +38,55 @@ function Nomination() {
                 searchSubject();
             }
         }
-        const transformResult = () => {
-            let resultObjects = []
+        const transformResult = (belong) => {
+            let resultObjects = [];
+            let id = 0;
+
+            const handleClick = (event) => {
+                const element = event.target;
+                let fatherElement = "-" + element.id.split("-")[1] + "-" + element.id.split("-")[2];
+                const element1 = document.getElementById('input'+fatherElement);
+                const element2 = document.getElementById('hidden'+fatherElement);
+                element1.value = element.textContent
+                element2.value = element.id.split("-")[4];
+            };
+
             searchResult.forEach(element => {
-                resultObjects.push(<p>{element.name_cn===undefined?element.name_jp:element.name_cn}</p>)
-            })
+                const uniqueId = belong + "-" + id;
+                resultObjects.push(
+                    <p
+                        id={uniqueId+'-'+element.id}
+                        onClick={handleClick}
+                        key={uniqueId}
+                    >
+                        {element.name_cn === "" ? element.name_jp : element.name_cn}
+                    </p>
+                );
+                id++;
+            });
+
             return resultObjects;
         }
+
+        const handleClick = (pRef) => {
+            console.log(pRef.current);
+        };
+
+
         useEffect(() => {
             if (props.defaultValue !== undefined && props.defaultValue !== null) {
                 document.getElementById("input-"+props.vid).value = props.defaultValue.name;
+                document.getElementById("hidden-"+props.vid).value = props.defaultValue.id;
             }
         },[props.defaultValue]);
+        let fatherElementId = 'input-'+props.vid
         return <div>
-            <input type="hidden" id={'hidden-'+props.vid} value={subjectId}/>
-            <input type="text" className="NominationInput" id={'input-'+props.vid} onCompositionEnd={searchSubjectByComp} onCompositionStart={() => {status = false}} onInput={searchSubjectByInput}/>
+            <input type="hidden" id={'hidden-'+props.vid}/>
+            <span className="SequenceTag">提名{1+parseInt(props.vid.split("-")[1])}</span><input type="text" className="NominationInput" id={fatherElementId} onCompositionEnd={searchSubjectByComp} onCompositionStart={() => {status = false}} onInput={searchSubjectByInput}/>
             {
                 searchResult.length !== 0 &&
                 <div className="SearchResultSet">
-                    {transformResult()}
+                    {transformResult(fatherElementId)}
                 </div>
             }
         </div>

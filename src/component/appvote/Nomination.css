@@ -20,9 +20,8 @@
 }
 
 .MainApp .NominationInput {
-    width: 90%;
-    margin-left: 1em;
-    height: 1.5em;
+    width: 12rem;
+    height: 2em;
     border-radius: 15px;
     border: var(--border-default-width) solid rgb(186, 186, 186);
     padding-left: 0.8em;
@@ -30,8 +29,8 @@
     padding-bottom: 0.2em;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
-    font-size: 0.8em;
     transition: linear 0.2s;
+    margin-block-start: 1em;
 }
 
 .MainApp .NominationInput:hover {
@@ -40,22 +39,33 @@
 }
 
 .MainApp .SearchResultSet{
-    margin: 10px;
-    padding: 0.1em 0.7em;
-    border: var(--border-default-width) solid rgba(186, 186, 186, 0.4);
-    background-color: #eee7d7;
+    margin-left: 4em;
+    padding: 0.1em;
+    border: var(--border-default-width) solid black;
+    border-radius: 0.3em;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    position: absolute;
+    width: 12rem;
 }
 .MainApp .SearchResultSet p{
-    border: var(--border-default-width) solid rgb(186, 186, 186);
     padding: 5px 11px;
     font-size: 0.8em;
-    border-radius: 18px;
-    background-color: #f3efe5;
-    transition: linear 0.2s;
+    margin: 0;
 }
+
 .MainApp .SearchResultSet p:hover {
-    background-color: #e0c5a8;
+    background-color: rgba(102, 252, 252, 0.3);
+    /*box-shadow: rgba(105, 105, 105, 0.37) 0 0 6px;*/
 }
+
+.MainApp .SequenceTag {
+    display: block;
+    float: left;
+    width: 4em;
+    margin-block-start: 1em;
+}
+
 @media(max-width: 900px) {
     :root {
         --border-default-width: 2px;
