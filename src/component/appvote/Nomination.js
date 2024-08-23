@@ -109,7 +109,7 @@ function Nomination() {
         let warning = false;
         for(let i = 0; i < 10; i++) {
             if(document.getElementById('hidden-male-'+i).value) {
-                male_submission.push(document.getElementById('hidden-male-'+i).value);
+                male_submission.push(parseInt(document.getElementById('hidden-male-'+i).value));
             } else if (document.getElementById('input-male-'+i).value) {
                 warning = true;
                 document.getElementById('input-male-'+i).style.backgroundColor = "yellow";
@@ -117,19 +117,21 @@ function Nomination() {
         }
         for(let j = 0; j < 10; j++) {
             if(document.getElementById('hidden-fem-'+j).value) {
-                female_submission.push(document.getElementById('hidden-fem-'+j).value);
+                female_submission.push(parseInt(document.getElementById('hidden-fem-'+j).value));
             } else if (document.getElementById('input-fem-'+j).value) {
                 warning = true;
                 document.getElementById('input-fem-'+j).style.backgroundColor = "yellow";
             }
         }
         if(!warning) {
-            const result = await axios.get(
-            'https://api.shswafu.club/v0/vote/nominate/search_character',
+            const result = await axios.post(
+            'https://api.shswafu.club/v0/vote/nominate/search_character',{},
             {
                 params: {
                     channel: "nomination",
-                    event: "submit"
+                    event: "submit",
+                    m: male_submission,
+                    f: female_submission
                 },
                 withCredentials: true
             });
