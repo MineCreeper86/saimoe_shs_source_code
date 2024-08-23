@@ -125,7 +125,7 @@ function Nomination() {
         }
         if(!warning) {
             const result = await axios.post(
-            'https://api.shswafu.club/v0/vote/nominate/search_character',{},
+            'https://api.shswafu.club/v0/vote/event',{},
             {
                 params: {
                     channel: "nomination",
