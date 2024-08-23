@@ -35,6 +35,7 @@ function Nomination() {
         const searchSubjectByInput = (event) => {
             setLastRequestTime(Date.now())
             event.target.style.backgroundColor = "white";
+            document.getElementById('hidden-'+props.vid).value = null;
             setTimeout((value)=>{
                 if(lastRequestTime < Date.now() - 500 && status && value === document.getElementById('input-'+props.vid).value) {
                     searchSubject();
@@ -85,7 +86,6 @@ function Nomination() {
                    onCompositionEnd={searchSubjectByComp}
                    onCompositionStart={(event) => {
                        status = false;
-                       event.target.style.backgroundColor = "white";
                    }}
                    onInput={searchSubjectByInput}/>
             {
@@ -102,6 +102,43 @@ function Nomination() {
             lst.push(<SubjectInput vid={prefix+"-"+i} defaultValue={initial[i]}/>)
         }
         return lst
+    }
+    const submitNomination = async () => {
+        let male_submission = []
+        let female_submission = []
+        let warning = false;
+        for(let i = 0; i < 10; i++) {
+            if(document.getElementById('hidden-male-'+i).value) {
+                male_submission.push(document.getElementById('hidden-male-'+i).value);
+            } else if (document.getElementById('input-male-'+i).value) {
+                warning = true;
+                document.getElementById('input-male-'+i).style.backgroundColor = "yellow";
+            }
+        }
+        for(let j = 0; j < 10; j++) {
+            if(document.getElementById('hidden-fem-'+j).value) {
+                female_submission.push(document.getElementById('hidden-fem-'+j).value);
+            } else if (document.getElementById('input-fem-'+j).value) {
+                warning = true;
+                document.getElementById('input-fem-'+j).style.backgroundColor = "yellow";
+            }
+        }
+        if(!warning) {
+            const result = await axios.get(
+            'https://api.shswafu.club/v0/vote/nominate/search_character',
+            {
+                params: {
+                    channel: "nomination",
+                    event: "submit"
+                },
+                withCredentials: true
+            });
+        }
+    }
+    const NominationSubmitButton = () => {
+        return <div className="NominationSubmit" onClick={submitNomination}>
+            提交
+        </div>
     }
     return (
         <Article>
@@ -127,6 +164,7 @@ function Nomination() {
                     <h2>燃王提名</h2>
                     {generateChildTree("male",maleData)}
                 </div>
+                <NominationSubmitButton/>
             </div>
         </Article>
     )
