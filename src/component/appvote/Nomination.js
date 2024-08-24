@@ -127,7 +127,7 @@ function Nomination() {
         }
         if(!warning) {
             const result = await axios.post(
-            'https://api.shswafu.club/v0/vote/event',{},
+            'https://api.shswafu.club/v0/vote/event',null,
             {
                 params: {
                     channel: "nomination",
@@ -144,7 +144,7 @@ function Nomination() {
             console.log("正在加载数据，请稍候");
         } else {
             const result = await axios.post(
-                'https://api.shswafu.club/v0/vote/event',{},
+                'https://api.shswafu.club/v0/vote/event',null,
                 {
                     params: {
                         channel: "nomination",
@@ -159,7 +159,7 @@ function Nomination() {
     useEffect(() => {
         async function apply() {
             const result = await axios.post(
-                'https://api.shswafu.club/v0/vote/event',{},
+                'https://api.shswafu.club/v0/vote/event',null,
                 {
                     params: {
                         channel: "nomination",
