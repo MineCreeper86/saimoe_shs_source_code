@@ -138,8 +138,8 @@ function Nomination() {
         }
     }
     const NominationSubmitButton = () => {
-        return <div className="NominationSubmit" onClick={submitNomination}>
-            提交
+        return <div className="NominationSubmit">
+            <button className="NominationButton" onClick={submitNomination}>提交</button>
         </div>
     }
     return (
