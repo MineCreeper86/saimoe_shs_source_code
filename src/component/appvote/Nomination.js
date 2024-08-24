@@ -156,9 +156,16 @@ function Nomination() {
                     },
                     withCredentials: true
                 });
-            console.log(result.data.data.details)
+            if(result.data.data.details.length === 0) {
+                setLoaded(true)
+            } else if (result.data.data.details.length > 0) {
+                const latest = result.data.data.details[result.data.data.details.length - 1]
+                setMaleData(latest.males)
+                setFemaleData(latest.females)
+                setLoaded(true)
+            }
         }
-        apply().then();
+        if(!loaded) apply().then();
     },[document.getElementById('LoginWindow')===null])
     return (
         <Article>
@@ -178,17 +185,17 @@ function Nomination() {
                 <div className="NominationStart">
                     {loaded?<button className="NominationButton" onClick={startNomination}>开始提名</button>:<span style={{margin: "0 auto"}}>正在加载历史提名数据</span>}
                 </div>
-                <div className="ChnlDivision ChnlFemale">
+                {loaded && <div className="ChnlDivision ChnlFemale">
                     <h2>萌王提名</h2>
-                    {generateChildTree("fem",femaleData)}
-                </div>
-                <div className="ChnlDivision ChnlMale">
+                    {generateChildTree("fem", femaleData)}
+                </div>}
+                {loaded && <div className="ChnlDivision ChnlMale">
                     <h2>燃王提名</h2>
-                    {generateChildTree("male",maleData)}
-                </div>
-                <div className="NominationSubmit">
+                    {generateChildTree("male", maleData)}
+                </div>}
+                {loaded && <div className="NominationSubmit">
                     <button className="NominationButton" onClick={submitNomination}>提交</button>
-                </div>
+                </div>}
             </div>
         </Article>
     )
