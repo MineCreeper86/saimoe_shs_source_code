@@ -147,7 +147,16 @@ function Nomination() {
     }
     useEffect(() => {
         async function apply() {
-            console.log("apply")
+            const result = await axios.post(
+                'https://api.shswafu.club/v0/vote/event',{},
+                {
+                    params: {
+                        channel: "nomination",
+                        event: "apply",
+                    },
+                    withCredentials: true
+                });
+            console.log(result.data.data.details)
         }
         apply().then();
     },[document.getElementById('LoginWindow')===null])
