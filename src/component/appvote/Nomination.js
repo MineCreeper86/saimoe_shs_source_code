@@ -78,6 +78,7 @@ function Nomination() {
             if (props.defaultValue !== undefined && props.defaultValue !== null) {
                 document.getElementById("input-"+props.vid).value = props.defaultValue.name;
                 document.getElementById("hidden-"+props.vid).value = props.defaultValue.id;
+                document.getElementById("hidden-"+props.vid).style.backgroundColor = "#dcffee";
             }
         },[]);
         let fatherElementId = 'input-'+props.vid
