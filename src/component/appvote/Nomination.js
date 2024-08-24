@@ -8,6 +8,7 @@ function Nomination() {
     const [maleData, setMaleData] = useState([]);
     const [femaleData, setFemaleData] = useState([]);
     const [loaded, setLoaded] = useState(false);
+    const [started, setStarted] = useState(false);
     const createSubject = () => {
         alert("功能开发中")
     }
@@ -142,7 +143,7 @@ function Nomination() {
         if (!loaded) {
             console.log("正在加载数据，请稍候");
         } else {
-
+            setStarted(true)
         }
     }
     useEffect(() => {
@@ -185,15 +186,15 @@ function Nomination() {
                 <div className="NominationStart">
                     {loaded?<button className="NominationButton" onClick={startNomination}>开始提名</button>:<span style={{margin: "0 auto"}}>正在加载历史提名数据</span>}
                 </div>
-                {loaded && <div className="ChnlDivision ChnlFemale">
+                {started && <div className="ChnlDivision ChnlFemale">
                     <h2>萌王提名</h2>
                     {generateChildTree("fem", femaleData)}
                 </div>}
-                {loaded && <div className="ChnlDivision ChnlMale">
+                {started && <div className="ChnlDivision ChnlMale">
                     <h2>燃王提名</h2>
                     {generateChildTree("male", maleData)}
                 </div>}
-                {loaded && <div className="NominationSubmit">
+                {started && <div className="NominationSubmit">
                     <button className="NominationButton" onClick={submitNomination}>提交</button>
                 </div>}
             </div>
