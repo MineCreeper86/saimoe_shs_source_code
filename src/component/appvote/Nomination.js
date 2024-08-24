@@ -7,6 +7,7 @@ import axios from "axios";
 function Nomination() {
     const [maleData, setMaleData] = useState([]);
     const [femaleData, setFemaleData] = useState([]);
+    const [loaded, setLoaded] = useState(false);
     const createSubject = () => {
         alert("功能开发中")
     }
@@ -137,11 +138,19 @@ function Nomination() {
             });
         }
     }
-    const NominationSubmitButton = () => {
-        return <div className="NominationSubmit">
-            <button className="NominationButton" onClick={submitNomination}>提交</button>
-        </div>
+    const startNomination = () => {
+        if (!loaded) {
+            console.log("正在加载数据，请稍候");
+        } else {
+
+        }
     }
+    useEffect(() => {
+        async function apply() {
+            console.log("apply")
+        }
+        apply().then();
+    },[document.getElementById('LoginWindow')===null])
     return (
         <Article>
             <h1>第三届上萌角色提名页面</h1>
@@ -156,8 +165,10 @@ function Nomination() {
             <p onClick={createSubject}>部分角色可能因为太新或太冷门而未被收录，如果您无法在搜索下拉框中找到您想要的角色，请<b>单击此处创建新角色</b>。</p>
             <LoginWindow hide="1"/>
             <p style={{textAlign: "center"}}>--- 请完成上方的登录弹窗并按照要求验证邮箱（如有） ---</p>
-            <br/><br/>
             <div className="MainApp">
+                <div className="NominationStart">
+                    {loaded?<button className="NominationButton" onClick={startNomination}>开始提名</button>:<span style={{margin: "0 auto"}}>正在加载历史提名数据</span>}
+                </div>
                 <div className="ChnlDivision ChnlFemale">
                     <h2>萌王提名</h2>
                     {generateChildTree("fem",femaleData)}
@@ -166,7 +177,9 @@ function Nomination() {
                     <h2>燃王提名</h2>
                     {generateChildTree("male",maleData)}
                 </div>
-                <NominationSubmitButton/>
+                <div className="NominationSubmit">
+                    <button className="NominationButton" onClick={submitNomination}>提交</button>
+                </div>
             </div>
         </Article>
     )
