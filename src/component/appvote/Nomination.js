@@ -139,11 +139,21 @@ function Nomination() {
             });
         }
     }
-    const startNomination = () => {
+    const startNomination = async () => {
         if (!loaded) {
             console.log("正在加载数据，请稍候");
         } else {
-            setStarted(true)
+            const result = await axios.post(
+                'https://api.shswafu.club/v0/vote/event',{},
+                {
+                    params: {
+                        channel: "nomination",
+                        event: "start",
+                    },
+                    withCredentials: true
+                });
+            if (result.data.code === 0) setStarted(true);
+            else alert(result.data.message)
         }
     }
     useEffect(() => {
