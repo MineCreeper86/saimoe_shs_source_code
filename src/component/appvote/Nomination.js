@@ -124,8 +124,9 @@ function Nomination() {
             else alert(result.data.message)
         }
     }
-    useEffect(() => {
-        async function apply() {
+
+    async function apply() {
+        while (!loaded) {
             const result = await axios.post(
                 'https://api.shswafu.club/v0/vote/event', null,
                 {
@@ -144,9 +145,8 @@ function Nomination() {
                 setLoaded(true)
             }
         }
-
-        if (!loaded) apply().then();
-    }, [document.getElementById('LoginWindow') === null])
+    }
+    apply().then();
     const NominationSubmit = () => {
         const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
@@ -199,7 +199,7 @@ function Nomination() {
                         setSubmitCallback("提交成功！")
                         break;
                     case 6:
-                        setSubmitCallback("检查到以下问题，若忽略请再次点击提交："+result.data.message);
+                        setSubmitCallback("检查到以下问题，若忽略请再次点击提交：" + result.data.message);
                         break;
                     default:
                         setSubmitCallback(result.data.message);
@@ -210,10 +210,10 @@ function Nomination() {
             }
         }
         return (
-        <div className="NominationSubmit">
-            <button className="NominationButton" onClick={submitNomination}>提交</button>
-            <p>{submitCallback}</p>
-        </div>)
+            <div className="NominationSubmit">
+                <button className="NominationButton" onClick={submitNomination}>提交</button>
+                <p>{submitCallback}</p>
+            </div>)
     }
     return (
         <Article>
