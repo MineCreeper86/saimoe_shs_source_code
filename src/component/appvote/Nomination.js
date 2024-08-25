@@ -215,6 +215,7 @@ function Nomination() {
                 <p>{submitCallback}</p>
             </div>)
     }
+    console.log("component updated")
     return (
         <Article>
             <h1>第三届上萌角色提名页面</h1>
