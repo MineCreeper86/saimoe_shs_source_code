@@ -138,6 +138,8 @@ function Nomination() {
                 },
                 withCredentials: true
             });
+        } else {
+            alert("请检查")
         }
     }
     const startNomination = async () => {
@@ -195,7 +197,8 @@ function Nomination() {
             <p style={{textAlign: "center"}}>--- 请完成上方的登录弹窗并按照要求验证邮箱（如有） ---</p>
             <div className="MainApp">
                 <div className="NominationStart">
-                    {(loaded && !started)?<button className="NominationButton" onClick={startNomination}>开始提名</button>:<span style={{margin: "0 auto"}}>正在加载历史提名数据</span>}
+                    {loaded || <span style={{margin: "0 auto"}}>正在加载历史提名数据</span>}
+                    {loaded && !started && <button className="NominationButton" onClick={startNomination}>开始提名</button>}
                 </div>
                 {started && <div className="ChnlDivision ChnlFemale">
                     <h2>萌王提名</h2>
@@ -206,7 +209,8 @@ function Nomination() {
                     {generateChildTree("male", maleData)}
                 </div>}
                 {started && <div className="NominationSubmit">
-                    <button className="NominationButton" onClick={submitNomination}>提交</button>
+                    <button className="NominationButton" onClick={submitNomination}>提交</button><br/>
+                    <p id="submitResultCallback">a</p>
                 </div>}
             </div>
         </Article>
