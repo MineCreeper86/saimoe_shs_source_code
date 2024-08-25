@@ -150,7 +150,7 @@ function Nomination() {
             () => {apply().then();}
             , 2000
         )
-    })
+    },[])
     const NominationSubmit = () => {
         const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
