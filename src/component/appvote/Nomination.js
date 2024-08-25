@@ -126,24 +126,22 @@ function Nomination() {
     }
 
     async function apply() {
-        while (!loaded) {
-            const result = await axios.post(
-                'https://api.shswafu.club/v0/vote/event', null,
-                {
-                    params: {
-                        channel: "nomination",
-                        event: "apply",
-                    },
-                    withCredentials: true
-                });
-            if (result.data.data.details.length === 0) {
-                setLoaded(true)
-            } else if (result.data.data.details.length > 0) {
-                const latest = result.data.data.details[result.data.data.details.length - 1]
-                setMaleData(latest.males)
-                setFemaleData(latest.females)
-                setLoaded(true)
-            }
+        const result = await axios.post(
+            'https://api.shswafu.club/v0/vote/event', null,
+            {
+                params: {
+                    channel: "nomination",
+                    event: "apply",
+                },
+                withCredentials: true
+            });
+        if (result.data.data.details.length === 0) {
+            setLoaded(true)
+        } else if (result.data.data.details.length > 0) {
+            const latest = result.data.data.details[result.data.data.details.length - 1]
+            setMaleData(latest.males)
+            setFemaleData(latest.females)
+            setLoaded(true)
         }
     }
     apply().then();
@@ -230,10 +228,9 @@ function Nomination() {
             <p onClick={createSubject}>部分角色可能因为太新或太冷门而未被收录，如果您无法在搜索下拉框中找到您想要的角色，请<b>单击此处创建新角色</b>。
             </p>
             <LoginWindow hide="1"/>
-            <p style={{textAlign: "center"}}>--- 请完成上方的登录弹窗并按照要求验证邮箱（如有） ---</p>
             <div className="MainApp">
                 <div className="NominationStart">
-                    {loaded || <span style={{margin: "0 auto"}}>正在加载历史提名数据</span>}
+                    {loaded || <span style={{margin: "0 auto"}}>请完成上方的登录弹窗并按照要求验证邮箱，然后刷新（如有）</span>}
                     {loaded && !started &&
                         <button className="NominationButton" onClick={startNomination}>开始提名</button>}
                 </div>
