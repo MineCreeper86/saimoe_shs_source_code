@@ -11,6 +11,7 @@ function Nomination() {
     const [started, setStarted] = useState(false);
     const [submitCallback, setSubmitCallback] = React.useState("");
     const [force, setForce] = React.useState(false);
+    const [autofill, setAutofill] = React.useState(false);
     const createSubject = () => {
         alert("功能开发中")
     }
@@ -78,7 +79,7 @@ function Nomination() {
             return resultObjects;
         }
         useEffect(() => {
-            if (props.defaultValue !== undefined && props.defaultValue !== null) {
+            if (props.defaultValue !== undefined && props.defaultValue !== null && autofill) {
                 document.getElementById("input-"+props.vid).value = props.defaultValue.name;
                 document.getElementById("hidden-"+props.vid).value = props.defaultValue.id;
                 document.getElementById("hidden-"+props.vid).style.backgroundColor = "#dcffee";
@@ -110,6 +111,7 @@ function Nomination() {
         return lst
     }
     const submitNomination = async (force) => {
+        setAutofill(false)
         let male_submission = []
         let female_submission = []
         let warning = false;
