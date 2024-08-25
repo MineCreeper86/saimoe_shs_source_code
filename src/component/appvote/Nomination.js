@@ -11,7 +11,7 @@ function Nomination() {
     const [started, setStarted] = useState(false);
     const [submitCallback, setSubmitCallback] = React.useState("");
     const [force, setForce] = React.useState(false);
-    const [autofill, setAutofill] = React.useState(false);
+    const [autofill, setAutofill] = React.useState(true);
     const createSubject = () => {
         alert("功能开发中")
     }
