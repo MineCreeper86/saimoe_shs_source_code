@@ -177,6 +177,7 @@ function Nomination() {
             }
             const currSubmit = [male_submission, female_submission];
             if (!warning) {
+                setSubmitCallback("お待ちください")
                 const result = currSubmit.toString() === lastSubmit.toString() ? await axios.post(
                     'https://api.shswafu.club/v0/vote/event', null,
                     {
