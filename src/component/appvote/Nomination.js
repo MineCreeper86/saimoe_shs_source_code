@@ -247,6 +247,7 @@ function Nomination() {
                     {generateChildTree("male", maleData)}
                 </div>}
                 {started && <NominationSubmit/>}
+                {refresh && ""}
             </div>
         </Article>
     )
