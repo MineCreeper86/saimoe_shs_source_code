@@ -152,7 +152,7 @@ function LoginWindow(props) {
             <div className="LoginWindow">
                 <h3>{state===2?"注册":"登入"}账号</h3>
                 <p className="TipsWhenMobile">{state===2?"请额外填写学校及邮箱信息，这有助于促进投票的公平性。":"未创建的账户在填写完用户名密码后将以此创建账号。"}</p>
-                <p className="KeyInput"><span>用户名</span><input type="text" id="username" placeholder="用户名"/></p>
+                <p className="KeyInput"><span>用户名</span><input type="text" id="username" placeholder={state===2?"用户名（5-16长，不推荐汉字）":"用户名或邮箱"}/></p>
                 <p className="KeyInput"><span>密码</span><input type="password" id="password" placeholder="密码"/></p>
                 {state===2 && <p className="KeyInput"><span>密码确认</span><input type="password" id="password_confirm" placeholder="密码确认"/></p>}
                 {
