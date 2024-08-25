@@ -208,7 +208,7 @@ function Nomination() {
                 setSubmitCallback("您提名的部分角色未知，请重新填写标黄的输入框并在弹出的搜索结果中选择一个角色或清除输入框的内容。如果没有找到要提名的角色请新建角色。")
             }
         }
-        useEffect(()=>{setForce(false)}, [
+        useEffect(()=>{console.log("set false from "+force+" to force");setForce(false);}, [
             () => {
                 let result = [];
                 Array.from(document.getElementsByClassName("NominationInput")).forEach((elem)=>{result.push(elem.value)})
