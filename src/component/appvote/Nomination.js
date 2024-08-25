@@ -149,8 +149,8 @@ function Nomination() {
     }, [document.getElementById('LoginWindow') === null])
     const NominationSubmit = () => {
         const [submitCallback, setSubmitCallback] = React.useState("");
-        const [force, setForce] = React.useState(false);
-        const submitNomination = async (force) => {
+        const [lastSubmit, setLastSubmit] = React.useState([]);
+        const submitNomination = async () => {
             let male_submission = []
             let female_submission = []
             let warning = false;
@@ -170,8 +170,9 @@ function Nomination() {
                     document.getElementById('input-fem-' + j).style.backgroundColor = "yellow";
                 }
             }
+            const currSubmit = [male_submission, female_submission];
             if (!warning) {
-                const result = force ? await axios.post(
+                const result = currSubmit.toString() === lastSubmit.toString() ? await axios.post(
                     'https://api.shswafu.club/v0/vote/event', null,
                     {
                         params: {
@@ -198,30 +199,19 @@ function Nomination() {
                         setSubmitCallback("提交成功！")
                         break;
                     case 6:
-                        setForce(true);
-                        setSubmitCallback(result.data.message);
+                        setSubmitCallback("检查到以下问题，若忽略请再次点击提交："+result.data.message);
                         break;
                     default:
                         setSubmitCallback(result.data.message);
                 }
+                setLastSubmit(currSubmit);
             } else {
                 setSubmitCallback("您提名的部分角色未知，请重新填写标黄的输入框并在弹出的搜索结果中选择一个角色或清除输入框的内容。如果没有找到要提名的角色请新建角色。")
             }
         }
-        useEffect(()=>{console.log("set false from "+force+" to force");setForce(false);}, [
-            () => {
-                let result = [];
-                Array.from(document.getElementsByClassName("NominationInput")).forEach((elem)=>{result.push(elem.value)})
-                return result;
-            }
-        ]);
         return (
         <div className="NominationSubmit">
-            <button className="NominationButton" onClick={() => {
-                submitNomination(force)
-            }}>{force && "强制"}提交
-            </button>
-            <br/>
+            <button className="NominationButton" onClick={submitNomination}>提交</button>
             <p>{submitCallback}</p>
         </div>)
     }
