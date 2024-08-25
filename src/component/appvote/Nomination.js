@@ -9,7 +9,8 @@ function Nomination() {
     const [femaleData, setFemaleData] = useState([]);
     const [loaded, setLoaded] = useState(false);
     const [started, setStarted] = useState(false);
-    const [refresh, setRefresh] = useState(0);
+    const [, updateState] = React.useState();
+    const forceUpdate = React.useCallback(() => updateState({}), []);
     const createSubject = () => {
         alert("功能开发中")
     }
@@ -144,12 +145,9 @@ function Nomination() {
             setFemaleData(latest.females)
             setLoaded(true)
         }
-        if (result.data.code === 1) setRefresh(refresh+1);
+        if (result.data.code === 1) forceUpdate();
     }
-
-    useEffect(() => {
-        apply().then();
-    },[])
+    apply().then();
     const NominationSubmit = () => {
         const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
@@ -248,7 +246,6 @@ function Nomination() {
                     {generateChildTree("male", maleData)}
                 </div>}
                 {started && <NominationSubmit/>}
-                <p style={{display: "none"}}>{refresh}</p>
             </div>
         </Article>
     )
