@@ -137,15 +137,17 @@ function Nomination() {
                 },
                 withCredentials: true
             });
-        if (result.data.data.details.length === 0) {
-            setLoaded(true)
-        } else if (result.data.data.details.length > 0) {
-            const latest = result.data.data.details[result.data.data.details.length - 1]
-            setMaleData(latest.males)
-            setFemaleData(latest.females)
-            setLoaded(true)
-        }
         if (result.data.code === 1) forceUpdate();
+        else {
+            if (result.data.data.details.length === 0) {
+                setLoaded(true)
+            } else if (result.data.data.details.length > 0) {
+                const latest = result.data.data.details[result.data.data.details.length - 1]
+                setMaleData(latest.males)
+                setFemaleData(latest.females)
+                setLoaded(true)
+            }
+        }
     }
     apply().then();
     const NominationSubmit = () => {
