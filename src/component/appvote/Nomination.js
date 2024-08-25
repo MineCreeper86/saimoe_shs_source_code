@@ -126,27 +126,29 @@ function Nomination() {
     }
 
     async function apply() {
-        const result = await axios.post(
-            'https://api.shswafu.club/v0/vote/event', null,
-            {
-                params: {
-                    channel: "nomination",
-                    event: "apply",
-                },
-                withCredentials: true
-            });
-        if (result.data.data.details.length === 0) {
-            setLoaded(true)
-        } else if (result.data.data.details.length > 0) {
-            const latest = result.data.data.details[result.data.data.details.length - 1]
-            setMaleData(latest.males)
-            setFemaleData(latest.females)
-            setLoaded(true)
+        if(!loaded) {
+            const result = await axios.post(
+                'https://api.shswafu.club/v0/vote/event', null,
+                {
+                    params: {
+                        channel: "nomination",
+                        event: "apply",
+                    },
+                    withCredentials: true
+                });
+            if (result.data.data.details.length === 0) {
+                setLoaded(true)
+            } else if (result.data.data.details.length > 0) {
+                const latest = result.data.data.details[result.data.data.details.length - 1]
+                setMaleData(latest.males)
+                setFemaleData(latest.females)
+                setLoaded(true)
+            }
         }
     }
 
-    if(!loaded) useEffect(() => {
-        setInterval(
+    useEffect(() => {
+        if(!loaded) setInterval(
             () => {apply().then();}
             , 2000
         )
