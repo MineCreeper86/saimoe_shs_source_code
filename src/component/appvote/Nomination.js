@@ -144,7 +144,9 @@ function Nomination() {
             setLoaded(true)
         }
     }
-    apply().then();
+    useEffect(()=>{
+        apply().then();
+    })
     const NominationSubmit = () => {
         const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
