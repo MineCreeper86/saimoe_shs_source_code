@@ -126,29 +126,31 @@ function Nomination() {
     }
 
     async function apply() {
-        while (!loaded) {
-            const result = await axios.post(
-                'https://api.shswafu.club/v0/vote/event', null,
-                {
-                    params: {
-                        channel: "nomination",
-                        event: "apply",
-                    },
-                    withCredentials: true
-                });
-            if (result.data.data.details.length === 0) {
-                setLoaded(true)
-            } else if (result.data.data.details.length > 0) {
-                const latest = result.data.data.details[result.data.data.details.length - 1]
-                setMaleData(latest.males)
-                setFemaleData(latest.females)
-                setLoaded(true)
-            }
+        const result = await axios.post(
+            'https://api.shswafu.club/v0/vote/event', null,
+            {
+                params: {
+                    channel: "nomination",
+                    event: "apply",
+                },
+                withCredentials: true
+            });
+        if (result.data.data.details.length === 0) {
+            setLoaded(true)
+        } else if (result.data.data.details.length > 0) {
+            const latest = result.data.data.details[result.data.data.details.length - 1]
+            setMaleData(latest.males)
+            setFemaleData(latest.females)
+            setLoaded(true)
         }
     }
-    useEffect(()=>{
-        apply().then();
-    },[])
+
+    if(!loaded) useEffect(() => {
+        setInterval(
+            () => {apply().then();}
+            , 2000
+        )
+    })
     const NominationSubmit = () => {
         const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
@@ -233,7 +235,8 @@ function Nomination() {
             <LoginWindow hide="1"/>
             <div className="MainApp">
                 <div className="NominationStart">
-                    {loaded || <span style={{margin: "0 auto"}}>请完成上方的登录弹窗并按照要求验证邮箱，然后刷新（如有）</span>}
+                    {loaded ||
+                        <span style={{margin: "0 auto"}}>请完成上方的登录弹窗并按照要求验证邮箱，然后刷新（如有）</span>}
                     {loaded && !started &&
                         <button className="NominationButton" onClick={startNomination}>开始提名</button>}
                 </div>
