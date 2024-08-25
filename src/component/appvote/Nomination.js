@@ -137,7 +137,9 @@ function Nomination() {
                 },
                 withCredentials: true
             });
-        if (result.data.code === 1) forceUpdate();
+        if (result.data.code === 1) {
+            setTimeout(forceUpdate,1000)
+        }
         else {
             if (result.data.data.details.length === 0) {
                 setLoaded(true)
@@ -149,7 +151,7 @@ function Nomination() {
             }
         }
     }
-    apply().then();
+    if(!loaded) apply().then();
     const NominationSubmit = () => {
         const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
