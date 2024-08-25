@@ -144,6 +144,7 @@ function Nomination() {
             setFemaleData(latest.females)
             setLoaded(true)
         }
+        if (result.data.code === 1) setRefresh(refresh+1);
     }
 
     useEffect(() => {
@@ -234,7 +235,7 @@ function Nomination() {
             <div className="MainApp">
                 <div className="NominationStart">
                     {loaded ||
-                        <span style={{margin: "0 auto"}} onClick={()=>{console.log("refreshing");setRefresh(refresh+1)}}>请完成上方的登录弹窗并按照要求验证邮箱，然后点击此提示进行刷新（如有）</span>}
+                        <span style={{margin: "0 auto"}}>请完成上方的登录弹窗并按照要求验证邮箱（如有）</span>}
                     {loaded && !started &&
                         <button className="NominationButton" onClick={startNomination}>开始提名</button>}
                 </div>
@@ -247,7 +248,7 @@ function Nomination() {
                     {generateChildTree("male", maleData)}
                 </div>}
                 {started && <NominationSubmit/>}
-                {refresh && ""}
+                <p style={{display: "none"}}>{refresh}</p>
             </div>
         </Article>
     )
