@@ -9,6 +9,8 @@ function Nomination() {
     const [femaleData, setFemaleData] = useState([]);
     const [loaded, setLoaded] = useState(false);
     const [started, setStarted] = useState(false);
+    const [submitCallback, setSubmitCallback] = React.useState("");
+    const [force, setForce] = React.useState(false);
     const createSubject = () => {
         alert("功能开发中")
     }
@@ -38,6 +40,7 @@ function Nomination() {
             setLastRequestTime(Date.now())
             event.target.style.backgroundColor = "white";
             document.getElementById('hidden-'+props.vid).value = null;
+            setForce(false)
             setTimeout((value)=>{
                 if(lastRequestTime < Date.now() - 500 && status && value === document.getElementById('input-'+props.vid).value) {
                     searchSubject();
@@ -106,7 +109,7 @@ function Nomination() {
         }
         return lst
     }
-    const submitNomination = async () => {
+    const submitNomination = async (force) => {
         let male_submission = []
         let female_submission = []
         let warning = false;
@@ -127,7 +130,18 @@ function Nomination() {
             }
         }
         if(!warning) {
-            const result = await axios.post(
+            const result = force ? await axios.post(
+            'https://api.shswafu.club/v0/vote/event',null,
+            {
+                params: {
+                    channel: "nomination",
+                    event: "submit",
+                    m: encodeURIComponent(JSON.stringify(male_submission)),
+                    f: encodeURIComponent(JSON.stringify(female_submission)),
+                    force: "force"
+                },
+                withCredentials: true
+            }) : await axios.post(
             'https://api.shswafu.club/v0/vote/event',null,
             {
                 params: {
@@ -138,8 +152,19 @@ function Nomination() {
                 },
                 withCredentials: true
             });
+            switch (result.data.code) {
+                case 0:
+                    setSubmitCallback("提交成功！")
+                    break;
+                case 5:
+                    setSubmitCallback(result.data.message);
+                    break;
+                case 6:
+                    setSubmitCallback(result.data.message);
+                    setForce(true);
+            }
         } else {
-            alert("请检查")
+            setSubmitCallback("您提名的部分角色未知，请重新填写标黄的输入框并在弹出的搜索结果中选择一个角色或清除输入框的内容。如果没有找到要提名的角色请新建角色。")
         }
     }
     const startNomination = async () => {
@@ -209,8 +234,8 @@ function Nomination() {
                     {generateChildTree("male", maleData)}
                 </div>}
                 {started && <div className="NominationSubmit">
-                    <button className="NominationButton" onClick={submitNomination}>提交</button><br/>
-                    <p id="submitResultCallback">a</p>
+                    <button className="NominationButton" onClick={() => {submitNomination(force)}}>{force && "强制"}提交</button><br/>
+                    <p>{submitCallback}</p>
                 </div>}
             </div>
         </Article>
