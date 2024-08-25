@@ -210,8 +210,8 @@ function Nomination() {
         }
         useEffect(()=>{setForce(false)}, [
             () => {
-                let result = "";
-                Array.from(document.getElementsByClassName("NominationInput")).forEach((elem)=>{result = result + elem.value})
+                let result = [];
+                Array.from(document.getElementsByClassName("NominationInput")).forEach((elem)=>{result.push(elem.value)})
                 return result;
             }
         ]);
