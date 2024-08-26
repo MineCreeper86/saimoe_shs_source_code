@@ -238,7 +238,7 @@ function Nomination() {
             <div className="MainApp">
                 <div className="NominationStart">
                     {loaded ||
-                        <span style={{margin: "0 auto"}}>请完成上方的登录弹窗并按照要求验证邮箱（如有）</span>}
+                        <span style={{margin: "0 auto"}}>请完成上方的登录弹窗并按照要求验证邮箱（如有），由于直连网络波动较大，假如弹窗与开始提名按钮均未出现，可尝试特殊的上网方式。</span>}
                     {loaded && !started &&
                         <button className="NominationButton" onClick={startNomination}>开始提名</button>}
                 </div>
