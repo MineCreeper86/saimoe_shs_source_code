@@ -41,6 +41,7 @@ function SHSTpass() {
             <h1>本校学生身份验证</h1>
             <h2><a href={"https://tpass.shs.cn/tpass/login?service=https%3A%2F%2Fsaimoe.shswafu.club%2Fshstp"}>点击此链接跳转至智慧上中验证上海中学账户。</a></h2>
             <p>点击链接将跳转至外部网站进行验证。</p>
+            <p>请不要使用微信浏览器，可能导致无法正常跳转。</p>
             <p>仅用于验证身份合法性并保证一人一票，上海中学和风社将确保您的账号信息安全。</p>
         </Article>
     }
