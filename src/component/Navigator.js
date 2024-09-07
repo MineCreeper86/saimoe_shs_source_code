@@ -18,7 +18,6 @@ function Navigator() {
 
 const NavItem = (props) => {
     const pathname = relPath();
-    console.log(pathname + props.href)
     if (pathname === props.href) {
         return <a className={"NavItem Selected"} href={props.href}>{props.text}</a>
     } else {
