@@ -10,7 +10,7 @@ function SHSTpass() {
             'https://api.shswafu.club/v0/verify/shs_tpass',
             {
                 params: {
-                    ticket: window.location.search.substring(7)
+                    ticket: window.location.search.substring(8)
                 },
                 withCredentials: true
             }
