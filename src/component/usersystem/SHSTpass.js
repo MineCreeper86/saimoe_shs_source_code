@@ -31,10 +31,11 @@ function SHSTpass() {
             <h2>您已在智慧上中授权登录。</h2>
             {userDataLoaded === 0 && <p>请稍候，正在处理您的账户信息。</p>}
             {userDataLoaded === 1 && <p>验证失败。</p>}
-            {userDataLoaded === 2 && <div style={{padding: "1em"}}>
+            {userDataLoaded === 2 && <div>
                 <p>姓&emsp;&emsp;名：{userData.name}</p>
                 <p>统一编号：{userData.id}</p>
             </div>}
+            {userDataLoaded > 0 && <p><a href={"/"}>返回主页</a></p>}
         </Article>
     } else {
         return <Article>
