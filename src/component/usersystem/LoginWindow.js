@@ -12,9 +12,9 @@ function LoginWindow(props) {
     let schools = []
     let pending = false
     const isWechat = () => {
-        const ua = navigator.userAgent.toLowerCase();
-        const isWXWork = ua.match(/wxwork/i) === 'wxwork';
-        return !isWXWork && ua.match(/MicroMessenger/i) === 'micromessenger'
+        const ua = navigator.userAgent.toLowerCase()
+        const isWXWork = ua.match(/wxwork/i)
+        return !isWXWork && ua.match(/MicroMessenger/i)
     }
     const OptionBar = (props) => {
         const setType = (option, e) => {
