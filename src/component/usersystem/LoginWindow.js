@@ -184,6 +184,8 @@ function LoginWindow(props) {
                 {isWechat() || <p>其它登录方式：<a
                     href={"https://tpass.shs.cn/tpass/login?service=https%3A%2F%2Fsaimoe.shswafu.club%2Fshstp"}>智慧上中一键登录</a>
                 </p>}
+                {isWechat() && <p>智慧上中一键登录在微信浏览器下不可用，请切换浏览器
+                </p>}
                 <p className="Tips">{loading?"加载中":<b><big>{callback.message}</big></b>}</p>
             </div>
         )
