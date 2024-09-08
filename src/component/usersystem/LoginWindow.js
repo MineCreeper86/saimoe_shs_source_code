@@ -11,6 +11,11 @@ function LoginWindow(props) {
     const displayMoreInfo = () => {setMoreInfo(true);};
     let schools = []
     let pending = false
+    const isWechat = () => {
+        const ua = navigator.userAgent.toLowerCase();
+        const isWXWork = ua.match(/wxwork/i) === 'wxwork';
+        return !isWXWork && ua.match(/MicroMessenger/i) === 'micromessenger'
+    }
     const OptionBar = (props) => {
         const setType = (option, e) => {
             document.getElementById("type").value = option.code;
@@ -142,8 +147,10 @@ function LoginWindow(props) {
                     <h3>您已登入账号</h3>
                     <p>用户名：{callback.data.user.username}</p>
                     <p className="Tips">{callback.data.user.type_display}
-                        {callback.data.user.type === "042032" && !callback.data.user.shsid &&
+                        {callback.data.user.type === "042032" && !callback.data.user.shsid && !isWechat() &&
                         <a href={"https://tpass.shs.cn/tpass/login?service=https%3A%2F%2Fsaimoe.shswafu.club%2Fshstp"}>&emsp;去绑定智慧上中</a>}
+                        {callback.data.user.type === "042032" && !callback.data.user.shsid && isWechat() &&
+                            <span>&emsp;可打开默认浏览器绑定智慧上中</span>}
                         {callback.data.user.type === "042032" && callback.data.user.shsid &&
                             <span>&emsp;已绑定智慧上中</span>}
                     </p>
@@ -174,7 +181,9 @@ function LoginWindow(props) {
                 <p className="Tips">{moreInfo?"（包括学校、年级及性别等画像特征信息，浏览器类型、IP地址及屏幕参数等设备特征信息及选票内容等信息，用于检测刷票及用户群分析）":""}</p>
                 <button className="SubmitButton" onClick={login}>{state===2?"注册":"登入"}</button>&emsp;
                 <button className="SwitchButton" onClick={switchType}>{state===1?"注册":"登入"}</button>
-                <p>其它登录方式：<a href={"https://tpass.shs.cn/tpass/login?service=https%3A%2F%2Fsaimoe.shswafu.club%2Fshstp"}>智慧上中一键登录</a></p>
+                {isWechat() || <p>其它登录方式：<a
+                    href={"https://tpass.shs.cn/tpass/login?service=https%3A%2F%2Fsaimoe.shswafu.club%2Fshstp"}>智慧上中一键登录</a>
+                </p>}
                 <p className="Tips">{loading?"加载中":<b><big>{callback.message}</big></b>}</p>
             </div>
         )
