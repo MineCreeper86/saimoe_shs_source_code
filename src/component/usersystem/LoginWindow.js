@@ -14,7 +14,7 @@ function LoginWindow(props) {
     const isWechat = () => {
         const ua = navigator.userAgent.toLowerCase()
         const isWXWork = ua.match(/wxwork/i)
-        return !isWXWork && ua.match(/MicroMessenger/i)
+        return !(!(!isWXWork && ua.match(/MicroMessenger/i)))
     }
     const OptionBar = (props) => {
         const setType = (option, e) => {
