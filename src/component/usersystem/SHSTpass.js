@@ -1,7 +1,7 @@
 import React from 'react';
 import Article from "../Article";
 import axios from "axios";
-import './LoginWindow.css';
+import './SHSTpass.css';
 
 function SHSTpass() {
     const [callback, setCallback] = React.useState({});
@@ -45,10 +45,10 @@ function SHSTpass() {
             {userDataLoaded === 0 && <p>请稍候，正在处理您的账户信息。</p>}
             <p>{callback.message}</p>
             {callback.code === 3 &&
-                <input type="password" className="PasswordInput"/>
+                <input type="password" className="PasswordInput" id="PwdIpt"/>
             }
             {callback.code === 3 &&
-                <div className="SubmitButton">登录</div>
+                <div className="SubmitButton" onClick={()=>{loadData(document.getElementById("PwdIpt").value)}}>登录</div>
             }
             {userDataLoaded === 2 && <div>
                 <p>姓&emsp;&emsp;名：{callback.data.name}</p>

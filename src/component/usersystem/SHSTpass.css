@@ -1,0 +1,15 @@
+input.PasswordInput {
+    margin-left: 1em;
+    height: 1.5em;
+    width: 13em;
+    border-radius: 15px;
+    border: var(--border-default-width) solid rgb(186, 186, 186);
+    padding-left: 0.8em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 0.8em;
+    transition: linear 0.2s;
+}
+
