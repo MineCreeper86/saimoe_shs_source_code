@@ -1,17 +1,29 @@
 import React from 'react';
 import Article from "../Article";
 import axios from "axios";
+import './LoginWindow.css';
 
 function SHSTpass() {
     const [callback, setCallback] = React.useState({});
     const [message, setMessage] = React.useState("");
     const [userDataLoaded, setUserDataLoaded] = React.useState(0);
-    const loadData = async () => {
-        const result = await axios.get(
+    const loadData = async (password) => {
+        let result;
+        if (password === "0") result = await axios.get(
             'https://api.shswafu.club/v0/verify/shs_tpass',
             {
                 params: {
                     ticket: window.location.search.substring(8)
+                },
+                withCredentials: true
+            }
+        );
+        else result = await axios.get(
+            'https://api.shswafu.club/v0/verify/shs_tpass',
+            {
+                params: {
+                    ticket: window.location.search.substring(8),
+                    password: password
                 },
                 withCredentials: true
             }
@@ -25,7 +37,7 @@ function SHSTpass() {
     }
     if(window.location.search.indexOf("ticket=") !== -1) {
         if(userDataLoaded === 0) {
-            loadData().then()
+            loadData("0").then()
         }
         return <Article>
             <h1>本校学生身份验证</h1>
@@ -33,7 +45,10 @@ function SHSTpass() {
             {userDataLoaded === 0 && <p>请稍候，正在处理您的账户信息。</p>}
             <p>{callback.message}</p>
             {callback.code === 3 &&
-                <input/>
+                <input type="password" className="PasswordInput"/>
+            }
+            {callback.code === 3 &&
+                <div className="SubmitButton">登录</div>
             }
             {userDataLoaded === 2 && <div>
                 <p>姓&emsp;&emsp;名：{callback.data.name}</p>
