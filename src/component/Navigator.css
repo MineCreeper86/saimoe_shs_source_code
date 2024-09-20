@@ -24,11 +24,13 @@
 
 .Logo {
     float: left;
-    height: 100%;
-    vertical-align: middle;
-    font-family: 'Noto Serif SC', serif;
+    font-family: "Noto Serif SC", serif;
     font-weight: 100;
-    padding-left: 0.4em;
+    height: 100%;
+    margin-left: .4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Menu {
