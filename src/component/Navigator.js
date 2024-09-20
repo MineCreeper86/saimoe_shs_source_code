@@ -5,7 +5,7 @@ function Navigator() {
     return (
         //TODO Draw a logo.
         <div className="Navigator">
-            <span className="Logo">我希望这里有个logo（）</span>
+            <span className="Logo">上海中学萌战页面</span>
             <span className="Menu">
                 <NavItem href={"/"} text="主页"/>
                 <NavItem href={"/playback"} text="往期赛况"/>
