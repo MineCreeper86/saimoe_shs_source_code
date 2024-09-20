@@ -1,7 +1,7 @@
 input.PasswordInput {
     margin-left: 1em;
     height: 1.5em;
-    width: 13em;
+    width: 16em;
     border-radius: 15px;
     border: var(--border-default-width) solid rgb(186, 186, 186);
     padding-left: 0.8em;
@@ -13,3 +13,8 @@ input.PasswordInput {
     transition: linear 0.2s;
 }
 
+.SubmitButton {
+    margin-left: 1em;
+    display: inline;
+    vertical-align: middle;
+}
