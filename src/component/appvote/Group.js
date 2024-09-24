@@ -68,10 +68,6 @@ function Nomination() {
             <input type="hidden" id={'hidden-' + props.vid}/>
             <span className="SequenceTag">小组{1 + parseInt(props.vid.split("-")[1])}</span>
             <input type="text" className="VoteInput" id={fatherElementId}
-                   onCompositionEnd={searchSubjectByComp}
-                   onCompositionStart={() => {
-                       status = false;
-                   }}
                    onInput={searchSubjectByInput}/>
             {
                 searchResult.length !== 0 &&
@@ -200,7 +196,7 @@ function Nomination() {
                 <p>{submitCallback}</p>
             </div>)
     }
-    const fetchSchool = async () => {
+    const fetchCandidate = async () => {
         const result = await axios.get('/group_candidate.json')
         setCandidate(result.data);
         setState(1);
