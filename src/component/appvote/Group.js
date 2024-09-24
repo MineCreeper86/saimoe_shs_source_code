@@ -9,11 +9,10 @@ function Nomination() {
     const [femaleData, setFemaleData] = useState([]);
     const [loaded, setLoaded] = useState(false);
     const [started, setStarted] = useState(false);
+    const [candidate, setCandidate] = useState({});
+    const [state, setState] = useState(0);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
-    const createSubject = () => {
-        alert("功能开发中")
-    }
     const SubjectInput = (props) => {
         const [lastRequestTime, setLastRequestTime] = React.useState(0);
         const [searchResult, setSearchResult] = React.useState([]);
@@ -201,6 +200,14 @@ function Nomination() {
                 <p>{submitCallback}</p>
             </div>)
     }
+    const fetchSchool = async () => {
+        const result = await axios.get('/group_candidate.json')
+        setCandidate(result.data);
+        setState(1);
+    }
+    useEffect(() => {
+        if(state === 0) fetchCandidate();
+    })
     return (
         <Article>
             <h1>第三届上萌小组赛页面</h1>
@@ -212,14 +219,14 @@ function Nomination() {
                     {loaded ||
                         <span style={{margin: "0 auto"}}>请完成上方的登录弹窗并按照要求验证邮箱（如有），由于直连网络波动较大，假如弹窗与开始提名按钮均未出现，可尝试特殊的上网方式。</span>}
                     {loaded && !started &&
-                        <button className="NominationButton" onClick={startNomination}>开始提名</button>}
+                        <button className="NominationButton" onClick={startNomination}>开始小组赛投票</button>}
                 </div>
                 {started && <div className="ChnlDivision ChnlFemale">
-                    <h2>萌王提名</h2>
+                    <h2>萌王小组赛</h2>
                     {generateChildTree("fem", femaleData)}
                 </div>}
                 {started && <div className="ChnlDivision ChnlMale">
-                    <h2>燃王提名</h2>
+                    <h2>燃王小组赛</h2>
                     {generateChildTree("male", maleData)}
                 </div>}
                 {started && <NominationSubmit/>}
