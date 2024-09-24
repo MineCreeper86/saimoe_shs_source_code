@@ -4,7 +4,7 @@ import LoginWindow from "../usersystem/LoginWindow";
 import './Group.css'
 import axios from "axios";
 
-function Nomination() {
+function Group() {
     const [maleData, setMaleData] = useState([]);
     const [femaleData, setFemaleData] = useState([]);
     const [loaded, setLoaded] = useState(false);
