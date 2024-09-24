@@ -67,7 +67,7 @@ function Nomination() {
         return <div>
             <input type="hidden" id={'hidden-' + props.vid}/>
             <span className="SequenceTag">小组{1 + parseInt(props.vid.split("-")[1])}</span>
-            <input type="text" className="NominationInput" id={fatherElementId}
+            <input type="text" className="VoteInput" id={fatherElementId}
                    onCompositionEnd={searchSubjectByComp}
                    onCompositionStart={() => {
                        status = false;
@@ -88,7 +88,7 @@ function Nomination() {
         }
         return lst
     }
-    const startNomination = async () => {
+    const startVoting = async () => {
         if (!loaded) {
             console.log("正在加载数据，请稍候");
         } else {
@@ -131,7 +131,7 @@ function Nomination() {
         }
     }
     if(!loaded) apply().then();
-    const NominationSubmit = () => {
+    const VoteSubmit = () => {
         const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
         const submitNomination = async () => {
@@ -215,11 +215,11 @@ function Nomination() {
             <p>每个小组所对应的可选角色将在输入框的下拉框中进行展示，请先选中每个小组对应的输入框。</p>
             <LoginWindow hide="1"/>
             <div className="MainApp">
-                <div className="NominationStart">
+                <div className="VoteStart">
                     {loaded ||
                         <span style={{margin: "0 auto"}}>请完成上方的登录弹窗并按照要求验证邮箱（如有），由于直连网络波动较大，假如弹窗与开始提名按钮均未出现，可尝试特殊的上网方式。</span>}
                     {loaded && !started &&
-                        <button className="NominationButton" onClick={startNomination}>开始小组赛投票</button>}
+                        <button className="VoteButton" onClick={startVoting}>开始小组赛投票</button>}
                 </div>
                 {started && <div className="ChnlDivision ChnlFemale">
                     <h2>萌王小组赛</h2>
@@ -229,10 +229,10 @@ function Nomination() {
                     <h2>燃王小组赛</h2>
                     {generateChildTree("male", maleData)}
                 </div>}
-                {started && <NominationSubmit/>}
+                {started && <VoteSubmit/>}
             </div>
         </Article>
     )
 }
 
-export default Nomination;
+export default Group;
