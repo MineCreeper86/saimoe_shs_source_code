@@ -10,6 +10,7 @@ import Vote from "./page/Vote";
 import Playback from "./page/Playback";
 import Timeline from "./page/Timeline";
 import Nomination from "./component/appvote/Nomination";
+import Group from "./component/appvote/Group";
 import SHSTpass from "./component/usersystem/SHSTpass";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -31,6 +32,7 @@ root.render(
                 <Route exact path="/vote" element={<Vote/>}/>
                 <Route exact path="/shstp" element={<SHSTpass/>}/>
                 <Route exact path="/appvote/3/nomination" element={<Nomination/>}/>
+                <Route exact path="/appvote/3/group" element={<Group/>}/>
             </Routes>
         </Router>
         <Footer/>
