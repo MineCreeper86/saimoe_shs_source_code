@@ -13,7 +13,6 @@ function Group() {
     const [state, setState] = useState(0);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
-    const [submitCallback, setSubmitCallback] = React.useState("");
     const SubjectInput = (props) => {
         const [lastRequestTime, setLastRequestTime] = React.useState(0);
         const [searchResult, setSearchResult] = React.useState([]);
@@ -129,6 +128,7 @@ function Group() {
     }
     if(!loaded) apply().then();
     const VoteSubmit = () => {
+        const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
         const submitNomination = async () => {
             let male_submission = []
@@ -184,8 +184,14 @@ function Group() {
                         break;
                     case 10:
                         setSubmitCallback("线下选票提交成功！")
-                        setMaleData([])
-                        setFemaleData([])
+                        for (let i = 0; i < 10; i++) {
+                            document.getElementById('input-male-' + i).value = ""
+                            document.getElementById('input-male-' + i).style.backgroundColor = "white";
+                            document.getElementById('input-fem-' + i).value = ""
+                            document.getElementById('input-fem-' + i).style.backgroundColor = "white";
+                            document.getElementById('hidden-fem-' + i).value = ""
+                            document.getElementById('hidden-male-' + i).value = ""
+                        }
                         break;
                     default:
                         setSubmitCallback(result.data.message);

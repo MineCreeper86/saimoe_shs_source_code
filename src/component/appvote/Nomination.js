@@ -11,7 +11,6 @@ function Nomination() {
     const [started, setStarted] = useState(false);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
-    const [submitCallback, setSubmitCallback] = React.useState("");
     const createSubject = () => {
         alert("功能开发中")
     }
@@ -154,6 +153,7 @@ function Nomination() {
     }
     if(!loaded) apply().then();
     const NominationSubmit = () => {
+        const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
         const submitNomination = async () => {
             let male_submission = []
@@ -209,8 +209,14 @@ function Nomination() {
                         break;
                     case 10:
                         setSubmitCallback("线下选票提交成功！")
-                        setMaleData([])
-                        setFemaleData([])
+                        for (let i = 0; i < 10; i++) {
+                            document.getElementById('input-male-' + i).value = ""
+                            document.getElementById('input-male-' + i).style.backgroundColor = "white";
+                            document.getElementById('input-fem-' + i).value = ""
+                            document.getElementById('input-fem-' + i).style.backgroundColor = "white";
+                            document.getElementById('hidden-fem-' + i).value = ""
+                            document.getElementById('hidden-male-' + i).value = ""
+                        }
                         break;
                     default:
                         setSubmitCallback(result.data.message);
