@@ -153,7 +153,7 @@ function LoginWindow(props) {
                             <span>&emsp;可打开默认浏览器绑定智慧上中</span>}
                         {callback.data.user.type === "042032" && callback.data.user.shsid && callback.data.user.username !== "offline" &&
                             <span>&emsp;已绑定智慧上中</span>}
-                        {username === "offline" && <span>&emsp;线下票统票专用账号</span>}
+                        {callback.data.user.username === "offline" && <span>&emsp;线下票统票专用账号</span>}
                     </p>
                     <p>邮箱：{callback.data.user.email}&nbsp;{callback.data.user.verified?<font color="green">已验证</font>:<font color="darkgray">未验证</font>}</p>
                     {!callback.data.user.verified && <p className="Tips">未验证的用户无法投票，请通过绑定邮箱将任意内容的邮件发送至 verify@shswafu.club</p>}
