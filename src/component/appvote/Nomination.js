@@ -207,6 +207,11 @@ function Nomination() {
                     case 6:
                         setSubmitCallback("检查到以下问题，若忽略请再次点击提交：" + result.data.message);
                         break;
+                    case 10:
+                        setSubmitCallback("线下选票提交成功！")
+                        setMaleData([])
+                        setFemaleData([])
+                        break;
                     default:
                         setSubmitCallback(result.data.message);
                 }
