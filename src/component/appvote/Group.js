@@ -18,7 +18,7 @@ function Group() {
         const [lastRequestTime, setLastRequestTime] = React.useState(0);
         const [searchResult, setSearchResult] = React.useState([]);
         const searchSubject = () => {
-            //TODU read from json and setSearchResult(...)
+            //TODO read from json and setSearchResult(...)
         }
         const searchSubjectByInput = (event) => {
             setLastRequestTime(Date.now())
