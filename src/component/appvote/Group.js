@@ -13,6 +13,7 @@ function Group() {
     const [state, setState] = useState(0);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
+    const [submitCallback, setSubmitCallback] = React.useState("");
     const SubjectInput = (props) => {
         const [lastRequestTime, setLastRequestTime] = React.useState(0);
         const [searchResult, setSearchResult] = React.useState([]);
@@ -128,7 +129,6 @@ function Group() {
     }
     if(!loaded) apply().then();
     const VoteSubmit = () => {
-        const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
         const submitNomination = async () => {
             let male_submission = []

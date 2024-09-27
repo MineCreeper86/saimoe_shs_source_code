@@ -11,6 +11,7 @@ function Nomination() {
     const [started, setStarted] = useState(false);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
+    const [submitCallback, setSubmitCallback] = React.useState("");
     const createSubject = () => {
         alert("功能开发中")
     }
@@ -153,7 +154,6 @@ function Nomination() {
     }
     if(!loaded) apply().then();
     const NominationSubmit = () => {
-        const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
         const submitNomination = async () => {
             let male_submission = []
