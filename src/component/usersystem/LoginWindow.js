@@ -147,11 +147,11 @@ function LoginWindow(props) {
                     <h3>您已登入账号</h3>
                     <p>用户名：{callback.data.user.username}</p>
                     <p className="Tips">{callback.data.user.type_display}
-                        {callback.data.user.type === "042032" && !callback.data.user.shsid && !isWechat() && username !== "offline" &&
+                        {callback.data.user.type === "042032" && !callback.data.user.shsid && !isWechat() && callback.data.user.username !== "offline" &&
                         <a href={"https://tpass.shs.cn/tpass/login?service=https%3A%2F%2Fsaimoe.shswafu.club%2Fshstp"}>&emsp;去绑定智慧上中</a>}
-                        {callback.data.user.type === "042032" && !callback.data.user.shsid && isWechat() && username !== "offline" &&
+                        {callback.data.user.type === "042032" && !callback.data.user.shsid && isWechat() && callback.data.user.username !== "offline" &&
                             <span>&emsp;可打开默认浏览器绑定智慧上中</span>}
-                        {callback.data.user.type === "042032" && callback.data.user.shsid && username !== "offline" &&
+                        {callback.data.user.type === "042032" && callback.data.user.shsid && callback.data.user.username !== "offline" &&
                             <span>&emsp;已绑定智慧上中</span>}
                         {username === "offline" && <span>&emsp;线下票统票专用账号</span>}
                     </p>
