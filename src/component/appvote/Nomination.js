@@ -11,8 +11,22 @@ function Nomination() {
     const [started, setStarted] = useState(false);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
-    const createSubject = () => {
-        alert("功能开发中")
+    const createSubject = async () => {
+        const name = prompt("请输入最常见译名")
+        const source = prompt("请输入来源（番剧，若无可填写其它）")
+        const gender_input = prompt("请输入性别（男/女/未知或存疑）")
+        const gender = gender_input.includes("男")?"male":(gender_input.includes("女")?"female":null)
+        const result = await axios.post(
+            'https://api.shswafu.club/v0/vote/nominate/custom_character', null,
+            {
+                params: {
+                    name: name,
+                    source: source,
+                    gender: gender
+                },
+                withCredentials: true
+            });
+        alert(result.data.message)
     }
     const SubjectInput = (props) => {
         const [lastRequestTime, setLastRequestTime] = React.useState(0);
