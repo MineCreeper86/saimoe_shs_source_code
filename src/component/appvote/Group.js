@@ -231,11 +231,11 @@ function Group() {
                 </div>
                 {started && <div className="ChnlDivision ChnlFemale">
                     <h2>萌王小组赛</h2>
-                    {generateChildTree("fem", femaleData)}
+                    {generateChildTree("fem", femaleData, 10)}
                 </div>}
                 {started && <div className="ChnlDivision ChnlMale">
                     <h2>燃王小组赛</h2>
-                    {generateChildTree("male", maleData)}
+                    {generateChildTree("male", maleData, 10)}
                 </div>}
                 {started && <VoteSubmit/>}
             </div>
