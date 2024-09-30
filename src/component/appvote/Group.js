@@ -77,10 +77,10 @@ function Group() {
             }
         </div>
     }
-    const generateChildTree = (prefix, initial) => {
+    const generateChildTree = (prefix, initial, count) => {
         let lst = []
-        for (let i = 0; i < 10; i++) {
-            lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={initial[i]}/>)
+        for (let i = 0; i < count; i++) {
+            lst.push(<SubjectInput vid={prefix + "-" + String.fromCharCode(96 + i)} defaultValue={initial[i]}/>)
         }
         return lst
     }
@@ -220,13 +220,14 @@ function Group() {
             <h1>第三届上萌小组赛页面</h1>
             <p>您最多可在每个小组中选择 ？？ 个角色，得票排名前 ？？ 的角色将成功晋级下一轮。</p>
             <p>每个小组所对应的可选角色将在输入框的下拉框中进行展示，请先选中每个小组对应的输入框。</p>
+            <p>您总共可指定 ？？ 个角色作为本命角色，提高其票权，并且上海中学学生在经过智慧上中验证后可享受相较于其它学校用户更高的票权，具体统计规则请见下表。应援作品可以电子形式发至admin@shswafu.club或线下递交。</p>
             <LoginWindow hide="1"/>
             <div className="MainApp">
                 <div className="VoteStart">
                     {loaded ||
                         <span style={{margin: "0 auto"}}>请完成上方的登录弹窗并按照要求验证邮箱（如有），由于直连网络波动较大，假如弹窗与开始提名按钮均未出现，可尝试特殊的上网方式。</span>}
                     {loaded && !started &&
-                        <button className="VoteButton" onClick={startVoting}>开始小组赛投票</button>}
+                        <button className="VoteButton" onClick={startVoting}>开始投票</button>}
                 </div>
                 {started && <div className="ChnlDivision ChnlFemale">
                     <h2>萌王小组赛</h2>
