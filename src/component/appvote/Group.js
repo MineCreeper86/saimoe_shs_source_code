@@ -66,7 +66,7 @@ function Group() {
         let fatherElementId = 'input-' + props.vid
         return <div>
             <input type="hidden" id={'hidden-' + props.vid}/>
-            <span className="SequenceTag">小组{1 + parseInt(props.vid.split("-")[1])}</span>
+            <span className="SequenceTag">小组{String.fromCharCode(65 + parseInt(props.vid.split("-")[1]))}</span>
             <input type="text" className="VoteInput" id={fatherElementId}
                    onInput={searchSubjectByInput}/>
             {
@@ -80,7 +80,7 @@ function Group() {
     const generateChildTree = (prefix, initial, count) => {
         let lst = []
         for (let i = 0; i < count; i++) {
-            lst.push(<SubjectInput vid={prefix + "-" + String.fromCharCode(96 + i)} defaultValue={initial[i]}/>)
+            lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={initial[i]}/>)
         }
         return lst
     }
