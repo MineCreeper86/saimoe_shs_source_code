@@ -92,7 +92,7 @@ function Group() {
                 'https://api.shswafu.club/v0/vote/event', null,
                 {
                     params: {
-                        channel: "group",
+                        channel: "groups",
                         event: "start",
                     },
                     withCredentials: true
@@ -107,7 +107,7 @@ function Group() {
             'https://api.shswafu.club/v0/vote/event', null,
             {
                 params: {
-                    channel: "group",
+                    channel: "groups",
                     event: "apply",
                 },
                 withCredentials: true
@@ -130,7 +130,7 @@ function Group() {
     const VoteSubmit = () => {
         const [submitCallback, setSubmitCallback] = React.useState("");
         const [lastSubmit, setLastSubmit] = React.useState([]);
-        const submitNomination = async () => {
+        const submitVote = async () => {
             let male_submission = []
             let female_submission = []
             let warning = false;
@@ -157,7 +157,7 @@ function Group() {
                     'https://api.shswafu.club/v0/vote/event', null,
                     {
                         params: {
-                            channel: "group",
+                            channel: "groups",
                             event: "submit",
                             m: encodeURIComponent(JSON.stringify(male_submission)),
                             f: encodeURIComponent(JSON.stringify(female_submission)),
@@ -168,8 +168,8 @@ function Group() {
                     'https://api.shswafu.club/v0/vote/event', null,
                     {
                         params: {
-                            channel: "nomination",
-                            event: "group",
+                            channel: "groups",
+                            event: "submit",
                             m: encodeURIComponent(JSON.stringify(male_submission)),
                             f: encodeURIComponent(JSON.stringify(female_submission)),
                         },
@@ -203,7 +203,7 @@ function Group() {
         }
         return (
             <div className="NominationSubmit">
-                <button className="NominationButton" onClick={submitNomination}>提交</button>
+                <button className="NominationButton" onClick={submitVote}>提交</button>
                 <p>{submitCallback}</p>
             </div>)
     }
