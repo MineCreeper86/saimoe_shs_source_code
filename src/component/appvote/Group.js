@@ -208,7 +208,7 @@ function Group() {
             </div>)
     }
     const fetchCandidate = async () => {
-        const result = await axios.get('/group_candidate.json')
+        const result = await axios.get('/nomination.json')
         setCandidate(result.data);
         setState(1);
     }
