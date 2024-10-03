@@ -16,7 +16,9 @@ function Group() {
     const SubjectInput = (props) => {
         const [lastRequestTime, setLastRequestTime] = React.useState(0);
         const [searchResult, setSearchResult] = React.useState([]);
+        const [lastVal, setLastVal] = React.useState("");
         const searchSubject = () => {
+            setLastVal(document.getElementById('input-' + props.vid).value)
             setSearchResult(props.option.characters)
         }
         const searchSubjectByInput = (event) => {
@@ -70,8 +72,8 @@ function Group() {
         return <div>
             <input type="hidden" id={'hidden-' + props.vid}/>
             <span className="SequenceTag">小组{props.option.code}</span>
-            <input type="text" className="VoteInput" id={fatherElementId}
-                   onInput={searchSubjectByInput} onClick={searchSubjectByInput} onBlur={()=>{setSearchResult([])}}/>
+            <input type="text" className="VoteInput" id={fatherElementId} value={lastVal}
+                   onInput={searchSubjectByInput} onClick={searchSubjectByInput} onBlur={()=>{setLastVal(document.getElementById(fatherElementId).value);setSearchResult([])}}/>
             {
                 searchResult.length !== 0 &&
                 <div className="SearchResultSet">
