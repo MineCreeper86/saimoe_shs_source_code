@@ -24,6 +24,7 @@ function Group() {
         const searchSubjectByInput = (event) => {
             event.target.style.backgroundColor = "white";
             document.getElementById('hidden-' + props.vid).value = null;
+            setHiddenVal("");
             searchSubject();
         }
         const transformResult = (belong) => {
@@ -71,7 +72,7 @@ function Group() {
         }, []);
         let fatherElementId = 'input-' + props.vid
         return <div>
-            <input type="hidden" id={'hidden-' + props.vid} value={hiddenVal===""?undefined:hiddenVal}/>
+            <input type="hidden" id={'hidden-' + props.vid} value={hiddenVal===""?null:hiddenVal}/>
             <span className="SequenceTag">小组{props.option.code}</span>
             <input type="text" className="VoteInput" id={fatherElementId} value={lastVal} autoComplete="off"
                    onInput={searchSubjectByInput} onClick={searchSubjectByInput} onBlur={()=>{setLastVal(document.getElementById(fatherElementId).value);setSearchResult([])}}/>
