@@ -82,7 +82,7 @@ function Group() {
     }
     const generateChildTree = (prefix, initial, candidate) => {
         let lst = []
-        for (let i = 0; i < initial; i++) {
+        for (let i = 0; i < candidate.length; i++) {
             lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={initial[i]} option={candidate[i]}/>)
         }
         return lst
