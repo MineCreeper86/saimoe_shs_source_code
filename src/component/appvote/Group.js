@@ -71,7 +71,7 @@ function Group() {
             <input type="hidden" id={'hidden-' + props.vid}/>
             <span className="SequenceTag">小组{props.option.code}</span>
             <input type="text" className="VoteInput" id={fatherElementId}
-                   onInput={searchSubjectByInput} onClick={searchSubjectByInput}/>
+                   onInput={searchSubjectByInput} onClick={searchSubjectByInput} onBlur={()=>{setSearchResult([])}}/>
             {
                 searchResult.length !== 0 &&
                 <div className="SearchResultSet">
