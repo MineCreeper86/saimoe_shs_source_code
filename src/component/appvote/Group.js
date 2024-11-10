@@ -31,6 +31,7 @@ function Group() {
             let resultObjects = [];
             let id = 0;
             const handleClick = (event) => {
+                console.log("click");
                 let element = event.target;
                 if (element.children.length === 0) element = element.parentElement;
                 let fatherElement = "-" + element.id.split("-")[1] + "-" + element.id.split("-")[2];
@@ -75,7 +76,7 @@ function Group() {
             <input type="hidden" id={'hidden-' + props.vid} value={hiddenVal===""?null:hiddenVal}/>
             <span className="SequenceTag">小组{props.option.code}</span>
             <input type="text" className="VoteInput" id={fatherElementId} value={lastVal} autoComplete="off"
-                   onInput={searchSubjectByInput} onClick={searchSubjectByInput} onBlur={()=>{setLastVal(document.getElementById(fatherElementId).value);setSearchResult([])}}/>
+                   onInput={searchSubjectByInput} onClick={searchSubjectByInput} onBlur={()=>{console.log("blur");setLastVal(document.getElementById(fatherElementId).value);setSearchResult([])}}/>
             {
                 searchResult.length !== 0 &&
                 <div className="SearchResultSet">
