@@ -71,12 +71,19 @@ function Group() {
                 document.getElementById("hidden-" + props.vid).style.backgroundColor = "#dcffee";
             }
         }, []);
+        const handleBlur = (event) => {
+            console.log(document.activeElement);
+            if (document.activeElement.id.indexOf(fatherElementId + "-") === -1) {
+                setLastVal(document.getElementById(fatherElementId).value);
+                setSearchResult([])
+            }
+        }
         let fatherElementId = 'input-' + props.vid
         return <div>
             <input type="hidden" id={'hidden-' + props.vid} value={hiddenVal===""?null:hiddenVal}/>
             <span className="SequenceTag">小组{props.option.code}</span>
             <input type="text" className="VoteInput" id={fatherElementId} value={lastVal} autoComplete="off"
-                   onInput={searchSubjectByInput} onClick={searchSubjectByInput} onBlur={()=>{console.log("blur");setLastVal(document.getElementById(fatherElementId).value);setSearchResult([])}}/>
+                   onInput={searchSubjectByInput} onClick={searchSubjectByInput} onBlur={handleBlur}/>
             {
                 searchResult.length !== 0 &&
                 <div className="SearchResultSet">
