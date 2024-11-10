@@ -73,10 +73,7 @@ function Group() {
         }, []);
         const handleBlur = (event) => {
             console.log(document.activeElement);
-            if (document.activeElement.id.indexOf(fatherElementId + "-") === -1) {
-                setLastVal(document.getElementById(fatherElementId).value);
-                setSearchResult([])
-            }
+            setLastVal(document.getElementById(fatherElementId).value);
         }
         let fatherElementId = 'input-' + props.vid
         return <div>
