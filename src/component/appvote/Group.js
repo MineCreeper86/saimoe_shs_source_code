@@ -13,7 +13,7 @@ function Group() {
     const [state, setState] = useState(0);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
-    const [focus, setFocus] = useState("");
+    let focus = ""
     const SubjectInput = (props) => {
         const [searchResult, setSearchResult] = React.useState([]);
         const [lastVal, setLastVal] = React.useState("");
@@ -21,8 +21,7 @@ function Group() {
         const searchSubject = () => {
             setLastVal(document.getElementById('input-' + props.vid).value)
             setSearchResult(props.option.characters)
-            setFocus(props.vid)
-            console.log(props.vid)
+            focus = props.vid
         }
         const searchSubjectByInput = (event) => {
             event.target.style.backgroundColor = "white";
@@ -84,7 +83,7 @@ function Group() {
             <input type="text" className="VoteInput" id={fatherElementId} value={lastVal} autoComplete="off"
                    onInput={searchSubjectByInput} onClick={searchSubject} onBlur={handleBlur}/>
             {
-                searchResult.length !== 0 &&
+                searchResult.length !== 0 && focus === props.vid &&
                 <div className="SearchResultSet">
                     {transformResult(fatherElementId)}
                 </div>
