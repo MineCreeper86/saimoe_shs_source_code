@@ -147,7 +147,7 @@ function Group() {
             let male_submission = []
             let female_submission = []
             let warning = false;
-            for (let i = 0; i < 10; i++) {
+            for (let i = 0; i < 12; i++) {
                 if (document.getElementById('hidden-male-' + i).value) {
                     male_submission.push(parseInt(document.getElementById('hidden-male-' + i).value));
                 } else if (document.getElementById('input-male-' + i).value) {
@@ -155,7 +155,7 @@ function Group() {
                     document.getElementById('input-male-' + i).style.backgroundColor = "yellow";
                 }
             }
-            for (let j = 0; j < 10; j++) {
+            for (let j = 0; j < 16; j++) {
                 if (document.getElementById('hidden-fem-' + j).value) {
                     female_submission.push(parseInt(document.getElementById('hidden-fem-' + j).value));
                 } else if (document.getElementById('input-fem-' + j).value) {
