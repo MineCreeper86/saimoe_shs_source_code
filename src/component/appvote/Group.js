@@ -24,7 +24,6 @@ function Group() {
         const searchSubjectByInput = (event) => {
             event.target.style.backgroundColor = "white";
             document.getElementById('hidden-' + props.vid).value = null;
-            setHiddenVal("");
             searchSubject();
         }
         const transformResult = (belong) => {

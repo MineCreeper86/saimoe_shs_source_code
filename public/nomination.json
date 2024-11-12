@@ -1,1 +1,4711 @@
-{"male":[{"seq":0,"code":"A","characters":[{"id":123537,"name_jp":"アルフレッド","name_cn":"阿尔弗雷德","src":"","gender":"male","v":0},{"id":47,"name_jp":"キョン","name_cn":"阿虚","src":"凉宫春日的忧郁","gender":"male","v":2},{"id":19039,"name_jp":"比企谷八幡","name_cn":"比企谷八幡","src":"我的青春恋爱物语果然有问题","gender":"male","v":3},{"id":20252,"name_jp":"浜面仕上","name_cn":"滨面仕上","src":"魔法禁书目录 第三季","gender":"male","v":0},{"id":3311,"name_jp":"ポートガス・D・エース","name_cn":"波特卡斯·D·艾斯","src":"航海王","gender":"male","v":0},{"id":6824,"name_jp":"不動明","name_cn":"不动明","src":"AMON 恶魔人默示录","gender":"male","v":0},{"id":371,"name_jp":"ドイツ","name_cn":"德意志","src":"黑塔利亚","gender":"male","v":0},{"id":99542,"name_jp":"蜂楽廻","name_cn":"蜂乐回","src":"蓝色监狱","gender":"male","v":1},{"id":89183,"name_jp":"ハイター","name_cn":"海塔","src":"葬送的芙莉莲","gender":"male","v":0},{"id":1227,"name_jp":"ギルガメッシュ","name_cn":"吉尔伽美什","src":"命运-奇异赝品 黎明低语","gender":"male","v":0},{"id":35243,"name_jp":"江戸川乱歩","name_cn":"江户川乱步","src":"文豪野犬","gender":"male","v":1},{"id":43540,"name_jp":"今村耕平","name_cn":"今村耕平","src":"碧蓝之海","gender":"male","v":0},{"id":10603,"name_jp":"鏡音レン","name_cn":"镜音连","src":"剧场版世界计划 破碎的世界与唱不出歌的未来","gender":"male","v":1},{"id":125021,"name_jp":"玛恩纳","name_cn":"","src":"","gender":"male","v":1},{"id":61403,"name_jp":"上杉風太郎","name_cn":"上杉风太郎","src":"五等分的新娘","gender":"male","v":0},{"id":67403,"name_jp":"石神千空","name_cn":"石神千空","src":"新石纪","gender":"male","v":0},{"id":123909,"name_jp":"市川京太郎","name_cn":"市川京太郎","src":"我心里危险的东西","gender":"male","v":1},{"id":95303,"name_jp":"叶敬山","name_cn":"","src":"","gender":"male","v":0},{"id":2215,"name_jp":"夜神月","name_cn":"夜神月","src":"死亡笔记","gender":"male","v":11},{"id":61871,"name_jp":"ザック","name_cn":"札克","src":"杀戮天使","gender":"male","v":0},{"id":31219,"name_jp":"坂本","name_cn":"坂本","src":"在下坂本，有何贵干？","gender":"male","v":0},{"id":114727,"name_jp":"糸師冴","name_cn":"糸师冴","src":"蓝色监狱","gender":"male","v":0},{"id":18041,"name_jp":"狛枝凪斗","name_cn":"狛枝凪斗","src":"超级弹丸论破2.5 狛枝凪斗与世界的破坏者","gender":"male","v":0}]},{"seq":1,"code":"B","characters":[{"id":18577,"name_jp":"岸辺露伴","name_cn":"岸边露伴","src":"岸边露伴一动不动 六壁坂","gender":"male","v":0},{"id":60456,"name_jp":"白血球","name_cn":"白血球（U-1146）","src":"工作细胞","gender":"male","v":0},{"id":20955,"name_jp":"湊斗景明","name_cn":"凑斗景明","src":"","gender":"male","v":0},{"id":12392,"name_jp":"岡部倫太郎","name_cn":"冈部伦太郎","src":"命运石之门","gender":"male","v":8},{"id":17587,"name_jp":"宮村伊澄","name_cn":"宫村伊澄","src":"堀桑与宫村君","gender":"male","v":2},{"id":18161,"name_jp":"海馬瀬人","name_cn":"海马濑人","src":"游戏王－怪兽之决斗","gender":"male","v":0},{"id":35835,"name_jp":"海崎新太","name_cn":"海崎新太","src":"ReLIFE 完结篇","gender":"male","v":0},{"id":92283,"name_jp":"黒死牟","name_cn":"黑死牟","src":"鬼灭之刃 刀匠村篇","gender":"male","v":0},{"id":97301,"name_jp":"久世政近","name_cn":"久世政近","src":"不时用俄语小声说真心话的邻桌艾莉同学","gender":"male","v":0},{"id":879,"name_jp":"ジョセフ・ジョースター","name_cn":"乔瑟夫·乔斯达","src":"JOJO的奇妙冒险","gender":"male","v":1},{"id":24322,"name_jp":"日向翔陽","name_cn":"日向翔阳","src":"排球少年","gender":"male","v":1},{"id":1228,"name_jp":"セバスチャン・ミカエリス","name_cn":"塞巴斯蒂安·米卡利斯","src":"黑执事","gender":"male","v":0},{"id":116808,"name_jp":"サンラク / 陽務楽郎","name_cn":"桑乐 / 阳务乐郎","src":"香格里拉·弗陇提亚～屎作猎人向神作发起挑战～","gender":"male","v":0},{"id":7266,"name_jp":"石川五ェ門","name_cn":"石川五右卫门","src":"鲁邦三世 pilot film","gender":"male","v":0},{"id":12062,"name_jp":"天王寺瑚太朗","name_cn":"天王寺瑚太朗","src":"Rewrite 第二季","gender":"male","v":0},{"id":104269,"name_jp":"シド・カゲノー / シャドウ","name_cn":"希德·卡盖诺","src":"想要成为影之实力者！","gender":"male","v":0},{"id":2479,"name_jp":"シャンクス","name_cn":"香克斯","src":"海贼王 红发歌姬","gender":"male","v":0},{"id":57716,"name_jp":"シンエイ・ノウゼン","name_cn":"辛恩·诺赞","src":"86 -不存在的战区-","gender":"male","v":0},{"id":88208,"name_jp":"ヒンメル","name_cn":"辛美尔","src":"葬送的芙莉莲","gender":"male","v":3},{"id":89182,"name_jp":"シュタルク","name_cn":"修塔尔克","src":"葬送的芙莉莲","gender":"male","v":1},{"id":10699,"name_jp":"桜井智樹","name_cn":"樱井智树","src":"天降之物","gender":"male","v":1},{"id":71338,"name_jp":"早川アキ","name_cn":"早川秋","src":"链锯人","gender":"male","v":0},{"id":53768,"name_jp":"綾小路清隆","name_cn":"绫小路清隆","src":"欢迎来到实力至上主义教室","gender":"male","v":1}]},{"seq":2,"code":"C","characters":[{"id":127003,"name_jp":"北条時行","name_cn":"北条时行","src":"擅长逃跑的殿下","gender":"male","v":0},{"id":15143,"name_jp":"貝木泥舟","name_cn":"贝木泥舟","src":"物语系列 第二季","gender":"male","v":0},{"id":7501,"name_jp":"波風ミナト","name_cn":"波风水门","src":"火影忍者疾风传 剧场版 失落之塔","gender":"male","v":0},{"id":127438,"name_jp":"谷風李空","name_cn":"谷风李空","src":"","gender":"male","v":1},{"id":15455,"name_jp":"横寺陽人","name_cn":"横寺阳人","src":"变态王子与不笑猫。","gender":"male","v":1},{"id":38323,"name_jp":"ギルベルト・ブーゲンビリア","name_cn":"基尔伯特·布甘比利亚","src":"剧场版 紫罗兰永恒花园","gender":"male","v":0},{"id":18578,"name_jp":"吉良吉影","name_cn":"吉良吉影","src":"JOJO的奇妙冒险 不灭钻石","gender":"male","v":0},{"id":23732,"name_jp":"金木研","name_cn":"金木研","src":"东京喰种","gender":"male","v":2},{"id":38063,"name_jp":"九頭竜八一","name_cn":"九头龙八一","src":"龙王的工作！","gender":"male","v":0},{"id":24789,"name_jp":"可児江西也","name_cn":"可儿江西也","src":"甘城光辉游乐园","gender":"male","v":0},{"id":373,"name_jp":"アメリカ","name_cn":"美利坚","src":"黑塔利亚","gender":"male","v":0},{"id":63995,"name_jp":"明神亜貴","name_cn":"明神亚贵","src":"甜蜜惩罚 我是看守专用宠物","gender":"male","v":0},{"id":77441,"name_jp":"ボンゴレⅠ世","name_cn":"彭格列Ⅰ世","src":"家庭教师HITMAN REBORN!","gender":"male","v":0},{"id":16460,"name_jp":"七瀬遥","name_cn":"七濑遥","src":"无赖勇者的鬼畜美学","gender":"female","v":0},{"id":71411,"name_jp":"セバスチャン","name_cn":"塞巴斯蒂安","src":"心跳！光之美少女","gender":"male","v":0},{"id":60457,"name_jp":"キラーT細胞","name_cn":"杀手T细胞","src":"工作细胞","v":0},{"id":28770,"name_jp":"藤原拓海","name_cn":"藤原拓海","src":"头文字D Fourth Stage","gender":"male","v":0},{"id":111327,"name_jp":"温水和彦","name_cn":"温水和彦","src":"败犬女主太多了！","gender":"male","v":3},{"id":57307,"name_jp":"我妻善逸","name_cn":"我妻善逸","src":"鬼灭之刃","gender":"male","v":0},{"id":6154,"name_jp":"サトシ","name_cn":"小智","src":"精灵宝可梦","gender":"male","v":1},{"id":13176,"name_jp":"桜満集","name_cn":"樱满集","src":"罪恶王冠","gender":"male","v":1},{"id":24323,"name_jp":"影山飛雄","name_cn":"影山飞雄","src":"排球少年","gender":"male","v":1},{"id":14822,"name_jp":"折木奉太郎","name_cn":"折木奉太郎","src":"冰菓","gender":"male","v":8}]},{"seq":3,"code":"D","characters":[{"id":18269,"name_jp":"大路もち蔵","name_cn":"大路饼藏","src":"玉子市场","gender":"male","v":3},{"id":37475,"name_jp":"飛鳥了","name_cn":"飞鸟了","src":"恶魔人 crybaby","gender":"male","v":0},{"id":49540,"name_jp":"フョードル・D","name_cn":"费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基","src":"文豪野犬 DEAD APPLE","gender":"male","v":0},{"id":28630,"name_jp":"フェリド・バートリー","name_cn":"费里德·巴特利","src":"终结的炽天使","gender":"male","v":1},{"id":72964,"name_jp":"風早巽","name_cn":"风早巽","src":"偶像梦幻祭！！-Road to Show!!-","gender":"male","v":1},{"id":25133,"name_jp":"関羽","name_cn":"关羽","src":"十三支演义 〜偃月三国传〜 外传 幽州幻夜","gender":"female","v":0},{"id":5087,"name_jp":"ハウル","name_cn":"哈尔","src":"哈尔的移动城堡","gender":"male","v":0},{"id":72366,"name_jp":"鈴木入間","name_cn":"铃木入间","src":"入间同学入魔了","gender":"male","v":0},{"id":6784,"name_jp":"ルパン三世","name_cn":"鲁邦三世","src":"鲁邦三世 卡里奥斯特罗之城","gender":"male","v":0},{"id":26123,"name_jp":"罗小黑","name_cn":"","src":"罗小黑战记","gender":"male","v":1},{"id":12396,"name_jp":"漆原るか","name_cn":"漆原琉华","src":"命运石之门","gender":"male","v":1},{"id":69336,"name_jp":"日流ルカ","name_cn":"日流卢卡","src":"","gender":"male","v":0},{"id":3498,"name_jp":"上条当麻","name_cn":"上条当麻","src":"魔法禁书目录","gender":"male","v":7},{"id":77,"name_jp":"スパイク・スピーゲル","name_cn":"史派克·斯皮格尔","src":"星际牛仔","gender":"male","v":0},{"id":123318,"name_jp":"史强","name_cn":"","src":"三体","gender":"male","v":0},{"id":5779,"name_jp":"トラファルガー・ロー","name_cn":"特拉法尔加·罗","src":"航海王","gender":"male","v":0},{"id":79656,"name_jp":"ウィリアム・ジェームズ・モリアーティ","name_cn":"威廉·詹姆斯·莫里亚蒂","src":"忧国的莫里亚蒂","gender":"male","v":0},{"id":19790,"name_jp":"バージル","name_cn":"维吉尔","src":"","gender":"male","v":0},{"id":19452,"name_jp":"幸平創真","name_cn":"幸平创真","src":"食戟之灵","gender":"male","v":0},{"id":22789,"name_jp":"夜ト","name_cn":"夜斗","src":"野良神","gender":"male","v":2},{"id":10616,"name_jp":"音無結弦","name_cn":"音无结弦","src":"天使的心跳！","gender":"male","v":1},{"id":75806,"name_jp":"柚木つかさ","name_cn":"柚木司","src":"地缚少年花子君","gender":"male","v":0},{"id":14068,"name_jp":"榊原恒一","name_cn":"榊原恒一","src":"Another","gender":"male","v":0}]},{"seq":4,"code":"E","characters":[{"id":96531,"name_jp":"保科柊史","name_cn":"保科柊史","src":"","gender":"male","v":2},{"id":1684,"name_jp":"ベジータ","name_cn":"贝吉塔","src":"龙珠Z","gender":"male","v":0},{"id":57879,"name_jp":"ボンドルド","name_cn":"波多尔多","src":"来自深渊 深邃的魂之黎明","gender":"male","v":1},{"id":1152,"name_jp":"春日野穹","name_cn":"春日野穹","src":"缘之空","gender":"female","v":0},{"id":77019,"name_jp":"あくましゅうどうし","name_cn":"恶魔修道士","src":"在魔王城说晚安","gender":"male","v":0},{"id":40550,"name_jp":"屑屋","name_cn":"废墟猎人","src":"星之梦","gender":"male","v":0},{"id":16687,"name_jp":"黒須太一","name_cn":"黑须太一","src":"","gender":"male","v":0},{"id":4486,"name_jp":"李雲龍","name_cn":"李云龙","src":"交响情人梦 巴黎篇","gender":"male","v":0},{"id":37241,"name_jp":"立花瀧","name_cn":"立花泷","src":"你的名字。","gender":"male","v":1},{"id":7152,"name_jp":"流川楓","name_cn":"流川枫","src":"灌篮高手","gender":"male","v":1},{"id":57377,"name_jp":"ノーマン","name_cn":"诺曼","src":"约定的梦幻岛","gender":"male","v":0},{"id":44473,"name_jp":"チルチャック","name_cn":"奇尔查克","src":"迷宫饭","gender":"male","v":0},{"id":67409,"name_jp":"石上優","name_cn":"石上优","src":"辉夜大小姐想让我告白～天才们的恋爱头脑战～","gender":"male","v":0},{"id":29363,"name_jp":"水柿ツカサ","name_cn":"水柿司","src":"可塑性记忆","gender":"male","v":0},{"id":3345,"name_jp":"孫悟空","name_cn":"孙悟空","src":"龙珠改","gender":"male","v":1},{"id":16489,"name_jp":"キリト / 桐ヶ谷和人","name_cn":"桐人／桐谷和人","src":"刀剑神域","gender":"male","v":5},{"id":93262,"name_jp":"ヴァニタス","name_cn":"瓦尼塔斯","src":"瓦尼塔斯的手记","gender":"male","v":0},{"id":422,"name_jp":"伊藤誠","name_cn":"伊藤诚","src":"日在校园OVA 魔法少女小心心","gender":"male","v":3},{"id":37114,"name_jp":"影山茂夫","name_cn":"影山茂夫","src":"灵能百分百","gender":"male","v":0},{"id":10719,"name_jp":"悠木皆守","name_cn":"悠木皆守","src":"","gender":"male","v":0},{"id":25135,"name_jp":"張飛","name_cn":"张飞","src":"十三支演义 〜偃月三国传〜 外传 幽州幻夜","gender":"male","v":0},{"id":61550,"name_jp":"梓川咲太","name_cn":"梓川咲太","src":"青春笨蛋少年不做兔女郎学姐的梦","gender":"male","v":1}]},{"seq":5,"code":"F","characters":[{"id":115898,"name_jp":"アンディ","name_cn":"安迪","src":"不死不幸","gender":"male","v":0},{"id":66900,"name_jp":"白銀御行","name_cn":"白银御行","src":"辉夜大小姐想让我告白～天才们的恋爱头脑战～","gender":"male","v":2},{"id":18039,"name_jp":"不二咲千尋","name_cn":"不二咲千寻","src":"弹丸论破 希望学园与绝望高中生","v":1},{"id":1014,"name_jp":"春原陽平","name_cn":"春原阳平","src":"键等","gender":"male","v":1},{"id":116352,"name_jp":"David Martinez","name_cn":"大卫･马丁内斯","src":"赛博浪客","gender":"male","v":0},{"id":111041,"name_jp":"丹恒","name_cn":"","src":"《崩坏：星穹铁道》动画短片：「玄黄」","gender":"male","v":0},{"id":130952,"name_jp":"ウルトラマンティガ","name_cn":"迪迦奥特曼","src":"","v":0},{"id":17363,"name_jp":"富樫勇太","name_cn":"富樫勇太","src":"中二病也要谈恋爱！","gender":"male","v":3},{"id":51,"name_jp":"古泉一樹","name_cn":"古泉一树","src":"凉宫春日的忧郁","gender":"male","v":0},{"id":78379,"name_jp":"光头强","name_cn":"","src":"熊出没","gender":"male","v":1},{"id":10720,"name_jp":"間宮卓司","name_cn":"间宫卓司","src":"终之空","gender":"male","v":0},{"id":37115,"name_jp":"霊幻新隆","name_cn":"灵幻新隆","src":"灵能百分百","gender":"male","v":0},{"id":18026,"name_jp":"苗木誠","name_cn":"苗木诚","src":"弹丸论破 希望学园与绝望高中生","gender":"male","v":0},{"id":77018,"name_jp":"魔王タソガレ","name_cn":"魔王黄昏","src":"在魔王城说晚安","gender":"male","v":0},{"id":35666,"name_jp":"藤沼悟","name_cn":"藤沼悟","src":"只有我不存在的城市","gender":"male","v":0},{"id":68756,"name_jp":"トルフィン","name_cn":"托尔芬","src":"冰海战记","gender":"male","v":0},{"id":2353,"name_jp":"シモン","name_cn":"西蒙","src":"天元突破 红莲螺岩","gender":"male","v":0},{"id":7201,"name_jp":"野原しんのすけ","name_cn":"野原新之助","src":"蜡笔小新 奇异乐园大冒险","gender":"male","v":0},{"id":23121,"name_jp":"月本誠","name_cn":"月本诚","src":"乒乓","gender":"male","v":0},{"id":377,"name_jp":"ちゅうごく","name_cn":"中国","src":"黑塔利亚","v":1},{"id":302,"name_jp":"碇シンジ","name_cn":"碇真嗣","src":"新世纪福音战士","gender":"male","v":5},{"id":29460,"name_jp":"塚本秀一","name_cn":"塚本秀一","src":"吹响！悠风号","gender":"male","v":1}]},{"seq":6,"code":"G","characters":[{"id":4545,"name_jp":"アムロ・レイ","name_cn":"阿姆罗·雷","src":"机动战士高达","gender":"male","v":0},{"id":72326,"name_jp":"北京烤鸭","name_cn":"","src":"","gender":"male","v":0},{"id":95933,"name_jp":"長良","name_cn":"长良","src":"漂流少年","gender":"male","v":0},{"id":6876,"name_jp":"ヴァン・ホーエンハイム","name_cn":"冯·霍恩海姆","src":"钢之炼金术师","gender":"male","v":0},{"id":1007,"name_jp":"岡崎朋也","name_cn":"冈崎朋也","src":"CLANNAD","gender":"male","v":3},{"id":1024,"name_jp":"岡崎直幸","name_cn":"冈崎直幸","src":"CLANNAD","gender":"male","v":0},{"id":1079,"name_jp":"宮小路瑞穂","name_cn":"宫小路瑞穗","src":"少女爱上姐姐","gender":"male","v":0},{"id":18027,"name_jp":"モノクマ","name_cn":"黑白熊","src":"弹丸论破 希望学园与绝望高中生","gender":"male","v":0},{"id":3453,"name_jp":"江戸川コナン","name_cn":"江户川柯南","src":"名侦探柯南 瞳孔中的暗杀者","gender":"male","v":1},{"id":18573,"name_jp":"ジャイロ・ツェペリ","name_cn":"杰洛·齐贝林","src":"","gender":"male","v":1},{"id":546,"name_jp":"結城理","name_cn":"结城理","src":"女神异闻录3 剧场版 第一章 春生","gender":"male","v":0},{"id":878,"name_jp":"空条承太郎","name_cn":"空条承太郎","src":"JOJO的奇妙冒险","gender":"male","v":4},{"id":23122,"name_jp":"孔文革","name_cn":"孔文革","src":"乒乓","gender":"male","v":0},{"id":71477,"name_jp":"ロイド・フォージャー","name_cn":"劳埃德·福杰","src":"间谍过家家","gender":"male","v":0},{"id":78164,"name_jp":"両面宿儺","name_cn":"两面宿傩","src":"咒术回战","gender":"male","v":2},{"id":63778,"name_jp":"七種茨","name_cn":"七种茨","src":"偶像梦幻祭","gender":"male","v":1},{"id":3221,"name_jp":"衛宮切嗣","name_cn":"卫宫切嗣","src":"Fate/Zero","gender":"male","v":0},{"id":34645,"name_jp":"シャア・アズナブル","name_cn":"夏亚·阿兹纳布尔","src":"机动战士高达 THE ORIGIN","gender":"male","v":0},{"id":70186,"name_jp":"银灰","name_cn":"","src":"","gender":"male","v":1},{"id":37117,"name_jp":"影山律","name_cn":"影山律","src":"灵能百分百","gender":"male","v":0},{"id":26002,"name_jp":"有馬公生","name_cn":"有马公生","src":"四月是你的谎言","gender":"male","v":0},{"id":19937,"name_jp":"堀越二郎","name_cn":"堀越二郎","src":"起风了","gender":"male","v":0}]},{"seq":7,"code":"H","characters":[{"id":128736,"name_jp":"アルバート","name_cn":"阿尔伯特","src":"身为悲剧始作俑者的最强邪恶BOSS女王为民竭心尽力。","gender":"male","v":0},{"id":69820,"name_jp":"アシェラッド","name_cn":"阿谢拉德","src":"冰海战记","gender":"male","v":0},{"id":20736,"name_jp":"高屋敷司","name_cn":"高屋敷司","src":"","gender":"male","v":0},{"id":11778,"name_jp":"高須竜児","name_cn":"高须龙儿","src":"龙与虎","gender":"male","v":2},{"id":3455,"name_jp":"工藤新一","name_cn":"工藤新一","src":"名侦探柯南","gender":"male","v":4},{"id":23331,"name_jp":"宫代拓留","name_cn":"宫代拓留","src":"混沌子","gender":"male","v":1},{"id":3106,"name_jp":"花京院典明","name_cn":"花京院典明","src":"JOJO的奇妙冒险","gender":"male","v":0},{"id":49601,"name_jp":"レグ","name_cn":"雷格","src":"来自深渊","gender":"male","v":0},{"id":95314,"name_jp":"劉備","name_cn":"刘备","src":"横山光辉三国志","gender":"male","v":0},{"id":3182,"name_jp":"竜宮レナ","name_cn":"龙宫礼奈","src":"寒蝉鸣泣之时 解","gender":"female","v":0},{"id":46462,"name_jp":"ルーデウス・グレイラット","name_cn":"鲁迪乌斯·格雷拉特","src":"无职转生～到了异世界就拿出真本事～","gender":"male","v":1},{"id":6550,"name_jp":"キルア＝ゾルディック","name_cn":"奇犽·揍敌客","src":"猎人","gender":"male","v":0},{"id":18567,"name_jp":"ジョルノ・ジョバァーナ","name_cn":"乔鲁诺·乔巴拿","src":"JOJO的奇妙冒险 黄金之风","gender":"male","v":0},{"id":57401,"name_jp":"神崎ひでり","name_cn":"神崎日照","src":"调教咖啡厅","gender":"male","v":0},{"id":8199,"name_jp":"孫悟飯","name_cn":"孙悟饭","src":"龙珠改","gender":"male","v":0},{"id":3214,"name_jp":"衛宮士郎","name_cn":"卫宫士郎","src":"Fate/stay night","gender":"male","v":1},{"id":996,"name_jp":"相沢祐一","name_cn":"相泽祐一","src":"Kanon 风花","gender":"male","v":0},{"id":78381,"name_jp":"熊二","name_cn":"","src":"熊出没","v":1},{"id":156,"name_jp":"ギンコ","name_cn":"银古","src":"虫师","gender":"male","v":0},{"id":33623,"name_jp":"雨宮蓮","name_cn":"雨宫莲","src":"女神异闻录5 -THE DAY BREAKERS-","gender":"male","v":2},{"id":35675,"name_jp":"佐藤和真","name_cn":"佐藤和真","src":"为美好的世界献上祝福！","gender":"male","v":0},{"id":6965,"name_jp":"渚カヲル","name_cn":"渚薰","src":"福音战士新剧场版：Q","gender":"male","v":0}]},{"seq":8,"code":"I","characters":[{"id":16684,"name_jp":"L","name_cn":"L","src":"死亡笔记","gender":"male","v":1},{"id":51210,"name_jp":"安曇小太郎","name_cn":"安昙小太郎","src":"月色真美","gender":"male","v":2},{"id":20316,"name_jp":"北原春希","name_cn":"北原春希","src":"白色相簿2","gender":"male","v":0},{"id":14858,"name_jp":"兵藤一誠","name_cn":"兵藤一诚","src":"恶魔高校 D×D","gender":"male","v":0},{"id":11716,"name_jp":"倉成武","name_cn":"仓成武","src":"","gender":"male","v":0},{"id":396,"name_jp":"成歩堂龍一","name_cn":"成步堂龙一","src":"逆转裁判","gender":"male","v":1},{"id":3331,"name_jp":"大空翼","name_cn":"大空翼","src":"足球小将","gender":"male","v":0},{"id":6794,"name_jp":"ダンテ","name_cn":"但丁","src":"鬼泣","gender":"male","v":0},{"id":10814,"name_jp":"高坂京介","name_cn":"高坂京介","src":"我的妹妹哪有这么可爱！","gender":"male","v":0},{"id":70887,"name_jp":"花子くん","name_cn":"花子君","src":"地缚少年花子君","gender":"male","v":0},{"id":35886,"name_jp":"芥川龍之介","name_cn":"芥川龙之介","src":"文豪野犬 DEAD APPLE","gender":"male","v":1},{"id":6551,"name_jp":"クラピカ","name_cn":"酷拉皮卡","src":"猎人","v":0},{"id":12261,"name_jp":"クー・フーリン","name_cn":"库·丘林","src":"Fate/stay night","gender":"male","v":0},{"id":2358,"name_jp":"モンキー・D・ルフィ","name_cn":"蒙奇·D·路飞","src":"航海王","gender":"male","v":0},{"id":12399,"name_jp":"橋田至","name_cn":"桥田至","src":"命运石之门","gender":"male","v":0},{"id":125986,"name_jp":"カミキヒカル","name_cn":"神木辉","src":"","gender":"male","v":0},{"id":35238,"name_jp":"太宰治","name_cn":"太宰治","src":"文豪野犬","gender":"male","v":4},{"id":670,"name_jp":"天野雪輝","name_cn":"天野雪辉","src":"未来日记","gender":"male","v":0},{"id":122017,"name_jp":"亜左弔兵衛","name_cn":"亚左吊兵卫","src":"地狱乐","gender":"male","v":1},{"id":30056,"name_jp":"乙坂有宇","name_cn":"乙坂有宇","src":"夏洛特","gender":"male","v":2},{"id":85,"name_jp":"坂田銀時","name_cn":"坂田银时","src":"银魂","gender":"male","v":0},{"id":12479,"name_jp":"碇ゲンドウ","name_cn":"碇源堂","src":"新世纪福音战士","gender":"male","v":0}]},{"seq":9,"code":"J","characters":[{"id":86,"name_jp":"エドワード・エルリック","name_cn":"爱德华·艾尔利克","src":"钢之炼金术师","gender":"male","v":0},{"id":17790,"name_jp":"安室透","name_cn":"安室透","src":"名侦探柯南 纯黑的恶梦","gender":"male","v":2},{"id":8258,"name_jp":"ハク","name_cn":"白龙","src":"千与千寻","gender":"male","v":0},{"id":17601,"name_jp":"ディオ・ブランドー","name_cn":"迪奥·布兰多","src":"JOJO的奇妙冒险","gender":"male","v":0},{"id":64675,"name_jp":"範馬勇次郎","name_cn":"范马勇次郎","src":"刃牙","gender":"male","v":1},{"id":7056,"name_jp":"服部平次","name_cn":"服部平次","src":"名侦探柯南 迷宫的十字路口","gender":"male","v":1},{"id":26344,"name_jp":"グレル・サトクリフ","name_cn":"格雷尔·沙多克里夫","src":"黑执事","gender":"male","v":0},{"id":41924,"name_jp":"灰呂杵志","name_cn":"灰吕杵志","src":"齐木楠雄的灾难","gender":"male","v":0},{"id":24334,"name_jp":"及川徹","name_cn":"及川彻","src":"排球少年","gender":"male","v":0},{"id":92320,"name_jp":"継国縁壱","name_cn":"继国缘一","src":"鬼灭之刃 游郭篇","gender":"male","v":0},{"id":7144,"name_jp":"加持リョウジ","name_cn":"加持良治","src":"新世纪福音战士","gender":"male","v":0},{"id":33119,"name_jp":"リムル＝テンペスト","name_cn":"利姆路·坦派斯特","src":"关于我转生变成史莱姆这档事","v":0},{"id":1,"name_jp":"ルルーシュ・ランペルージ","name_cn":"鲁路修·兰佩路基","src":"Code Geass 反叛的鲁路修R2","gender":"male","v":3},{"id":2359,"name_jp":"ロロノア・ゾロ","name_cn":"罗罗诺亚·索隆","src":"航海王","gender":"male","v":1},{"id":527,"name_jp":"ロイ・マスタング","name_cn":"罗伊·马斯坦古","src":"钢之炼金术师","gender":"male","v":0},{"id":36490,"name_jp":"内巻すばる","name_cn":"内卷昴","src":"这个美术社大有问题！","gender":"male","v":0},{"id":23076,"name_jp":"シンタロー","name_cn":"如月伸太郎","src":"目隐都市的演绎者","gender":"male","v":0},{"id":91664,"name_jp":"網代慎平","name_cn":"网代慎平","src":"夏日重现","gender":"male","v":2},{"id":2363,"name_jp":"ヴィンスモーク・サンジ","name_cn":"文斯莫克·山智","src":"航海王","gender":"male","v":0},{"id":68206,"name_jp":"アーサー・ボイル","name_cn":"亚瑟·波义耳","src":"炎炎消防队","gender":"male","v":0},{"id":26678,"name_jp":"葬儀屋","name_cn":"葬仪屋","src":"黑执事","gender":"male","v":1},{"id":9624,"name_jp":"宗介","name_cn":"宗介","src":"崖上的波妞","gender":"male","v":0}]},{"seq":10,"code":"K","characters":[{"id":707,"name_jp":"阿良々木暦","name_cn":"阿良良木历","src":"化物语","gender":"male","v":0},{"id":18101,"name_jp":"エレン・イェーガー","name_cn":"艾伦·耶格尔","src":"进击的巨人","gender":"male","v":1},{"id":33391,"name_jp":"アインズ・ウール・ゴウン","name_cn":"安兹·乌尔·恭","src":"OVERLORD","gender":"male","v":0},{"id":16420,"name_jp":"八重樫太一","name_cn":"八重樫太一","src":"心灵链环","gender":"male","v":0},{"id":43535,"name_jp":"北原伊織","name_cn":"北原伊织","src":"碧蓝之海","gender":"male","v":0},{"id":790,"name_jp":"不動遊星","name_cn":"不动游星","src":"游戏王5D\u0027s","gender":"male","v":0},{"id":75838,"name_jp":"楚子航","name_cn":"","src":"龙族","gender":"male","v":1},{"id":10642,"name_jp":"春日野悠","name_cn":"春日野悠","src":"缘之空","gender":"male","v":1},{"id":6975,"name_jp":"次元大介","name_cn":"次元大介","src":"鲁邦三世 pilot film","gender":"male","v":0},{"id":71335,"name_jp":"デンジ","name_cn":"电次","src":"链锯人","gender":"male","v":0},{"id":14476,"name_jp":"黒い人","name_cn":"黑影人","src":"名侦探柯南","v":0},{"id":19546,"name_jp":"リヴァイ","name_cn":"利威尔","src":"进击的巨人 OAD","gender":"male","v":0},{"id":8937,"name_jp":"木下秀吉","name_cn":"木下秀吉","src":"笨蛋，测验，召唤兽","gender":"male","v":0},{"id":27115,"name_jp":"斉木楠雄","name_cn":"齐木楠雄","src":"齐木楠雄的灾难","gender":"male","v":0},{"id":68038,"name_jp":"森羅日下部","name_cn":"森罗日下部","src":"炎炎消防队","gender":"male","v":0},{"id":20012,"name_jp":"殺せんせー","name_cn":"杀老师","src":"暗杀教室 修学旅行篇","gender":"male","v":2},{"id":12105,"name_jp":"神田空太","name_cn":"神田空太","src":"樱花庄的宠物女孩","gender":"male","v":1},{"id":18850,"name_jp":"ウィンストン・チャーチル","name_cn":"温斯顿·丘吉尔","src":"","gender":"male","v":0},{"id":74243,"name_jp":"五条悟","name_cn":"五条悟","src":"咒术回战","gender":"male","v":3},{"id":76869,"name_jp":"由崎星空","name_cn":"由崎星空","src":"总之就是非常可爱","gender":"male","v":0},{"id":127439,"name_jp":"有地将臣","name_cn":"有地将臣","src":"","gender":"male","v":2},{"id":76134,"name_jp":"中原中也","name_cn":"中原中也","src":"文豪与炼金术师 ～审判的齿轮～","gender":"male","v":0}]},{"seq":11,"code":"L","characters":[{"id":102125,"name_jp":"アクア","name_cn":"阿库亚","src":"【我推的孩子】","gender":"male","v":0},{"id":35858,"name_jp":"アストルフォ","name_cn":"阿斯托尔福","src":"Fate/Apocrypha","gender":"male","v":0},{"id":28624,"name_jp":"百夜ミカエラ","name_cn":"百夜米迦尔","src":"终结的炽天使","gender":"male","v":0},{"id":35607,"name_jp":"ナツキ・スバル","name_cn":"菜月昴","src":"Re：从零开始的异世界生活","gender":"male","v":0},{"id":20013,"name_jp":"潮田渚","name_cn":"潮田渚","src":"暗杀教室 修学旅行篇","gender":"male","v":2},{"id":18524,"name_jp":"成田隼人","name_cn":"成田隼人","src":"我们没有翅膀","gender":"male","v":0},{"id":7073,"name_jp":"赤井秀一","name_cn":"赤井秀一","src":"名侦探柯南 纯黑的恶梦","gender":"male","v":1},{"id":18599,"name_jp":"ファニー・ヴァレンタイン","name_cn":"法尼·瓦伦泰","src":"","gender":"male","v":0},{"id":73337,"name_jp":"伏黒恵","name_cn":"伏黑惠","src":"咒术回战","gender":"male","v":0},{"id":52,"name_jp":"国崎往人","name_cn":"国崎往人","src":"AIR 剧场版","gender":"male","v":3},{"id":122951,"name_jp":"罗辑","name_cn":"","src":"三体","gender":"male","v":0},{"id":74055,"name_jp":"名探偵酒井戸","name_cn":"名侦探酒井户","src":"异度侵入","gender":"male","v":0},{"id":712,"name_jp":"忍野メメ","name_cn":"忍野咩咩","src":"化物语","gender":"male","v":0},{"id":3216,"name_jp":"エミヤ","name_cn":"卫宫","src":"Fate/stay night UNLIMITED BLADE WORKS","gender":"male","v":0},{"id":19524,"name_jp":"五河士道","name_cn":"五河士道","src":"约会大作战","gender":"male","v":1},{"id":19944,"name_jp":"西條拓巳","name_cn":"西条拓巳","src":"混沌头","gender":"male","v":2},{"id":61476,"name_jp":"トレーナー","name_cn":"训练员","src":"赛马娘 Pretty Derby","gender":"male","v":0},{"id":16237,"name_jp":"桜木花道","name_cn":"樱木花道","src":"灌篮高手","gender":"male","v":0},{"id":933,"name_jp":"右代宫戦人","name_cn":"右代宫战人","src":"海猫鸣泣之时","gender":"male","v":0},{"id":6500,"name_jp":"うちはサスケ","name_cn":"宇智波佐助","src":"火影忍者疾风传","gender":"male","v":1},{"id":59577,"name_jp":"在原暁","name_cn":"","src":"","gender":"male","v":1},{"id":16371,"name_jp":"助手さん","name_cn":"助手","src":"人类衰退之后","gender":"male","v":0}]}],"female":[{"seq":0,"code":"A","characters":[{"id":12394,"name_jp":"阿万音鈴羽","name_cn":"阿万音铃羽","src":"命运石之门","gender":"female","v":3},{"id":111328,"name_jp":"八奈見杏菜","name_cn":"八奈见杏菜","src":"败犬女主太多了！","gender":"female","v":8},{"id":66728,"name_jp":"白咲花","name_cn":"白咲花","src":"天使降临到了我身边！","gender":"female","v":0},{"id":28556,"name_jp":"赤井メアリー","name_cn":"赤井玛丽","src":"名侦探柯南","gender":"female","v":0},{"id":64717,"name_jp":"大場なな","name_cn":"大场奈奈","src":"少女☆歌剧 Revue Starlight","gender":"female","v":0},{"id":16422,"name_jp":"稲葉姫子","name_cn":"稻叶姬子","src":"心灵链环","gender":"female","v":0},{"id":22520,"name_jp":"和泉紗霧","name_cn":"和泉纱雾","src":"埃罗芒阿老师","gender":"female","v":0},{"id":14069,"name_jp":"見崎鳴","name_cn":"见崎鸣","src":"Another 第0话","gender":"female","v":1},{"id":266,"name_jp":"金色の闇/ダークネス","name_cn":"金色暗影/DARKNESS","src":"出包王女Darkness","gender":"female","v":0},{"id":23335,"name_jp":"久野里澪","name_cn":"久野里澪","src":"混沌子","gender":"female","v":0},{"id":113000,"name_jp":"ずんだもん","name_cn":"俊达萌","src":"豆打地平线","gender":"female","v":0},{"id":74756,"name_jp":"スヤリス姫","name_cn":"栖夜公主","src":"在魔王城说晚安","gender":"female","v":0},{"id":18046,"name_jp":"七海千秋","name_cn":"七海千秋","src":"弹丸论破3 -The End of 希望之峰学园- 绝望篇","gender":"female","v":0},{"id":113254,"name_jp":"三鷹アサ／ヨル","name_cn":"三鹰朝／夜","src":"","gender":"female","v":0},{"id":17369,"name_jp":"凸守早苗","name_cn":"凸守早苗","src":"中二病也要谈恋爱！","gender":"female","v":0},{"id":16490,"name_jp":"アスナ / 結城明日奈","name_cn":"亚丝娜／结城明日奈","src":"刀剑神域","gender":"female","v":1},{"id":3496,"name_jp":"岩倉玲音","name_cn":"岩仓玲音","src":"玲音","gender":"female","v":0},{"id":87973,"name_jp":"伊地知虹夏","name_cn":"伊地知虹夏","src":"孤独摇滚！","gender":"female","v":1},{"id":72355,"name_jp":"イレイナ","name_cn":"伊蕾娜","src":"魔女之旅","gender":"female","v":2},{"id":61511,"name_jp":"イシュタル","name_cn":"伊什塔尔","src":"Fate/Grand Order -绝对魔兽战线巴比伦尼亚-","gender":"female","v":0},{"id":97303,"name_jp":"周防有希","name_cn":"周防有希","src":"不时用俄语小声说真心话的邻桌艾莉同学","gender":"female","v":1}]},{"seq":1,"code":"B","characters":[{"id":68267,"name_jp":"レイヤ / 和奏レイ","name_cn":"LAYER / 和奏瑞依","src":"BanG Dream! 少女乐团派对！☆PICO～大份～","gender":"female","v":0},{"id":273,"name_jp":"アルトリア・ペンドラゴン","name_cn":"阿尔托莉雅·潘德拉贡","src":"Fate/stay night","gender":"female","v":0},{"id":149465,"name_jp":"阿肝","name_cn":"","src":"命运拳台","gender":"female","v":0},{"id":133518,"name_jp":"百千ひまり","name_cn":"百千向阳","src":"百千家的妖怪王子","gender":"female","v":0},{"id":7084,"name_jp":"シャロン・ヴィンヤード","name_cn":"贝尔摩德","src":"名侦探柯南","gender":"female","v":0},{"id":4,"name_jp":"古河渚","name_cn":"古河渚","src":"CLANNAD","gender":"female","v":7},{"id":15209,"name_jp":"洛天依","name_cn":"洛天依","src":"","gender":"female","v":0},{"id":14960,"name_jp":"南ことり","name_cn":"南琴梨","src":"Love Live!","gender":"female","v":1},{"id":275,"name_jp":"泉こなた","name_cn":"泉此方","src":"幸运星","gender":"female","v":1},{"id":1211,"name_jp":"忍野忍","name_cn":"忍野忍","src":"伤物语Ⅰ铁血篇","gender":"female","v":3},{"id":17949,"name_jp":"食蜂操祈","name_cn":"食蜂操祈","src":"某科学的超电磁炮T","gender":"female","v":1},{"id":64718,"name_jp":"西條クロディーヌ","name_cn":"西条克洛迪娜","src":"少女☆歌剧 Revue Starlight","gender":"female","v":0},{"id":87975,"name_jp":"喜多郁代","name_cn":"喜多郁代","src":"孤独摇滚！","gender":"female","v":1},{"id":41512,"name_jp":"新島真","name_cn":"新岛真","src":"女神异闻录5","gender":"female","v":0},{"id":58444,"name_jp":"緒山まひろ","name_cn":"绪山真寻","src":"别当欧尼酱了！","v":0},{"id":100857,"name_jp":"雪平一果","name_cn":"雪平一果","src":"相合之物","gender":"female","v":0},{"id":6,"name_jp":"伊吹風子","name_cn":"伊吹风子","src":"CLANNAD","gender":"female","v":0},{"id":8320,"name_jp":"イカロス","name_cn":"伊卡洛斯","src":"天降之物","gender":"female","v":0},{"id":26731,"name_jp":"エリザベス・ミッドフォード","name_cn":"伊丽莎白·米多福特","src":"黑执事","gender":"female","v":0},{"id":706,"name_jp":"戦場ヶ原ひたぎ","name_cn":"战场原黑仪","src":"化物语","gender":"female","v":2},{"id":3880,"name_jp":"柊つかさ","name_cn":"柊司","src":"幸运星","gender":"female","v":0}]},{"seq":2,"code":"C","characters":[{"id":68266,"name_jp":"ロック / 朝日六花","name_cn":"LOCK / 朝日六花","src":"BanG Dream! 第三季","gender":"female","v":0},{"id":35608,"name_jp":"エミリア","name_cn":"艾米莉娅","src":"Re：从零开始的异世界生活","gender":"female","v":0},{"id":11906,"name_jp":"長野原みお","name_cn":"长野原美绪","src":"日常","gender":"female","v":0},{"id":32220,"name_jp":"沖田総司","name_cn":"冲田总司","src":"忘年会咕哒咕哒Order2016","gender":"female","v":0},{"id":3882,"name_jp":"高良みゆき","name_cn":"高良美幸","src":"幸运星","gender":"female","v":0},{"id":14958,"name_jp":"高坂穂乃果","name_cn":"高坂穗乃果","src":"Love Live!","gender":"female","v":0},{"id":7057,"name_jp":"工藤有希子","name_cn":"工藤有希子","src":"青山刚昌短篇集","gender":"female","v":0},{"id":108663,"name_jp":"錦木千束","name_cn":"锦木千束","src":"莉可丽丝","gender":"female","v":1},{"id":70221,"name_jp":"克洛丝","name_cn":"","src":"","gender":"female","v":0},{"id":16164,"name_jp":"蓮華","name_cn":"莲华","src":"","gender":"female","v":1},{"id":10439,"name_jp":"鹿目まどか","name_cn":"鹿目圆","src":"魔法少女小圆","gender":"female","v":3},{"id":3499,"name_jp":"毛利蘭","name_cn":"毛利兰","src":"名侦探柯南 瞳孔中的暗杀者","gender":"female","v":1},{"id":10445,"name_jp":"美樹さやか","name_cn":"美树沙耶香","src":"魔法少女小圆","gender":"female","v":2},{"id":24790,"name_jp":"千斗いすず","name_cn":"千斗五十铃","src":"甘城光辉游乐园","gender":"female","v":0},{"id":35834,"name_jp":"日代千鶴","name_cn":"日代千鹤","src":"ReLIFE 完结篇","gender":"female","v":0},{"id":61870,"name_jp":"レイ","name_cn":"瑞依","src":"杀戮天使","gender":"female","v":0},{"id":7,"name_jp":"藤林杏","name_cn":"藤林杏","src":"CLANNAD","gender":"female","v":0},{"id":34668,"name_jp":"西條七海","name_cn":"西条七海","src":"混沌头","gender":"female","v":0},{"id":60459,"name_jp":"血小板","name_cn":"血小板","src":"工作细胞","v":0},{"id":3575,"name_jp":"御坂美琴","name_cn":"御坂美琴","src":"魔法禁书目录","gender":"female","v":7},{"id":24093,"name_jp":"澤村・スペンサー・英梨々","name_cn":"泽村·史宾瑟·英梨梨","src":"路人女主的养成方法","gender":"female","v":1}]},{"seq":3,"code":"D","characters":[{"id":68269,"name_jp":"パレオ / 鳰原令王那","name_cn":"PAREO / 鳰原令王那","src":"BanG Dream! 少女乐团派对！☆PICO～大份～","gender":"female","v":0},{"id":11375,"name_jp":"比那名居天子","name_cn":"比那名居天子","src":"第八届东方M-1漫才大赛","gender":"female","v":0},{"id":1152,"name_jp":"春日野穹","name_cn":"春日野穹","src":"缘之空","gender":"female","v":6},{"id":86247,"name_jp":"フェルン","name_cn":"菲伦","src":"葬送的芙莉莲","gender":"female","v":2},{"id":127790,"name_jp":"高松燈","name_cn":"高松灯","src":"MyGO!!!!!成员的日常生活","gender":"female","v":1},{"id":7089,"name_jp":"宮野志保","name_cn":"宫野志保","src":"名侦探柯南 Episode“ONE” 变小的名侦探","gender":"female","v":0},{"id":1976,"name_jp":"ホロ","name_cn":"赫萝","src":"狼与香辛料","gender":"female","v":1},{"id":4647,"name_jp":"ルーミア","name_cn":"露米娅","src":"第三届东方M-1漫才大赛","gender":"female","v":1},{"id":153902,"name_jp":"鹿乃子のこ","name_cn":"鹿乃子乃子","src":"鹿乃子乃子乃子虎视眈眈","gender":"female","v":0},{"id":52507,"name_jp":"美竹蘭","name_cn":"美竹兰","src":"BanG Dream! 少女乐团派对！☆PICO","gender":"female","v":0},{"id":8322,"name_jp":"ニンフ","name_cn":"妮姆芙","src":"天降之物","gender":"female","v":0},{"id":35888,"name_jp":"泉鏡花","name_cn":"泉镜花","src":"文豪野犬 DEAD APPLE","gender":"female","v":0},{"id":27643,"name_jp":"蛇喰夢子","name_cn":"蛇喰梦子","src":"狂赌之渊","gender":"female","v":0},{"id":102127,"name_jp":"星野アイ","name_cn":"星野爱","src":"【我推的孩子】","gender":"female","v":3},{"id":58445,"name_jp":"緒山みはり","name_cn":"绪山哨","src":"别当欧尼酱了！","gender":"female","v":0},{"id":53770,"name_jp":"一之瀬帆波","name_cn":"一之濑帆波","src":"欢迎来到实力至上主义教室","gender":"female","v":0},{"id":15726,"name_jp":"園城寺怜","name_cn":"园城寺怜","src":"天才麻将少女 阿知贺篇","gender":"female","v":0},{"id":61404,"name_jp":"中野一花","name_cn":"中野一花","src":"五等分的新娘","gender":"female","v":0},{"id":1937,"name_jp":"佐天涙子","name_cn":"佐天泪子","src":"某科学的超电磁炮","gender":"female","v":0},{"id":10456,"name_jp":"櫛枝実乃梨","name_cn":"栉枝实乃梨","src":"龙与虎","gender":"female","v":0},{"id":1667,"name_jp":"柊かがみ","name_cn":"柊镜","src":"幸运星","gender":"female","v":1}]},{"seq":4,"code":"E","characters":[{"id":68268,"name_jp":"マスキング / 佐藤ますき","name_cn":"MASKING / 佐藤益木","src":"BanG Dream! 少女乐团派对！☆PICO～大份～","gender":"female","v":0},{"id":73521,"name_jp":"八木唯","name_cn":"八木唯","src":"雀魂 PONG☆","gender":"female","v":0},{"id":15949,"name_jp":"倉嶋千百合","name_cn":"仓岛千百合","src":"加速世界","gender":"female","v":0},{"id":127793,"name_jp":"長崎そよ","name_cn":"长崎爽世","src":"MyGO!!!!!成员的日常生活","gender":"female","v":1},{"id":10642,"name_jp":"春日野悠","name_cn":"春日野悠","src":"缘之空","gender":"male","v":0},{"id":60527,"name_jp":"ハルウララ","name_cn":"春乌菈菈","src":"马娘摇曳","gender":"female","v":0},{"id":39362,"name_jp":"ムラサメ","name_cn":"丛雨","src":"","gender":"female","v":1},{"id":21128,"name_jp":"多々良小傘","name_cn":"多多良小伞","src":"第五届东方M-1漫才大赛","gender":"female","v":1},{"id":1063,"name_jp":"岡崎汐","name_cn":"冈崎汐","src":"剧场版 CLANNAD","gender":"female","v":1},{"id":1020,"name_jp":"古河早苗","name_cn":"古河早苗","src":"CLANNAD","gender":"female","v":0},{"id":16659,"name_jp":"古明地こいし","name_cn":"古明地恋","src":"第四届东方M-1漫才大赛","v":2},{"id":65155,"name_jp":"黒ツチ","name_cn":"黑土","src":"火影忍者疾风传","gender":"female","v":0},{"id":10600,"name_jp":"鏡音リン","name_cn":"镜音铃","src":"剧场版世界计划 破碎的世界与唱不出歌的未来","gender":"female","v":3},{"id":26681,"name_jp":"藍猫","name_cn":"蓝猫","src":"黑执事","gender":"female","v":0},{"id":42780,"name_jp":"ルーシー・M","name_cn":"露西·莫德·蒙哥马利","src":"文豪野犬","gender":"female","v":0},{"id":14555,"name_jp":"秋月愛莉","name_cn":"秋月爱莉","src":"鬼父","gender":"female","v":0},{"id":51211,"name_jp":"水野茜","name_cn":"水野茜","src":"月色真美","gender":"female","v":0},{"id":61405,"name_jp":"中野二乃","name_cn":"中野二乃","src":"五等分的新娘","gender":"female","v":0},{"id":10612,"name_jp":"仲村ゆり","name_cn":"仲村由理","src":"天使的心跳！","gender":"female","v":0},{"id":86246,"name_jp":"フリーレン","name_cn":"芙莉莲","src":"葬送的芙莉莲","gender":"female","v":6},{"id":16817,"name_jp":"モモ・ベリア・デビルーク","name_cn":"茉茉·贝莉雅·戴比路克","src":"出包王女Darkness","gender":"female","v":0}]},{"seq":5,"code":"F","characters":[{"id":68270,"name_jp":"チュチュ / 珠手ちゆ","name_cn":"CHU² / 珠手知由","src":"BanG Dream! 少女乐团派对！☆PICO～大份～","gender":"female","v":0},{"id":71479,"name_jp":"アーニャ・フォージャー","name_cn":"阿尼亚·福杰","src":"间谍过家家","gender":"female","v":1},{"id":17960,"name_jp":"北白川たまこ","name_cn":"北白川玉子","src":"玉子市场","gender":"female","v":1},{"id":41401,"name_jp":"本田珠輝","name_cn":"本田珠辉","src":"斯特拉的魔法","gender":"female","v":0},{"id":21276,"name_jp":"纏流子","name_cn":"缠流子","src":"斩服少女","gender":"female","v":2},{"id":889,"name_jp":"東風谷早苗","name_cn":"东风谷早苗","src":"第四届东方M-1漫才大赛","gender":"female","v":0},{"id":50578,"name_jp":"トウカイテイオー","name_cn":"东海帝王","src":"赛马娘四格","gender":"female","v":0},{"id":143664,"name_jp":"花岡まこと","name_cn":"花冈真琴","src":"前辈是男孩子","gender":"male","v":0},{"id":29282,"name_jp":"黄前久美子","name_cn":"黄前久美子","src":"吹响！悠风号","gender":"female","v":5},{"id":18565,"name_jp":"空条徐倫","name_cn":"空条徐伦","src":"JOJO的奇妙冒险 石之海","gender":"female","v":0},{"id":70227,"name_jp":"ライザリン・シュタウト","name_cn":"莱莎琳·斯托特","src":"莱莎的炼金工房 ～常暗女王与秘密藏身处～","gender":"female","v":0},{"id":14859,"name_jp":"リアス・グレモリー","name_cn":"莉雅丝·吉蒙里","src":"恶魔高校 D×D","gender":"female","v":0},{"id":10609,"name_jp":"立華かなで","name_cn":"立华奏","src":"天使的心跳！","gender":"female","v":3},{"id":27601,"name_jp":"マルシル","name_cn":"玛露西尔","src":"迷宫饭","gender":"female","v":1},{"id":20253,"name_jp":"オティヌス","name_cn":"欧提努斯","src":"","gender":"female","v":0},{"id":23611,"name_jp":"夏目藍","name_cn":"夏目蓝","src":"","gender":"female","v":0},{"id":36489,"name_jp":"宇佐美みずき","name_cn":"宇佐美瑞希","src":"这个美术社大有问题！","gender":"female","v":1},{"id":61407,"name_jp":"中野四葉","name_cn":"中野四叶","src":"五等分的新娘","gender":"female","v":0},{"id":50802,"name_jp":"ジュリエット・ペルシア","name_cn":"朱丽叶·佩尔西亚","src":"寄宿学校的朱丽叶","gender":"female","v":0},{"id":13019,"name_jp":"ダリアン","name_cn":"妲丽安","src":"丹特丽安的书架","gender":"female","v":0},{"id":19453,"name_jp":"薙切えりな","name_cn":"薙切绘里奈","src":"食戟之灵","gender":"female","v":0}]},{"seq":6,"code":"G","characters":[{"id":47509,"name_jp":"百武照","name_cn":"百武照","src":"斯特拉的魔法","gender":"female","v":0},{"id":84,"name_jp":"草薙素子","name_cn":"草薙素子","src":"攻壳机动队","gender":"female","v":0},{"id":39731,"name_jp":"高嶺ツボミ","name_cn":"高岭蕾","src":"灵能百分百","gender":"female","v":0},{"id":41849,"name_jp":"高木さん","name_cn":"高木同学","src":"擅长捉弄的高木同学","gender":"female","v":0},{"id":21277,"name_jp":"鬼龍院皐月","name_cn":"鬼龙院皐月","src":"斩服少女","gender":"female","v":0},{"id":14470,"name_jp":"和泉千晶","name_cn":"和泉千晶","src":"白色相簿2","gender":"female","v":0},{"id":14860,"name_jp":"姫島朱乃","name_cn":"姬岛朱乃","src":"恶魔高校 D×D","gender":"female","v":0},{"id":38065,"name_jp":"空銀子","name_cn":"空银子","src":"龙王的工作！","gender":"female","v":0},{"id":46465,"name_jp":"ロキシー・ミグルディア・グレイラット","name_cn":"洛琪希·米格路迪亚·格雷拉特","src":"无职转生～到了异世界就拿出真本事～","gender":"female","v":3},{"id":12393,"name_jp":"牧瀬紅莉栖","name_cn":"牧濑红莉栖","src":"命运石之门","gender":"female","v":5},{"id":119744,"name_jp":"Saya","name_cn":"沙耶","src":"","gender":"female","v":0},{"id":111329,"name_jp":"焼塩檸檬","name_cn":"烧盐柠檬","src":"败犬女主太多了！","gender":"female","v":0},{"id":23332,"name_jp":"尾上世莉架","name_cn":"尾上世莉架","src":"混沌子","gender":"female","v":2},{"id":10715,"name_jp":"音無彩名","name_cn":"音无彩名","src":"","gender":"female","v":1},{"id":35980,"name_jp":"桜島麻衣","name_cn":"樱岛麻衣","src":"青春笨蛋少年不做兔女郎学姐的梦","gender":"female","v":1},{"id":55355,"name_jp":"桜ノ宮苺香","name_cn":"樱之宫莓香","src":"调教咖啡厅","gender":"female","v":0},{"id":108078,"name_jp":"永雏塔菲","name_cn":"永雏塔菲","src":"","gender":"female","v":1},{"id":29511,"name_jp":"友利奈緒","name_cn":"友利奈绪","src":"夏洛特","gender":"female","v":1},{"id":61408,"name_jp":"中野五月","name_cn":"中野五月","src":"五等分的新娘","gender":"female","v":0},{"id":29811,"name_jp":"俾斯麦","name_cn":"","src":"","v":0}]},{"seq":7,"code":"H","characters":[{"id":20135,"name_jp":"比屋定真帆","name_cn":"比屋定真帆","src":"命运石之门 0","gender":"female","v":1},{"id":39361,"name_jp":"常陸茉子","name_cn":"常陆茉子","src":"","gender":"female","v":0},{"id":5089,"name_jp":"赤木リツコ","name_cn":"赤木律子","src":"新世纪福音战士","gender":"female","v":0},{"id":52822,"name_jp":"湊友希那","name_cn":"凑友希那","src":"BanG Dream! 少女乐团派对！☆PICO","gender":"female","v":0},{"id":1762,"name_jp":"逢坂大河","name_cn":"逢坂大河","src":"龙与虎","gender":"female","v":0},{"id":37242,"name_jp":"宮水三葉","name_cn":"宫水三叶","src":"你的名字。","gender":"female","v":0},{"id":3187,"name_jp":"古手梨花","name_cn":"古手梨花","src":"寒蝉鸣泣之时 解","gender":"female","v":0},{"id":121631,"name_jp":"谷風天音","name_cn":"谷风天音","src":"","gender":"female","v":0},{"id":120116,"name_jp":"廣井きくり","name_cn":"广井菊里","src":"孤独摇滚！","gender":"female","v":0},{"id":7043,"name_jp":"灰原哀","name_cn":"灰原哀","src":"名侦探柯南","gender":"female","v":3},{"id":135862,"name_jp":"可不","name_cn":"","src":"","v":0},{"id":21638,"name_jp":"呂玲綺","name_cn":"吕玲绮","src":"","gender":"female","v":0},{"id":2765,"name_jp":"木之本桜","name_cn":"木之本樱","src":"魔卡少女樱","gender":"female","v":4},{"id":53,"name_jp":"神尾観铃","name_cn":"神尾观铃","src":"AIR 剧场版","gender":"female","v":1},{"id":11835,"name_jp":"押水菜子","name_cn":"押水菜子","src":"花开伊吕波","gender":"female","v":0},{"id":74255,"name_jp":"アトリ","name_cn":"亚托莉","src":"亚托莉 -我挚爱的时光-","gender":"female","v":0},{"id":14742,"name_jp":"真中合歓","name_cn":"真中合欢","src":"乐园之扉","gender":"female","v":0},{"id":61406,"name_jp":"中野三玖","name_cn":"中野三玖","src":"五等分的新娘","gender":"female","v":1},{"id":12106,"name_jp":"椎名ましろ","name_cn":"椎名真白","src":"樱花庄的宠物女孩","gender":"female","v":1},{"id":303,"name_jp":"綾波レイ","name_cn":"绫波丽","src":"新世纪福音战士","gender":"female","v":2}]},{"seq":8,"code":"I","characters":[{"id":106465,"name_jp":"アルトリア・ペンドラゴン","name_cn":"阿尔托莉雅·潘德拉贡","src":"剧场版 Fate/Grand Order 神圣圆桌领域卡美洛 前篇 Wandering; Agateram","gender":"female","v":1},{"id":7105,"name_jp":"本堂瑛海","name_cn":"本堂瑛海","src":"名侦探柯南","gender":"female","v":0},{"id":485,"name_jp":"博麗霊夢","name_cn":"博丽灵梦","src":"东方梦想夏乡","gender":"female","v":0},{"id":59993,"name_jp":"ファプタ","name_cn":"法普妲","src":"来自深渊 烈日的黄金乡","gender":"female","v":0},{"id":14743,"name_jp":"帆刈叶","name_cn":"帆刈叶","src":"乐园之扉","gender":"female","v":0},{"id":8937,"name_jp":"木下秀吉","name_cn":"木下秀吉","src":"笨蛋，测验，召唤兽","gender":"male","v":0},{"id":18231,"name_jp":"七宮智音","name_cn":"七宫智音","src":"中二病也要谈恋爱！恋","gender":"female","v":0},{"id":12063,"name_jp":"神戸小鳥","name_cn":"神户小鸟","src":"键等","gender":"female","v":0},{"id":66899,"name_jp":"四宮かぐや","name_cn":"四宫辉夜","src":"辉夜大小姐想让我告白～天才们的恋爱头脑战～","gender":"female","v":1},{"id":14862,"name_jp":"塔城小猫","name_cn":"塔城小猫","src":"恶魔高校 D×D","gender":"female","v":0},{"id":14963,"name_jp":"西木野真姫","name_cn":"西木野真姬","src":"Love Live!","gender":"female","v":0},{"id":111330,"name_jp":"小鞠知花","name_cn":"小鞠知花","src":"败犬女主太多了！","gender":"female","v":4},{"id":55357,"name_jp":"星川麻冬","name_cn":"星川麻冬","src":"调教咖啡厅","gender":"female","v":0},{"id":56776,"name_jp":"志摩リン","name_cn":"志摩凛","src":"摇曳露营△","gender":"female","v":3},{"id":71307,"name_jp":"埴安神袿姬","name_cn":"埴安神袿姬","src":"【袿姬版】第十五届东方M-1漫才大赛","gender":"female","v":0},{"id":17588,"name_jp":"堀京子","name_cn":"堀京子","src":"堀桑与宫村君","gender":"female","v":0},{"id":19526,"name_jp":"鳶一折紙","name_cn":"鸢一折纸","src":"约会大作战","gender":"female","v":1},{"id":304,"name_jp":"惣流・アスカ・ラングレー","name_cn":"惣流·明日香·兰格雷","src":"新世纪福音战士","gender":"female","v":2},{"id":101553,"name_jp":"柊うてな/悪の女幹部","name_cn":"柊宇天那/恶之女干部","src":"梦想成为魔法少女","gender":"female","v":1},{"id":13178,"name_jp":"楪いのり","name_cn":"楪祈","src":"罪恶王冠","gender":"female","v":0}]},{"seq":9,"code":"J","characters":[{"id":72375,"name_jp":"アリナ・グレイ","name_cn":"阿莉娜·格雷","src":"魔法纪录 魔法少女小圆外传","gender":"female","v":0},{"id":29362,"name_jp":"アイラ","name_cn":"艾拉","src":"可塑性记忆","gender":"female","v":1},{"id":14744,"name_jp":"白夜凛音","name_cn":"白夜凛音","src":"乐园之扉","gender":"female","v":0},{"id":11853,"name_jp":"本間芽衣子","name_cn":"本间芽衣子","src":"我们仍未知道那天所看见的花的名字。","gender":"female","v":1},{"id":14964,"name_jp":"東條希","name_cn":"东条希","src":"Love Live!","gender":"female","v":0},{"id":132476,"name_jp":"豊川祥子","name_cn":"丰川祥子","src":"BanG Dream! Ave Mujica","gender":"female","v":0},{"id":10473,"name_jp":"高坂桐乃","name_cn":"高坂桐乃","src":"我的妹妹哪有这么可爱！","gender":"female","v":0},{"id":86672,"name_jp":"公孙离","name_cn":"公孙离","src":"","gender":"female","v":0},{"id":43537,"name_jp":"古手川奈々華","name_cn":"古手川奈奈华","src":"碧蓝之海","gender":"female","v":0},{"id":87968,"name_jp":"後藤ひとり","name_cn":"后藤一里","src":"孤独摇滚！","gender":"female","v":4},{"id":35615,"name_jp":"レム","name_cn":"蕾姆","src":"Re：从零开始的异世界生活","gender":"female","v":0},{"id":125379,"name_jp":"メノウ・ヒーストリア","name_cn":"梅诺·希斯特里亚","src":"魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～","gender":"female","v":0},{"id":127801,"name_jp":"七倉凛","name_cn":"七仓凛","src":"疑似后宫","gender":"female","v":0},{"id":10602,"name_jp":"水上由岐","name_cn":"水上由岐","src":"","gender":"female","v":1},{"id":486,"name_jp":"霧雨魔理沙","name_cn":"雾雨魔理沙","src":"东方梦想夏乡","gender":"female","v":0},{"id":17362,"name_jp":"小鳥遊六花","name_cn":"小鸟游六花","src":"中二病也要谈恋爱！","gender":"female","v":3},{"id":7260,"name_jp":"源静香","name_cn":"源静香","src":"哆啦A梦：大雄的恐龙","gender":"female","v":0},{"id":10596,"name_jp":"遠坂凛","name_cn":"远坂凛","src":"Fate/stay night UNLIMITED BLADE WORKS","gender":"female","v":2},{"id":997,"name_jp":"月宮あゆ","name_cn":"月宫亚由","src":"Kanon 风花","gender":"female","v":1},{"id":96830,"name_jp":"ジャンヌ","name_cn":"贞德","src":"瓦尼塔斯的手记","gender":"female","v":0}]},{"seq":10,"code":"K","characters":[{"id":3576,"name_jp":"白井黒子","name_cn":"白井黑子","src":"某科学的超电磁炮","gender":"female","v":3},{"id":86816,"name_jp":"出雲咲姫","name_cn":"出云咲姬","src":"ぷっちみく♪ D4DJ Petit Mix","gender":"female","v":0},{"id":13391,"name_jp":"冬馬かずさ","name_cn":"冬马和纱","src":"白色相簿2","gender":"female","v":1},{"id":59571,"name_jp":"二条院羽月","name_cn":"","src":"","gender":"female","v":1},{"id":26003,"name_jp":"宮園かをり","name_cn":"宫园薰","src":"四月是你的谎言","gender":"female","v":2},{"id":43539,"name_jp":"吉原愛菜","name_cn":"吉原爱菜","src":"碧蓝之海","gender":"female","v":0},{"id":108660,"name_jp":"キサラ","name_cn":"木更","src":"契约之吻","gender":"female","v":0},{"id":21305,"name_jp":"瑞鶴","name_cn":"瑞鹤","src":"舰队Collection","gender":"female","v":0},{"id":87974,"name_jp":"山田リョウ","name_cn":"山田凉","src":"孤独摇滚！","gender":"female","v":4},{"id":90090,"name_jp":"ツインターボ","name_cn":"双涡轮","src":"马娘摇曳","gender":"female","v":0},{"id":25789,"name_jp":"藤岡ハルヒ","name_cn":"藤冈春日","src":"樱兰高校男公关部","gender":"female","v":0},{"id":23104,"name_jp":"藤宮香織","name_cn":"藤宫香织","src":"一周的朋友。","v":0},{"id":68978,"name_jp":"天野陽菜","name_cn":"天野阳菜","src":"天气之子","gender":"female","v":1},{"id":46463,"name_jp":"シルフィエット・グレイラット","name_cn":"希露菲叶特·格雷拉特","src":"无职转生～到了异世界就拿出真本事～","gender":"female","v":0},{"id":25693,"name_jp":"小海はるか","name_cn":"小海遥","src":"日本国有铁道公安队","gender":"female","v":0},{"id":26008,"name_jp":"アルカ＝ゾルディック","name_cn":"亚路嘉·揍敌客","src":"猎人","v":0},{"id":112103,"name_jp":"岩倉美津未","name_cn":"岩仓美津未","src":"跃动青春","gender":"female","v":1},{"id":3218,"name_jp":"イリヤスフィール・フォン・アインツベルン","name_cn":"伊莉雅斯菲尔·冯·爱因兹贝伦","src":"Fate/kaleid liner 魔法少女☆伊莉雅","gender":"female","v":0},{"id":72649,"name_jp":"真中あお","name_cn":"真中蓝","src":"恋爱小行星","gender":"female","v":0},{"id":27371,"name_jp":"綾地寧々","name_cn":"绫地宁宁","src":"","gender":"female","v":0}]},{"seq":11,"code":"L","characters":[{"id":53400,"name_jp":"エレシュキガル","name_cn":"埃列什基伽勒","src":"Fate/Grand Order -绝对魔兽战线巴比伦尼亚-","gender":"female","v":0},{"id":21021,"name_jp":"安達桜","name_cn":"安达樱","src":"安达与岛村","gender":"female","v":0},{"id":132924,"name_jp":"八幡海鈴","name_cn":"八幡海铃","src":"BanG Dream! Ave Mujica","gender":"female","v":0},{"id":39360,"name_jp":"朝武芳乃","name_cn":"朝武芳乃","src":"","gender":"female","v":2},{"id":101567,"name_jp":"杜乃こりす/ネロアリス","name_cn":"杜乃可莉丝/尼禄爱丽丝","src":"梦想成为魔法少女","gender":"female","v":1},{"id":57715,"name_jp":"ヴラディレーナ・ミリーゼ","name_cn":"弗拉迪蕾娜·米丽洁","src":"86 -不存在的战区-","gender":"female","v":1},{"id":68992,"name_jp":"環古達","name_cn":"环古达","src":"炎炎消防队","gender":"female","v":0},{"id":24094,"name_jp":"加藤恵","name_cn":"加藤惠","src":"路人女主的养成方法","gender":"female","v":3},{"id":108664,"name_jp":"井ノ上たきな","name_cn":"井之上泷奈","src":"莉可丽丝","gender":"female","v":0},{"id":20890,"name_jp":"栗山未来","name_cn":"栗山未来","src":"境界的彼方","gender":"female","v":0},{"id":14823,"name_jp":"千反田える","name_cn":"千反田爱瑠","src":"冰菓","gender":"female","v":1},{"id":65,"name_jp":"神奈備命","name_cn":"神奈备命","src":"AIR 夏季篇","gender":"female","v":0},{"id":19529,"name_jp":"時崎狂三","name_cn":"时崎狂三","src":"约会大作战","gender":"female","v":2},{"id":70844,"name_jp":"W","name_cn":"维什戴尔","src":"明日方舟：黎明前奏","gender":"female","v":0},{"id":11720,"name_jp":"小町つぐみ","name_cn":"小町鸫","src":"","gender":"female","v":0},{"id":27372,"name_jp":"因幡めぐる","name_cn":"因幡巡","src":"","gender":"female","v":0},{"id":19041,"name_jp":"由比ヶ浜結衣","name_cn":"由比滨结衣","src":"我的青春恋爱物语果然有问题","gender":"female","v":0},{"id":76271,"name_jp":"由崎司","name_cn":"由崎司","src":"总之就是非常可爱","gender":"female","v":0},{"id":604,"name_jp":"中野梓","name_cn":"中野梓","src":"轻音少女","gender":"female","v":1},{"id":16162,"name_jp":"篝ノ霧枝","name_cn":"篝之雾枝","src":"","gender":"female","v":0}]},{"seq":12,"code":"M","characters":[{"id":7998,"name_jp":"大道寺知世","name_cn":"大道寺知世","src":"魔卡少女樱","gender":"female","v":0},{"id":21022,"name_jp":"島村抱月","name_cn":"岛村抱月","src":"安达与岛村","gender":"female","v":0},{"id":105455,"name_jp":"東雪蓮","name_cn":"东雪莲","src":"","gender":"female","v":0},{"id":27234,"name_jp":"宮森あおい","name_cn":"宫森葵","src":"白箱","gender":"female","v":0},{"id":7045,"name_jp":"吉田歩美","name_cn":"吉田步美","src":"名侦探柯南 来自伦敦的秘密指令","gender":"female","v":0},{"id":48,"name_jp":"涼宮ハルヒ","name_cn":"凉宫春日","src":"凉宫春日的忧郁","gender":"female","v":3},{"id":102126,"name_jp":"ルビー","name_cn":"露比","src":"【我推的孩子】","gender":"female","v":0},{"id":15993,"name_jp":"弥海砂","name_cn":"弥海砂","src":"死亡笔记","gender":"female","v":0},{"id":466,"name_jp":"平沢唯","name_cn":"平泽唯","src":"轻音少女","gender":"female","v":2},{"id":132477,"name_jp":"若葉睦","name_cn":"若叶睦","src":"BanG Dream! Ave Mujica","gender":"female","v":1},{"id":75842,"name_jp":"上杉绘梨衣","name_cn":"上杉绘梨衣","src":"","gender":"female","v":0},{"id":101570,"name_jp":"水神小夜/マジアアズール","name_cn":"水神小夜/魔法碧蓝","src":"梦想成为魔法少女","gender":"female","v":0},{"id":671,"name_jp":"我妻由乃","name_cn":"我妻由乃","src":"未来日记","gender":"female","v":0},{"id":10700,"name_jp":"五更瑠璃","name_cn":"五更琉璃","src":"我的妹妹哪有这么可爱！","gender":"female","v":0},{"id":50586,"name_jp":"オグリキャップ","name_cn":"小栗帽","src":"赛马娘 Pretty Derby","gender":"female","v":0},{"id":13390,"name_jp":"小木曽雪菜","name_cn":"小木曾雪菜","src":"白色相簿2","gender":"female","v":2},{"id":12280,"name_jp":"ほしのゆめみ","name_cn":"星野梦美","src":"星之梦","gender":"female","v":1},{"id":711,"name_jp":"羽川翼","name_cn":"羽川翼","src":"化物语","gender":"female","v":1},{"id":12381,"name_jp":"椎名まゆり","name_cn":"椎名真由理","src":"命运石之门","gender":"female","v":1},{"id":40739,"name_jp":"鎧塚みぞれ","name_cn":"铠冢霙","src":"莉兹与青鸟","gender":"female","v":0}]},{"seq":13,"code":"N","characters":[{"id":57374,"name_jp":"エキドナ","name_cn":"艾姬多娜","src":"Re：从零开始的异世界生活 第二季","gender":"female","v":0},{"id":708,"name_jp":"八九寺真宵","name_cn":"八九寺真宵","src":"化物语","gender":"female","v":0},{"id":49,"name_jp":"長門有希","name_cn":"长门有希","src":"凉宫春日的忧郁","gender":"female","v":3},{"id":57222,"name_jp":"シンシャ","name_cn":"辰砂","src":"宝石之国","v":0},{"id":50594,"name_jp":"ダイワスカーレット","name_cn":"大和赤骥","src":"马娘摇曳","gender":"female","v":0},{"id":20129,"name_jp":"河城にとり","name_cn":"河城荷取","src":"第四届东方M-1漫才大赛","gender":"female","v":0},{"id":57221,"name_jp":"フォスフォフィライト","name_cn":"磷叶石","src":"宝石之国","v":1},{"id":488,"name_jp":"パチュリー・ノーレッジ","name_cn":"帕秋莉·诺蕾姬","src":"东方梦想夏乡","gender":"female","v":2},{"id":42276,"name_jp":"傘木希美","name_cn":"伞木希美","src":"莉兹与青鸟","gender":"female","v":0},{"id":90574,"name_jp":"山田杏奈","name_cn":"山田杏奈","src":"我心里危险的东西","gender":"female","v":0},{"id":27648,"name_jp":"桃喰綺羅莉","name_cn":"桃喰绮罗莉","src":"狂赌之渊","gender":"female","v":0},{"id":111331,"name_jp":"温水佳樹","name_cn":"温水佳树","src":"败犬女主太多了！","gender":"female","v":1},{"id":10364,"name_jp":"シータ","name_cn":"希达","src":"天空之城","gender":"female","v":0},{"id":23648,"name_jp":"香風智乃","name_cn":"香风智乃","src":"请问您今天要来点兔子吗？","gender":"female","v":1},{"id":10561,"name_jp":"小鳥遊ヨミ","name_cn":"小鸟游黄泉","src":"黑岩射手","gender":"female","v":0},{"id":150624,"name_jp":"小佐内ゆき","name_cn":"小佐内由纪","src":"小市民系列","gender":"female","v":0},{"id":19525,"name_jp":"夜刀神十香","name_cn":"夜刀神十香","src":"约会大作战","gender":"female","v":0},{"id":69198,"name_jp":"伊井野ミコ","name_cn":"伊井野弥子","src":"辉夜大小姐想让我告白？～天才们的恋爱头脑战～","gender":"female","v":2},{"id":102128,"name_jp":"有馬かな","name_cn":"有马加奈","src":"【我推的孩子】 第二季","gender":"female","v":0},{"id":76270,"name_jp":"椎名真昼","name_cn":"椎名真昼","src":"关于邻家的天使大人不知不觉把我惯成了废人这档子事","gender":"female","v":0}]},{"seq":14,"code":"O","characters":[{"id":57751,"name_jp":"ゼロツー","name_cn":"02","src":"DARLING in the FRANXX","gender":"female","v":1},{"id":57376,"name_jp":"エマ","name_cn":"艾玛","src":"约定的梦幻岛","gender":"female","v":0},{"id":70888,"name_jp":"八尋寧々","name_cn":"八寻宁宁","src":"地缚少年花子君","gender":"female","v":1},{"id":121636,"name_jp":"百里風実花","name_cn":"百里风实花","src":"","gender":"female","v":0},{"id":9970,"name_jp":"ポニョ","name_cn":"波妞","src":"崖上的波妞","gender":"female","v":0},{"id":35667,"name_jp":"雛月加代","name_cn":"雏月加代","src":"只有我不存在的城市","gender":"female","v":0},{"id":67652,"name_jp":"久石奏","name_cn":"久石奏","src":"莉兹与青鸟","gender":"female","v":0},{"id":1636,"name_jp":"レイナ","name_cn":"蕾娜","src":"女皇之刃 流浪的战士","gender":"female","v":0},{"id":7048,"name_jp":"鈴木園子","name_cn":"铃木园子","src":"名侦探柯南 绀碧之棺","gender":"female","v":0},{"id":1,"name_jp":"ルルーシュ・ランペルージ","name_cn":"鲁路修·兰佩路基","src":"Code Geass 反叛的鲁路修R2","gender":"male","v":0},{"id":467,"name_jp":"秋山澪","name_cn":"秋山澪","src":"轻音少女","gender":"female","v":0},{"id":116743,"name_jp":"セシリア","name_cn":"塞西莉亚","src":"白圣女与黑牧师","gender":"female","v":1},{"id":15457,"name_jp":"筒隠月子","name_cn":"筒隐月子","src":"变态王子与不笑猫。","gender":"female","v":1},{"id":16369,"name_jp":"わたし","name_cn":"我","src":"人类衰退之后","gender":"female","v":0},{"id":10440,"name_jp":"暁美ほむら","name_cn":"晓美焰","src":"魔法少女小圆","gender":"female","v":0},{"id":19040,"name_jp":"雪ノ下雪乃","name_cn":"雪之下雪乃","src":"我的青春恋爱物语果然有问题","gender":"female","v":2},{"id":1697,"name_jp":"壱原侑子","name_cn":"壹原侑子","src":"×××HOLiC◆继","gender":"female","v":0},{"id":62371,"name_jp":"依神紫苑","name_cn":"依神紫苑","src":"第十三届东方M-1漫才大赛","gender":"female","v":0},{"id":2629,"name_jp":"インデックス","name_cn":"茵蒂克斯","src":"魔法禁书目录","gender":"female","v":3},{"id":121468,"name_jp":"桜花あさひ","name_cn":"樱花朝日","src":"别当欧尼酱了！","gender":"female","v":0}]},{"seq":15,"code":"P","characters":[{"id":3,"name_jp":"C.C.","name_cn":"C.C.","src":"Code Geass 反叛的鲁路修R2","gender":"female","v":0},{"id":64712,"name_jp":"愛城華恋","name_cn":"爱城华恋","src":"少女☆歌剧 Revue Starlight","gender":"female","v":0},{"id":855,"name_jp":"アルクェイド・ブリュンスタッド","name_cn":"爱尔奎特·布伦史坦德","src":"真月谭月姬","gender":"female","v":0},{"id":130665,"name_jp":"安和すばる","name_cn":"安和昴","src":"GIRLS BAND CRY","gender":"female","v":1},{"id":34040,"name_jp":"しらほし","name_cn":"白星","src":"航海王","gender":"female","v":0},{"id":43536,"name_jp":"古手川千紗","name_cn":"古手川千纱","src":"碧蓝之海","gender":"female","v":1},{"id":32676,"name_jp":"海老名菜々","name_cn":"海老名菜菜","src":"干物妹！小埋","gender":"female","v":0},{"id":102130,"name_jp":"黒川あかね","name_cn":"黑川茜","src":"【我推的孩子】 第二季","gender":"female","v":1},{"id":130664,"name_jp":"井芹仁菜","name_cn":"井芹仁菜","src":"GIRLS BAND CRY","gender":"female","v":2},{"id":71337,"name_jp":"マキマ","name_cn":"玛奇玛","src":"链锯人","gender":"female","v":0},{"id":10366,"name_jp":"ミラジェーン・ストラウス","name_cn":"米拉珍·斯特劳斯","src":"妖精的尾巴","gender":"female","v":0},{"id":469,"name_jp":"琴吹紬","name_cn":"琴吹紬","src":"轻音少女","gender":"female","v":0},{"id":32675,"name_jp":"土間うまる","name_cn":"土间埋","src":"干物妹！小埋","gender":"female","v":1},{"id":19527,"name_jp":"五河琴里","name_cn":"五河琴里","src":"约会大作战","gender":"female","v":3},{"id":1094,"name_jp":"小神あきら","name_cn":"小神晶","src":"幸运星","gender":"female","v":0},{"id":23333,"name_jp":"有村雛絵","name_cn":"有村雏绘","src":"混沌子","gender":"female","v":0},{"id":21607,"name_jp":"御坂妹","name_cn":"御坂妹妹","src":"魔法禁书目录","gender":"female","v":0},{"id":7051,"name_jp":"遠山和葉","name_cn":"远山和叶","src":"名侦探柯南 迷宫的十字路口","gender":"female","v":0},{"id":13299,"name_jp":"荻野千尋","name_cn":"荻野千寻","src":"千与千寻","gender":"female","v":0},{"id":23077,"name_jp":"アヤノ","name_cn":"楯山文乃","src":"目隐都市的演绎者","gender":"female","v":0}]}]}
+{
+  "male": [
+    {
+      "seq": 0,
+      "code": "A",
+      "characters": [
+        {
+          "id": 123537,
+          "name_jp": "アルフレッド",
+          "name_cn": "阿尔弗雷德",
+          "src": "黑塔利亚",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 47,
+          "name_jp": "キョン",
+          "name_cn": "阿虚",
+          "src": "凉宫春日的忧郁",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 19039,
+          "name_jp": "比企谷八幡",
+          "name_cn": "比企谷八幡",
+          "src": "我的青春恋爱物语果然有问题",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 20252,
+          "name_jp": "浜面仕上",
+          "name_cn": "滨面仕上",
+          "src": "魔法禁书目录 第三季",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 3311,
+          "name_jp": "ポートガス・D・エース",
+          "name_cn": "波特卡斯·D·艾斯",
+          "src": "航海王",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 6824,
+          "name_jp": "不動明",
+          "name_cn": "不动明",
+          "src": "AMON 恶魔人默示录",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 371,
+          "name_jp": "ドイツ",
+          "name_cn": "德意志",
+          "src": "黑塔利亚",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 99542,
+          "name_jp": "蜂楽廻",
+          "name_cn": "蜂乐回",
+          "src": "蓝色监狱",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 89183,
+          "name_jp": "ハイター",
+          "name_cn": "海塔",
+          "src": "葬送的芙莉莲",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 1227,
+          "name_jp": "ギルガメッシュ",
+          "name_cn": "吉尔伽美什",
+          "src": "Fate/stay night",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 35243,
+          "name_jp": "江戸川乱歩",
+          "name_cn": "江户川乱步",
+          "src": "文豪野犬",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 43540,
+          "name_jp": "今村耕平",
+          "name_cn": "今村耕平",
+          "src": "碧蓝之海",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 10603,
+          "name_jp": "鏡音レン",
+          "name_cn": "镜音连",
+          "src": "剧场版世界计划 破碎的世界与唱不出歌的未来",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 61403,
+          "name_jp": "上杉風太郎",
+          "name_cn": "上杉风太郎",
+          "src": "五等分的新娘",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 67403,
+          "name_jp": "石神千空",
+          "name_cn": "石神千空",
+          "src": "新石纪",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 123909,
+          "name_jp": "市川京太郎",
+          "name_cn": "市川京太郎",
+          "src": "我心里危险的东西",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 71338,
+          "name_jp": "早川アキ",
+          "name_cn": "早川秋",
+          "src": "",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 2215,
+          "name_jp": "夜神月",
+          "name_cn": "夜神月",
+          "src": "死亡笔记",
+          "gender": "male",
+          "v": 11
+        },
+        {
+          "id": 61871,
+          "name_jp": "ザック",
+          "name_cn": "札克",
+          "src": "杀戮天使",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 31219,
+          "name_jp": "坂本",
+          "name_cn": "坂本",
+          "src": "在下坂本，有何贵干？",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 114727,
+          "name_jp": "糸師冴",
+          "name_cn": "糸师冴",
+          "src": "蓝色监狱",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 18041,
+          "name_jp": "狛枝凪斗",
+          "name_cn": "狛枝凪斗",
+          "src": "超级弹丸论破2.5 狛枝凪斗与世界的破坏者",
+          "gender": "male",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 1,
+      "code": "B",
+      "characters": [
+        {
+          "id": 18577,
+          "name_jp": "岸辺露伴",
+          "name_cn": "岸边露伴",
+          "src": "岸边露伴一动不动 六壁坂",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 60456,
+          "name_jp": "白血球",
+          "name_cn": "白血球（U-1146）",
+          "src": "工作细胞",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 20955,
+          "name_jp": "湊斗景明",
+          "name_cn": "凑斗景明",
+          "src": "装甲恶鬼村正",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 12392,
+          "name_jp": "岡部倫太郎",
+          "name_cn": "冈部伦太郎",
+          "src": "命运石之门",
+          "gender": "male",
+          "v": 8
+        },
+        {
+          "id": 17587,
+          "name_jp": "宮村伊澄",
+          "name_cn": "宫村伊澄",
+          "src": "堀桑与宫村君",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 18161,
+          "name_jp": "海馬瀬人",
+          "name_cn": "海马濑人",
+          "src": "游戏王－怪兽之决斗",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 35835,
+          "name_jp": "海崎新太",
+          "name_cn": "海崎新太",
+          "src": "ReLIFE",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 92283,
+          "name_jp": "黒死牟",
+          "name_cn": "黑死牟",
+          "src": "鬼灭之刃",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 97301,
+          "name_jp": "久世政近",
+          "name_cn": "久世政近",
+          "src": "不时用俄语小声说真心话的邻桌艾莉同学",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 879,
+          "name_jp": "ジョセフ・ジョースター",
+          "name_cn": "乔瑟夫·乔斯达",
+          "src": "JOJO的奇妙冒险",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 24322,
+          "name_jp": "日向翔陽",
+          "name_cn": "日向翔阳",
+          "src": "排球少年",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 1228,
+          "name_jp": "セバスチャン・ミカエリス",
+          "name_cn": "塞巴斯蒂安·米卡利斯",
+          "src": "黑执事",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 116808,
+          "name_jp": "サンラク / 陽務楽郎",
+          "name_cn": "桑乐 / 阳务乐郎",
+          "src": "香格里拉开拓异境",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 7266,
+          "name_jp": "石川五ェ門",
+          "name_cn": "石川五右卫门",
+          "src": "鲁邦三世系列",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 12062,
+          "name_jp": "天王寺瑚太朗",
+          "name_cn": "天王寺瑚太朗",
+          "src": "Rewrite",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 104269,
+          "name_jp": "シド・カゲノー / シャドウ",
+          "name_cn": "希德·卡盖诺",
+          "src": "想要成为影之实力者！",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 2479,
+          "name_jp": "シャンクス",
+          "name_cn": "香克斯",
+          "src": "海贼王 红发歌姬",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 57716,
+          "name_jp": "シンエイ・ノウゼン",
+          "name_cn": "辛恩·诺赞",
+          "src": "86 -不存在的战区-",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 88208,
+          "name_jp": "ヒンメル",
+          "name_cn": "辛美尔",
+          "src": "葬送的芙莉莲",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 89182,
+          "name_jp": "シュタルク",
+          "name_cn": "修塔尔克",
+          "src": "葬送的芙莉莲",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 10699,
+          "name_jp": "桜井智樹",
+          "name_cn": "樱井智树",
+          "src": "天降之物",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 53768,
+          "name_jp": "綾小路清隆",
+          "name_cn": "绫小路清隆",
+          "src": "欢迎来到实力至上主义教室",
+          "gender": "male",
+          "v": 1
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "code": "C",
+      "characters": [
+        {
+          "id": 127003,
+          "name_jp": "北条時行",
+          "name_cn": "北条时行",
+          "src": "擅长逃跑的殿下",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 15143,
+          "name_jp": "貝木泥舟",
+          "name_cn": "贝木泥舟",
+          "src": "物语系列 第二季",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 7501,
+          "name_jp": "波風ミナト",
+          "name_cn": "波风水门",
+          "src": "火影忍者疾风传",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 127438,
+          "name_jp": "谷風李空",
+          "name_cn": "谷风李空",
+          "src": "天使嚣嚣",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 15455,
+          "name_jp": "横寺陽人",
+          "name_cn": "横寺阳人",
+          "src": "变态王子与不笑猫。",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 38323,
+          "name_jp": "ギルベルト・ブーゲンビリア",
+          "name_cn": "基尔伯特·布甘比利亚",
+          "src": "紫罗兰永恒花园",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 18578,
+          "name_jp": "吉良吉影",
+          "name_cn": "吉良吉影",
+          "src": "JOJO的奇妙冒险",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 23732,
+          "name_jp": "金木研",
+          "name_cn": "金木研",
+          "src": "东京喰种",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 38063,
+          "name_jp": "九頭竜八一",
+          "name_cn": "九头龙八一",
+          "src": "龙王的工作！",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 24789,
+          "name_jp": "可児江西也",
+          "name_cn": "可儿江西也",
+          "src": "甘城光辉游乐园",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 373,
+          "name_jp": "アメリカ",
+          "name_cn": "美利坚",
+          "src": "黑塔利亚",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 63995,
+          "name_jp": "明神亜貴",
+          "name_cn": "明神亚贵",
+          "src": "甜蜜惩罚 我是看守专用宠物",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 77441,
+          "name_jp": "ボンゴレⅠ世",
+          "name_cn": "彭格列Ⅰ世",
+          "src": "家庭教师HITMAN REBORN!",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 16460,
+          "name_jp": "七瀬遥",
+          "name_cn": "七濑遥",
+          "src": "无赖勇者的鬼畜美学",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 71411,
+          "name_jp": "セバスチャン",
+          "name_cn": "塞巴斯蒂安",
+          "src": "心跳！光之美少女",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 60457,
+          "name_jp": "キラーT細胞",
+          "name_cn": "杀手T细胞",
+          "src": "工作细胞",
+          "v": 0
+        },
+        {
+          "id": 28770,
+          "name_jp": "藤原拓海",
+          "name_cn": "藤原拓海",
+          "src": "头文字D Fourth Stage",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 111327,
+          "name_jp": "温水和彦",
+          "name_cn": "温水和彦",
+          "src": "败犬女主太多了！",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 57307,
+          "name_jp": "我妻善逸",
+          "name_cn": "我妻善逸",
+          "src": "鬼灭之刃",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 6154,
+          "name_jp": "サトシ",
+          "name_cn": "小智",
+          "src": "精灵宝可梦",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 13176,
+          "name_jp": "桜満集",
+          "name_cn": "樱满集",
+          "src": "罪恶王冠",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 24323,
+          "name_jp": "影山飛雄",
+          "name_cn": "影山飞雄",
+          "src": "排球少年",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 14822,
+          "name_jp": "折木奉太郎",
+          "name_cn": "折木奉太郎",
+          "src": "冰菓",
+          "gender": "male",
+          "v": 8
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "code": "D",
+      "characters": [
+        {
+          "id": 18269,
+          "name_jp": "大路もち蔵",
+          "name_cn": "大路饼藏",
+          "src": "玉子市场",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 37475,
+          "name_jp": "飛鳥了",
+          "name_cn": "飞鸟了",
+          "src": "恶魔人 crybaby",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 49540,
+          "name_jp": "フョードル・D",
+          "name_cn": "费奥多尔·米哈伊洛维奇·陀思妥耶夫斯基",
+          "src": "文豪野犬",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 28630,
+          "name_jp": "フェリド・バートリー",
+          "name_cn": "费里德·巴特利",
+          "src": "终结的炽天使",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 72964,
+          "name_jp": "風早巽",
+          "name_cn": "风早巽",
+          "src": "偶像梦幻祭！！-Road to Show!!-",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 25133,
+          "name_jp": "関羽",
+          "name_cn": "关羽",
+          "src": "十三支演义 〜偃月三国传〜 外传 幽州幻夜",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 5087,
+          "name_jp": "ハウル",
+          "name_cn": "哈尔",
+          "src": "哈尔的移动城堡",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 72366,
+          "name_jp": "鈴木入間",
+          "name_cn": "铃木入间",
+          "src": "入间同学入魔了",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 6784,
+          "name_jp": "ルパン三世",
+          "name_cn": "鲁邦三世",
+          "src": "鲁邦三世系列",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 26123,
+          "name_jp": "罗小黑",
+          "name_cn": "",
+          "src": "罗小黑战记",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 12396,
+          "name_jp": "漆原るか",
+          "name_cn": "漆原琉华",
+          "src": "命运石之门",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 69336,
+          "name_jp": "日流ルカ",
+          "name_cn": "日流卢卡",
+          "src": "流星世界演绎者",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 3498,
+          "name_jp": "上条当麻",
+          "name_cn": "上条当麻",
+          "src": "魔法禁书目录",
+          "gender": "male",
+          "v": 7
+        },
+        {
+          "id": 77,
+          "name_jp": "スパイク・スピーゲル",
+          "name_cn": "史派克·斯皮格尔",
+          "src": "星际牛仔",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 123318,
+          "name_jp": "史强",
+          "name_cn": "",
+          "src": "三体",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 5779,
+          "name_jp": "トラファルガー・ロー",
+          "name_cn": "特拉法尔加·罗",
+          "src": "航海王",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 79656,
+          "name_jp": "ウィリアム・ジェームズ・モリアーティ",
+          "name_cn": "威廉·詹姆斯·莫里亚蒂",
+          "src": "忧国的莫里亚蒂",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 19790,
+          "name_jp": "バージル",
+          "name_cn": "维吉尔",
+          "src": "鬼泣",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 19452,
+          "name_jp": "幸平創真",
+          "name_cn": "幸平创真",
+          "src": "食戟之灵",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 22789,
+          "name_jp": "夜ト",
+          "name_cn": "夜斗",
+          "src": "野良神",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 10616,
+          "name_jp": "音無結弦",
+          "name_cn": "音无结弦",
+          "src": "天使的心跳！",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 75806,
+          "name_jp": "柚木つかさ",
+          "name_cn": "柚木司",
+          "src": "地缚少年花子君",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 14068,
+          "name_jp": "榊原恒一",
+          "name_cn": "榊原恒一",
+          "src": "Another",
+          "gender": "male",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "code": "E",
+      "characters": [
+        {
+          "id": 96531,
+          "name_jp": "保科柊史",
+          "name_cn": "保科柊史",
+          "src": "魔女的夜宴",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 1684,
+          "name_jp": "ベジータ",
+          "name_cn": "贝吉塔",
+          "src": "龙珠Z",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 57879,
+          "name_jp": "ボンドルド",
+          "name_cn": "波多尔多",
+          "src": "来自深渊 深邃的魂之黎明",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 1152,
+          "name_jp": "春日野穹",
+          "name_cn": "春日野穹",
+          "src": "缘之空",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 77019,
+          "name_jp": "あくましゅうどうし",
+          "name_cn": "恶魔修道士",
+          "src": "在魔王城说晚安",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 40550,
+          "name_jp": "屑屋",
+          "name_cn": "废墟猎人",
+          "src": "星之梦",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 16687,
+          "name_jp": "黒須太一",
+          "name_cn": "黑须太一",
+          "src": "CROSS†CHANNEL",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 4486,
+          "name_jp": "李雲龍",
+          "name_cn": "李云龙",
+          "src": "亮剑",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 37241,
+          "name_jp": "立花瀧",
+          "name_cn": "立花泷",
+          "src": "你的名字。",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 7152,
+          "name_jp": "流川楓",
+          "name_cn": "流川枫",
+          "src": "灌篮高手",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 57377,
+          "name_jp": "ノーマン",
+          "name_cn": "诺曼",
+          "src": "约定的梦幻岛",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 44473,
+          "name_jp": "チルチャック",
+          "name_cn": "奇尔查克",
+          "src": "迷宫饭",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 67409,
+          "name_jp": "石上優",
+          "name_cn": "石上优",
+          "src": "辉夜大小姐想让我告白～天才们的恋爱头脑战～",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 29363,
+          "name_jp": "水柿ツカサ",
+          "name_cn": "水柿司",
+          "src": "可塑性记忆",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 3345,
+          "name_jp": "孫悟空",
+          "name_cn": "孙悟空",
+          "src": "龙珠",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 16489,
+          "name_jp": "キリト / 桐ヶ谷和人",
+          "name_cn": "桐人／桐谷和人",
+          "src": "刀剑神域",
+          "gender": "male",
+          "v": 5
+        },
+        {
+          "id": 93262,
+          "name_jp": "ヴァニタス",
+          "name_cn": "瓦尼塔斯",
+          "src": "瓦尼塔斯的手记",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 422,
+          "name_jp": "伊藤誠",
+          "name_cn": "伊藤诚",
+          "src": "日在校园OVA 魔法少女小心心",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 37114,
+          "name_jp": "影山茂夫",
+          "name_cn": "影山茂夫",
+          "src": "灵能百分百",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 10719,
+          "name_jp": "悠木皆守",
+          "name_cn": "悠木皆守",
+          "src": "素晴日",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 61550,
+          "name_jp": "梓川咲太",
+          "name_cn": "梓川咲太",
+          "src": "青春笨蛋少年不做兔女郎学姐的梦",
+          "gender": "male",
+          "v": 1
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "code": "F",
+      "characters": [
+        {
+          "id": 115898,
+          "name_jp": "アンディ",
+          "name_cn": "安迪",
+          "src": "不死不幸",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 66900,
+          "name_jp": "白銀御行",
+          "name_cn": "白银御行",
+          "src": "辉夜大小姐想让我告白～天才们的恋爱头脑战～",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 18039,
+          "name_jp": "不二咲千尋",
+          "name_cn": "不二咲千寻",
+          "src": "弹丸论破 希望学园与绝望高中生",
+          "v": 1
+        },
+        {
+          "id": 1014,
+          "name_jp": "春原陽平",
+          "name_cn": "春原阳平",
+          "src": "键等",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 116352,
+          "name_jp": "David Martinez",
+          "name_cn": "大卫･马丁内斯",
+          "src": "赛博浪客",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 29460,
+          "name_jp": "塚本秀一",
+          "name_cn": "塚本秀一",
+          "src": "吹响！悠风号",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 17363,
+          "name_jp": "富樫勇太",
+          "name_cn": "富樫勇太",
+          "src": "中二病也要谈恋爱！",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 51,
+          "name_jp": "古泉一樹",
+          "name_cn": "古泉一树",
+          "src": "凉宫春日的忧郁",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 78379,
+          "name_jp": "光头强",
+          "name_cn": "",
+          "src": "熊出没",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 10720,
+          "name_jp": "間宮卓司",
+          "name_cn": "间宫卓司",
+          "src": "终之空",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 37115,
+          "name_jp": "霊幻新隆",
+          "name_cn": "灵幻新隆",
+          "src": "灵能百分百",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 18026,
+          "name_jp": "苗木誠",
+          "name_cn": "苗木诚",
+          "src": "弹丸论破 希望学园与绝望高中生",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 77018,
+          "name_jp": "魔王タソガレ",
+          "name_cn": "魔王黄昏",
+          "src": "在魔王城说晚安",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 35666,
+          "name_jp": "藤沼悟",
+          "name_cn": "藤沼悟",
+          "src": "只有我不存在的城市",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 68756,
+          "name_jp": "トルフィン",
+          "name_cn": "托尔芬",
+          "src": "冰海战记",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 2353,
+          "name_jp": "シモン",
+          "name_cn": "西蒙",
+          "src": "天元突破 红莲螺岩",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 7201,
+          "name_jp": "野原しんのすけ",
+          "name_cn": "野原新之助",
+          "src": "蜡笔小新 奇异乐园大冒险",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 23121,
+          "name_jp": "月本誠",
+          "name_cn": "月本诚",
+          "src": "乒乓",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 377,
+          "name_jp": "ちゅうごく",
+          "name_cn": "中国",
+          "src": "黑塔利亚",
+          "v": 1
+        },
+        {
+          "id": 302,
+          "name_jp": "碇シンジ",
+          "name_cn": "碇真嗣",
+          "src": "新世纪福音战士",
+          "gender": "male",
+          "v": 5
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "code": "G",
+      "characters": [
+        {
+          "id": 4545,
+          "name_jp": "アムロ・レイ",
+          "name_cn": "阿姆罗·雷",
+          "src": "机动战士高达",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 95933,
+          "name_jp": "長良",
+          "name_cn": "长良",
+          "src": "漂流少年",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 6876,
+          "name_jp": "ヴァン・ホーエンハイム",
+          "name_cn": "冯·霍恩海姆",
+          "src": "钢之炼金术师",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 1007,
+          "name_jp": "岡崎朋也",
+          "name_cn": "冈崎朋也",
+          "src": "CLANNAD",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 1024,
+          "name_jp": "岡崎直幸",
+          "name_cn": "冈崎直幸",
+          "src": "CLANNAD",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 1079,
+          "name_jp": "宮小路瑞穂",
+          "name_cn": "宫小路瑞穗",
+          "src": "少女爱上姐姐",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 18027,
+          "name_jp": "モノクマ",
+          "name_cn": "黑白熊",
+          "src": "弹丸论破 希望学园与绝望高中生",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 3453,
+          "name_jp": "江戸川コナン",
+          "name_cn": "江户川柯南",
+          "src": "名侦探柯南",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 18573,
+          "name_jp": "ジャイロ・ツェペリ",
+          "name_cn": "杰洛·齐贝林",
+          "src": "JOJO的奇妙冒险",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 546,
+          "name_jp": "結城理",
+          "name_cn": "结城理",
+          "src": "女神异闻录3 剧场版 第一章 春生",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 878,
+          "name_jp": "空条承太郎",
+          "name_cn": "空条承太郎",
+          "src": "JOJO的奇妙冒险",
+          "gender": "male",
+          "v": 4
+        },
+        {
+          "id": 71477,
+          "name_jp": "ロイド・フォージャー",
+          "name_cn": "劳埃德·福杰",
+          "src": "间谍过家家",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 78164,
+          "name_jp": "両面宿儺",
+          "name_cn": "两面宿傩",
+          "src": "咒术回战",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 63778,
+          "name_jp": "七種茨",
+          "name_cn": "七种茨",
+          "src": "偶像梦幻祭",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 3221,
+          "name_jp": "衛宮切嗣",
+          "name_cn": "卫宫切嗣",
+          "src": "Fate/Zero",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 34645,
+          "name_jp": "シャア・アズナブル",
+          "name_cn": "夏亚·阿兹纳布尔",
+          "src": "机动战士高达 THE ORIGIN",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 35675,
+          "name_jp": "佐藤和真",
+          "name_cn": "佐藤和真",
+          "src": "为美好的世界献上祝福！",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 37117,
+          "name_jp": "影山律",
+          "name_cn": "影山律",
+          "src": "灵能百分百",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 26002,
+          "name_jp": "有馬公生",
+          "name_cn": "有马公生",
+          "src": "四月是你的谎言",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 19937,
+          "name_jp": "堀越二郎",
+          "name_cn": "堀越二郎",
+          "src": "起风了",
+          "gender": "male",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "code": "H",
+      "characters": [
+        {
+          "id": 128736,
+          "name_jp": "アルバート",
+          "name_cn": "阿尔伯特",
+          "src": "身为悲剧始作俑者的最强邪恶BOSS女王为民竭心尽力。",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 69820,
+          "name_jp": "アシェラッド",
+          "name_cn": "阿谢拉德",
+          "src": "冰海战记",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 20736,
+          "name_jp": "高屋敷司",
+          "name_cn": "高屋敷司",
+          "src": "家族计划",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 11778,
+          "name_jp": "高須竜児",
+          "name_cn": "高须龙儿",
+          "src": "龙与虎",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 23331,
+          "name_jp": "宫代拓留",
+          "name_cn": "宫代拓留",
+          "src": "混沌子",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 3106,
+          "name_jp": "花京院典明",
+          "name_cn": "花京院典明",
+          "src": "JOJO的奇妙冒险",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 49601,
+          "name_jp": "レグ",
+          "name_cn": "雷格",
+          "src": "来自深渊",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 95314,
+          "name_jp": "劉備",
+          "name_cn": "刘备",
+          "src": "横山光辉三国志",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 3182,
+          "name_jp": "竜宮レナ",
+          "name_cn": "龙宫礼奈",
+          "src": "寒蝉鸣泣之时 解",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 46462,
+          "name_jp": "ルーデウス・グレイラット",
+          "name_cn": "鲁迪乌斯·格雷拉特",
+          "src": "无职转生～到了异世界就拿出真本事～",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 6550,
+          "name_jp": "キルア＝ゾルディック",
+          "name_cn": "奇犽·揍敌客",
+          "src": "猎人",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 18567,
+          "name_jp": "ジョルノ・ジョバァーナ",
+          "name_cn": "乔鲁诺·乔巴拿",
+          "src": "JOJO的奇妙冒险 黄金之风",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 57401,
+          "name_jp": "神崎ひでり",
+          "name_cn": "神崎日照",
+          "src": "调教咖啡厅",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 8199,
+          "name_jp": "孫悟飯",
+          "name_cn": "孙悟饭",
+          "src": "龙珠",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 3214,
+          "name_jp": "衛宮士郎",
+          "name_cn": "卫宫士郎",
+          "src": "Fate/stay night",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 996,
+          "name_jp": "相沢祐一",
+          "name_cn": "相泽祐一",
+          "src": "Kanon 风花",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 78381,
+          "name_jp": "熊二",
+          "name_cn": "",
+          "src": "熊出没",
+          "v": 1
+        },
+        {
+          "id": 156,
+          "name_jp": "ギンコ",
+          "name_cn": "银古",
+          "src": "虫师",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 33623,
+          "name_jp": "雨宮蓮",
+          "name_cn": "雨宫莲",
+          "src": "女神异闻录5 -THE DAY BREAKERS-",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 6965,
+          "name_jp": "渚カヲル",
+          "name_cn": "渚薰",
+          "src": "新世纪福音战士",
+          "gender": "male",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "code": "I",
+      "characters": [
+        {
+          "id": 16684,
+          "name_jp": "L",
+          "name_cn": "L",
+          "src": "死亡笔记",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 51210,
+          "name_jp": "安曇小太郎",
+          "name_cn": "安昙小太郎",
+          "src": "月色真美",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 20316,
+          "name_jp": "北原春希",
+          "name_cn": "北原春希",
+          "src": "白色相簿2",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 14858,
+          "name_jp": "兵藤一誠",
+          "name_cn": "兵藤一诚",
+          "src": "恶魔高校 D×D",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 11716,
+          "name_jp": "倉成武",
+          "name_cn": "仓成武",
+          "src": "Ever17",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 396,
+          "name_jp": "成歩堂龍一",
+          "name_cn": "成步堂龙一",
+          "src": "逆转裁判",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 3331,
+          "name_jp": "大空翼",
+          "name_cn": "大空翼",
+          "src": "足球小将",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 6794,
+          "name_jp": "ダンテ",
+          "name_cn": "但丁",
+          "src": "鬼泣",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 10814,
+          "name_jp": "高坂京介",
+          "name_cn": "高坂京介",
+          "src": "我的妹妹哪有这么可爱！",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 70887,
+          "name_jp": "花子くん",
+          "name_cn": "花子君",
+          "src": "地缚少年花子君",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 35886,
+          "name_jp": "芥川龍之介",
+          "name_cn": "芥川龙之介",
+          "src": "文豪野犬 DEAD APPLE",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 6551,
+          "name_jp": "クラピカ",
+          "name_cn": "酷拉皮卡",
+          "src": "猎人",
+          "v": 0
+        },
+        {
+          "id": 12261,
+          "name_jp": "クー・フーリン",
+          "name_cn": "库·丘林",
+          "src": "Fate/stay night",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 2358,
+          "name_jp": "モンキー・D・ルフィ",
+          "name_cn": "蒙奇·D·路飞",
+          "src": "航海王",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 12399,
+          "name_jp": "橋田至",
+          "name_cn": "桥田至",
+          "src": "命运石之门",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 125986,
+          "name_jp": "カミキヒカル",
+          "name_cn": "神木辉",
+          "src": "我推的孩子",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 35238,
+          "name_jp": "太宰治",
+          "name_cn": "太宰治",
+          "src": "文豪野犬",
+          "gender": "male",
+          "v": 4
+        },
+        {
+          "id": 670,
+          "name_jp": "天野雪輝",
+          "name_cn": "天野雪辉",
+          "src": "未来日记",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 122017,
+          "name_jp": "亜左弔兵衛",
+          "name_cn": "亚左吊兵卫",
+          "src": "地狱乐",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 30056,
+          "name_jp": "乙坂有宇",
+          "name_cn": "乙坂有宇",
+          "src": "夏洛特",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 85,
+          "name_jp": "坂田銀時",
+          "name_cn": "坂田银时",
+          "src": "银魂",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 12479,
+          "name_jp": "碇ゲンドウ",
+          "name_cn": "碇源堂",
+          "src": "新世纪福音战士",
+          "gender": "male",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "code": "J",
+      "characters": [
+        {
+          "id": 86,
+          "name_jp": "エドワード・エルリック",
+          "name_cn": "爱德华·艾尔利克",
+          "src": "钢之炼金术师",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 17790,
+          "name_jp": "安室透",
+          "name_cn": "安室透",
+          "src": "名侦探柯南 纯黑的恶梦",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 8258,
+          "name_jp": "ハク",
+          "name_cn": "白龙",
+          "src": "千与千寻",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 17601,
+          "name_jp": "ディオ・ブランドー",
+          "name_cn": "迪奥·布兰多",
+          "src": "JOJO的奇妙冒险",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 64675,
+          "name_jp": "範馬勇次郎",
+          "name_cn": "范马勇次郎",
+          "src": "刃牙",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 7056,
+          "name_jp": "服部平次",
+          "name_cn": "服部平次",
+          "src": "名侦探柯南 迷宫的十字路口",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 26344,
+          "name_jp": "グレル・サトクリフ",
+          "name_cn": "格雷尔·沙多克里夫",
+          "src": "黑执事",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 41924,
+          "name_jp": "灰呂杵志",
+          "name_cn": "灰吕杵志",
+          "src": "齐木楠雄的灾难",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 24334,
+          "name_jp": "及川徹",
+          "name_cn": "及川彻",
+          "src": "排球少年",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 92320,
+          "name_jp": "継国縁壱",
+          "name_cn": "继国缘一",
+          "src": "鬼灭之刃 游郭篇",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 7144,
+          "name_jp": "加持リョウジ",
+          "name_cn": "加持良治",
+          "src": "新世纪福音战士",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 33119,
+          "name_jp": "リムル＝テンペスト",
+          "name_cn": "利姆路·坦派斯特",
+          "src": "关于我转生变成史莱姆这档事",
+          "v": 0
+        },
+        {
+          "id": 1,
+          "name_jp": "ルルーシュ・ランペルージ",
+          "name_cn": "鲁路修·兰佩路基",
+          "src": "Code Geass 反叛的鲁路修",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 2359,
+          "name_jp": "ロロノア・ゾロ",
+          "name_cn": "罗罗诺亚·索隆",
+          "src": "航海王",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 527,
+          "name_jp": "ロイ・マスタング",
+          "name_cn": "罗伊·马斯坦古",
+          "src": "钢之炼金术师",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 36490,
+          "name_jp": "内巻すばる",
+          "name_cn": "内卷昴",
+          "src": "这个美术社大有问题！",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 23076,
+          "name_jp": "シンタロー",
+          "name_cn": "如月伸太郎",
+          "src": "目隐都市的演绎者",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 91664,
+          "name_jp": "網代慎平",
+          "name_cn": "网代慎平",
+          "src": "夏日重现",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 2363,
+          "name_jp": "ヴィンスモーク・サンジ",
+          "name_cn": "文斯莫克·山智",
+          "src": "航海王",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 68206,
+          "name_jp": "アーサー・ボイル",
+          "name_cn": "亚瑟·波义耳",
+          "src": "炎炎消防队",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 26678,
+          "name_jp": "葬儀屋",
+          "name_cn": "葬仪屋",
+          "src": "黑执事",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 9624,
+          "name_jp": "宗介",
+          "name_cn": "宗介",
+          "src": "崖上的波妞",
+          "gender": "male",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "code": "K",
+      "characters": [
+        {
+          "id": 707,
+          "name_jp": "阿良々木暦",
+          "name_cn": "阿良良木历",
+          "src": "化物语",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 18101,
+          "name_jp": "エレン・イェーガー",
+          "name_cn": "艾伦·耶格尔",
+          "src": "进击的巨人",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 33391,
+          "name_jp": "アインズ・ウール・ゴウン",
+          "name_cn": "安兹·乌尔·恭",
+          "src": "OVERLORD",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 16420,
+          "name_jp": "八重樫太一",
+          "name_cn": "八重樫太一",
+          "src": "心灵链环",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 43535,
+          "name_jp": "北原伊織",
+          "name_cn": "北原伊织",
+          "src": "碧蓝之海",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 790,
+          "name_jp": "不動遊星",
+          "name_cn": "不动游星",
+          "src": "游戏王5D\u0027s",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 75838,
+          "name_jp": "楚子航",
+          "name_cn": "",
+          "src": "龙族",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 10642,
+          "name_jp": "春日野悠",
+          "name_cn": "春日野悠",
+          "src": "缘之空",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 6975,
+          "name_jp": "次元大介",
+          "name_cn": "次元大介",
+          "src": "鲁邦三世 pilot film",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 71335,
+          "name_jp": "デンジ",
+          "name_cn": "电次",
+          "src": "链锯人",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 14476,
+          "name_jp": "黒い人",
+          "name_cn": "黑影人",
+          "src": "名侦探柯南",
+          "v": 0
+        },
+        {
+          "id": 19546,
+          "name_jp": "リヴァイ",
+          "name_cn": "利威尔",
+          "src": "进击的巨人",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 8937,
+          "name_jp": "木下秀吉",
+          "name_cn": "木下秀吉",
+          "src": "笨蛋，测验，召唤兽",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 27115,
+          "name_jp": "斉木楠雄",
+          "name_cn": "齐木楠雄",
+          "src": "齐木楠雄的灾难",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 68038,
+          "name_jp": "森羅日下部",
+          "name_cn": "森罗日下部",
+          "src": "炎炎消防队",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 20012,
+          "name_jp": "殺せんせー",
+          "name_cn": "杀老师",
+          "src": "暗杀教室 修学旅行篇",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 12105,
+          "name_jp": "神田空太",
+          "name_cn": "神田空太",
+          "src": "樱花庄的宠物女孩",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 74243,
+          "name_jp": "五条悟",
+          "name_cn": "五条悟",
+          "src": "咒术回战",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 76869,
+          "name_jp": "由崎星空",
+          "name_cn": "由崎星空",
+          "src": "总之就是非常可爱",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 127439,
+          "name_jp": "有地将臣",
+          "name_cn": "有地将臣",
+          "src": "",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 76134,
+          "name_jp": "中原中也",
+          "name_cn": "中原中也",
+          "src": "文豪与炼金术师 ～审判的齿轮～",
+          "gender": "male",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "code": "L",
+      "characters": [
+        {
+          "id": 102125,
+          "name_jp": "アクア",
+          "name_cn": "阿库亚",
+          "src": "我推的孩子",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 35858,
+          "name_jp": "アストルフォ",
+          "name_cn": "阿斯托尔福",
+          "src": "Fate/Apocrypha",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 28624,
+          "name_jp": "百夜ミカエラ",
+          "name_cn": "百夜米迦尔",
+          "src": "终结的炽天使",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 35607,
+          "name_jp": "ナツキ・スバル",
+          "name_cn": "菜月昴",
+          "src": "Re：从零开始的异世界生活",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 20013,
+          "name_jp": "潮田渚",
+          "name_cn": "潮田渚",
+          "src": "暗杀教室",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 18524,
+          "name_jp": "成田隼人",
+          "name_cn": "成田隼人",
+          "src": "我们没有翅膀",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 7073,
+          "name_jp": "赤井秀一",
+          "name_cn": "赤井秀一",
+          "src": "名侦探柯南",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 18599,
+          "name_jp": "ファニー・ヴァレンタイン",
+          "name_cn": "法尼·瓦伦泰",
+          "src": "JOJO的奇妙冒险",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 73337,
+          "name_jp": "伏黒恵",
+          "name_cn": "伏黑惠",
+          "src": "咒术回战",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 52,
+          "name_jp": "国崎往人",
+          "name_cn": "国崎往人",
+          "src": "AIR 剧场版",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 122951,
+          "name_jp": "罗辑",
+          "name_cn": "",
+          "src": "三体",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 74055,
+          "name_jp": "名探偵酒井戸",
+          "name_cn": "名侦探酒井户",
+          "src": "异度侵入",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 712,
+          "name_jp": "忍野メメ",
+          "name_cn": "忍野咩咩",
+          "src": "化物语",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 19524,
+          "name_jp": "五河士道",
+          "name_cn": "五河士道",
+          "src": "约会大作战",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 19944,
+          "name_jp": "西條拓巳",
+          "name_cn": "西条拓巳",
+          "src": "混沌头",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 61476,
+          "name_jp": "トレーナー",
+          "name_cn": "训练员",
+          "src": "赛马娘 Pretty Derby",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 16237,
+          "name_jp": "桜木花道",
+          "name_cn": "樱木花道",
+          "src": "灌篮高手",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 933,
+          "name_jp": "右代宫戦人",
+          "name_cn": "右代宫战人",
+          "src": "海猫鸣泣之时",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 6500,
+          "name_jp": "うちはサスケ",
+          "name_cn": "宇智波佐助",
+          "src": "火影忍者疾风传",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 59577,
+          "name_jp": "在原暁",
+          "name_cn": "",
+          "src": "",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 16371,
+          "name_jp": "助手さん",
+          "name_cn": "助手",
+          "src": "人类衰退之后",
+          "gender": "male",
+          "v": 0
+        }
+      ]
+    }
+  ],
+  "female": [
+    {
+      "seq": 0,
+      "code": "A",
+      "characters": [
+        {
+          "id": 12394,
+          "name_jp": "阿万音鈴羽",
+          "name_cn": "阿万音铃羽",
+          "src": "命运石之门",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 111328,
+          "name_jp": "八奈見杏菜",
+          "name_cn": "八奈见杏菜",
+          "src": "败犬女主太多了！",
+          "gender": "female",
+          "v": 8
+        },
+        {
+          "id": 66728,
+          "name_jp": "白咲花",
+          "name_cn": "白咲花",
+          "src": "天使降临到了我身边！",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 28556,
+          "name_jp": "赤井メアリー",
+          "name_cn": "赤井玛丽",
+          "src": "名侦探柯南",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 64717,
+          "name_jp": "大場なな",
+          "name_cn": "大场奈奈",
+          "src": "少女☆歌剧 Revue Starlight",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 16422,
+          "name_jp": "稲葉姫子",
+          "name_cn": "稻叶姬子",
+          "src": "心灵链环",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 22520,
+          "name_jp": "和泉紗霧",
+          "name_cn": "和泉纱雾",
+          "src": "埃罗芒阿老师",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 14069,
+          "name_jp": "見崎鳴",
+          "name_cn": "见崎鸣",
+          "src": "Another",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 266,
+          "name_jp": "金色の闇/ダークネス",
+          "name_cn": "金色暗影/DARKNESS",
+          "src": "出包王女Darkness",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 23335,
+          "name_jp": "久野里澪",
+          "name_cn": "久野里澪",
+          "src": "混沌子",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 113000,
+          "name_jp": "ずんだもん",
+          "name_cn": "俊达萌",
+          "src": "豆打地平线",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 74756,
+          "name_jp": "スヤリス姫",
+          "name_cn": "栖夜公主",
+          "src": "在魔王城说晚安",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 18046,
+          "name_jp": "七海千秋",
+          "name_cn": "七海千秋",
+          "src": "弹丸论破",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 113254,
+          "name_jp": "三鷹アサ／ヨル",
+          "name_cn": "三鹰朝／夜",
+          "src": "链锯人",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 17369,
+          "name_jp": "凸守早苗",
+          "name_cn": "凸守早苗",
+          "src": "中二病也要谈恋爱！",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 16490,
+          "name_jp": "アスナ / 結城明日奈",
+          "name_cn": "亚丝娜／结城明日奈",
+          "src": "刀剑神域",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 3496,
+          "name_jp": "岩倉玲音",
+          "name_cn": "岩仓玲音",
+          "src": "玲音",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 87973,
+          "name_jp": "伊地知虹夏",
+          "name_cn": "伊地知虹夏",
+          "src": "孤独摇滚！",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 72355,
+          "name_jp": "イレイナ",
+          "name_cn": "伊蕾娜",
+          "src": "魔女之旅",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 61511,
+          "name_jp": "イシュタル",
+          "name_cn": "伊什塔尔",
+          "src": "Fate/Grand Order",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 1,
+      "code": "B",
+      "characters": [
+        {
+          "id": 68267,
+          "name_jp": "レイヤ / 和奏レイ",
+          "name_cn": "LAYER / 和奏瑞依",
+          "src": "BanG Dream! 少女乐团派对！☆PICO～大份～",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 149465,
+          "name_jp": "阿肝",
+          "name_cn": "",
+          "src": "命运拳台",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 133518,
+          "name_jp": "百千ひまり",
+          "name_cn": "百千向阳",
+          "src": "百千家的妖怪王子",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 7084,
+          "name_jp": "シャロン・ヴィンヤード",
+          "name_cn": "贝尔摩德",
+          "src": "名侦探柯南",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 4,
+          "name_jp": "古河渚",
+          "name_cn": "古河渚",
+          "src": "CLANNAD",
+          "gender": "female",
+          "v": 7
+        },
+        {
+          "id": 15209,
+          "name_jp": "洛天依",
+          "name_cn": "洛天依",
+          "src": "虚拟歌手",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 14960,
+          "name_jp": "南ことり",
+          "name_cn": "南琴梨",
+          "src": "Love Live!",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 275,
+          "name_jp": "泉こなた",
+          "name_cn": "泉此方",
+          "src": "幸运星",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 1211,
+          "name_jp": "忍野忍",
+          "name_cn": "忍野忍",
+          "src": "伤物语Ⅰ铁血篇",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 17949,
+          "name_jp": "食蜂操祈",
+          "name_cn": "食蜂操祈",
+          "src": "某科学的超电磁炮T",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 64718,
+          "name_jp": "西條クロディーヌ",
+          "name_cn": "西条克洛迪娜",
+          "src": "少女☆歌剧 Revue Starlight",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 87975,
+          "name_jp": "喜多郁代",
+          "name_cn": "喜多郁代",
+          "src": "孤独摇滚！",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 41512,
+          "name_jp": "新島真",
+          "name_cn": "新岛真",
+          "src": "女神异闻录5",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 58444,
+          "name_jp": "緒山まひろ",
+          "name_cn": "绪山真寻",
+          "src": "别当欧尼酱了！",
+          "v": 0
+        },
+        {
+          "id": 100857,
+          "name_jp": "雪平一果",
+          "name_cn": "雪平一果",
+          "src": "相合之物",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 6,
+          "name_jp": "伊吹風子",
+          "name_cn": "伊吹风子",
+          "src": "CLANNAD",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 8320,
+          "name_jp": "イカロス",
+          "name_cn": "伊卡洛斯",
+          "src": "天降之物",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 26731,
+          "name_jp": "エリザベス・ミッドフォード",
+          "name_cn": "伊丽莎白·米多福特",
+          "src": "黑执事",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 706,
+          "name_jp": "戦場ヶ原ひたぎ",
+          "name_cn": "战场原黑仪",
+          "src": "化物语",
+          "gender": "female",
+          "v": 2
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "code": "C",
+      "characters": [
+        {
+          "id": 68266,
+          "name_jp": "ロック / 朝日六花",
+          "name_cn": "LOCK / 朝日六花",
+          "src": "BanG Dream! 第三季",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 35608,
+          "name_jp": "エミリア",
+          "name_cn": "艾米莉娅",
+          "src": "Re：从零开始的异世界生活",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 11906,
+          "name_jp": "長野原みお",
+          "name_cn": "长野原美绪",
+          "src": "日常",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 32220,
+          "name_jp": "沖田総司",
+          "name_cn": "冲田总司",
+          "src": "忘年会咕哒咕哒Order2016",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 3882,
+          "name_jp": "高良みゆき",
+          "name_cn": "高良美幸",
+          "src": "幸运星",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 14958,
+          "name_jp": "高坂穂乃果",
+          "name_cn": "高坂穗乃果",
+          "src": "Love Live!",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 7057,
+          "name_jp": "工藤有希子",
+          "name_cn": "工藤有希子",
+          "src": "青山刚昌短篇集",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 108663,
+          "name_jp": "錦木千束",
+          "name_cn": "锦木千束",
+          "src": "莉可丽丝",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 24093,
+          "name_jp": "澤村・スペンサー・英梨々",
+          "name_cn": "泽村·史宾瑟·英梨梨",
+          "src": "路人女主的养成方法",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 1667,
+          "name_jp": "柊かがみ",
+          "name_cn": "柊镜",
+          "src": "幸运星",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 10439,
+          "name_jp": "鹿目まどか",
+          "name_cn": "鹿目圆",
+          "src": "魔法少女小圆",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 3499,
+          "name_jp": "毛利蘭",
+          "name_cn": "毛利兰",
+          "src": "名侦探柯南",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 10445,
+          "name_jp": "美樹さやか",
+          "name_cn": "美树沙耶香",
+          "src": "魔法少女小圆",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 24790,
+          "name_jp": "千斗いすず",
+          "name_cn": "千斗五十铃",
+          "src": "甘城光辉游乐园",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 35834,
+          "name_jp": "日代千鶴",
+          "name_cn": "日代千鹤",
+          "src": "ReLIFE",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 61870,
+          "name_jp": "レイ",
+          "name_cn": "瑞依",
+          "src": "杀戮天使",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 7,
+          "name_jp": "藤林杏",
+          "name_cn": "藤林杏",
+          "src": "CLANNAD",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 34668,
+          "name_jp": "西條七海",
+          "name_cn": "西条七海",
+          "src": "混沌头",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 60459,
+          "name_jp": "血小板",
+          "name_cn": "血小板",
+          "src": "工作细胞",
+          "v": 0
+        },
+        {
+          "id": 3575,
+          "name_jp": "御坂美琴",
+          "name_cn": "御坂美琴",
+          "src": "魔法禁书目录",
+          "gender": "female",
+          "v": 7
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "code": "D",
+      "characters": [
+        {
+          "id": 68269,
+          "name_jp": "パレオ / 鳰原令王那",
+          "name_cn": "PAREO / 鳰原令王那",
+          "src": "BanG Dream! 少女乐团派对！☆PICO～大份～",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 11375,
+          "name_jp": "比那名居天子",
+          "name_cn": "比那名居天子",
+          "src": "东方Project",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 1152,
+          "name_jp": "春日野穹",
+          "name_cn": "春日野穹",
+          "src": "缘之空",
+          "gender": "female",
+          "v": 6
+        },
+        {
+          "id": 86247,
+          "name_jp": "フェルン",
+          "name_cn": "菲伦",
+          "src": "葬送的芙莉莲",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 127790,
+          "name_jp": "高松燈",
+          "name_cn": "高松灯",
+          "src": "MyGO!!!!!",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 7089,
+          "name_jp": "宮野志保",
+          "name_cn": "宫野志保/灰原哀",
+          "src": "名侦探柯南",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 1976,
+          "name_jp": "ホロ",
+          "name_cn": "赫萝",
+          "src": "狼与香辛料",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 4647,
+          "name_jp": "ルーミア",
+          "name_cn": "露米娅",
+          "src": "东方Project",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 153902,
+          "name_jp": "鹿乃子のこ",
+          "name_cn": "鹿乃子乃子",
+          "src": "鹿乃子乃子乃子虎视眈眈",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 52507,
+          "name_jp": "美竹蘭",
+          "name_cn": "美竹兰",
+          "src": "BanG Dream! 少女乐团派对！☆PICO",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 8322,
+          "name_jp": "ニンフ",
+          "name_cn": "妮姆芙",
+          "src": "天降之物",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 35888,
+          "name_jp": "泉鏡花",
+          "name_cn": "泉镜花",
+          "src": "文豪野犬 DEAD APPLE",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 27643,
+          "name_jp": "蛇喰夢子",
+          "name_cn": "蛇喰梦子",
+          "src": "狂赌之渊",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 102127,
+          "name_jp": "星野アイ",
+          "name_cn": "星野爱",
+          "src": "【我推的孩子】",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 58445,
+          "name_jp": "緒山みはり",
+          "name_cn": "绪山哨",
+          "src": "别当欧尼酱了！",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 53770,
+          "name_jp": "一之瀬帆波",
+          "name_cn": "一之濑帆波",
+          "src": "欢迎来到实力至上主义教室",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 15726,
+          "name_jp": "園城寺怜",
+          "name_cn": "园城寺怜",
+          "src": "天才麻将少女 阿知贺篇",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 61404,
+          "name_jp": "中野一花",
+          "name_cn": "中野一花",
+          "src": "五等分的新娘",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 1937,
+          "name_jp": "佐天涙子",
+          "name_cn": "佐天泪子",
+          "src": "某科学的超电磁炮",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 10456,
+          "name_jp": "櫛枝実乃梨",
+          "name_cn": "栉枝实乃梨",
+          "src": "龙与虎",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 4,
+      "code": "E",
+      "characters": [
+        {
+          "id": 68268,
+          "name_jp": "マスキング / 佐藤ますき",
+          "name_cn": "MASKING / 佐藤益木",
+          "src": "BanG Dream! 少女乐团派对！☆PICO～大份～",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 73521,
+          "name_jp": "八木唯",
+          "name_cn": "八木唯",
+          "src": "雀魂 PONG☆",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 15949,
+          "name_jp": "倉嶋千百合",
+          "name_cn": "仓岛千百合",
+          "src": "加速世界",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 127793,
+          "name_jp": "長崎そよ",
+          "name_cn": "长崎爽世",
+          "src": "MyGO!!!!!",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 60527,
+          "name_jp": "ハルウララ",
+          "name_cn": "春乌菈菈",
+          "src": "马娘摇曳",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 39362,
+          "name_jp": "ムラサメ",
+          "name_cn": "丛雨",
+          "src": "千恋万花",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 21128,
+          "name_jp": "多々良小傘",
+          "name_cn": "多多良小伞",
+          "src": "东方Project",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 1063,
+          "name_jp": "岡崎汐",
+          "name_cn": "冈崎汐",
+          "src": "CLANNAD",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 1020,
+          "name_jp": "古河早苗",
+          "name_cn": "古河早苗",
+          "src": "CLANNAD",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 16659,
+          "name_jp": "古明地こいし",
+          "name_cn": "古明地恋",
+          "src": "东方Project",
+          "v": 2
+        },
+        {
+          "id": 65155,
+          "name_jp": "黒ツチ",
+          "name_cn": "黑土",
+          "src": "火影忍者疾风传",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 10600,
+          "name_jp": "鏡音リン",
+          "name_cn": "镜音铃",
+          "src": "剧场版世界计划 破碎的世界与唱不出歌的未来",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 26681,
+          "name_jp": "藍猫",
+          "name_cn": "蓝猫",
+          "src": "黑执事",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 42780,
+          "name_jp": "ルーシー・M",
+          "name_cn": "露西·莫德·蒙哥马利",
+          "src": "文豪野犬",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 14555,
+          "name_jp": "秋月愛莉",
+          "name_cn": "秋月爱莉",
+          "src": "鬼父",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 51211,
+          "name_jp": "水野茜",
+          "name_cn": "水野茜",
+          "src": "月色真美",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 61405,
+          "name_jp": "中野二乃",
+          "name_cn": "中野二乃",
+          "src": "五等分的新娘",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 10612,
+          "name_jp": "仲村ゆり",
+          "name_cn": "仲村由理",
+          "src": "天使的心跳！",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 86246,
+          "name_jp": "フリーレン",
+          "name_cn": "芙莉莲",
+          "src": "葬送的芙莉莲",
+          "gender": "female",
+          "v": 6
+        }
+      ]
+    },
+    {
+      "seq": 5,
+      "code": "F",
+      "characters": [
+        {
+          "id": 68270,
+          "name_jp": "チュチュ / 珠手ちゆ",
+          "name_cn": "CHU² / 珠手知由",
+          "src": "BanG Dream! 少女乐团派对！☆PICO～大份～",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 71479,
+          "name_jp": "アーニャ・フォージャー",
+          "name_cn": "阿尼亚·福杰",
+          "src": "间谍过家家",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 17960,
+          "name_jp": "北白川たまこ",
+          "name_cn": "北白川玉子",
+          "src": "玉子市场",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 41401,
+          "name_jp": "本田珠輝",
+          "name_cn": "本田珠辉",
+          "src": "斯特拉的魔法",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 21276,
+          "name_jp": "纏流子",
+          "name_cn": "缠流子",
+          "src": "斩服少女",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 889,
+          "name_jp": "東風谷早苗",
+          "name_cn": "东风谷早苗",
+          "src": "东方Project",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 50578,
+          "name_jp": "トウカイテイオー",
+          "name_cn": "东海帝王",
+          "src": "赛马娘",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 143664,
+          "name_jp": "花岡まこと",
+          "name_cn": "花冈真琴",
+          "src": "前辈是男孩子",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 29282,
+          "name_jp": "黄前久美子",
+          "name_cn": "黄前久美子",
+          "src": "吹响！悠风号",
+          "gender": "female",
+          "v": 5
+        },
+        {
+          "id": 18565,
+          "name_jp": "空条徐倫",
+          "name_cn": "空条徐伦",
+          "src": "JOJO的奇妙冒险 石之海",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 70227,
+          "name_jp": "ライザリン・シュタウト",
+          "name_cn": "莱莎琳·斯托特",
+          "src": "莱莎的炼金工房 ～常暗女王与秘密藏身处～",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 14859,
+          "name_jp": "リアス・グレモリー",
+          "name_cn": "莉雅丝·吉蒙里",
+          "src": "恶魔高校 D×D",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 10609,
+          "name_jp": "立華かなで",
+          "name_cn": "立华奏",
+          "src": "天使的心跳！",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 27601,
+          "name_jp": "マルシル",
+          "name_cn": "玛露西尔",
+          "src": "迷宫饭",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 20253,
+          "name_jp": "オティヌス",
+          "name_cn": "欧提努斯",
+          "src": "新约魔法禁书目录",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 23611,
+          "name_jp": "夏目藍",
+          "name_cn": "夏目蓝",
+          "src": "樱之诗",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 36489,
+          "name_jp": "宇佐美みずき",
+          "name_cn": "宇佐美瑞希",
+          "src": "这个美术社大有问题！",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 61407,
+          "name_jp": "中野四葉",
+          "name_cn": "中野四叶",
+          "src": "五等分的新娘",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 50802,
+          "name_jp": "ジュリエット・ペルシア",
+          "name_cn": "朱丽叶·佩尔西亚",
+          "src": "寄宿学校的朱丽叶",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 13019,
+          "name_jp": "ダリアン",
+          "name_cn": "妲丽安",
+          "src": "丹特丽安的书架",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 6,
+      "code": "G",
+      "characters": [
+        {
+          "id": 47509,
+          "name_jp": "百武照",
+          "name_cn": "百武照",
+          "src": "斯特拉的魔法",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 84,
+          "name_jp": "草薙素子",
+          "name_cn": "草薙素子",
+          "src": "攻壳机动队",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 39731,
+          "name_jp": "高嶺ツボミ",
+          "name_cn": "高岭蕾",
+          "src": "灵能百分百",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 41849,
+          "name_jp": "高木さん",
+          "name_cn": "高木同学",
+          "src": "擅长捉弄的高木同学",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 21277,
+          "name_jp": "鬼龍院皐月",
+          "name_cn": "鬼龙院皐月",
+          "src": "斩服少女",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 14470,
+          "name_jp": "和泉千晶",
+          "name_cn": "和泉千晶",
+          "src": "白色相簿2",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 14860,
+          "name_jp": "姫島朱乃",
+          "name_cn": "姬岛朱乃",
+          "src": "恶魔高校 D×D",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 38065,
+          "name_jp": "空銀子",
+          "name_cn": "空银子",
+          "src": "龙王的工作！",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 46465,
+          "name_jp": "ロキシー・ミグルディア・グレイラット",
+          "name_cn": "洛琪希·米格路迪亚·格雷拉特",
+          "src": "无职转生～到了异世界就拿出真本事～",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 12393,
+          "name_jp": "牧瀬紅莉栖",
+          "name_cn": "牧濑红莉栖",
+          "src": "命运石之门",
+          "gender": "female",
+          "v": 5
+        },
+        {
+          "id": 119744,
+          "name_jp": "Saya",
+          "name_cn": "沙耶",
+          "src": "沙耶之歌",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 111329,
+          "name_jp": "焼塩檸檬",
+          "name_cn": "烧盐柠檬",
+          "src": "败犬女主太多了！",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 23332,
+          "name_jp": "尾上世莉架",
+          "name_cn": "尾上世莉架",
+          "src": "混沌子",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 10715,
+          "name_jp": "音無彩名",
+          "name_cn": "音无彩名",
+          "src": "素晴日",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 35980,
+          "name_jp": "桜島麻衣",
+          "name_cn": "樱岛麻衣",
+          "src": "青春笨蛋少年不做兔女郎学姐的梦",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 55355,
+          "name_jp": "桜ノ宮苺香",
+          "name_cn": "樱之宫莓香",
+          "src": "调教咖啡厅",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 16817,
+          "name_jp": "モモ・ベリア・デビルーク",
+          "name_cn": "茉茉·贝莉雅·戴比路克",
+          "src": "出包王女Darkness",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 29511,
+          "name_jp": "友利奈緒",
+          "name_cn": "友利奈绪",
+          "src": "夏洛特",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 61408,
+          "name_jp": "中野五月",
+          "name_cn": "中野五月",
+          "src": "五等分的新娘",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 7,
+      "code": "H",
+      "characters": [
+        {
+          "id": 20135,
+          "name_jp": "比屋定真帆",
+          "name_cn": "比屋定真帆",
+          "src": "命运石之门 0",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 39361,
+          "name_jp": "常陸茉子",
+          "name_cn": "常陆茉子",
+          "src": "千恋万花",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 5089,
+          "name_jp": "赤木リツコ",
+          "name_cn": "赤木律子",
+          "src": "新世纪福音战士",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 52822,
+          "name_jp": "湊友希那",
+          "name_cn": "凑友希那",
+          "src": "BanG Dream! 少女乐团派对！☆PICO",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 1762,
+          "name_jp": "逢坂大河",
+          "name_cn": "逢坂大河",
+          "src": "龙与虎",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 37242,
+          "name_jp": "宮水三葉",
+          "name_cn": "宫水三叶",
+          "src": "你的名字。",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 3187,
+          "name_jp": "古手梨花",
+          "name_cn": "古手梨花",
+          "src": "寒蝉鸣泣之时",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 303,
+          "name_jp": "綾波レイ",
+          "name_cn": "绫波丽",
+          "src": "新世纪福音战士",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 120116,
+          "name_jp": "廣井きくり",
+          "name_cn": "广井菊里",
+          "src": "孤独摇滚！",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 3880,
+          "name_jp": "柊つかさ",
+          "name_cn": "柊司",
+          "src": "幸运星",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 135862,
+          "name_jp": "可不",
+          "name_cn": "",
+          "src": "虚拟歌手",
+          "v": 0
+        },
+        {
+          "id": 19453,
+          "name_jp": "薙切えりな",
+          "name_cn": "薙切绘里奈",
+          "src": "食戟之灵",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 2765,
+          "name_jp": "木之本桜",
+          "name_cn": "木之本樱",
+          "src": "魔卡少女樱",
+          "gender": "female",
+          "v": 4
+        },
+        {
+          "id": 53,
+          "name_jp": "神尾観铃",
+          "name_cn": "神尾观铃",
+          "src": "AIR",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 11835,
+          "name_jp": "押水菜子",
+          "name_cn": "押水菜子",
+          "src": "花开伊吕波",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 74255,
+          "name_jp": "アトリ",
+          "name_cn": "亚托莉",
+          "src": "亚托莉 -我挚爱的时光-",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 14742,
+          "name_jp": "真中合歓",
+          "name_cn": "真中合欢",
+          "src": "乐园之扉",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 61406,
+          "name_jp": "中野三玖",
+          "name_cn": "中野三玖",
+          "src": "五等分的新娘",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 12106,
+          "name_jp": "椎名ましろ",
+          "name_cn": "椎名真白",
+          "src": "樱花庄的宠物女孩",
+          "gender": "female",
+          "v": 1
+        }
+      ]
+    },
+    {
+      "seq": 8,
+      "code": "I",
+      "characters": [
+        {
+          "id": 106465,
+          "name_jp": "アルトリア・ペンドラゴン",
+          "name_cn": "阿尔托莉雅·潘德拉贡",
+          "src": "Fate/Grand Order",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 7105,
+          "name_jp": "本堂瑛海",
+          "name_cn": "本堂瑛海",
+          "src": "名侦探柯南",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 485,
+          "name_jp": "博麗霊夢",
+          "name_cn": "博丽灵梦",
+          "src": "东方梦想夏乡",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 59993,
+          "name_jp": "ファプタ",
+          "name_cn": "法普妲",
+          "src": "来自深渊 烈日的黄金乡",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 14743,
+          "name_jp": "帆刈叶",
+          "name_cn": "帆刈叶",
+          "src": "乐园之扉",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 8937,
+          "name_jp": "木下秀吉",
+          "name_cn": "木下秀吉",
+          "src": "笨蛋，测验，召唤兽",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 18231,
+          "name_jp": "七宮智音",
+          "name_cn": "七宫智音",
+          "src": "中二病也要谈恋爱！恋",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 12063,
+          "name_jp": "神戸小鳥",
+          "name_cn": "神户小鸟",
+          "src": "Rewrite",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 66899,
+          "name_jp": "四宮かぐや",
+          "name_cn": "四宫辉夜",
+          "src": "辉夜大小姐想让我告白～天才们的恋爱头脑战～",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 14862,
+          "name_jp": "塔城小猫",
+          "name_cn": "塔城小猫",
+          "src": "恶魔高校 D×D",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 14963,
+          "name_jp": "西木野真姫",
+          "name_cn": "西木野真姬",
+          "src": "Love Live!",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 111330,
+          "name_jp": "小鞠知花",
+          "name_cn": "小鞠知花",
+          "src": "败犬女主太多了！",
+          "gender": "female",
+          "v": 4
+        },
+        {
+          "id": 55357,
+          "name_jp": "星川麻冬",
+          "name_cn": "星川麻冬",
+          "src": "调教咖啡厅",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 56776,
+          "name_jp": "志摩リン",
+          "name_cn": "志摩凛",
+          "src": "摇曳露营△",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 71307,
+          "name_jp": "埴安神袿姬",
+          "name_cn": "埴安神袿姬",
+          "src": "东方Project",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 17588,
+          "name_jp": "堀京子",
+          "name_cn": "堀京子",
+          "src": "堀桑与宫村君",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 19526,
+          "name_jp": "鳶一折紙",
+          "name_cn": "鸢一折纸",
+          "src": "约会大作战",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 304,
+          "name_jp": "惣流・アスカ・ラングレー",
+          "name_cn": "惣流·明日香·兰格雷",
+          "src": "新世纪福音战士",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 101553,
+          "name_jp": "柊うてな/悪の女幹部",
+          "name_cn": "柊宇天那/恶之女干部",
+          "src": "梦想成为魔法少女",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 13178,
+          "name_jp": "楪いのり",
+          "name_cn": "楪祈",
+          "src": "罪恶王冠",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 9,
+      "code": "J",
+      "characters": [
+        {
+          "id": 72375,
+          "name_jp": "アリナ・グレイ",
+          "name_cn": "阿莉娜·格雷",
+          "src": "魔法纪录 魔法少女小圆外传",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 29362,
+          "name_jp": "アイラ",
+          "name_cn": "艾拉",
+          "src": "可塑性记忆",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 14744,
+          "name_jp": "白夜凛音",
+          "name_cn": "白夜凛音",
+          "src": "乐园之扉",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 11853,
+          "name_jp": "本間芽衣子",
+          "name_cn": "本间芽衣子",
+          "src": "我们仍未知道那天所看见的花的名字。",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 14964,
+          "name_jp": "東條希",
+          "name_cn": "东条希",
+          "src": "Love Live!",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 132476,
+          "name_jp": "豊川祥子",
+          "name_cn": "丰川祥子",
+          "src": "BanG Dream! Ave Mujica",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 10473,
+          "name_jp": "高坂桐乃",
+          "name_cn": "高坂桐乃",
+          "src": "我的妹妹哪有这么可爱！",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 43537,
+          "name_jp": "古手川奈々華",
+          "name_cn": "古手川奈奈华",
+          "src": "碧蓝之海",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 87968,
+          "name_jp": "後藤ひとり",
+          "name_cn": "后藤一里",
+          "src": "孤独摇滚！",
+          "gender": "female",
+          "v": 4
+        },
+        {
+          "id": 35615,
+          "name_jp": "レム",
+          "name_cn": "蕾姆",
+          "src": "Re：从零开始的异世界生活",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 125379,
+          "name_jp": "メノウ・ヒーストリア",
+          "name_cn": "梅诺·希斯特里亚",
+          "src": "魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 127801,
+          "name_jp": "七倉凛",
+          "name_cn": "七仓凛",
+          "src": "百变的七仓同学",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 10602,
+          "name_jp": "水上由岐",
+          "name_cn": "水上由岐",
+          "src": "素晴日",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 486,
+          "name_jp": "霧雨魔理沙",
+          "name_cn": "雾雨魔理沙",
+          "src": "东方梦想夏乡",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 17362,
+          "name_jp": "小鳥遊六花",
+          "name_cn": "小鸟游六花",
+          "src": "中二病也要谈恋爱！",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 7260,
+          "name_jp": "源静香",
+          "name_cn": "源静香",
+          "src": "哆啦A梦",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 10596,
+          "name_jp": "遠坂凛",
+          "name_cn": "远坂凛",
+          "src": "Fate/stay night",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 997,
+          "name_jp": "月宮あゆ",
+          "name_cn": "月宫亚由",
+          "src": "Kanon 风花",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 96830,
+          "name_jp": "ジャンヌ",
+          "name_cn": "贞德",
+          "src": "瓦尼塔斯的手记",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 10,
+      "code": "K",
+      "characters": [
+        {
+          "id": 3576,
+          "name_jp": "白井黒子",
+          "name_cn": "白井黑子",
+          "src": "某科学的超电磁炮",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 86816,
+          "name_jp": "出雲咲姫",
+          "name_cn": "出云咲姬",
+          "src": "ぷっちみく♪ D4DJ Petit Mix",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 13391,
+          "name_jp": "冬馬かずさ",
+          "name_cn": "冬马和纱",
+          "src": "白色相簿2",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 59571,
+          "name_jp": "二条院羽月",
+          "name_cn": "",
+          "src": "RIDDLE JOKER",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 26003,
+          "name_jp": "宮園かをり",
+          "name_cn": "宫园薰",
+          "src": "四月是你的谎言",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 43539,
+          "name_jp": "吉原愛菜",
+          "name_cn": "吉原爱菜",
+          "src": "碧蓝之海",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 108660,
+          "name_jp": "キサラ",
+          "name_cn": "木更",
+          "src": "契约之吻",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 76270,
+          "name_jp": "椎名真昼",
+          "name_cn": "椎名真昼",
+          "src": "关于邻家的天使大人不知不觉把我惯成了废人这档子事",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 87974,
+          "name_jp": "山田リョウ",
+          "name_cn": "山田凉",
+          "src": "孤独摇滚！",
+          "gender": "female",
+          "v": 4
+        },
+        {
+          "id": 90090,
+          "name_jp": "ツインターボ",
+          "name_cn": "双涡轮",
+          "src": "马娘摇曳",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 25789,
+          "name_jp": "藤岡ハルヒ",
+          "name_cn": "藤冈春日",
+          "src": "樱兰高校男公关部",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 23104,
+          "name_jp": "藤宮香織",
+          "name_cn": "藤宫香织",
+          "src": "一周的朋友。",
+          "v": 0
+        },
+        {
+          "id": 68978,
+          "name_jp": "天野陽菜",
+          "name_cn": "天野阳菜",
+          "src": "天气之子",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 46463,
+          "name_jp": "シルフィエット・グレイラット",
+          "name_cn": "希露菲叶特·格雷拉特",
+          "src": "无职转生～到了异世界就拿出真本事～",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 25693,
+          "name_jp": "小海はるか",
+          "name_cn": "小海遥",
+          "src": "日本国有铁道公安队",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 26008,
+          "name_jp": "アルカ＝ゾルディック",
+          "name_cn": "亚路嘉·揍敌客",
+          "src": "猎人",
+          "v": 0
+        },
+        {
+          "id": 112103,
+          "name_jp": "岩倉美津未",
+          "name_cn": "岩仓美津未",
+          "src": "跃动青春",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 3218,
+          "name_jp": "イリヤスフィール・フォン・アインツベルン",
+          "name_cn": "伊莉雅斯菲尔·冯·爱因兹贝伦",
+          "src": "Fate/kaleid liner 魔法少女☆伊莉雅",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 72649,
+          "name_jp": "真中あお",
+          "name_cn": "真中蓝",
+          "src": "恋爱小行星",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 11,
+      "code": "L",
+      "characters": [
+        {
+          "id": 53400,
+          "name_jp": "エレシュキガル",
+          "name_cn": "埃列什基伽勒",
+          "src": "Fate/Grand Order -绝对魔兽战线巴比伦尼亚-",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 21021,
+          "name_jp": "安達桜",
+          "name_cn": "安达樱",
+          "src": "安达与岛村",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 132924,
+          "name_jp": "八幡海鈴",
+          "name_cn": "八幡海铃",
+          "src": "BanG Dream! Ave Mujica",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 39360,
+          "name_jp": "朝武芳乃",
+          "name_cn": "朝武芳乃",
+          "src": "千恋万花",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 101567,
+          "name_jp": "杜乃こりす/ネロアリス",
+          "name_cn": "杜乃可莉丝/尼禄爱丽丝",
+          "src": "梦想成为魔法少女",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 57715,
+          "name_jp": "ヴラディレーナ・ミリーゼ",
+          "name_cn": "弗拉迪蕾娜·米丽洁",
+          "src": "86 -不存在的战区-",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 68992,
+          "name_jp": "環古達",
+          "name_cn": "环古达",
+          "src": "炎炎消防队",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 24094,
+          "name_jp": "加藤恵",
+          "name_cn": "加藤惠",
+          "src": "路人女主的养成方法",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 108664,
+          "name_jp": "井ノ上たきな",
+          "name_cn": "井之上泷奈",
+          "src": "莉可丽丝",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 20890,
+          "name_jp": "栗山未来",
+          "name_cn": "栗山未来",
+          "src": "境界的彼方",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 14823,
+          "name_jp": "千反田える",
+          "name_cn": "千反田爱瑠",
+          "src": "冰菓",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 65,
+          "name_jp": "神奈備命",
+          "name_cn": "神奈备命",
+          "src": "AIR 夏季篇",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 19529,
+          "name_jp": "時崎狂三",
+          "name_cn": "时崎狂三",
+          "src": "约会大作战",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 70844,
+          "name_jp": "W",
+          "name_cn": "维什戴尔",
+          "src": "明日方舟：黎明前奏",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 11720,
+          "name_jp": "小町つぐみ",
+          "name_cn": "小町鸫",
+          "src": "Ever17",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 16162,
+          "name_jp": "篝ノ霧枝",
+          "name_cn": "篝之雾枝",
+          "src": "美少女万华镜",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 19041,
+          "name_jp": "由比ヶ浜結衣",
+          "name_cn": "由比滨结衣",
+          "src": "我的青春恋爱物语果然有问题",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 76271,
+          "name_jp": "由崎司",
+          "name_cn": "由崎司",
+          "src": "总之就是非常可爱",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 604,
+          "name_jp": "中野梓",
+          "name_cn": "中野梓",
+          "src": "轻音少女",
+          "gender": "female",
+          "v": 1
+        }
+      ]
+    },
+    {
+      "seq": 12,
+      "code": "M",
+      "characters": [
+        {
+          "id": 7998,
+          "name_jp": "大道寺知世",
+          "name_cn": "大道寺知世",
+          "src": "魔卡少女樱",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 21022,
+          "name_jp": "島村抱月",
+          "name_cn": "岛村抱月",
+          "src": "安达与岛村",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 27234,
+          "name_jp": "宮森あおい",
+          "name_cn": "宫森葵",
+          "src": "白箱",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 7045,
+          "name_jp": "吉田歩美",
+          "name_cn": "吉田步美",
+          "src": "名侦探柯南",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 48,
+          "name_jp": "涼宮ハルヒ",
+          "name_cn": "凉宫春日",
+          "src": "凉宫春日的忧郁",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 102126,
+          "name_jp": "ルビー",
+          "name_cn": "露比",
+          "src": "【我推的孩子】",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 15993,
+          "name_jp": "弥海砂",
+          "name_cn": "弥海砂",
+          "src": "死亡笔记",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 466,
+          "name_jp": "平沢唯",
+          "name_cn": "平泽唯",
+          "src": "轻音少女",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 132477,
+          "name_jp": "若葉睦",
+          "name_cn": "若叶睦",
+          "src": "BanG Dream! Ave Mujica",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 75842,
+          "name_jp": "上杉绘梨衣",
+          "name_cn": "上杉绘梨衣",
+          "src": "龙族",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 101570,
+          "name_jp": "水神小夜/マジアアズール",
+          "name_cn": "水神小夜/魔法碧蓝",
+          "src": "梦想成为魔法少女",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 671,
+          "name_jp": "我妻由乃",
+          "name_cn": "我妻由乃",
+          "src": "未来日记",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 10700,
+          "name_jp": "五更瑠璃",
+          "name_cn": "五更琉璃",
+          "src": "我的妹妹哪有这么可爱！",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 50586,
+          "name_jp": "オグリキャップ",
+          "name_cn": "小栗帽",
+          "src": "赛马娘 Pretty Derby",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 13390,
+          "name_jp": "小木曽雪菜",
+          "name_cn": "小木曾雪菜",
+          "src": "白色相簿2",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 12280,
+          "name_jp": "ほしのゆめみ",
+          "name_cn": "星野梦美",
+          "src": "星之梦",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 711,
+          "name_jp": "羽川翼",
+          "name_cn": "羽川翼",
+          "src": "化物语",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 12381,
+          "name_jp": "椎名まゆり",
+          "name_cn": "椎名真由理",
+          "src": "命运石之门",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 40739,
+          "name_jp": "鎧塚みぞれ",
+          "name_cn": "铠冢霙",
+          "src": "莉兹与青鸟",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 13,
+      "code": "N",
+      "characters": [
+        {
+          "id": 57374,
+          "name_jp": "エキドナ",
+          "name_cn": "艾姬多娜",
+          "src": "Re：从零开始的异世界生活 第二季",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 708,
+          "name_jp": "八九寺真宵",
+          "name_cn": "八九寺真宵",
+          "src": "化物语",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 49,
+          "name_jp": "長門有希",
+          "name_cn": "长门有希",
+          "src": "凉宫春日的忧郁",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 57222,
+          "name_jp": "シンシャ",
+          "name_cn": "辰砂",
+          "src": "宝石之国",
+          "v": 0
+        },
+        {
+          "id": 50594,
+          "name_jp": "ダイワスカーレット",
+          "name_cn": "大和赤骥",
+          "src": "马娘摇曳",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 20129,
+          "name_jp": "河城にとり",
+          "name_cn": "河城荷取",
+          "src": "东方Project",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 57221,
+          "name_jp": "フォスフォフィライト",
+          "name_cn": "磷叶石",
+          "src": "宝石之国",
+          "v": 1
+        },
+        {
+          "id": 488,
+          "name_jp": "パチュリー・ノーレッジ",
+          "name_cn": "帕秋莉·诺蕾姬",
+          "src": "东方梦想夏乡",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 42276,
+          "name_jp": "傘木希美",
+          "name_cn": "伞木希美",
+          "src": "莉兹与青鸟",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 90574,
+          "name_jp": "山田杏奈",
+          "name_cn": "山田杏奈",
+          "src": "我心里危险的东西",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 27648,
+          "name_jp": "桃喰綺羅莉",
+          "name_cn": "桃喰绮罗莉",
+          "src": "狂赌之渊",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 111331,
+          "name_jp": "温水佳樹",
+          "name_cn": "温水佳树",
+          "src": "败犬女主太多了！",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 10364,
+          "name_jp": "シータ",
+          "name_cn": "希达",
+          "src": "天空之城",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 23648,
+          "name_jp": "香風智乃",
+          "name_cn": "香风智乃",
+          "src": "请问您今天要来点兔子吗？",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 10561,
+          "name_jp": "小鳥遊ヨミ",
+          "name_cn": "小鸟游黄泉",
+          "src": "黑岩射手",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 150624,
+          "name_jp": "小佐内ゆき",
+          "name_cn": "小佐内由纪",
+          "src": "小市民系列",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 19525,
+          "name_jp": "夜刀神十香",
+          "name_cn": "夜刀神十香",
+          "src": "约会大作战",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 69198,
+          "name_jp": "伊井野ミコ",
+          "name_cn": "伊井野弥子",
+          "src": "辉夜大小姐想让我告白？～天才们的恋爱头脑战～",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 102128,
+          "name_jp": "有馬かな",
+          "name_cn": "有马加奈",
+          "src": "【我推的孩子】 第二季",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 97303,
+          "name_jp": "周防有希",
+          "name_cn": "周防有希",
+          "src": "不时用俄语小声说真心话的邻桌艾莉同学",
+          "gender": "female",
+          "v": 1
+        }
+      ]
+    },
+    {
+      "seq": 14,
+      "code": "O",
+      "characters": [
+        {
+          "id": 57751,
+          "name_jp": "ゼロツー",
+          "name_cn": "02",
+          "src": "DARLING in the FRANXX",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 57376,
+          "name_jp": "エマ",
+          "name_cn": "艾玛",
+          "src": "约定的梦幻岛",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 70888,
+          "name_jp": "八尋寧々",
+          "name_cn": "八寻宁宁",
+          "src": "地缚少年花子君",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 121636,
+          "name_jp": "百里風実花",
+          "name_cn": "百里风实花",
+          "src": "天使嚣嚣",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 9970,
+          "name_jp": "ポニョ",
+          "name_cn": "波妞",
+          "src": "崖上的波妞",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 35667,
+          "name_jp": "雛月加代",
+          "name_cn": "雏月加代",
+          "src": "只有我不存在的城市",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 67652,
+          "name_jp": "久石奏",
+          "name_cn": "久石奏",
+          "src": "莉兹与青鸟",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 1636,
+          "name_jp": "レイナ",
+          "name_cn": "蕾娜",
+          "src": "女皇之刃 流浪的战士",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 7048,
+          "name_jp": "鈴木園子",
+          "name_cn": "铃木园子",
+          "src": "名侦探柯南",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 1,
+          "name_jp": "ルルーシュ・ランペルージ",
+          "name_cn": "鲁路修·兰佩路基",
+          "src": "Code Geass 反叛的鲁路修",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 467,
+          "name_jp": "秋山澪",
+          "name_cn": "秋山澪",
+          "src": "轻音少女",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 116743,
+          "name_jp": "セシリア",
+          "name_cn": "塞西莉亚",
+          "src": "白圣女与黑牧师",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 15457,
+          "name_jp": "筒隠月子",
+          "name_cn": "筒隐月子",
+          "src": "变态王子与不笑猫。",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 16369,
+          "name_jp": "わたし",
+          "name_cn": "我",
+          "src": "人类衰退之后",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 10440,
+          "name_jp": "暁美ほむら",
+          "name_cn": "晓美焰",
+          "src": "魔法少女小圆",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 19040,
+          "name_jp": "雪ノ下雪乃",
+          "name_cn": "雪之下雪乃",
+          "src": "我的青春恋爱物语果然有问题",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 1697,
+          "name_jp": "壱原侑子",
+          "name_cn": "壹原侑子",
+          "src": "×××HOLiC◆继",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 62371,
+          "name_jp": "依神紫苑",
+          "name_cn": "依神紫苑",
+          "src": "东方Project",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 2629,
+          "name_jp": "インデックス",
+          "name_cn": "茵蒂克斯",
+          "src": "魔法禁书目录",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 121468,
+          "name_jp": "桜花あさひ",
+          "name_cn": "樱花朝日",
+          "src": "别当欧尼酱了！",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 15,
+      "code": "P",
+      "characters": [
+        {
+          "id": 3,
+          "name_jp": "C.C.",
+          "name_cn": "C.C.",
+          "src": "Code Geass 反叛的鲁路修",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 64712,
+          "name_jp": "愛城華恋",
+          "name_cn": "爱城华恋",
+          "src": "少女☆歌剧 Revue Starlight",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 855,
+          "name_jp": "アルクェイド・ブリュンスタッド",
+          "name_cn": "爱尔奎特·布伦史坦德",
+          "src": "真月谭月姬",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 130665,
+          "name_jp": "安和すばる",
+          "name_cn": "安和昴",
+          "src": "GIRLS BAND CRY",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 34040,
+          "name_jp": "しらほし",
+          "name_cn": "白星",
+          "src": "航海王",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 43536,
+          "name_jp": "古手川千紗",
+          "name_cn": "古手川千纱",
+          "src": "碧蓝之海",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 32676,
+          "name_jp": "海老名菜々",
+          "name_cn": "海老名菜菜",
+          "src": "干物妹！小埋",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 102130,
+          "name_jp": "黒川あかね",
+          "name_cn": "黑川茜",
+          "src": "【我推的孩子】",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 130664,
+          "name_jp": "井芹仁菜",
+          "name_cn": "井芹仁菜",
+          "src": "GIRLS BAND CRY",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 71337,
+          "name_jp": "マキマ",
+          "name_cn": "玛奇玛",
+          "src": "链锯人",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 10366,
+          "name_jp": "ミラジェーン・ストラウス",
+          "name_cn": "米拉珍·斯特劳斯",
+          "src": "妖精的尾巴",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 469,
+          "name_jp": "琴吹紬",
+          "name_cn": "琴吹紬",
+          "src": "轻音少女",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 32675,
+          "name_jp": "土間うまる",
+          "name_cn": "土间埋",
+          "src": "干物妹！小埋",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 19527,
+          "name_jp": "五河琴里",
+          "name_cn": "五河琴里",
+          "src": "约会大作战",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 1094,
+          "name_jp": "小神あきら",
+          "name_cn": "小神晶",
+          "src": "幸运星",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 23333,
+          "name_jp": "有村雛絵",
+          "name_cn": "有村雏绘",
+          "src": "混沌子",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 21607,
+          "name_jp": "御坂妹",
+          "name_cn": "御坂妹妹",
+          "src": "魔法禁书目录",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 7051,
+          "name_jp": "遠山和葉",
+          "name_cn": "远山和叶",
+          "src": "名侦探柯南",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 13299,
+          "name_jp": "荻野千尋",
+          "name_cn": "荻野千寻",
+          "src": "千与千寻",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 23077,
+          "name_jp": "アヤノ",
+          "name_cn": "楯山文乃",
+          "src": "目隐都市的演绎者",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    }
+  ]
+}
