@@ -13,17 +13,20 @@ function Group() {
     const [state, setState] = useState(0);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
+    const [focus, setFocus] = useState("");
     const SubjectInput = (props) => {
         const [searchResult, setSearchResult] = React.useState([]);
         const [lastVal, setLastVal] = React.useState("");
-        const [hiddenVal, setHiddenVal] = React.useState("");
+        const [hiddenVal, setHiddenVal] = React.useState("-1");
         const searchSubject = () => {
             setLastVal(document.getElementById('input-' + props.vid).value)
             setSearchResult(props.option.characters)
+            setFocus(props.vid)
+            console.log(props.vid)
         }
         const searchSubjectByInput = (event) => {
             event.target.style.backgroundColor = "white";
-            document.getElementById('hidden-' + props.vid).value = null;
+            document.getElementById('hidden-' + props.vid).value = "-1";
             searchSubject();
         }
         const transformResult = (belong) => {
@@ -76,10 +79,10 @@ function Group() {
         }
         let fatherElementId = 'input-' + props.vid
         return <div>
-            <input type="hidden" id={'hidden-' + props.vid} value={hiddenVal===""?null:hiddenVal}/>
+            <input type="hidden" id={'hidden-' + props.vid} value={hiddenVal}/>
             <span className="SequenceTag">小组{props.option.code}</span>
             <input type="text" className="VoteInput" id={fatherElementId} value={lastVal} autoComplete="off"
-                   onInput={searchSubjectByInput} onClick={searchSubjectByInput} onBlur={handleBlur}/>
+                   onInput={searchSubjectByInput} onClick={searchSubject} onBlur={handleBlur}/>
             {
                 searchResult.length !== 0 &&
                 <div className="SearchResultSet">
