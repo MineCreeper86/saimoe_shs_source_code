@@ -16,6 +16,7 @@ import SHSTpass from "./component/usersystem/SHSTpass";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.cookie = "wh="+window.outerHeight+"; domain=shswafu.club";
 document.cookie = "ww="+window.outerWidth+"; domain=shswafu.club";
+console.log("～欢迎关注上海中学和风社～")
 root.render(
     <React.StrictMode>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>

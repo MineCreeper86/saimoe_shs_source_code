@@ -20,14 +20,18 @@ function Group() {
         const resetFocus = (vid) => {
             for (let i = 0; i < 12; i++) {
                 if ('male-' + i !== vid) {
-                    document.getElementById('search-male-' + i).style.opacity = "0.2";
-                    document.getElementById('search-male-' + i).style.zIndex = "-10";
+                    if (document.getElementById('search-male-' + i) !== null) {
+                        document.getElementById('search-male-' + i).style.opacity = "0.2";
+                        document.getElementById('search-male-' + i).style.zIndex = "-10";
+                    }
                 }
             }
             for (let j = 0; j < 16; j++) {
                 if ('fem-' + j !== vid) {
-                    document.getElementById('search-fem-' + j).style.opacity = "0.2";
-                    document.getElementById('search-fem-' + j).style.zIndex = "-10";
+                    if (document.getElementById('search-fem-' + j) !== null) {
+                        document.getElementById('search-fem-' + j).style.opacity = "0.2";
+                        document.getElementById('search-fem-' + j).style.zIndex = "-10";
+                    }
                 }
             }
         }
