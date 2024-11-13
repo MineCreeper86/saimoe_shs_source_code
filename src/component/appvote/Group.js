@@ -45,7 +45,6 @@ function Group() {
             let resultObjects = [];
             let id = 0;
             const handleClick = (event) => {
-                console.log("click");
                 let element = event.target;
                 if (element.children.length === 0) element = element.parentElement;
                 let fatherElement = "-" + element.id.split("-")[1] + "-" + element.id.split("-")[2];
@@ -85,18 +84,14 @@ function Group() {
                 document.getElementById("hidden-" + props.vid).style.backgroundColor = "#dcffee";
             }
         }, []);
-        const handleBlur = (event) => {
-            console.log(document.activeElement);
-            setLastVal(document.getElementById(fatherElementId).value);
-        }
         let fatherElementId = 'input-' + props.vid
         return <div>
             <input type="hidden" id={'hidden-' + props.vid} value={hiddenVal}/>
             <span className="SequenceTag">小组{props.option.code}</span>
             <input type="text" className="VoteInput" id={fatherElementId} value={lastVal} autoComplete="off"
-                   onInput={searchSubjectByInput} onClick={searchSubject} onBlur={handleBlur}/>
+                   onInput={searchSubjectByInput} onClick={searchSubject}/>
             {
-                searchResult.length !== 0 && focus === props.vid &&
+                searchResult.length !== 0 &&
                 <div className="SearchResultSet" id={'search-' + props.vid}>
                     {transformResult(fatherElementId)}
                 </div>
