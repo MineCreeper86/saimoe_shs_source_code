@@ -13,15 +13,28 @@ function Group() {
     const [state, setState] = useState(0);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
-    let focus = ""
     const SubjectInput = (props) => {
         const [searchResult, setSearchResult] = React.useState([]);
         const [lastVal, setLastVal] = React.useState("");
         const [hiddenVal, setHiddenVal] = React.useState("-1");
+        const resetFocus = (vid) => {
+            for (let i = 0; i < 12; i++) {
+                if ('male-' + i !== vid) {
+                    document.getElementById('search-male-' + i).style.opacity = "0.2";
+                    document.getElementById('search-male-' + i).style.zIndex = "-10";
+                }
+            }
+            for (let j = 0; j < 16; j++) {
+                if ('fem-' + j !== vid) {
+                    document.getElementById('search-fem-' + j).style.opacity = "0.2";
+                    document.getElementById('search-fem-' + j).style.zIndex = "-10";
+                }
+            }
+        }
         const searchSubject = () => {
             setLastVal(document.getElementById('input-' + props.vid).value)
             setSearchResult(props.option.characters)
-            focus = props.vid
+            resetFocus(props.vid)
         }
         const searchSubjectByInput = (event) => {
             event.target.style.backgroundColor = "white";
@@ -84,7 +97,7 @@ function Group() {
                    onInput={searchSubjectByInput} onClick={searchSubject} onBlur={handleBlur}/>
             {
                 searchResult.length !== 0 && focus === props.vid &&
-                <div className="SearchResultSet">
+                <div className="SearchResultSet" id={'search-' + props.vid}>
                     {transformResult(fatherElementId)}
                 </div>
             }
