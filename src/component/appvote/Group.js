@@ -37,6 +37,7 @@ function Group() {
             setLastVal(document.getElementById('input-' + props.vid).value)
             setSearchResult(props.option.characters)
             resetFocus(props.vid)
+            forceUpdate()
         }
         const searchSubjectByInput = (event) => {
             event.target.style.backgroundColor = "white";
