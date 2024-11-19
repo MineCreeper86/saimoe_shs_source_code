@@ -28,7 +28,7 @@ function Group() {
             for (let j = 0; j < 16; j++) {
                 if ('fem-' + j !== vid) {
                     if (document.getElementById('search-fem-' + j) !== null) {
-                        document.getElementById('search-male-' + i).remove();
+                        document.getElementById('search-fem-' + j).remove();
                     }
                 }
             }
