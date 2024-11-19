@@ -21,14 +21,14 @@ function Group() {
             for (let i = 0; i < 12; i++) {
                 if ('male-' + i !== vid) {
                     if (document.getElementById('search-male-' + i) !== null) {
-                        document.getElementById('search-male-' + i).style.display = "none";
+                        document.getElementById('search-male-' + i).remove();
                     }
                 }
             }
             for (let j = 0; j < 16; j++) {
                 if ('fem-' + j !== vid) {
                     if (document.getElementById('search-fem-' + j) !== null) {
-                        document.getElementById('search-fem-' + j).style.display = "none";
+                        document.getElementById('search-male-' + i).remove();
                     }
                 }
             }
