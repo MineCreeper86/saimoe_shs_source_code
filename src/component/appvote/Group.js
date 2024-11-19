@@ -17,6 +17,7 @@ function Group() {
         const [searchResult, setSearchResult] = React.useState([]);
         const [lastVal, setLastVal] = React.useState("");
         const [hiddenVal, setHiddenVal] = React.useState("-1");
+        const [anythingUsedToUpdateThisComponent, setAnythingUsedToUpdateThisComponent] = React.useState(0);
         const resetFocus = (vid) => {
             for (let i = 0; i < 12; i++) {
                 if ('male-' + i !== vid) {
@@ -36,9 +37,11 @@ function Group() {
         const searchSubject = () => {
             setLastVal(document.getElementById('input-' + props.vid).value)
             setSearchResult(props.option.characters)
+            setAnythingUsedToUpdateThisComponent(anythingUsedToUpdateThisComponent + 1)
             resetFocus(props.vid)
         }
         const searchSubjectByInput = (event) => {
+            console.log("input: "+event.target.id);
             event.target.style.backgroundColor = "white";
             document.getElementById('hidden-' + props.vid).value = "-1";
             searchSubject();
@@ -84,6 +87,7 @@ function Group() {
                 document.getElementById("input-" + props.vid).value = props.defaultValue.name;
                 document.getElementById("hidden-" + props.vid).value = props.defaultValue.id;
                 document.getElementById("hidden-" + props.vid).style.backgroundColor = "#dcffee";
+                console.log("useeffect");
             }
         }, []);
         let fatherElementId = 'input-' + props.vid
