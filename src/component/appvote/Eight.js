@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import Article from "../Article";
 import LoginWindow from "../usersystem/LoginWindow";
-import './Group.css'
+import './Eight.css'
 import axios from "axios";
 
-function Group() {
+function Eight() {
     const [maleData, setMaleData] = useState([]);
     const [femaleData, setFemaleData] = useState([]);
     const [loaded, setLoaded] = useState(false);
@@ -189,4 +189,4 @@ function Group() {
     )
 }
 
-export default Group;
+export default Eight;
