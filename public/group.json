@@ -1,0 +1,278 @@
+{
+  "male": [
+    {
+      "seq": 0,
+      "code": "A",
+      "characters": [
+        {
+          "id": 16489,
+          "name_jp": "キリト / 桐ヶ谷和人",
+          "name_cn": "桐人／桐谷和人",
+          "src": "刀剑神域",
+          "gender": "male",
+          "v": 5
+        },
+        {
+          "id": 17601,
+          "name_jp": "ディオ・ブランドー",
+          "name_cn": "迪奥·布兰多",
+          "src": "JOJO的奇妙冒险",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 19039,
+          "name_jp": "比企谷八幡",
+          "name_cn": "比企谷八幡",
+          "src": "我的青春恋爱物语果然有问题",
+          "gender": "male",
+          "v": 3
+        }
+      ]
+    },
+    {
+      "seq": 1,
+      "code": "B",
+      "characters": [
+        {
+          "id": 74243,
+          "name_jp": "五条悟",
+          "name_cn": "五条悟",
+          "src": "咒术回战",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 878,
+          "name_jp": "空条承太郎",
+          "name_cn": "空条承太郎",
+          "src": "JOJO的奇妙冒险",
+          "gender": "male",
+          "v": 4
+        },
+        {
+          "id": 879,
+          "name_jp": "ジョセフ・ジョースター",
+          "name_cn": "乔瑟夫·乔斯达",
+          "src": "JOJO的奇妙冒险",
+          "gender": "male",
+          "v": 1
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "code": "C",
+      "characters": [
+        {
+          "id": 6965,
+          "name_jp": "渚カヲル",
+          "name_cn": "渚薰",
+          "src": "新世纪福音战士",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 3498,
+          "name_jp": "上条当麻",
+          "name_cn": "上条当麻",
+          "src": "魔法禁书目录",
+          "gender": "male",
+          "v": 7
+        },
+        {
+          "id": 17363,
+          "name_jp": "富樫勇太",
+          "name_cn": "富樫勇太",
+          "src": "中二病也要谈恋爱！",
+          "gender": "male",
+          "v": 3
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "code": "D",
+      "characters": [
+        {
+          "id": 35238,
+          "name_jp": "太宰治",
+          "name_cn": "太宰治",
+          "src": "文豪野犬",
+          "gender": "male",
+          "v": 4
+        },
+        {
+          "id": 38323,
+          "name_jp": "ギルベルト・ブーゲンビリア",
+          "name_cn": "基尔伯特·布甘比利亚",
+          "src": "紫罗兰永恒花园",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 6500,
+          "name_jp": "うちはサスケ",
+          "name_cn": "宇智波佐助",
+          "src": "火影忍者疾风传",
+          "gender": "male",
+          "v": 1
+        }
+      ]
+    }
+  ],
+  "female": [
+    {
+      "seq": 0,
+      "code": "A",
+      "characters": [
+        {
+          "id": 87973,
+          "name_jp": "伊地知虹夏",
+          "name_cn": "伊地知虹夏",
+          "src": "孤独摇滚！",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 87975,
+          "name_jp": "喜多郁代",
+          "name_cn": "喜多郁代",
+          "src": "孤独摇滚！",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 87968,
+          "name_jp": "後藤ひとり",
+          "name_cn": "后藤一里",
+          "src": "孤独摇滚！",
+          "gender": "female",
+          "v": 4
+        },
+        {
+          "id": 29511,
+          "name_jp": "友利奈緒",
+          "name_cn": "友利奈绪",
+          "src": "夏洛特",
+          "gender": "female",
+          "v": 1
+        }
+      ]
+    },
+    {
+      "seq": 1,
+      "code": "B",
+      "characters": [
+        {
+          "id": 10609,
+          "name_jp": "立華かなで",
+          "name_cn": "立华奏",
+          "src": "天使的心跳！",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 7089,
+          "name_jp": "宮野志保",
+          "name_cn": "宫野志保/灰原哀",
+          "src": "名侦探柯南",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 3575,
+          "name_jp": "御坂美琴",
+          "name_cn": "御坂美琴",
+          "src": "魔法禁书目录",
+          "gender": "female",
+          "v": 7
+        },
+        {
+          "id": 66899,
+          "name_jp": "四宮かぐや",
+          "name_cn": "四宫辉夜",
+          "src": "辉夜大小姐想让我告白～天才们的恋爱头脑战～",
+          "gender": "female",
+          "v": 1
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "code": "C",
+      "characters": [
+        {
+          "id": 19529,
+          "name_jp": "時崎狂三",
+          "name_cn": "时崎狂三",
+          "src": "约会大作战",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 303,
+          "name_jp": "綾波レイ",
+          "name_cn": "绫波丽",
+          "src": "新世纪福音战士",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 86246,
+          "name_jp": "フリーレン",
+          "name_cn": "芙莉莲",
+          "src": "葬送的芙莉莲",
+          "gender": "female",
+          "v": 6
+        },
+        {
+          "id": 19040,
+          "name_jp": "雪ノ下雪乃",
+          "name_cn": "雪之下雪乃",
+          "src": "我的青春恋爱物语果然有问题",
+          "gender": "female",
+          "v": 2
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "code": "D",
+      "characters": [
+        {
+          "id": 97303,
+          "name_jp": "周防有希",
+          "name_cn": "周防有希",
+          "src": "不时用俄语小声说真心话的邻桌艾莉同学",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 48,
+          "name_jp": "涼宮ハルヒ",
+          "name_cn": "凉宫春日",
+          "src": "凉宫春日的忧郁",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 19527,
+          "name_jp": "五河琴里",
+          "name_cn": "五河琴里",
+          "src": "约会大作战",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 3576,
+          "name_jp": "白井黒子",
+          "name_cn": "白井黑子",
+          "src": "某科学的超电磁炮",
+          "gender": "female",
+          "v": 3
+        }
+      ]
+    }
+  ]
+}

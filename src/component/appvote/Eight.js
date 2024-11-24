@@ -16,7 +16,6 @@ function Eight() {
     const SubjectInput = (props) => {
         let fatherElementId = 'input-' + props.vid
         return <div>
-            <input type="hidden" id={'hidden-' + props.vid} value={hiddenVal}/>
             <span className="SequenceTag">小组{props.option.code}</span>
             <input type="checkbox"/>
         </div>
