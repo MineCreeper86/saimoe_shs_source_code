@@ -13,12 +13,12 @@ function Eight() {
     const [state, setState] = useState(0);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
+    const debug = false;
     const SubjectInput = (props) => {
         let fatherElementId = 'input-' + props.vid
-        return <div>
-            <span className="SequenceTag">小组{props.option.code}</span>
-            <input type="checkbox"/>
-        </div>
+        const children = props.option.characters.map((character) => (<td className="CandidateTag" onClick={()=>{}}>{character.name_cn}</td>))
+        console.log(props.defaultValue);
+        return <tr><td><span className="SequenceTag">小组{props.option.code}</span></td>{children}</tr>
     }
     const generateChildTree = (prefix, initial, candidate) => {
         let lst = []
@@ -30,7 +30,7 @@ function Eight() {
     const startVoting = async () => {
         if (!loaded) {
             console.log("正在加载数据，请稍候");
-        } else {
+        } else if (!debug) {
             const result = await axios.post(
                 'https://api.shswafu.club/v0/vote/event', null,
                 {
@@ -46,25 +46,27 @@ function Eight() {
     }
 
     async function apply() {
-        const result = await axios.post(
-            'https://api.shswafu.club/v0/vote/event', null,
-            {
-                params: {
-                    channel: "eight",
-                    event: "apply",
-                },
-                withCredentials: true
-            });
-        if (result.data.code === 1) {
-            setTimeout(forceUpdate, 1000)
-        } else {
-            if (result.data.data.details.length === 0) {
-                setLoaded(true)
-            } else if (result.data.data.details.length > 0) {
-                const latest = result.data.data.details[result.data.data.details.length - 1]
-                setMaleData(latest.males)
-                setFemaleData(latest.females)
-                setLoaded(true)
+        if(!debug) {
+            const result = await axios.post(
+                'https://api.shswafu.club/v0/vote/event', null,
+                {
+                    params: {
+                        channel: "eight",
+                        event: "apply",
+                    },
+                    withCredentials: true
+                });
+            if (result.data.code === 1) {
+                setTimeout(forceUpdate, 1000)
+            } else {
+                if (result.data.data.details.length === 0) {
+                    setLoaded(true)
+                } else if (result.data.data.details.length > 0) {
+                    const latest = result.data.data.details[result.data.data.details.length - 1]
+                    setMaleData(latest.males)
+                    setFemaleData(latest.females)
+                    setLoaded(true)
+                }
             }
         }
     }
@@ -162,9 +164,9 @@ function Eight() {
         <Article>
             <h1>第三届上萌八强页面</h1>
             <p>您可在每个小组中选择 2 个角色，总得票排名前2的角色将成功晋级下一轮。</p>
-            <p>每个小组所对应的可选角色将在输入框的下拉框中进行展示，请先选中每个小组对应的输入框。</p>
+            <p></p>
             <p>应援作品记为 5 票。应援作品可以电子形式发至admin@shswafu.club或线下递交。</p>
-            <LoginWindow hide="1"/>
+            {!debug && <LoginWindow hide="1"/>}
             <div className="MainApp">
                 <div className="VoteStart">
                     {loaded ||
@@ -174,13 +176,21 @@ function Eight() {
                         <button className="VoteButton" onClick={startVoting}>开始投票</button>}
                 </div>
                 {started && state !== 1 && <p>加载候选数据中……</p>}
-                {started && state === 1 && <div className="ChnlDivision ChnlFemale">
+                {(started || debug) && state === 1 && <div className="ChnlDivision ChnlFemale">
                     <h2>萌王八强赛</h2>
-                    {generateChildTree("fem", femaleData, candidate.female)}
+                    <table style={{width: '100%'}}>
+                        <tbody style={{width: '100%'}}>
+                            {generateChildTree("fem", femaleData, candidate.female)}
+                        </tbody>
+                    </table>
                 </div>}
-                {started && state === 1 && <div className="ChnlDivision ChnlMale">
+                {(started || debug) && state === 1 && <div className="ChnlDivision ChnlMale">
                     <h2>燃王八强赛</h2>
-                    {generateChildTree("male", maleData, candidate.male)}
+                    <table style={{width: '100%'}}>
+                        <tbody style={{width: '100%'}}>
+                            {generateChildTree("male", maleData, candidate.male)}
+                        </tbody>
+                    </table>
                 </div>}
                 {started && state === 1 && <VoteSubmit/>}
             </div>

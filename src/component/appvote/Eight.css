@@ -2,16 +2,6 @@
     --border-default-width: 1px;
 }
 
-.Akarin {
-    opacity: 0.6;
-    transition: linear 0.2s;
-    font-weight: 100 !important;
-}
-
-.Akarin:hover {
-    opacity: 0;
-}
-
 .MainApp {
     display: flex;
     flex-direction: row;
@@ -20,7 +10,14 @@
 }
 
 .MainApp .ChnlDivision {
-    width: 40%;
+    width: 100%;
+}
+
+.MainApp .ChnlDivision tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
 .MainApp .VoteInput {
@@ -66,8 +63,15 @@
 .MainApp .SequenceTag {
     display: block;
     float: left;
-    width: 4em;
+    width: 3em;
+    font-weight: 800;
+}
+
+.MainApp .CandidateTag {
+    display: block;
+    float: left;
     margin-block-start: 1em;
+    width: 8em;
 }
 
 .MainApp .Game {
