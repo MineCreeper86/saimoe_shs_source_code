@@ -155,7 +155,7 @@ function Eight() {
             </div>)
     }
     const fetchCandidate = async () => {
-        const result = await axios.get('/group.json')
+        const result = await axios.get('/3/group.json')
         setCandidate(result.data);
         setState(1);
     }

@@ -6,6 +6,46 @@ function Playback() {
     return (
         <Article>
             <h1>往届上萌赛况回顾！</h1>
+            <h2>第三届上海市上海中学最受欢迎动漫人物赏</h2>
+            <h3>&emsp;萌王：？？？？&emsp;&emsp;燃王：？？？？</h3>
+            <table className="PlaybackStats">
+                <tbody>
+                <tr>
+                    <th colSpan="2">女子组（萌王赛道）</th>
+                    <th colSpan="2">男子组（燃王赛道）</th>
+                </tr>
+                <tr>
+                    <td>名称</td>
+                    <td>轮次 / 得票</td>
+                    <td>名称</td>
+                    <td>轮次 / 得票</td>
+                </tr>
+                <tr>
+                    <td>伊地知虹夏、后藤独</td>
+                    <td>八强赛 / 77 72</td>
+                    <td>迪奥·布兰多</td>
+                    <td>八强赛 / 93</td>
+                </tr>
+                <tr>
+                    <td>四宫辉夜、宫野志保</td>
+                    <td>八强赛 / 69 54</td>
+                    <td>乔瑟夫·乔斯达</td>
+                    <td>八强赛 / 109</td>
+                </tr>
+                <tr>
+                    <td>芙莉莲、绫波丽</td>
+                    <td>八强赛 / 83 73</td>
+                    <td>渚薰</td>
+                    <td>八强赛 / 95</td>
+                </tr>
+                <tr>
+                    <td>白井黑子、凉宫春日</td>
+                    <td>八强赛 / 93 64</td>
+                    <td>基尔伯特·布甘比利亚</td>
+                    <td>八强赛 / 72</td>
+                </tr>
+                </tbody>
+            </table>
             <h2>第二届上海市上海中学最受欢迎动漫人物赏</h2>
             <h3>&emsp;萌王：初音未来&emsp;&emsp;燃王：黑羽快斗</h3>
             <table className="PlaybackStats">
@@ -134,7 +174,9 @@ function Playback() {
                 </tr>
                 </tbody>
             </table>
-            <p>表格：八强赛况（第5~8名排名由后续排位赛决定，四强赛数据仅供参考）<a href={"https://www.bilibili.com/opus/769244263743488018"} target={"_blank"} rel="noreferrer">点此查看比赛详情</a></p>
+            <p>（第一届表内排行顺序为八强排名，其中第5~8名排名由后续排位赛决定，四强赛数据仅供参考）<a
+                href={"https://www.bilibili.com/opus/769244263743488018"} target={"_blank"}
+                rel="noreferrer">点此查看第一届比赛详情</a></p>
         </Article>
     )
 }

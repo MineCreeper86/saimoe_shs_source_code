@@ -16,10 +16,15 @@ function Four() {
     const debug = false;
     const SubjectInput = (props) => {
         const [selected, setSelected] = useState(0);
+        const parseSelected = (target) => {
+            if (selected === target) {
+                setSelected(0)
+            } else setSelected(target);
+        }
         let fatherElementId = 'input-' + props.vid
         const children = props.option.characters.map((character) => (<td className=
                                                                              {selected === character.id ? "CandidateTag SelectedCandidate" : "CandidateTag"}
-                                                                         onClick={()=>{setSelected(character.id)}}>{character.name_cn}</td>))
+                                                                         onClick={()=>{parseSelected(character.id)}}>{character.name_cn}</td>))
         console.log(props.defaultValue);
         return <tr><td><span className="SequenceTag" id={fatherElementId} selectedCharacter={selected}>小组{props.option.code}</span></td>{children}</tr>
     }
@@ -150,7 +155,7 @@ function Four() {
             </div>)
     }
     const fetchCandidate = async () => {
-        const result = await axios.get('/group.json')
+        const result = await axios.get('/3/eight.json')
         setCandidate(result.data);
         setState(1);
     }
