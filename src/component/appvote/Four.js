@@ -4,23 +4,24 @@ import LoginWindow from "../usersystem/LoginWindow";
 import './Eight.css'
 import axios from "axios";
 
-function Eight() {
+function Four() {
     const [maleData, setMaleData] = useState([]);
     const [femaleData, setFemaleData] = useState([]);
     const [loaded, setLoaded] = useState(false);
     const [started, setStarted] = useState(false);
     const [candidate, setCandidate] = useState({});
     const [state, setState] = useState(0);
-    const [maleSelected, setMaleSelected] = useState([]);
-    const [femaleSelected, setFemaleSelected] = useState([]);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
     const debug = false;
     const SubjectInput = (props) => {
+        const [selected, setSelected] = useState(0);
         let fatherElementId = 'input-' + props.vid
-        const children = props.option.characters.map((character) => (<td className="CandidateTag" onClick={()=>{}}>{character.name_cn}</td>))
+        const children = props.option.characters.map((character) => (<td className=
+                                                                             {selected === character.id ? "CandidateTag SelectedCandidate" : "CandidateTag"}
+                                                                         onClick={()=>{setSelected(character.id)}}>{character.name_cn}</td>))
         console.log(props.defaultValue);
-        return <tr><td><span className="SequenceTag">小组{props.option.code}</span></td>{children}</tr>
+        return <tr><td><span className="SequenceTag" id={fatherElementId} selectedCharacter={selected}>小组{props.option.code}</span></td>{children}</tr>
     }
     const generateChildTree = (prefix, initial, candidate) => {
         let lst = []
@@ -37,7 +38,7 @@ function Eight() {
                 'https://api.shswafu.club/v0/vote/event', null,
                 {
                     params: {
-                        channel: "eight",
+                        channel: "four",
                         event: "start",
                     },
                     withCredentials: true
@@ -53,7 +54,7 @@ function Eight() {
                 'https://api.shswafu.club/v0/vote/event', null,
                 {
                     params: {
-                        channel: "eight",
+                        channel: "four",
                         event: "apply",
                     },
                     withCredentials: true
@@ -81,20 +82,14 @@ function Eight() {
             let male_submission = []
             let female_submission = []
             let warning = false;
-            for (let i = 0; i < 12; i++) {
-                if (document.getElementById('hidden-male-' + i).value) {
-                    male_submission.push(parseInt(document.getElementById('hidden-male-' + i).value));
-                } else if (document.getElementById('input-male-' + i).value) {
-                    warning = true;
-                    document.getElementById('input-male-' + i).style.backgroundColor = "yellow";
+            for (let i = 0; i < 4; i++) {
+                if (document.getElementById('input-male-' + i).getAttribute("selectedcharacter")) {
+                    male_submission.push(parseInt(document.getElementById('hidden-male-' + i).getAttribute("selectedcharacter")));
                 }
             }
-            for (let j = 0; j < 16; j++) {
-                if (document.getElementById('hidden-fem-' + j).value) {
-                    female_submission.push(parseInt(document.getElementById('hidden-fem-' + j).value));
-                } else if (document.getElementById('input-fem-' + j).value) {
-                    warning = true;
-                    document.getElementById('input-fem-' + j).style.backgroundColor = "yellow";
+            for (let j = 0; j < 4; j++) {
+                if (document.getElementById('input-fem-' + j).getAttribute("selectedcharacter")) {
+                    female_submission.push(parseInt(document.getElementById('hidden-fem-' + j).getAttribute("selectedcharacter")));
                 }
             }
             const currSubmit = [male_submission, female_submission];
@@ -104,7 +99,7 @@ function Eight() {
                     'https://api.shswafu.club/v0/vote/event', null,
                     {
                         params: {
-                            channel: "eight",
+                            channel: "four",
                             event: "submit",
                             m: encodeURIComponent(JSON.stringify(male_submission)),
                             f: encodeURIComponent(JSON.stringify(female_submission)),
@@ -115,7 +110,7 @@ function Eight() {
                     'https://api.shswafu.club/v0/vote/event', null,
                     {
                         params: {
-                            channel: "eight",
+                            channel: "four",
                             event: "submit",
                             m: encodeURIComponent(JSON.stringify(male_submission)),
                             f: encodeURIComponent(JSON.stringify(female_submission)),
@@ -164,8 +159,8 @@ function Eight() {
     })
     return (
         <Article>
-            <h1>第三届上萌八强页面</h1>
-            <p>您可在每个小组中选择 2 个角色，总得票排名前两名的角色将成功晋级下一轮。</p>
+            <h1>第三届上萌四强页面</h1>
+            <p>您可在每个小组中选择 1 个角色，总得票胜出的角色将成功晋级下一轮。</p>
             <p>请点击你想要投票的角色直至其名字显示为绿色。</p>
             <p>应援作品记为 5 票。应援作品可以电子形式发至admin@shswafu.club或线下递交。</p>
             {!debug && <LoginWindow hide="1"/>}
@@ -179,18 +174,18 @@ function Eight() {
                 </div>
                 {started && state !== 1 && <p>加载候选数据中……</p>}
                 {(started || debug) && state === 1 && <div className="ChnlDivision ChnlFemale">
-                    <h2>萌王八强赛</h2>
+                    <h2>萌王四强赛</h2>
                     <table style={{width: '100%'}}>
                         <tbody style={{width: '100%'}}>
-                            {generateChildTree("fem", femaleData, candidate.female)}
+                        {generateChildTree("fem", femaleData, candidate.female)}
                         </tbody>
                     </table>
                 </div>}
                 {(started || debug) && state === 1 && <div className="ChnlDivision ChnlMale">
-                    <h2>燃王八强赛</h2>
+                    <h2>燃王四强赛</h2>
                     <table style={{width: '100%'}}>
                         <tbody style={{width: '100%'}}>
-                            {generateChildTree("male", maleData, candidate.male)}
+                        {generateChildTree("male", maleData, candidate.male)}
                         </tbody>
                     </table>
                 </div>}
@@ -200,4 +195,4 @@ function Eight() {
     )
 }
 
-export default Eight;
+export default Four;

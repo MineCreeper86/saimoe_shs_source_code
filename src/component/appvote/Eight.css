@@ -74,6 +74,10 @@
     width: 8em;
 }
 
+.MainApp .SelectedCandidate {
+    color: green;
+}
+
 .MainApp .Game {
     color: #99ccff;
     font-weight: bold;

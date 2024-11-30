@@ -13,6 +13,7 @@ import Nomination from "./component/appvote/Nomination";
 import Group from "./component/appvote/Group";
 import SHSTpass from "./component/usersystem/SHSTpass";
 import Eight from "./component/appvote/Eight";
+import Four from "./component/appvote/Four";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.cookie = "wh="+window.outerHeight+"; domain=shswafu.club";
@@ -36,6 +37,7 @@ root.render(
                 <Route exact path="/appvote/3/nomination" element={<Nomination/>}/>
                 <Route exact path="/appvote/3/group" element={<Group/>}/>
                 <Route exact path="/appvote/3/eight" element={<Eight/>}/>
+                <Route exact path="/appvote/3/four" element={<Four/>}/>
             </Routes>
         </Router>
         <Footer/>
