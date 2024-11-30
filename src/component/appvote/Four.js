@@ -89,12 +89,12 @@ function Four() {
             let warning = false;
             for (let i = 0; i < 4; i++) {
                 if (document.getElementById('input-male-' + i).getAttribute("selectedcharacter")) {
-                    male_submission.push(parseInt(document.getElementById('hidden-male-' + i).getAttribute("selectedcharacter")));
+                    male_submission.push(parseInt(document.getElementById('input-male-' + i).getAttribute("selectedcharacter")));
                 }
             }
             for (let j = 0; j < 4; j++) {
                 if (document.getElementById('input-fem-' + j).getAttribute("selectedcharacter")) {
-                    female_submission.push(parseInt(document.getElementById('hidden-fem-' + j).getAttribute("selectedcharacter")));
+                    female_submission.push(parseInt(document.getElementById('input-fem-' + j).getAttribute("selectedcharacter")));
                 }
             }
             const currSubmit = [male_submission, female_submission];
@@ -131,14 +131,6 @@ function Four() {
                         break;
                     case 10:
                         setSubmitCallback("线下选票提交成功！")
-                        for (let i = 0; i < 10; i++) {
-                            document.getElementById('input-male-' + i).value = ""
-                            document.getElementById('input-male-' + i).style.backgroundColor = "white";
-                            document.getElementById('input-fem-' + i).value = ""
-                            document.getElementById('input-fem-' + i).style.backgroundColor = "white";
-                            document.getElementById('hidden-fem-' + i).value = ""
-                            document.getElementById('hidden-male-' + i).value = ""
-                        }
                         break;
                     default:
                         setSubmitCallback(result.data.message);
