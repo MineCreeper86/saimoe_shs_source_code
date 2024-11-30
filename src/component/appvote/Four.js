@@ -21,6 +21,11 @@ function Four() {
                 setSelected(0)
             } else setSelected(target);
         }
+        useEffect(() => {
+            if (props.defaultValue !== undefined && props.defaultValue !== null) {
+                setSelected(props.defaultValue);
+            }
+        }, []);
         let fatherElementId = 'input-' + props.vid
         const children = props.option.characters.map((character) => (<td className=
                                                                              {selected === character.id ? "CandidateTag SelectedCandidate" : "CandidateTag"}
