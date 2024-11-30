@@ -23,7 +23,7 @@ function Four() {
         }
         useEffect(() => {
             if (props.defaultValue !== undefined && props.defaultValue !== null) {
-                setSelected(props.defaultValue);
+                setSelected(props.defaultValue.id);
             }
         }, []);
         let fatherElementId = 'input-' + props.vid
@@ -36,7 +36,7 @@ function Four() {
     const generateChildTree = (prefix, initial, candidate) => {
         let lst = []
         for (let i = 0; i < candidate.length; i++) {
-            lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={initial} option={candidate[i]}/>)
+            lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={initial[i]} option={candidate[i]}/>)
         }
         return lst
     }
