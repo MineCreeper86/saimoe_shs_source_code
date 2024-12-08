@@ -28,10 +28,10 @@ function Semifinal() {
         }, []);
         let fatherElementId = 'input-' + props.vid
         const children = props.option.characters.map((character) => (<td className=
-                                                                             {selected === character.id ? "CandidateTag SelectedCandidate" : "CandidateTag"}
+                                                                             {selected === character.id ? "Semifinal CandidateTag SelectedCandidate" : "Semifinal CandidateTag"}
                                                                          onClick={()=>{parseSelected(character.id)}}>{character.name_cn}</td>))
         console.log(props.defaultValue);
-        return <tr><td><span className="SequenceTag" id={fatherElementId} selectedCharacter={selected}>小组{props.option.code}</span></td>{children}</tr>
+        return <tr><td><span className="Semifinal SequenceTag" id={fatherElementId} selectedCharacter={selected}>小组{props.option.code}</span></td>{children}</tr>
     }
     const generateChildTree = (prefix, initial, candidate) => {
         let lst = []

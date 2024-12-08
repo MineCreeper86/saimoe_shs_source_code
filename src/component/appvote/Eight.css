@@ -128,7 +128,9 @@
     width: 12rem;
 }
 
-
+.Semifinal {
+    font-size: x-large;
+}
 
 @media(max-width: 900px) {
     :root {
