@@ -38,6 +38,7 @@ root.render(
                 <Route exact path="/appvote/3/group" element={<Group/>}/>
                 <Route exact path="/appvote/3/eight" element={<Eight/>}/>
                 <Route exact path="/appvote/3/four" element={<Four/>}/>
+                <Route exact path="/appvote/3/semifinal" element={<Semifinal/>}/>
             </Routes>
         </Router>
         <Footer/>
