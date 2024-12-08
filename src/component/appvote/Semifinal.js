@@ -120,7 +120,7 @@ function Semifinal() {
                     'https://api.shswafu.club/v0/vote/event', null,
                     {
                         params: {
-                            channel: "four",
+                            channel: "semifinal",
                             event: "submit",
                             m: encodeURIComponent(JSON.stringify(male_submission)),
                             f: encodeURIComponent(JSON.stringify(female_submission)),
