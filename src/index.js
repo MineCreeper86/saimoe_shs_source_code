@@ -14,6 +14,7 @@ import Group from "./component/appvote/Group";
 import SHSTpass from "./component/usersystem/SHSTpass";
 import Eight from "./component/appvote/Eight";
 import Four from "./component/appvote/Four";
+import Semifinal from "./component/appvote/Semifinal";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.cookie = "wh="+window.outerHeight+"; domain=shswafu.club";
