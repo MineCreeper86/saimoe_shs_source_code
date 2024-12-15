@@ -1,0 +1,156 @@
+:root {
+    --border-default-width: 1px;
+}
+
+.MainApp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.MainApp .ChnlDivision {
+    width: 100%;
+}
+
+.MainApp .ChnlDivision tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.MainApp .VoteInput {
+    width: 12rem;
+    height: 2em;
+    border-radius: 15px;
+    border: var(--border-default-width) solid rgb(186, 186, 186);
+    padding-left: 0.8em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    transition: linear 0.2s;
+    margin-block-start: 1em;
+}
+
+.MainApp .VoteInput:hover {
+    box-shadow: rgba(105, 105, 105, 0.37) 0 0 6px;
+    border: var(--border-default-width) solid black;
+}
+
+.MainApp .SearchResultSet{
+    margin-left: 4em;
+    border: var(--border-default-width) solid black;
+    border-radius: 0.3em;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(4px);
+    position: absolute;
+}
+
+.MainApp .SearchResultSet p{
+    padding: 5px 11px;
+    font-size: 0.8em;
+    margin: 0;
+    max-width: 30em;
+}
+
+.MainApp .SearchResultSet p:hover {
+    background-color: rgba(102, 217, 252, 0.3);
+    /*box-shadow: rgba(105, 105, 105, 0.37) 0 0 6px;*/
+}
+
+.MainApp .SequenceTag {
+    display: none;
+    float: left;
+    font-weight: 800;
+}
+
+.MainApp .CandidateTag {
+    display: block;
+    float: left;
+    margin-block-start: 1em;
+    width: 8em;
+}
+
+.MainApp .SelectedCandidate {
+    color: green;
+}
+
+.MainApp .Game {
+    color: #99ccff;
+    font-weight: bold;
+}
+
+.MainApp .Anime {
+    color: #686868;
+    font-weight: bold;
+}
+
+.MainApp .VoteSubmit {
+    display: flex;
+    margin-top: 1em;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MainApp .VoteStart {
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.MainApp .VoteStart .VoteButton {
+    width: 10rem;
+}
+
+.MainApp .VoteButton {
+    border: var(--border-default-width) solid rgba(186, 186, 186, 0.4);
+    border-radius: 1.2rem;
+    height: 2.4rem;
+    width: 6rem;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: linear 0.2s;
+    margin: 0 auto;
+}
+
+.MainApp .VoteButton:hover {
+    background-color: rgb(0, 67, 136);
+    box-shadow: rgba(105, 105, 105, 0.37) 0 0 6px;
+    width: 12rem;
+}
+
+.CopyrightInfo {
+    width: 100%;
+    text-align: center;
+}
+
+.Final {
+    font-size: x-large;
+}
+
+@media(max-width: 900px) {
+    :root {
+        --border-default-width: 2px;
+    }
+
+    .MainApp {
+        flex-direction: column;
+    }
+
+    .MainApp .ChnlDivision {
+        width: 100%;
+    }
+
+    .MainApp .VoteInput {
+        width: min(70%,20em);
+    }
+}
+

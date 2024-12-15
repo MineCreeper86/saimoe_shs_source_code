@@ -1,0 +1,50 @@
+{
+  "male": [
+    {
+      "seq": 0,
+      "code": "A",
+      "characters": [
+        {
+          "id": 74243,
+          "name_jp": "五条悟",
+          "name_cn": "五条悟",
+          "src": "咒术回战",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 19039,
+          "name_jp": "比企谷八幡",
+          "name_cn": "比企谷八幡",
+          "src": "我的青春恋爱物语果然有问题",
+          "gender": "male",
+          "v": 3
+        }
+      ]
+    }
+  ],
+  "female": [
+    {
+      "seq": 0,
+      "code": "A",
+      "characters": [
+        {
+          "id": 3575,
+          "name_jp": "御坂美琴",
+          "name_cn": "御坂美琴",
+          "src": "魔法禁书目录",
+          "gender": "female",
+          "v": 7
+        },
+        {
+          "id": 29511,
+          "name_jp": "友利奈緒",
+          "name_cn": "友利奈绪",
+          "src": "夏洛特",
+          "gender": "female",
+          "v": 1
+        }
+      ]
+    }
+  ]
+}

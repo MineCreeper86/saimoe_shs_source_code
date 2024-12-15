@@ -15,6 +15,7 @@ import SHSTpass from "./component/usersystem/SHSTpass";
 import Eight from "./component/appvote/Eight";
 import Four from "./component/appvote/Four";
 import Semifinal from "./component/appvote/Semifinal";
+import Final from "./component/appvote/Final";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.cookie = "wh="+window.outerHeight+"; domain=shswafu.club";
@@ -40,6 +41,7 @@ root.render(
                 <Route exact path="/appvote/3/eight" element={<Eight/>}/>
                 <Route exact path="/appvote/3/four" element={<Four/>}/>
                 <Route exact path="/appvote/3/semifinal" element={<Semifinal/>}/>
+                <Route exact path="/appvote/3/final" element={<Final/>}/>
             </Routes>
         </Router>
         <Footer/>
