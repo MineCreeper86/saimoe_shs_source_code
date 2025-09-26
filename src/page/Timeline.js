@@ -4,8 +4,9 @@ import Article from "../component/Article";
 function Timeline() {
     return (
         <Article>
-            <h1>第三届上海市上海中学最受欢迎动漫人物赏 比赛赛程</h1>
-            <p>赛事文字直播请见<a href={"https://www.shswafu.club/2024/09/30/saimoe-2024-live/"}>此处</a></p>
+            <h1>第四届上海市上海中学最受欢迎动漫人物赏 比赛赛程</h1>
+            <h2>提名阶段</h2>
+            <p>提名阶段截止日期为10月12日，本网站将于10月12日早8点停止接收线上提名。</p>
         </Article>
     )
 }

@@ -45,7 +45,7 @@ function Four() {
             console.log("正在加载数据，请稍候");
         } else if (!debug) {
             const result = await axios.post(
-                'https://api.shswafu.club/v0/vote/event', null,
+                'https://api.shswafu2025.club/v0/vote/event', null,
                 {
                     params: {
                         channel: "four",
@@ -61,7 +61,7 @@ function Four() {
     async function apply() {
         if(!debug) {
             const result = await axios.post(
-                'https://api.shswafu.club/v0/vote/event', null,
+                'https://api.shswafu2025.club/v0/vote/event', null,
                 {
                     params: {
                         channel: "four",
@@ -106,7 +106,7 @@ function Four() {
             if (!warning) {
                 setSubmitCallback("お待ちください")
                 const result = currSubmit.toString() === lastSubmit.toString() ? await axios.post(
-                    'https://api.shswafu.club/v0/vote/event', null,
+                    'https://api.shswafu2025.club/v0/vote/event', null,
                     {
                         params: {
                             channel: "four",
@@ -117,7 +117,7 @@ function Four() {
                         },
                         withCredentials: true
                     }) : await axios.post(
-                    'https://api.shswafu.club/v0/vote/event', null,
+                    'https://api.shswafu2025.club/v0/vote/event', null,
                     {
                         params: {
                             channel: "four",
@@ -164,7 +164,7 @@ function Four() {
             <h1>第三届上萌四强页面</h1>
             <p>您可在每个小组中选择 1 个角色，总得票胜出的角色将成功晋级下一轮。</p>
             <p>请点击你想要投票的角色直至其名字显示为绿色。</p>
-            <p>应援作品记为 5 票。应援作品可以电子形式发至admin@shswafu.club或线下递交。</p>
+            <p>应援作品记为 5 票。应援作品可以电子形式发至admin@shswafu2025.club或线下递交。</p>
             {!debug && <LoginWindow hide="1"/>}
             <div className="MainApp">
                 <div className="VoteStart">

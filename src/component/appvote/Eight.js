@@ -11,8 +11,6 @@ function Eight() {
     const [started, setStarted] = useState(false);
     const [candidate, setCandidate] = useState({});
     const [state, setState] = useState(0);
-    const [maleSelected, setMaleSelected] = useState([]);
-    const [femaleSelected, setFemaleSelected] = useState([]);
     const [, updateState] = React.useState();
     const forceUpdate = React.useCallback(() => updateState({}), []);
     const debug = false;
@@ -34,7 +32,7 @@ function Eight() {
             console.log("正在加载数据，请稍候");
         } else if (!debug) {
             const result = await axios.post(
-                'https://api.shswafu.club/v0/vote/event', null,
+                'https://api.shswafu2025.club/v0/vote/event', null,
                 {
                     params: {
                         channel: "eight",
@@ -50,7 +48,7 @@ function Eight() {
     async function apply() {
         if(!debug) {
             const result = await axios.post(
-                'https://api.shswafu.club/v0/vote/event', null,
+                'https://api.shswafu2025.club/v0/vote/event', null,
                 {
                     params: {
                         channel: "eight",
@@ -101,7 +99,7 @@ function Eight() {
             if (!warning) {
                 setSubmitCallback("お待ちください")
                 const result = currSubmit.toString() === lastSubmit.toString() ? await axios.post(
-                    'https://api.shswafu.club/v0/vote/event', null,
+                    'https://api.shswafu2025.club/v0/vote/event', null,
                     {
                         params: {
                             channel: "eight",
@@ -112,7 +110,7 @@ function Eight() {
                         },
                         withCredentials: true
                     }) : await axios.post(
-                    'https://api.shswafu.club/v0/vote/event', null,
+                    'https://api.shswafu2025.club/v0/vote/event', null,
                     {
                         params: {
                             channel: "eight",
@@ -167,7 +165,7 @@ function Eight() {
             <h1>第三届上萌八强页面</h1>
             <p>您可在每个小组中选择 2 个角色，总得票排名前两名的角色将成功晋级下一轮。</p>
             <p>请点击你想要投票的角色直至其名字显示为绿色。</p>
-            <p>应援作品记为 5 票。应援作品可以电子形式发至admin@shswafu.club或线下递交。</p>
+            <p>应援作品记为 5 票。应援作品可以电子形式发至admin@shswafu2025.club或线下递交。</p>
             {!debug && <LoginWindow hide="1"/>}
             <div className="MainApp">
                 <div className="VoteStart">

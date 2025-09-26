@@ -6,6 +6,8 @@ function Playback() {
     return (
         <Article>
             <h1>往届上萌赛况回顾！</h1>
+            <h2>第四届上海市上海中学最受欢迎动漫人物赏</h2>
+            <h3>&emsp;萌王：？？？？&emsp;&emsp;燃王：？？？？</h3>
             <h2>第三届上海市上海中学最受欢迎动漫人物赏</h2>
             <h3>&emsp;萌王：友利奈绪&emsp;&emsp;燃王：比企谷八幡</h3>
             <table className="PlaybackStats">
@@ -19,6 +21,30 @@ function Playback() {
                     <td>轮次 / 得票</td>
                     <td>名称</td>
                     <td>轮次 / 得票</td>
+                </tr>
+                <tr>
+                    <td>友利奈绪</td>
+                    <td>总决赛 / --<br/>半决赛 / 158</td>
+                    <td>比企谷八幡</td>
+                    <td>总决赛 / --<br/>半决赛 / 125</td>
+                </tr>
+                <tr>
+                    <td>御坂美琴</td>
+                    <td>总决赛 / --<br/>半决赛 / 112</td>
+                    <td>五条悟</td>
+                    <td>总决赛 / --<br/>半决赛 / 101</td>
+                </tr>
+                <tr>
+                    <td>立华奏</td>
+                    <td>半决赛 / 87</td>
+                    <td>空条承太郎</td>
+                    <td>半决赛 / 70</td>
+                </tr>
+                <tr>
+                    <td>五河琴里</td>
+                    <td>半决赛 / 37</td>
+                    <td>富樫勇太</td>
+                    <td>半决赛 / 56</td>
                 </tr>
                 <tr>
                     <td>雪之下雪乃</td>

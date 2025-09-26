@@ -116,7 +116,7 @@ function Group() {
             console.log("正在加载数据，请稍候");
         } else {
             const result = await axios.post(
-                'https://api.shswafu.club/v0/vote/event', null,
+                'https://api.shswafu2025.club/v0/vote/event', null,
                 {
                     params: {
                         channel: "groups",
@@ -131,7 +131,7 @@ function Group() {
 
     async function apply() {
         const result = await axios.post(
-            'https://api.shswafu.club/v0/vote/event', null,
+            'https://api.shswafu2025.club/v0/vote/event', null,
             {
                 params: {
                     channel: "groups",
@@ -181,7 +181,7 @@ function Group() {
             if (!warning) {
                 setSubmitCallback("お待ちください")
                 const result = currSubmit.toString() === lastSubmit.toString() ? await axios.post(
-                    'https://api.shswafu.club/v0/vote/event', null,
+                    'https://api.shswafu2025.club/v0/vote/event', null,
                     {
                         params: {
                             channel: "groups",
@@ -192,7 +192,7 @@ function Group() {
                         },
                         withCredentials: true
                     }) : await axios.post(
-                    'https://api.shswafu.club/v0/vote/event', null,
+                    'https://api.shswafu2025.club/v0/vote/event', null,
                     {
                         params: {
                             channel: "groups",
@@ -247,7 +247,7 @@ function Group() {
             <h1>第三届上萌小组赛页面</h1>
             <p>您可在每个小组中选择 1 个角色，总得票排名第一的角色将成功晋级下一轮。</p>
             <p>每个小组所对应的可选角色将在输入框的下拉框中进行展示，请先选中每个小组对应的输入框。</p>
-            <p>对于线上票，上海中学学生在经过智慧上中验证后可享受相较于其它学校用户更高的票权。应援作品可以电子形式发至admin@shswafu.club或线下递交。</p>
+            <p>对于线上票，上海中学学生在经过智慧上中验证后可享受相较于其它学校用户更高的票权。应援作品可以电子形式发至admin@shswafu2025.club或线下递交。</p>
             <LoginWindow hide="1"/>
             <div className="MainApp">
                 <div className="VoteStart">

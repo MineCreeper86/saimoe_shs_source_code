@@ -41,7 +41,7 @@ function LoginWindow(props) {
             let result;
             if(state===1) {
                 result = await axios.post(
-                    'https://api.shswafu.club/v0/user/login',
+                    'https://api.shswafu2025.club/v0/user/login',
                     {},
                     {
                         params: {
@@ -55,7 +55,7 @@ function LoginWindow(props) {
             if(state===2) {
                 if(pwd_match) {
                     result = await axios.post(
-                        'https://api.shswafu.club/v0/user/register',
+                        'https://api.shswafu2025.club/v0/user/register',
                         {},
                         {
                             params: {
@@ -81,7 +81,7 @@ function LoginWindow(props) {
     }
     const fetchData = async () => {
         const result = await axios.get(
-            'https://api.shswafu.club/v0/user/info',
+            'https://api.shswafu2025.club/v0/user/info',
             {
                 withCredentials: true
             }
@@ -148,7 +148,7 @@ function LoginWindow(props) {
                     <p>用户名：{callback.data.user.username}</p>
                     <p className="Tips">{callback.data.user.type_display}
                         {callback.data.user.type === "042032" && !callback.data.user.shsid && !isWechat() && callback.data.user.username !== "offline" &&
-                        <a href={"https://tpass.shs.cn/tpass/login?service=https%3A%2F%2Fsaimoe.shswafu.club%2Fshstp"}>&emsp;去绑定智慧上中</a>}
+                        <a href={"https://tpass.shs.cn/tpass/login?service=https%3A%2F%2Fsaimoe.shswafu2025.club%2Fshstp"}>&emsp;去绑定智慧上中</a>}
                         {callback.data.user.type === "042032" && !callback.data.user.shsid && isWechat() && callback.data.user.username !== "offline" &&
                             <span>&emsp;可打开默认浏览器绑定智慧上中</span>}
                         {callback.data.user.type === "042032" && callback.data.user.shsid && callback.data.user.username !== "offline" &&
@@ -156,7 +156,7 @@ function LoginWindow(props) {
                         {callback.data.user.username === "offline" && <span>&emsp;线下票统票专用账号</span>}
                     </p>
                     <p>邮箱：{callback.data.user.email}&nbsp;{callback.data.user.verified?<font color="green">已验证</font>:<font color="darkgray">未验证</font>}</p>
-                    {!callback.data.user.verified && <p className="Tips">未验证的用户无法投票，请通过绑定邮箱将任意内容的邮件发送至 verify@shswafu.club</p>}
+                    {!callback.data.user.verified && <p className="Tips">未验证的用户无法投票，请通过绑定邮箱将任意内容的邮件发送至 verify@shswafu2025.club</p>}
                     {!callback.data.user.verified && <p className="Tips">一般验证过程需要等待 30s，请刷新页面以应用更新效果</p>}
                 </div>)
         )
@@ -183,7 +183,7 @@ function LoginWindow(props) {
                 <button className="SubmitButton" onClick={login}>{state===2?"注册":"登入"}</button>&emsp;
                 <button className="SwitchButton" onClick={switchType}>{state===1?"注册":"登入"}</button>
                 {isWechat() || <p>其它登录方式：<a
-                    href={"https://tpass.shs.cn/tpass/login?service=https%3A%2F%2Fsaimoe.shswafu.club%2Fshstp"}>智慧上中一键登录</a>
+                    href={"https://tpass.shs.cn/tpass/login?service=https%3A%2F%2Fsaimoe.shswafu2025.club%2Fshstp"}>智慧上中一键登录</a>
                 </p>}
                 {isWechat() && <p>智慧上中登录在微信浏览器下不可用</p>}
                 <p className="Tips">{loading?"加载中":<b><big>{callback.message}</big></b>}</p>

@@ -17,7 +17,7 @@ function Nomination() {
         const gender_input = prompt("请输入性别（男/女/未知或存疑）")
         const gender = gender_input.includes("男")?"male":(gender_input.includes("女")?"female":null)
         const result = await axios.post(
-            'https://api.shswafu.club/v0/vote/nominate/custom_character', null,
+            'https://api.shswafu2025.club/v0/vote/nominate/custom_character', null,
             {
                 params: {
                     name: name,
@@ -35,7 +35,7 @@ function Nomination() {
         const searchSubject = async () => {
             if (document.getElementById('input-' + props.vid).value) {
                 const result = await axios.get(
-                    'https://api.shswafu.club/v0/vote/nominate/search_character',
+                    'https://api.shswafu2025.club/v0/vote/nominate/search_character',
                     {
                         params: {
                             keyword: document.getElementById('input-' + props.vid).value,
@@ -128,7 +128,7 @@ function Nomination() {
             console.log("正在加载数据，请稍候");
         } else {
             const result = await axios.post(
-                'https://api.shswafu.club/v0/vote/event', null,
+                'https://api.shswafu2025.club/v0/vote/event', null,
                 {
                     params: {
                         channel: "nomination",
@@ -143,7 +143,7 @@ function Nomination() {
 
     async function apply() {
         const result = await axios.post(
-            'https://api.shswafu.club/v0/vote/event', null,
+            'https://api.shswafu2025.club/v0/vote/event', null,
             {
                 params: {
                     channel: "nomination",
@@ -193,7 +193,7 @@ function Nomination() {
             if (!warning) {
                 setSubmitCallback("お待ちください")
                 const result = currSubmit.toString() === lastSubmit.toString() ? await axios.post(
-                    'https://api.shswafu.club/v0/vote/event', null,
+                    'https://api.shswafu2025.club/v0/vote/event', null,
                     {
                         params: {
                             channel: "nomination",
@@ -204,7 +204,7 @@ function Nomination() {
                         },
                         withCredentials: true
                     }) : await axios.post(
-                    'https://api.shswafu.club/v0/vote/event', null,
+                    'https://api.shswafu2025.club/v0/vote/event', null,
                     {
                         params: {
                             channel: "nomination",

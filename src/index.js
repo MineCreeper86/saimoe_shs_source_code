@@ -18,8 +18,8 @@ import Semifinal from "./component/appvote/Semifinal";
 import Final from "./component/appvote/Final";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-document.cookie = "wh="+window.outerHeight+"; domain=shswafu.club";
-document.cookie = "ww="+window.outerWidth+"; domain=shswafu.club";
+document.cookie = "wh="+window.outerHeight+"; domain=shswafu2025.club";
+document.cookie = "ww="+window.outerWidth+"; domain=shswafu2025.club";
 console.log("～欢迎关注上海中学和风社～")
 root.render(
     <React.StrictMode>
