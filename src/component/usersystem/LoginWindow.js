@@ -189,7 +189,7 @@ function LoginWindow(props) {
                 </p>}
                 {isWechat() && <p>智慧上中登录在微信浏览器下不可用</p>}
                 <p className="Tips">{loading?"加载中":<b><big>{callback.message}</big></b>}</p>
-                {state===1 && <p className="Tips">"若2024年已注册可直接登录"<span onClick={doForgetPassword}>{forgetPassword?"":"忘记密码"}</span></p>}
+                {state===1 && <p className="Tips">若2024年已注册可直接登录。<span onClick={doForgetPassword}>{forgetPassword?"":"忘记密码？"}</span></p>}
                 <p className="Tips">{forgetPassword?"请使用去年注册时使用的邮箱向 feedback@shswafu2025.club 申请注销后重新注册":""}</p> 
             </div>
         )
