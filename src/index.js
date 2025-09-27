@@ -36,12 +36,12 @@ root.render(
                 <Route exact path="/timeline" element={<Timeline/>}/>
                 <Route exact path="/vote" element={<Vote/>}/>
                 <Route exact path="/shstp" element={<SHSTpass/>}/>
-                <Route exact path="/appvote/3/nomination" element={<Nomination/>}/>
-                <Route exact path="/appvote/3/group" element={<Group/>}/>
-                <Route exact path="/appvote/3/eight" element={<Eight/>}/>
-                <Route exact path="/appvote/3/four" element={<Four/>}/>
-                <Route exact path="/appvote/3/semifinal" element={<Semifinal/>}/>
-                <Route exact path="/appvote/3/final" element={<Final/>}/>
+                <Route exact path="/appvote/4/nomination" element={<Nomination/>}/>
+                <Route exact path="/appvote/4/group" element={<Group/>}/>
+                <Route exact path="/appvote/4/eight" element={<Eight/>}/>
+                <Route exact path="/appvote/4/four" element={<Four/>}/>
+                <Route exact path="/appvote/4/semifinal" element={<Semifinal/>}/>
+                <Route exact path="/appvote/4/final" element={<Final/>}/>
             </Routes>
         </Router>
         <Footer/>
