@@ -118,7 +118,7 @@ function Nomination() {
     }
     const generateChildTree = (prefix, initial) => {
         let lst = []
-        for (let i = 0; i < 10; i++) {
+        for (let i = 0; i < 5; i++) {
             lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={initial[i]}/>)
         }
         return lst
@@ -173,7 +173,7 @@ function Nomination() {
             let male_submission = []
             let female_submission = []
             let warning = false;
-            for (let i = 0; i < 10; i++) {
+            for (let i = 0; i < 5; i++) {
                 if (document.getElementById('hidden-male-' + i).value) {
                     male_submission.push(parseInt(document.getElementById('hidden-male-' + i).value));
                 } else if (document.getElementById('input-male-' + i).value) {
@@ -181,7 +181,7 @@ function Nomination() {
                     document.getElementById('input-male-' + i).style.backgroundColor = "yellow";
                 }
             }
-            for (let j = 0; j < 10; j++) {
+            for (let j = 0; j < 5; j++) {
                 if (document.getElementById('hidden-fem-' + j).value) {
                     female_submission.push(parseInt(document.getElementById('hidden-fem-' + j).value));
                 } else if (document.getElementById('input-fem-' + j).value) {
@@ -223,7 +223,7 @@ function Nomination() {
                         break;
                     case 10:
                         setSubmitCallback("线下选票提交成功！")
-                        for (let i = 0; i < 10; i++) {
+                        for (let i = 0; i < 5; i++) {
                             document.getElementById('input-male-' + i).value = ""
                             document.getElementById('input-male-' + i).style.backgroundColor = "white";
                             document.getElementById('input-fem-' + i).value = ""
@@ -249,7 +249,7 @@ function Nomination() {
     return (
         <Article>
             <h1>第四届上萌角色提名页面</h1>
-            <p>您最多可在萌王赛道（女子组）及燃王赛道（男子组）各提名10个角色，请勿重复提名，请勿将女性角色填入男子组或将男性角色填入女子组，请勿填写已经成为萌王或燃王的角色。部分<b>极少或极不主要</b>出场于动漫的角色可能被组委会删除，请留意。
+            <p>您最多可在萌王赛道（女子组）及燃王赛道（男子组）各提名5个角色，请勿重复提名，请勿将女性角色填入男子组或将男性角色填入女子组，请勿填写已经成为萌王或燃王的角色。部分<b>极少或极不主要</b>出场于动漫的角色可能被组委会删除，请留意。
             </p>
             <p>提名赛的角色列表获取自 Bangumi.TV，在此为其提供的便利表达感谢。</p>
             <p>您可通过搜索中文译名、日文原名或罗马音、外号等对角色进行搜索，结果显示前16个匹配内容，示例如下：</p>
