@@ -49,11 +49,6 @@
     background-color: rgba(255, 255, 255, 0.6);
     backdrop-filter: blur(4px);
     position: absolute;
-    display: none;
-}
-
-.InputWrapper:focus-within > .SearchResultSet {
-    display: block;
 }
 
 .MainApp .SearchResultSet p{

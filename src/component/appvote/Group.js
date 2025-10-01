@@ -18,10 +18,31 @@ function Group() {
         const [lastVal, setLastVal] = React.useState("");
         const [hiddenVal, setHiddenVal] = React.useState("-1");
         const [anythingUsedToUpdateThisComponent, setAnythingUsedToUpdateThisComponent] = React.useState(0);
+        const resetFocus = (vid) => {
+            for (let i = 0; i < 12; i++) {
+                if ('male-' + i !== vid) {
+                    if (document.getElementById('search-male-' + i) !== null) {
+                        document.getElementById('search-male-' + i).style.display = 'none';
+                    }
+                } else {
+                    document.getElementById('search-male-' + i).style.display = 'block';
+                }
+            }
+            for (let j = 0; j < 16; j++) {
+                if ('fem-' + j !== vid) {
+                    if (document.getElementById('search-fem-' + j) !== null) {
+                        document.getElementById('search-fem-' + j).style.display = 'none';
+                    }
+                } else {
+                    document.getElementById('search-fem-' + j).style.display = 'block';
+                }
+            }
+        }
         const searchSubject = () => {
             setLastVal(document.getElementById('input-' + props.vid).value)
             setSearchResult(props.option.characters)
             setAnythingUsedToUpdateThisComponent(anythingUsedToUpdateThisComponent + 1)
+            resetFocus(props.vid)
         }
         const searchSubjectByInput = (event) => {
             console.log("input: "+event.target.id);
@@ -74,7 +95,7 @@ function Group() {
             }
         }, []);
         let fatherElementId = 'input-' + props.vid
-        return <div className="InputWrapper">
+        return <div>
             <input type="hidden" id={'hidden-' + props.vid} value={hiddenVal}/>
             <span className="SequenceTag">小组{props.option.code}</span>
             <input type="text" className="VoteInput" id={fatherElementId} value={lastVal} autoComplete="off"
