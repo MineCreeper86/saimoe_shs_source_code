@@ -157,7 +157,10 @@ function Final() {
     const fetchCandidate = async () => {
         const result = await axios.get('/4/semifinal.json')
         setCandidate(result.data);
-        console.log(result)
+        if (result.headers["Content-Type"] === "text/html; charset=utf-8") {
+            alert("投票数据尚未上传，请耐心等待")
+            window.location.href = '/vote';
+        }
         setState(1);
     }
     useEffect(() => {
@@ -165,7 +168,7 @@ function Final() {
     })
     return (
         <Article>
-            <h1>第四届上萌半决赛页面</h1>
+            <h1>第四届上萌总决赛页面</h1>
             <p>您可在每个小组中选择 1 个角色，<b>总得票胜出的角色将成为本届萌/燃王！</b></p>
             <p>请点击你想要投票的角色直至其名字显示为绿色。</p>
             <p>应援作品记为 5 票。应援作品可以电子形式发至admin@shswafu2025.club或线下递交。</p>
