@@ -154,17 +154,14 @@ function Semifinal() {
     const fetchCandidate = async () => {
         const result = await axios.get('/4/four.json')
         setCandidate(result.data);
+        if (result.headers['content-type'] === "text/html; charset=utf-8") {
+            alert("投票数据尚未上传，请耐心等待")
+            window.location.href = '/vote';
+        }
         setState(1);
     }
     useEffect(() => {
-        if (state === 0) fetchCandidate().catch((error)=>{
-            if(error.response.status === 404) {
-                alert("投票数据尚未上传，请耐心等待")
-                window.location.href = '/vote';
-            } else {
-                alert("获取投票数据出现错误，请刷新重试")
-            }
-        });
+        if (state === 0) fetchCandidate().then();
     })
     return (
         <Article>
