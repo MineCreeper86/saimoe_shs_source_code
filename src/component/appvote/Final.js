@@ -157,17 +157,11 @@ function Final() {
     const fetchCandidate = async () => {
         const result = await axios.get('/4/semifinal.json')
         setCandidate(result.data);
+        console.log(result)
         setState(1);
     }
     useEffect(() => {
-        if (state === 0) fetchCandidate().catch((error)=>{
-            if(error.response.status === 404) {
-                alert("投票数据尚未上传，请耐心等待")
-                window.location.href = '/vote';
-            } else {
-                alert("获取投票数据出现错误，请刷新重试")
-            }
-        });
+        if (state === 0) fetchCandidate().then();
     })
     return (
         <Article>
