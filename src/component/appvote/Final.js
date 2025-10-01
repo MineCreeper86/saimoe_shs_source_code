@@ -157,7 +157,7 @@ function Final() {
     const fetchCandidate = async () => {
         const result = await axios.get('/4/semifinal.json')
         setCandidate(result.data);
-        if (result.headers["Content-Type"] === "text/html; charset=utf-8") {
+        if (result.headers.content_type === "text/html; charset=utf-8") {
             alert("投票数据尚未上传，请耐心等待")
             window.location.href = '/vote';
         }
