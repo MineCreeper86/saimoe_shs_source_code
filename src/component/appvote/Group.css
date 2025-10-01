@@ -52,11 +52,7 @@
     display: none;
 }
 
-.VoteInput:focus ~ .SearchResultSet {
-    display: block;
-}
-
-.SearchResultSet:focus {
+.InputWrapper.focus-within ~ .SearchResultSet {
     display: block;
 }
 
