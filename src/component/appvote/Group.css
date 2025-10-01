@@ -52,7 +52,7 @@
     display: none;
 }
 
-.InputWrapper.focus-within ~ .SearchResultSet {
+.InputWrapper:focus-within ~ .SearchResultSet {
     display: block;
 }
 
