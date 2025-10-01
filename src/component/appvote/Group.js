@@ -12,31 +12,15 @@ function Group() {
     const [candidate, setCandidate] = useState({});
     const [state, setState] = useState(0);
     const [, updateState] = React.useState();
+    const [focus, resetFocus] = React.useState("");
     const forceUpdate = React.useCallback(() => updateState({}), []);
     const SubjectInput = (props) => {
         const [searchResult, setSearchResult] = React.useState([]);
         const [lastVal, setLastVal] = React.useState("");
         const [hiddenVal, setHiddenVal] = React.useState("-1");
         const [anythingUsedToUpdateThisComponent, setAnythingUsedToUpdateThisComponent] = React.useState(0);
-        const resetFocus = (vid) => {
-            for (let i = 0; i < 12; i++) {
-                if ('male-' + i !== vid) {
-                    if (document.getElementById('search-male-' + i) !== null) {
-                        document.getElementById('search-male-' + i).remove();
-                    }
-                }
-            }
-            for (let j = 0; j < 16; j++) {
-                if ('fem-' + j !== vid) {
-                    if (document.getElementById('search-fem-' + j) !== null) {
-                        document.getElementById('search-fem-' + j).remove();
-                    }
-                }
-            }
-        }
         const searchSubject = () => {
             setLastVal(document.getElementById('input-' + props.vid).value)
-            setSearchResult([])
             setSearchResult(props.option.characters)
             setAnythingUsedToUpdateThisComponent(anythingUsedToUpdateThisComponent + 1)
             resetFocus(props.vid)
