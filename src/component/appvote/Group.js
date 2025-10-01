@@ -36,6 +36,7 @@ function Group() {
         }
         const searchSubject = () => {
             setLastVal(document.getElementById('input-' + props.vid).value)
+            setSearchResult([])
             setSearchResult(props.option.characters)
             setAnythingUsedToUpdateThisComponent(anythingUsedToUpdateThisComponent + 1)
             resetFocus(props.vid)
