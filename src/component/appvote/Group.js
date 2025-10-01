@@ -12,7 +12,6 @@ function Group() {
     const [candidate, setCandidate] = useState({});
     const [state, setState] = useState(0);
     const [, updateState] = React.useState();
-    const [focus, resetFocus] = React.useState("");
     const forceUpdate = React.useCallback(() => updateState({}), []);
     const SubjectInput = (props) => {
         const [searchResult, setSearchResult] = React.useState([]);
@@ -23,7 +22,6 @@ function Group() {
             setLastVal(document.getElementById('input-' + props.vid).value)
             setSearchResult(props.option.characters)
             setAnythingUsedToUpdateThisComponent(anythingUsedToUpdateThisComponent + 1)
-            resetFocus(props.vid)
         }
         const searchSubjectByInput = (event) => {
             console.log("input: "+event.target.id);
