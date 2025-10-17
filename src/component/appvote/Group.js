@@ -16,31 +16,30 @@ function Group() {
     window.onbeforeunload = (e) => {return "";};
     const SubjectInput = (props) => {
         const [searchResult, setSearchResult] = React.useState([]);
-        const [lastVal, setLastVal] = React.useState("");
-        const [hiddenVal, setHiddenVal] = React.useState("-1");
+        const [lastVal, setLastVal] = React.useState([]);
+        const [hiddenVal, setHiddenVal] = React.useState([]);
         const [anythingUsedToUpdateThisComponent, setAnythingUsedToUpdateThisComponent] = React.useState(0);
         const resetFocus = (vid) => {
             for (let i = 0; i < 12; i++) {
-                if ('male-' + i !== vid) {
-                    if (document.getElementById('search-male-' + i) !== null) {
+                if (document.getElementById('search-male-' + i) !== null) {
+                    if ('male-' + i !== vid) {
                         document.getElementById('search-male-' + i).style.display = 'none';
+                    } else {
+                        document.getElementById('search-male-' + i).style.display = 'block';
                     }
-                } else {
-                    document.getElementById('search-male-' + i).style.display = 'block';
                 }
             }
             for (let j = 0; j < 16; j++) {
-                if ('fem-' + j !== vid) {
-                    if (document.getElementById('search-fem-' + j) !== null) {
+                if (document.getElementById('search-fem-' + j) !== null) {
+                    if ('fem-' + j !== vid) {
                         document.getElementById('search-fem-' + j).style.display = 'none';
+                    } else {
+                        document.getElementById('search-fem-' + j).style.display = 'block';
                     }
-                } else {
-                    document.getElementById('search-fem-' + j).style.display = 'block';
                 }
             }
         }
         const searchSubject = () => {
-            setLastVal(document.getElementById('input-' + props.vid).value)
             setSearchResult(props.option.characters)
             setAnythingUsedToUpdateThisComponent(anythingUsedToUpdateThisComponent + 1)
             resetFocus(props.vid)
@@ -48,8 +47,29 @@ function Group() {
         const searchSubjectByInput = (event) => {
             console.log("input: "+event.target.id);
             event.target.style.backgroundColor = "white";
-            document.getElementById('hidden-' + props.vid).value = "-1";
+            document.getElementById('hidden-' + props.vid).value = "-1"
+            setLastVal([])
             searchSubject();
+        }
+        const handleHiddenVal = (id) => {
+            setHiddenVal(prevHiddenVal => {
+                const found = prevHiddenVal.includes(id);
+                if (found) {
+                    return prevHiddenVal.filter(item => item !== id);
+                } else {
+                    return [...prevHiddenVal, id];
+                }
+            });
+        }
+        const handleLastVal = (name) => {
+            setLastVal(prevLastVal => {
+                const found = prevLastVal.includes(name);
+                if (found) {
+                    return prevLastVal.filter(item => item !== name);
+                } else {
+                    return [...prevLastVal, name];
+                }
+            });
         }
         const transformResult = (belong) => {
             let resultObjects = [];
@@ -63,8 +83,8 @@ function Group() {
                 element1.value = element.children[0].innerText
                 element1.style.backgroundColor = "#dcffee";
                 element2.value = element.id.split("-")[4];
-                setLastVal(element.children[0].innerText)
-                setHiddenVal(element.id.split("-")[4])
+                handleLastVal(element.children[0].innerText)
+                handleHiddenVal(element.id.split("-")[4])
                 setSearchResult([])
             };
             searchResult.forEach(element => {
@@ -87,6 +107,12 @@ function Group() {
             });
             return resultObjects;
         }
+        const stringifyLastVal = (val) => {
+            if (val.length === 0) return ""
+            let result = val[0]
+            for (let i=1; i<val.length; i++) result = result + "、" + val[i]
+            return result
+        }
         useEffect(() => {
             if (props.defaultValue !== undefined && props.defaultValue !== null) {
                 document.getElementById("input-" + props.vid).value = props.defaultValue.name;
@@ -99,7 +125,7 @@ function Group() {
         return <div>
             <input type="hidden" id={'hidden-' + props.vid} value={hiddenVal}/>
             <span className="SequenceTag">小组{props.option.code}</span>
-            <input type="text" className="VoteInput" id={fatherElementId} value={lastVal} autoComplete="off"
+            <input type="text" className="VoteInput" id={fatherElementId} value={stringifyLastVal(lastVal)} autoComplete="off"
                    onInput={searchSubjectByInput} onClick={searchSubject}/>
             {
                 searchResult.length !== 0 &&

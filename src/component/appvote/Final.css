@@ -60,12 +60,6 @@
     /*box-shadow: rgba(105, 105, 105, 0.37) 0 0 6px;*/
 }
 
-.MainApp .SequenceTag {
-    display: none;
-    float: left;
-    font-weight: 800;
-}
-
 .MainApp .CandidateTag {
     display: block;
     float: left;

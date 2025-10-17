@@ -24,7 +24,7 @@
 }
 
 .MainApp .VoteInput {
-    width: 12rem;
+    width: calc(min(25em, 90%));
     height: 2em;
     border-radius: 15px;
     border: var(--border-default-width) solid rgb(186, 186, 186);
@@ -66,8 +66,10 @@
 .MainApp .SequenceTag {
     display: block;
     float: left;
-    width: 4em;
+    width: 5em;
     margin-block-start: 1em;
+    margin-right: 1em;
+    white-space: nowrap;
 }
 
 .MainApp .Game {
@@ -138,5 +140,26 @@
     .MainApp .VoteInput {
         width: min(70%,20em);
     }
+}
+
+.MainApp .NominationButton {
+    border: var(--border-default-width) solid rgba(186, 186, 186, 0.4);
+    border-radius: 1.2rem;
+    height: 2.4rem;
+    width: 6rem;
+    background-color: rgb(0, 128, 255);
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Noto Serif SC', serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: linear 0.2s;
+    margin: 0 auto;
+}
+
+.MainApp .NominationButton:hover {
+    background-color: rgb(0, 67, 136);
+    box-shadow: rgba(105, 105, 105, 0.37) 0 0 6px;
+    width: 12rem;
 }
 

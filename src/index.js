@@ -1,54 +1,60 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Homepage from './page/Homepage';
 import reportWebVitals from './reportWebVitals';
-import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Navigator from "./component/Navigator";
 import Footer from "./component/Footer";
-import Vote from "./page/Vote";
-import Playback from "./page/Playback";
-import Timeline from "./page/Timeline";
-import Nomination from "./component/appvote/Nomination";
-import Group from "./component/appvote/Group";
-import SHSTpass from "./component/usersystem/SHSTpass";
-import Eight from "./component/appvote/Eight";
-import Four from "./component/appvote/Four";
-import Semifinal from "./component/appvote/Semifinal";
-import Final from "./component/appvote/Final";
+import './Index.css';
+
+// 使用 React.lazy 动态导入页面
+const Homepage = React.lazy(() => import('./page/Homepage'));
+const Vote = React.lazy(() => import('./page/Vote'));
+const Playback = React.lazy(() => import('./page/Playback'));
+const Timeline = React.lazy(() => import('./page/Timeline'));
+const SHSTpass = React.lazy(() => import('./component/usersystem/SHSTpass'));
+const Nomination = React.lazy(() => import('./component/appvote/Nomination'));
+const Group = React.lazy(() => import('./component/appvote/Group'));
+const Eight = React.lazy(() => import('./component/appvote/Eight'));
+const Four = React.lazy(() => import('./component/appvote/Four'));
+const Semifinal = React.lazy(() => import('./component/appvote/Semifinal'));
+const Final = React.lazy(() => import('./component/appvote/Final'));
+const GroupTest = React.lazy(() => import('./component/appvote/GroupTest'));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.cookie = "wh="+window.outerHeight+"; domain=shswafu2025.club";
 document.cookie = "ww="+window.outerWidth+"; domain=shswafu2025.club";
 console.log("～欢迎关注上海中学和风社～")
+
+// 加载中的占位组件
+const LoadingFallback = () => <div>Loading...</div>;
+
 root.render(
     <React.StrictMode>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap"
-              rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=swap" rel="stylesheet"/>
         <div className="Background"></div>
         <Navigator/>
         <Router>
-            <Routes>
-                <Route exact path="/" element={<Homepage/>}/>
-                <Route exact path="/playback" element={<Playback/>}/>
-                <Route exact path="/timeline" element={<Timeline/>}/>
-                <Route exact path="/vote" element={<Vote/>}/>
-                <Route exact path="/shstp" element={<SHSTpass/>}/>
-                <Route exact path="/appvote/4/nomination" element={<Nomination/>}/>
-                <Route exact path="/appvote/4/group" element={<Group/>}/>
-                <Route exact path="/appvote/4/eight" element={<Eight/>}/>
-                <Route exact path="/appvote/4/four" element={<Four/>}/>
-                <Route exact path="/appvote/4/semifinal" element={<Semifinal/>}/>
-                <Route exact path="/appvote/4/final" element={<Final/>}/>
-            </Routes>
+            <Suspense fallback={<LoadingFallback />}>
+                <Routes>
+                    <Route exact path="/" element={<Homepage/>}/>
+                    <Route exact path="/playback" element={<Playback/>}/>
+                    <Route exact path="/timeline" element={<Timeline/>}/>
+                    <Route exact path="/vote" element={<Vote/>}/>
+                    <Route exact path="/shstp" element={<SHSTpass/>}/>
+                    <Route exact path="/appvote/4/nomination" element={<Nomination/>}/>
+                    <Route exact path="/appvote/4/group" element={<Group/>}/>
+                    <Route exact path="/appvote/4/eight" element={<Eight/>}/>
+                    <Route exact path="/appvote/4/four" element={<Four/>}/>
+                    <Route exact path="/appvote/4/semifinal" element={<Semifinal/>}/>
+                    <Route exact path="/appvote/4/final" element={<Final/>}/>
+                    <Route exact path="/appvote/4/group_test" element={<GroupTest/>}/>
+                </Routes>
+            </Suspense>
         </Router>
         <Footer/>
     </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
