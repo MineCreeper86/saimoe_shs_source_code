@@ -5,6 +5,7 @@ import './Group.css'
 import axios from "axios";
 
 function Group() {
+    const max_selection = 3
     const [maleData, setMaleData] = useState([]);
     const [femaleData, setFemaleData] = useState([]);
     const [loaded, setLoaded] = useState(false);
@@ -57,7 +58,9 @@ function Group() {
                 if (found) {
                     return prevHiddenVal.filter(item => item !== id);
                 } else {
-                    return [...prevHiddenVal, id];
+                    if(prevHiddenVal.length >= max_selection) {
+                        return prevHiddenVal
+                    } else return [...prevHiddenVal, id];
                 }
             });
         }
@@ -67,7 +70,8 @@ function Group() {
                 if (found) {
                     return prevLastVal.filter(item => item !== name);
                 } else {
-                    return [...prevLastVal, name];
+                    if(prevLastVal.length < max_selection) return [...prevLastVal, name];
+                    else return prevLastVal
                 }
             });
         }
@@ -89,20 +93,41 @@ function Group() {
             };
             searchResult.forEach(element => {
                 const uniqueId = belong + "-" + id;
-                resultObjects.push(
-                    <p
-                        id={uniqueId + '-' + element.id}
-                        onClick={handleClick}
-                        key={uniqueId}
-                    >
-                        <span>{element.name_cn === "" ? element.name_jp : element.name_cn}</span>
-                        {
-                            element.src === "" ? <span className="AnimeNotFound">（无相关动漫）</span> :
-                                <span className="Anime">（{element.src}）</span>
-                        }
-                    </p>
-                )
-                ;
+                let clazz = "";
+                console.log(hiddenVal)
+                if(hiddenVal.includes(element.id+"")) clazz = "Selected"
+                else if(hiddenVal.length >= max_selection) clazz = "Locked"
+                if(clazz === "Locked") {
+                    resultObjects.push(
+                        <p
+                            id={uniqueId + '-' + element.id}
+                            onClick={()=>{alert("每组最多选择"+max_selection+"个角色")}}
+                            key={uniqueId}
+                            className={"Locked"}
+                        >
+                            <span>{element.name_cn === "" ? element.name_jp : element.name_cn}</span>
+                            {
+                                element.src === "" ? <span className="AnimeNotFound">（无相关动漫）</span> :
+                                    <span className="Anime">（{element.src}）</span>
+                            }
+                        </p>
+                    )
+                } else {
+                    resultObjects.push(
+                        <p
+                            id={uniqueId + '-' + element.id}
+                            onClick={handleClick}
+                            key={uniqueId}
+                            className={clazz}
+                        >
+                            <span>{element.name_cn === "" ? element.name_jp : element.name_cn}</span>
+                            {
+                                element.src === "" ? <span className="AnimeNotFound">（无相关动漫）</span> :
+                                    <span className="Anime">（{element.src}）</span>
+                            }
+                        </p>
+                    )
+                }
                 id++;
             });
             return resultObjects;
@@ -280,7 +305,7 @@ function Group() {
     return (
         <Article>
             <h1>第四届上萌预选赛页面</h1>
-            <p>您可在每个小组中选择 1 个角色，总得票排名第一的角色将成功晋级下一轮。</p>
+            <p>您可在每个小组中选择 3 个角色，总得票排名第一的角色将成功晋级下一轮。</p>
             <p>每个小组所对应的可选角色将在输入框的下拉框中进行展示，请先选中每个小组对应的输入框。</p>
             <p>对于线上票，上海中学学生在经过智慧上中验证后可享受相较于其它学校用户更高的票权。应援作品可线下递交。</p>
             <LoginWindow hide="1"/>

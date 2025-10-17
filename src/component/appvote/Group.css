@@ -24,7 +24,7 @@
 }
 
 .MainApp .VoteInput {
-    width: calc(min(25em, 90%));
+    width: min(25em, 75%);
     height: 2em;
     border-radius: 15px;
     border: var(--border-default-width) solid rgb(186, 186, 186);
@@ -43,7 +43,7 @@
 }
 
 .MainApp .SearchResultSet{
-    margin-left: 4em;
+    margin-left: 6em;
     border: var(--border-default-width) solid black;
     border-radius: 0.3em;
     background-color: rgba(255, 255, 255, 0.6);
@@ -58,9 +58,25 @@
     max-width: 30em;
 }
 
+.MainApp .SearchResultSet .Selected{
+    background-color: rgba(176, 255, 171, 0.7);
+}
+
+.MainApp .SearchResultSet .Locked{
+    background-color: rgba(44, 44, 44, 0.3);
+}
+
 .MainApp .SearchResultSet p:hover {
     background-color: rgba(102, 217, 252, 0.3);
     /*box-shadow: rgba(105, 105, 105, 0.37) 0 0 6px;*/
+}
+
+.MainApp .SearchResultSet .Selected:hover{
+    background-color: rgba(218, 95, 72, 0.3);
+}
+
+.MainApp .SearchResultSet .Locked:hover{
+    background-color: rgba(100, 100, 100, 0.8);
 }
 
 .MainApp .SequenceTag {
@@ -68,8 +84,13 @@
     float: left;
     width: 5em;
     margin-block-start: 1em;
-    margin-right: 1em;
     white-space: nowrap;
+}
+
+@media(max-width: 1200px) {
+    .MainApp .SequenceTag {
+        width: 4em;
+    }
 }
 
 .MainApp .Game {
