@@ -217,7 +217,7 @@ function Group() {
             let warning = false;
             for (let i = 0; i < 12; i++) {
                 if (document.getElementById('hidden-male-' + i).value) {
-                    male_submission.push(document.getElementById('hidden-male-' + i).value.split(",").map((it)=>{return parseInt(it)}));
+                    male_submission = male_submission.concat(document.getElementById('hidden-male-' + i).value.split(",").map((it)=>{return parseInt(it)}));
                 } else if (document.getElementById('input-male-' + i).value) {
                     warning = true;
                     document.getElementById('input-male-' + i).style.backgroundColor = "yellow";
@@ -225,7 +225,7 @@ function Group() {
             }
             for (let j = 0; j < 16; j++) {
                 if (document.getElementById('hidden-fem-' + j).value) {
-                    female_submission.push(document.getElementById('hidden-fem-' + j).value.split(",").map((it)=>{return parseInt(it)}));
+                    female_submission = female_submission.concat(document.getElementById('hidden-fem-' + j).value.split(",").map((it)=>{return parseInt(it)}));
                 } else if (document.getElementById('input-fem-' + j).value) {
                     warning = true;
                     document.getElementById('input-fem-' + j).style.backgroundColor = "yellow";
