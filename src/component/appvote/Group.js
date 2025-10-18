@@ -231,7 +231,7 @@ function Group() {
             }
             for (let j = 0; j < 16; j++) {
                 if (document.getElementById('hidden-fem-' + j).value) {
-                    let female_array = document.getElementById('hidden-female-' + j).value.split(",").map((it)=>{return parseInt(it)})
+                    let female_array = document.getElementById('hidden-fem-' + j).value.split(",").map((it)=>{return parseInt(it)})
                     const arr_length = female_array.length
                     female_array.length = max_selection
                     female_array.fill(-1,arr_length)
