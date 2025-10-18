@@ -141,7 +141,10 @@ function Group() {
         }
         useEffect(() => {
             if (props.defaultValue !== undefined && props.defaultValue !== null) {
-                console.log(props.defaultValue)
+                props.defaultValue.forEach((item) => {
+                    handleHiddenVal(item.id)
+                    handleLastVal(item.name)
+                })
                 document.getElementById("hidden-" + props.vid).style.backgroundColor = "#dcffee";
             }
         }, []);
@@ -217,18 +220,26 @@ function Group() {
             let female_submission = []
             let warning = false;
             for (let i = 0; i < 12; i++) {
-                let male_array = document.getElementById('hidden-male-' + i).value.split(",").map((it)=>{return parseInt(it)})
-                const arr_length = male_array.length
-                male_array.length = max_selection
-                male_array.fill(-1,arr_length)
-                male_submission = male_submission.concat(male_array);
+                if (document.getElementById('hidden-male-' + i).value) {
+                    let male_array = document.getElementById('hidden-male-' + i).value.split(",").map((it)=>{return parseInt(it)})
+                    const arr_length = male_array.length
+                    male_array.length = max_selection
+                    male_array.fill(-1,arr_length)
+                    male_submission = male_submission.concat(male_array);
+                } else {
+                    male_submission = male_submission.concat(new Array(max_selection).fill(-1));
+                }
             }
             for (let j = 0; j < 16; j++) {
-                let female_array = document.getElementById('hidden-fem-' + j).value.split(",").map((it)=>{return parseInt(it)})
-                const arr_length = female_array.length
-                female_array.length = max_selection
-                female_array.fill(-1,arr_length)
-                female_submission = female_submission.concat(female_array);
+                if (document.getElementById('hidden-fem-' + j).value) {
+                    let female_array = document.getElementById('hidden-fem-' + j).value.split(",").map((it)=>{return parseInt(it)})
+                    const arr_length = female_array.length
+                    female_array.length = max_selection
+                    female_array.fill(-1,arr_length)
+                    female_submission = female_submission.concat(female_array);
+                } else {
+                    female_submission = female_submission.concat(new Array(max_selection).fill(-1));
+                }
             }
             const currSubmit = [male_submission, female_submission];
             if (!warning) {
