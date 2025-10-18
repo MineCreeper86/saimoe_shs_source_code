@@ -7,7 +7,7 @@ function Vote() {
         <Article>
             <h1>投票通道选择</h1>
             <Portal startTime="1721375167000" endTime="1760228400000" href="/appvote/4/nomination">第四届上萌 - 角色提名</Portal>
-            <Portal startTime="1760889600000" endTime="1762185600000" href="/appvote/4/group">第四届上萌 - 预选赛</Portal>
+            <Portal startTime="1760832000000" endTime="1762185600000" href="/appvote/4/group">第四届上萌 - 预选赛</Portal>
             <Portal startTime="1762704000000" endTime="1763913600000" href="/appvote/4/eight">第四届上萌 - 八强赛</Portal>
             <Portal startTime="9999999999999" endTime="9999999999999" href="/appvote/4/four">第四届上萌 - 四强赛</Portal>
             <Portal startTime="9999999999999" endTime="9999999999999" href="/appvote/4/semifinal">第四届上萌 - 半决赛</Portal>
