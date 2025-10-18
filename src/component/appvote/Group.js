@@ -141,8 +141,7 @@ function Group() {
         }
         useEffect(() => {
             if (props.defaultValue !== undefined && props.defaultValue !== null) {
-                document.getElementById("input-" + props.vid).value = props.defaultValue.name;
-                document.getElementById("hidden-" + props.vid).value = props.defaultValue.id;
+                console.log(props.defaultValue)
                 document.getElementById("hidden-" + props.vid).style.backgroundColor = "#dcffee";
             }
         }, []);
@@ -163,7 +162,7 @@ function Group() {
     const generateChildTree = (prefix, initial, candidate) => {
         let lst = []
         for (let i = 0; i < candidate.length; i++) {
-            lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={initial[i]} option={candidate[i]}/>)
+            lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={initial.slice(i*3, i*3+3)} option={candidate[i]}/>)
         }
         return lst
     }
@@ -235,7 +234,7 @@ function Group() {
                     const arr_length = female_array.length
                     female_array.length = max_selection
                     female_array.fill(-1,arr_length)
-                    male_submission = male_submission.concat(female_array);
+                    female_submission = female_submission.concat(female_array);
                 } else if (document.getElementById('input-fem-' + j).value) {
                     warning = true;
                     document.getElementById('input-fem-' + j).style.backgroundColor = "yellow";
