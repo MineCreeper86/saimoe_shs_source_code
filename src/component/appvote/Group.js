@@ -143,8 +143,8 @@ function Group() {
             if (props.defaultValue !== undefined && props.defaultValue !== null) {
                 props.defaultValue.forEach((item) => {
                     if(item.id !== -1) {
-                        handleHiddenVal(item.id)
                         handleLastVal(item.name)
+                        handleHiddenVal(item.id)
                     }
                 })
                 document.getElementById("hidden-" + props.vid).style.backgroundColor = "#dcffee";
