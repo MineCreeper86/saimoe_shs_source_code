@@ -265,7 +265,7 @@ function Group() {
                         break;
                     case 10:
                         setSubmitCallback("线下选票提交成功！")
-                        location.reload();
+                        window.location.reload();
                         break;
                     default:
                         setSubmitCallback(result.data.message);
