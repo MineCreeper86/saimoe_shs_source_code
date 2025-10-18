@@ -60,7 +60,10 @@ function Group() {
                 } else {
                     if(prevHiddenVal.length >= max_selection) {
                         return prevHiddenVal
-                    } else return [...prevHiddenVal, id];
+                    } else {
+                        if(prevHiddenVal.length === max_selection - 1) setSearchResult([])
+                        return [...prevHiddenVal, id];
+                    }
                 }
             });
         }
@@ -89,7 +92,6 @@ function Group() {
                 element2.value = element.id.split("-")[4];
                 handleLastVal(element.children[0].innerText)
                 handleHiddenVal(element.id.split("-")[4])
-                setSearchResult([])
             };
             searchResult.forEach(element => {
                 const uniqueId = belong + "-" + id;
