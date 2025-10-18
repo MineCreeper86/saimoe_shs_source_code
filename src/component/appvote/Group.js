@@ -50,6 +50,7 @@ function Group() {
             event.target.style.backgroundColor = "white";
             document.getElementById('hidden-' + props.vid).value = "-1"
             setLastVal([])
+            setHiddenVal([])
             searchSubject();
         }
         const handleHiddenVal = (id) => {
