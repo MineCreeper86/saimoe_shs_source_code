@@ -46,7 +46,6 @@ function Group() {
             resetFocus(props.vid)
         }
         const searchSubjectByInput = (event) => {
-            console.log("input: "+event.target.id);
             event.target.style.backgroundColor = "white";
             document.getElementById('hidden-' + props.vid).value = "-1"
             setLastVal([])
@@ -95,7 +94,6 @@ function Group() {
             searchResult.forEach(element => {
                 const uniqueId = belong + "-" + id;
                 let clazz = "";
-                console.log(hiddenVal)
                 if(hiddenVal.includes(element.id+"")) clazz = "Selected"
                 else if(hiddenVal.length >= max_selection) clazz = "Locked"
                 if(clazz === "Locked") {
@@ -144,7 +142,6 @@ function Group() {
                 document.getElementById("input-" + props.vid).value = props.defaultValue.name;
                 document.getElementById("hidden-" + props.vid).value = props.defaultValue.id;
                 document.getElementById("hidden-" + props.vid).style.backgroundColor = "#dcffee";
-                console.log("useeffect");
             }
         }, []);
         let fatherElementId = 'input-' + props.vid
@@ -220,7 +217,7 @@ function Group() {
             let warning = false;
             for (let i = 0; i < 12; i++) {
                 if (document.getElementById('hidden-male-' + i).value) {
-                    male_submission.push(parseInt(document.getElementById('hidden-male-' + i).value));
+                    male_submission.push(document.getElementById('hidden-male-' + i).value.split(",").map((it)=>{return parseInt(it)}));
                 } else if (document.getElementById('input-male-' + i).value) {
                     warning = true;
                     document.getElementById('input-male-' + i).style.backgroundColor = "yellow";
@@ -228,7 +225,7 @@ function Group() {
             }
             for (let j = 0; j < 16; j++) {
                 if (document.getElementById('hidden-fem-' + j).value) {
-                    female_submission.push(parseInt(document.getElementById('hidden-fem-' + j).value));
+                    female_submission.push(document.getElementById('hidden-fem-' + j).value.split(",").map((it)=>{return parseInt(it)}));
                 } else if (document.getElementById('input-fem-' + j).value) {
                     warning = true;
                     document.getElementById('input-fem-' + j).style.backgroundColor = "yellow";
@@ -268,14 +265,7 @@ function Group() {
                         break;
                     case 10:
                         setSubmitCallback("线下选票提交成功！")
-                        for (let i = 0; i < 10; i++) {
-                            document.getElementById('input-male-' + i).value = ""
-                            document.getElementById('input-male-' + i).style.backgroundColor = "white";
-                            document.getElementById('input-fem-' + i).value = ""
-                            document.getElementById('input-fem-' + i).style.backgroundColor = "white";
-                            document.getElementById('hidden-fem-' + i).value = ""
-                            document.getElementById('hidden-male-' + i).value = ""
-                        }
+                        location.reload();
                         break;
                     default:
                         setSubmitCallback(result.data.message);

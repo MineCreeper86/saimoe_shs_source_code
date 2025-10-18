@@ -25,7 +25,7 @@ document.cookie = "ww="+window.outerWidth+"; domain=shswafu2025.club";
 console.log("～欢迎关注上海中学和风社～")
 
 // 加载中的占位组件
-const LoadingFallback = () => <div>Loading...</div>;
+const LoadingFallback = () => <div>少女祈祷中…… Now Loading</div>;
 
 root.render(
     <React.StrictMode>
