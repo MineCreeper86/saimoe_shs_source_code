@@ -217,28 +217,18 @@ function Group() {
             let female_submission = []
             let warning = false;
             for (let i = 0; i < 12; i++) {
-                if (document.getElementById('hidden-male-' + i).value) {
-                    let male_array = document.getElementById('hidden-male-' + i).value.split(",").map((it)=>{return parseInt(it)})
-                    const arr_length = male_array.length
-                    male_array.length = max_selection
-                    male_array.fill(-1,arr_length)
-                    male_submission = male_submission.concat(male_array);
-                } else if (document.getElementById('input-male-' + i).value) {
-                    warning = true;
-                    document.getElementById('input-male-' + i).style.backgroundColor = "yellow";
-                }
+                let male_array = document.getElementById('hidden-male-' + i).value.split(",").map((it)=>{return parseInt(it)})
+                const arr_length = male_array.length
+                male_array.length = max_selection
+                male_array.fill(-1,arr_length)
+                male_submission = male_submission.concat(male_array);
             }
             for (let j = 0; j < 16; j++) {
-                if (document.getElementById('hidden-fem-' + j).value) {
-                    let female_array = document.getElementById('hidden-fem-' + j).value.split(",").map((it)=>{return parseInt(it)})
-                    const arr_length = female_array.length
-                    female_array.length = max_selection
-                    female_array.fill(-1,arr_length)
-                    female_submission = female_submission.concat(female_array);
-                } else if (document.getElementById('input-fem-' + j).value) {
-                    warning = true;
-                    document.getElementById('input-fem-' + j).style.backgroundColor = "yellow";
-                }
+                let female_array = document.getElementById('hidden-fem-' + j).value.split(",").map((it)=>{return parseInt(it)})
+                const arr_length = female_array.length
+                female_array.length = max_selection
+                female_array.fill(-1,arr_length)
+                female_submission = female_submission.concat(female_array);
             }
             const currSubmit = [male_submission, female_submission];
             if (!warning) {
