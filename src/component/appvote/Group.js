@@ -144,7 +144,7 @@ function Group() {
                 props.defaultValue.forEach((item) => {
                     if(item.id !== -1) {
                         handleLastVal(item.name)
-                        handleHiddenVal(item.id)
+                        handleHiddenVal(item.id+"")
                     }
                 })
                 document.getElementById("hidden-" + props.vid).style.backgroundColor = "#dcffee";
