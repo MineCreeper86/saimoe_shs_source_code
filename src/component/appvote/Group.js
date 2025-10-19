@@ -322,11 +322,11 @@ function Group() {
                 </div>
                 {started && state !== 1 && <p>加载候选数据中……</p>}
                 {started && state === 1 && <div className="ChnlDivision ChnlFemale">
-                    <h2>萌王小组赛</h2>
+                    <h2>萌王组</h2>
                     {generateChildTree("fem", femaleData, candidate.female)}
                 </div>}
                 {started && state === 1 && <div className="ChnlDivision ChnlMale">
-                    <h2>燃王小组赛</h2>
+                    <h2>燃王组</h2>
                     {generateChildTree("male", maleData, candidate.male)}
                 </div>}
                 {started && state === 1 && <VoteSubmit/>}
