@@ -20,30 +20,9 @@ function Group() {
         const [lastVal, setLastVal] = React.useState([]);
         const [hiddenVal, setHiddenVal] = React.useState([]);
         const [anythingUsedToUpdateThisComponent, setAnythingUsedToUpdateThisComponent] = React.useState(0);
-        const resetFocus = (vid) => {
-            for (let i = 0; i < 12; i++) {
-                if (document.getElementById('search-male-' + i) !== null) {
-                    if ('male-' + i !== vid) {
-                        document.getElementById('search-male-' + i).style.display = 'none';
-                    } else {
-                        document.getElementById('search-male-' + i).style.display = 'block';
-                    }
-                }
-            }
-            for (let j = 0; j < 16; j++) {
-                if (document.getElementById('search-fem-' + j) !== null) {
-                    if ('fem-' + j !== vid) {
-                        document.getElementById('search-fem-' + j).style.display = 'none';
-                    } else {
-                        document.getElementById('search-fem-' + j).style.display = 'block';
-                    }
-                }
-            }
-        }
         const searchSubject = () => {
             setSearchResult(props.option.characters)
             setAnythingUsedToUpdateThisComponent(anythingUsedToUpdateThisComponent + 1)
-            resetFocus(props.vid)
         }
         const searchSubjectByInput = (event) => {
             event.target.style.backgroundColor = "white";
@@ -151,14 +130,14 @@ function Group() {
             }
         }, []);
         let fatherElementId = 'input-' + props.vid
-        return <div>
+        return <div className="SubjectInput">
             <input type="hidden" id={'hidden-' + props.vid} value={hiddenVal}/>
             <span className="SequenceTag">小组{props.option.code}</span>
             <input type="text" className="VoteInput" id={fatherElementId} value={stringifyLastVal(lastVal)} autoComplete="off"
                    onInput={searchSubjectByInput} onClick={searchSubject}/>
             {
                 searchResult.length !== 0 &&
-                <div className="SearchResultSet" id={'search-' + props.vid}>
+                <div className="SearchResultSet" id={'search-' + props.vid} tabIndex={-1}>
                     {transformResult(fatherElementId)}
                 </div>
             }
