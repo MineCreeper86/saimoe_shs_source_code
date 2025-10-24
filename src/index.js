@@ -18,7 +18,6 @@ const Eight = React.lazy(() => import('./component/appvote/Eight'));
 const Four = React.lazy(() => import('./component/appvote/Four'));
 const Semifinal = React.lazy(() => import('./component/appvote/Semifinal'));
 const Final = React.lazy(() => import('./component/appvote/Final'));
-const GroupTest = React.lazy(() => import('./component/appvote/GroupTest'));
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.cookie = "wh="+window.outerHeight+"; domain=shswafu2025.club";
@@ -49,7 +48,6 @@ root.render(
                     <Route exact path="/appvote/4/four" element={<Four/>}/>
                     <Route exact path="/appvote/4/semifinal" element={<Semifinal/>}/>
                     <Route exact path="/appvote/4/final" element={<Final/>}/>
-                    <Route exact path="/appvote/4/group_test" element={<GroupTest/>}/>
                 </Routes>
             </Suspense>
         </Router>
