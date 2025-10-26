@@ -1869,14 +1869,6 @@
           "v": 0
         },
         {
-          "id": 106926,
-          "name_jp": "メリナ",
-          "name_cn": "梅琳娜",
-          "src": "",
-          "gender": "female",
-          "v": 0
-        },
-        {
           "id": 2765,
           "name_jp": "木之本桜",
           "name_cn": "木之本樱",
@@ -3001,14 +2993,6 @@
           "name_jp": "高木さん",
           "name_cn": "高木同学",
           "src": "擅长捉弄的高木同学",
-          "gender": "female",
-          "v": 0
-        },
-        {
-          "id": 13347,
-          "name_jp": "鳴海桜",
-          "name_cn": "鸣海樱",
-          "src": "",
           "gender": "female",
           "v": 0
         },
