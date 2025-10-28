@@ -72,7 +72,7 @@ function Group() {
                 handleLastVal(element.children[0].innerText)
                 handleHiddenVal(element.id.split("-")[4])
             };
-            searchResult.forEach(element => {
+            searchResult.forEach((element, index) => {
                 const uniqueId = belong + "-" + id;
                 let clazz = "";
                 if(hiddenVal.includes(element.id+"")) clazz = "Selected"
@@ -85,6 +85,7 @@ function Group() {
                             key={uniqueId}
                             className={"Locked"}
                         >
+<span>{index+1}</span>&nbsp;
                             <span>{element.name_cn === "" ? element.name_jp : element.name_cn}</span>
                             {
                                 element.src === "" ? <span className="AnimeNotFound">（无相关动漫）</span> :
@@ -100,6 +101,7 @@ function Group() {
                             key={uniqueId}
                             className={clazz}
                         >
+<span>{index+1}</span>&nbsp;
                             <span>{element.name_cn === "" ? element.name_jp : element.name_cn}</span>
                             {
                                 element.src === "" ? <span className="AnimeNotFound">（无相关动漫）</span> :
