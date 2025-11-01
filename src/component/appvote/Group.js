@@ -66,7 +66,7 @@ function Group() {
                 let fatherElement = "-" + element.id.split("-")[1] + "-" + element.id.split("-")[2];
                 const element1 = document.getElementById('input' + fatherElement);
                 const element2 = document.getElementById('hidden' + fatherElement);
-                element1.value = element.children[0].innerText
+                element1.value = element.children[1].innerText
                 element1.style.backgroundColor = "#dcffee";
                 element2.value = element.id.split("-")[4];
                 handleLastVal(element.children[0].innerText)
