@@ -69,7 +69,7 @@ function Group() {
                 element1.value = element.children[1].innerText
                 element1.style.backgroundColor = "#dcffee";
                 element2.value = element.id.split("-")[4];
-                handleLastVal(element.children[0].innerText)
+                handleLastVal(element.children[1].innerText)
                 handleHiddenVal(element.id.split("-")[4])
             };
             searchResult.forEach((element, index) => {
