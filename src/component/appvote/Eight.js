@@ -27,9 +27,10 @@ function Eight() {
             }
         }, []);
         let fatherElementId = 'input-' + props.vid
-        const children = props.option.characters.map((character) => (<td className="CandidateTag" onClick={()=>{parseSelected(character.id)}}>{character.name_cn}</td>))
+        const children = props.option.characters.map((character) => (<td className=
+            {selected.indexOf(character.id) !== -1 ? "CandidateTag SelectedCandidate" : "CandidateTag"} onClick={()=>{parseSelected(character.id)}}>{character.name_cn}</td>))
         console.log(props.defaultValue);
-        return <tr><td><span className="SequenceTag">小组{props.option.code}</span></td>{children}</tr>
+        return <tr><td><span className="SequenceTag" selectedCharacter={selected.join(",")}>小组{props.option.code}</span></td>{children}</tr>
     }
     const generateChildTree = (prefix, initial, candidate) => {
         let lst = []
