@@ -30,7 +30,7 @@ function Eight() {
         const children = props.option.characters.map((character) => (<td className=
             {selected.indexOf(character.id) !== -1 ? "CandidateTag SelectedCandidate" : "CandidateTag"} onClick={()=>{parseSelected(character.id)}}>{character.name_cn}</td>))
         console.log(props.defaultValue);
-        return <tr><td><span className="SequenceTag" selectedCharacter={selected.join(",")}>小组{props.option.code}</span></td>{children}</tr>
+        return <tr><td><span className="SequenceTag" id={fatherElementId} selectedCharacter={selected.join(",")}>小组{props.option.code}</span></td>{children}</tr>
     }
     const generateChildTree = (prefix, initial, candidate) => {
         let lst = []
@@ -93,12 +93,24 @@ function Eight() {
             let warning = false;
             for (let i = 0; i < 3; i++) {
                 if (document.getElementById('input-male-' + i).getAttribute("selectedcharacter")) {
-                    male_submission.push(parseInt(document.getElementById('input-male-' + i).getAttribute("selectedcharacter")));
+                    let male_array = document.getElementById('input-male-' + i).getAttribute("selectedcharacter").split(",").map((it)=>{return parseInt(it)})
+                    const arr_length = male_array.length
+                    male_array.length = 2
+                    male_array.fill(-1,arr_length)
+                    male_submission = male_submission.concat(male_array);
+                } else {
+                    male_submission = male_submission.concat(new Array(2).fill(-1));
                 }
             }
             for (let j = 0; j < 4; j++) {
-                if (document.getElementById('input-fem-' + j).getAttribute("selectedcharacter")) {
-                    female_submission.push(parseInt(document.getElementById('input-fem-' + j).getAttribute("selectedcharacter")));
+                if (document.getElementById('input-fem-' + i).getAttribute("selectedcharacter")) {
+                    let female_array = document.getElementById('input-fem-' + i).getAttribute("selectedcharacter").split(",").map((it)=>{return parseInt(it)})
+                    const arr_length = female_array.length
+                    female_array.length = 2
+                    female_array.fill(-1,arr_length)
+                    female_submission = female_submission.concat(female_array);
+                } else {
+                    female_submission = female_submission.concat(new Array(2).fill(-1));
                 }
             }
             const currSubmit = [male_submission, female_submission];
