@@ -1,0 +1,278 @@
+{
+  "male": [
+    {
+      "seq": 0,
+      "code": "A",
+      "characters": [
+        {
+          "id": 7056,
+          "name_jp": "服部平次",
+          "name_cn": "服部平次",
+          "src": "名侦探柯南 迷宫的十字路口",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 3216,
+          "name_jp": "エミヤ",
+          "name_cn": "英灵卫宫",
+          "src": "Fate/stay night UNLIMITED BLADE WORKS",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 2215,
+          "name_jp": "夜神月",
+          "name_cn": "夜神月",
+          "src": "死亡笔记",
+          "gender": "male",
+          "v": 2
+        }
+      ]
+    },
+    {
+      "seq": 1,
+      "code": "B",
+      "characters": [
+        {
+          "id": 3498,
+          "name_jp": "上条当麻",
+          "name_cn": "上条当麻",
+          "src": "魔法禁书目录",
+          "gender": "male",
+          "v": 2
+        },
+        {
+          "id": 14822,
+          "name_jp": "折木奉太郎",
+          "name_cn": "折木奉太郎",
+          "src": "冰菓",
+          "gender": "male",
+          "v": 3
+        },
+        {
+          "id": 17601,
+          "name_jp": "ディオ・ブランドー",
+          "name_cn": "迪奥·布兰多",
+          "src": "JOJO的奇妙冒险",
+          "gender": "male",
+          "v": 2
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "code": "C",
+      "characters": [
+        {
+          "id": 3455,
+          "name_jp": "工藤新一",
+          "name_cn": "工藤新一",
+          "src": "名侦探柯南",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 10642,
+          "name_jp": "春日野悠",
+          "name_cn": "春日野悠",
+          "src": "缘之空",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 30056,
+          "name_jp": "乙坂有宇",
+          "name_cn": "乙坂有宇",
+          "src": "夏洛特",
+          "gender": "male",
+          "v": 2
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "code": "D",
+      "characters": [
+        {
+          "id": 7073,
+          "name_jp": "赤井秀一",
+          "name_cn": "赤井秀一",
+          "src": "名侦探柯南 纯黑的恶梦",
+          "gender": "male",
+          "v": 0
+        },
+        {
+          "id": 26123,
+          "name_jp": "罗小黑",
+          "name_cn": "",
+          "src": "罗小黑战记",
+          "gender": "male",
+          "v": 1
+        },
+        {
+          "id": 16684,
+          "name_jp": "L",
+          "name_cn": "L",
+          "src": "死亡笔记",
+          "gender": "male",
+          "v": 0
+        }
+      ]
+    }
+  ],
+  "female": [
+    {
+      "seq": 0,
+      "code": "A",
+      "characters": [
+        {
+          "id": 273,
+          "name_jp": "アルトリア・ペンドラゴン",
+          "name_cn": "阿尔托莉雅·潘德拉贡",
+          "src": "Fate/stay night",
+          "gender": "female",
+          "v": 2
+        },
+        {
+          "id": 17362,
+          "name_jp": "小鳥遊六花",
+          "name_cn": "小鸟游六花",
+          "src": "中二病也要谈恋爱！",
+          "gender": "female",
+          "v": 5
+        },
+        {
+          "id": 132476,
+          "name_jp": "豊川祥子",
+          "name_cn": "丰川祥子",
+          "src": "BanG Dream! Ave Mujica",
+          "gender": "female",
+          "v": 4
+        },
+        {
+          "id": 48,
+          "name_jp": "涼宮ハルヒ",
+          "name_cn": "凉宫春日",
+          "src": "凉宫春日的忧郁",
+          "gender": "female",
+          "v": 3
+        }
+      ]
+    },
+    {
+      "seq": 1,
+      "code": "B",
+      "characters": [
+        {
+          "id": 604,
+          "name_jp": "中野梓",
+          "name_cn": "中野梓",
+          "src": "轻音少女",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 303,
+          "name_jp": "綾波レイ",
+          "name_cn": "绫波丽",
+          "src": "新世纪福音战士",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 111328,
+          "name_jp": "八奈見杏菜",
+          "name_cn": "八奈见杏菜",
+          "src": "败犬女主太多了！",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 86246,
+          "name_jp": "フリーレン",
+          "name_cn": "芙莉莲",
+          "src": "葬送的芙莉莲",
+          "gender": "female",
+          "v": 3
+        }
+      ]
+    },
+    {
+      "seq": 2,
+      "code": "C",
+      "characters": [
+        {
+          "id": 76270,
+          "name_jp": "椎名真昼",
+          "name_cn": "椎名真昼",
+          "src": "关于邻家的天使大人不知不觉把我惯成了废人这档子事",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 466,
+          "name_jp": "平沢唯",
+          "name_cn": "平泽唯",
+          "src": "轻音少女",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 3575,
+          "name_jp": "御坂美琴",
+          "name_cn": "御坂美琴",
+          "src": "魔法禁书目录",
+          "gender": "female",
+          "v": 3
+        },
+        {
+          "id": 3576,
+          "name_jp": "白井黒子",
+          "name_cn": "白井黑子",
+          "src": "某科学的超电磁炮",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    },
+    {
+      "seq": 3,
+      "code": "D",
+      "characters": [
+        {
+          "id": 22520,
+          "name_jp": "和泉紗霧",
+          "name_cn": "和泉纱雾",
+          "src": "埃罗芒阿老师",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 17949,
+          "name_jp": "食蜂操祈",
+          "name_cn": "食蜂操祈",
+          "src": "某科学的超电磁炮T",
+          "gender": "female",
+          "v": 0
+        },
+        {
+          "id": 71479,
+          "name_jp": "アーニャ・フォージャー",
+          "name_cn": "阿尼亚·福杰",
+          "src": "间谍过家家",
+          "gender": "female",
+          "v": 1
+        },
+        {
+          "id": 1152,
+          "name_jp": "春日野穹",
+          "name_cn": "春日野穹",
+          "src": "缘之空",
+          "gender": "female",
+          "v": 0
+        }
+      ]
+    }
+  ]
+}
