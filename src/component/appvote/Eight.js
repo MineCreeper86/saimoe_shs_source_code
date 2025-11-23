@@ -15,15 +15,26 @@ function Eight() {
     const forceUpdate = React.useCallback(() => updateState({}), []);
     const debug = false;
     const SubjectInput = (props) => {
+        const [selected, setSelected] = useState([]);
+        const parseSelected = (target) => {
+            if (selected.indexOf(target) === -1) {
+                if(selected.length < 2) setSelected(selected.concat(target))
+            } else setSelected(selected.toSpliced(selected.indexOf(target),1));
+        }
+        useEffect(() => {
+            if (props.defaultValue !== undefined && props.defaultValue !== null) {
+                setSelected(props.defaultValue);
+            }
+        }, []);
         let fatherElementId = 'input-' + props.vid
-        const children = props.option.characters.map((character) => (<td className="CandidateTag" onClick={()=>{}}>{character.name_cn}</td>))
+        const children = props.option.characters.map((character) => (<td className="CandidateTag" onClick={()=>{parseSelected(character.id)}}>{character.name_cn}</td>))
         console.log(props.defaultValue);
         return <tr><td><span className="SequenceTag">小组{props.option.code}</span></td>{children}</tr>
     }
     const generateChildTree = (prefix, initial, candidate) => {
         let lst = []
         for (let i = 0; i < candidate.length; i++) {
-            lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={initial} option={candidate[i]}/>)
+            lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={[initial[2*i].id,initial[2*i+1].id]} option={candidate[i]}/>)
         }
         return lst
     }
@@ -79,20 +90,14 @@ function Eight() {
             let male_submission = []
             let female_submission = []
             let warning = false;
-            for (let i = 0; i < 12; i++) {
-                if (document.getElementById('hidden-male-' + i).value) {
-                    male_submission.push(parseInt(document.getElementById('hidden-male-' + i).value));
-                } else if (document.getElementById('input-male-' + i).value) {
-                    warning = true;
-                    document.getElementById('input-male-' + i).style.backgroundColor = "yellow";
+            for (let i = 0; i < 3; i++) {
+                if (document.getElementById('input-male-' + i).getAttribute("selectedcharacter")) {
+                    male_submission.push(parseInt(document.getElementById('input-male-' + i).getAttribute("selectedcharacter")));
                 }
             }
-            for (let j = 0; j < 16; j++) {
-                if (document.getElementById('hidden-fem-' + j).value) {
-                    female_submission.push(parseInt(document.getElementById('hidden-fem-' + j).value));
-                } else if (document.getElementById('input-fem-' + j).value) {
-                    warning = true;
-                    document.getElementById('input-fem-' + j).style.backgroundColor = "yellow";
+            for (let j = 0; j < 4; j++) {
+                if (document.getElementById('input-fem-' + j).getAttribute("selectedcharacter")) {
+                    female_submission.push(parseInt(document.getElementById('input-fem-' + j).getAttribute("selectedcharacter")));
                 }
             }
             const currSubmit = [male_submission, female_submission];
