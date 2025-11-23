@@ -35,7 +35,7 @@ function Eight() {
     const generateChildTree = (prefix, initial, candidate) => {
         let lst = []
         for (let i = 0; i < candidate.length; i++) {
-            lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={[initial[2*i].id,initial[2*i+1].id]} option={candidate[i]}/>)
+            lst.push(<SubjectInput vid={prefix + "-" + i} defaultValue={} option={candidate[i]}/>)
         }
         return lst
     }
