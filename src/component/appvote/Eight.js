@@ -103,8 +103,8 @@ function Eight() {
                 }
             }
             for (let j = 0; j < 4; j++) {
-                if (document.getElementById('input-fem-' + i).getAttribute("selectedcharacter")) {
-                    let female_array = document.getElementById('input-fem-' + i).getAttribute("selectedcharacter").split(",").map((it)=>{return parseInt(it)})
+                if (document.getElementById('input-fem-' + j).getAttribute("selectedcharacter")) {
+                    let female_array = document.getElementById('input-fem-' + j).getAttribute("selectedcharacter").split(",").map((it)=>{return parseInt(it)})
                     const arr_length = female_array.length
                     female_array.length = 2
                     female_array.fill(-1,arr_length)
