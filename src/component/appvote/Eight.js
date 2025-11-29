@@ -91,7 +91,7 @@ function Eight() {
             let male_submission = []
             let female_submission = []
             let warning = false;
-            for (let i = 0; i < 3; i++) {
+            for (let i = 0; i < candidate.male.length; i++) {
                 if (document.getElementById('input-male-' + i).getAttribute("selectedcharacter")) {
                     let male_array = document.getElementById('input-male-' + i).getAttribute("selectedcharacter").split(",").map((it)=>{return parseInt(it)})
                     const arr_length = male_array.length
@@ -102,7 +102,7 @@ function Eight() {
                     male_submission = male_submission.concat(new Array(2).fill(-1));
                 }
             }
-            for (let j = 0; j < 4; j++) {
+            for (let j = 0; j < candidate.female.length; j++) {
                 if (document.getElementById('input-fem-' + j).getAttribute("selectedcharacter")) {
                     let female_array = document.getElementById('input-fem-' + j).getAttribute("selectedcharacter").split(",").map((it)=>{return parseInt(it)})
                     const arr_length = female_array.length

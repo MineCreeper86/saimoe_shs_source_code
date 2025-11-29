@@ -8,9 +8,71 @@ function Playback() {
             <h1>往届上萌赛况回顾！</h1>
             <h2>第四届上海市上海中学最受欢迎动漫人物赏</h2>
             <h3>&emsp;萌王：？？？？&emsp;&emsp;燃王：？？？？</h3>
+            <table className="PlaybackStats">
+                <tbody>
+                <tr>
+                    <th colSpan="2">女子组（萌王赛道）</th>
+                    <th colSpan="2">男子组（燃王赛道）</th>
+                </tr>
+                <tr>
+                    <td>名称</td>
+                    <td>轮次 / 得票</td>
+                    <td>名称</td>
+                    <td>轮次 / 得票</td>
+                </tr>
+                <tr>
+                    <td>--</td>
+                    <td>八 / -- 四 / --</td>
+                    <td>--</td>
+                    <td>八 / -- 四 / --</td>
+                </tr>
+                <tr>
+                    <td>--</td>
+                    <td>八 / -- 四 / --</td>
+                    <td>--</td>
+                    <td>八 / -- 四 / --</td>
+                </tr>
+                <tr>
+                    <td>--</td>
+                    <td>八 / -- 四 / --</td>
+                    <td>--</td>
+                    <td>八 / -- 四 / --</td>
+                </tr>
+                <tr>
+                    <td>--</td>
+                    <td>八 / -- 四 / --</td>
+                    <td>--</td>
+                    <td>八 / -- 四 / --</td>
+                </tr>
+                <tr>
+                    <td>-- --</td>
+                    <td>八强赛 / -- --</td>
+                    <td>--</td>
+                    <td>八强赛 / --</td>
+                </tr>
+                <tr>
+                    <td>-- --</td>
+                    <td>八强赛 / -- --</td>
+                    <td>--</td>
+                    <td>八强赛 / --</td>
+                </tr>
+                <tr>
+                    <td>-- --</td>
+                    <td>八强赛 / -- --</td>
+                    <td>--</td>
+                    <td>八强赛 / --</td>
+                </tr>
+                <tr>
+                    <td>-- --</td>
+                    <td>八强赛 / -- --</td>
+                    <td>--</td>
+                    <td>八强赛 / --</td>
+                </tr>
+                </tbody>
+            </table>
             <p>（预选赛各角色得票详情参见<a
                 href="/4/上萌预选赛得票统计表.pdf" target={"_blank"}
-                rel="noreferrer">上萌预选赛得票统计表</a></p>
+                rel="noreferrer">上萌预选赛得票统计表</a>）</p>
             <h2>第三届上海市上海中学最受欢迎动漫人物赏</h2>
             <h3>&emsp;萌王：友利奈绪&emsp;&emsp;燃王：比企谷八幡</h3>
             <h4>&emsp;二游赛道萌王：流萤&emsp;&emsp;二游赛道燃王：砂金</h4>
