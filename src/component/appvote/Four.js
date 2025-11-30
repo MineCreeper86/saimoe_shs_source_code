@@ -168,7 +168,7 @@ function Four() {
             <h1>第四届上萌四强页面</h1>
             <p>您可在每个小组中选择 1 个角色，总得票胜出的角色将成功晋级下一轮。</p>
             <p>请点击你想要投票的角色直至其名字显示为绿色。</p>
-            <p>应援作品记为 5 票。应援作品可以电子形式发至admin@shswafu2025.club或线下递交。</p>
+            <p>应援作品记为 5 票。应援作品可线下递交至2705石赵乐。</p>
             {!debug && <LoginWindow hide="1"/>}
             <div className="MainApp">
                 <div className="VoteStart">
