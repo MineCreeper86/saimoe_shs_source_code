@@ -114,10 +114,11 @@
 .CharacterAvatar {
     max-width: 100%;
     display: block;
+    transition: 0.4s;
 }
 
 .UnselectedAvatar {
-    filter: contrast(0.8) blur(1px);
+    filter: contrast(0.7) blur(1px) brightness(0.6);
 }
 
 .CharacterName {
