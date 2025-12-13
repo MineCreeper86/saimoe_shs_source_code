@@ -116,8 +116,13 @@
     display: block;
 }
 
+.UnselectedAvatar {
+    filter: contrast(0.8) blur(1px);
+}
+
 .CharacterName {
     text-align: center;
+    margin: 0.3em;
 }
 
 @media(max-width: 900px) {

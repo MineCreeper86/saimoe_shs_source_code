@@ -32,7 +32,7 @@ function Final() {
         let fatherElementId = 'input-' + props.vid
         const children = props.option.characters.map((character) => (<td className=
                                                                              {selected === character.id ? "Final CandidateTag SelectedCandidate" : "Final CandidateTag"}
-                                                                         onClick={()=>{parseSelected(character.id)}}><img className={'CharacterAvatar'} src={'/avatars/'+character.image_src}/><p className={"CharacterName"}>{character.name_cn}</p></td>))
+                                                                         onClick={()=>{parseSelected(character.id)}}><img className={selected !== character.id && selected !== 0 ? "CharacterAvatar UnselectedAvatar" : "CharacterAvatar"} src={'/avatars/'+character.image_src}/><p className={"CharacterName"}>{character.name_cn}</p></td>))
         console.log(props.defaultValue);
         return <tr><td><span className="Final SequenceTag" id={fatherElementId} selectedCharacter={selected}></span></td>{children}</tr>
     }
