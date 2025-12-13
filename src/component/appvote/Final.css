@@ -121,6 +121,10 @@
     filter: contrast(0.7) blur(1px) brightness(0.6);
 }
 
+.UnselectedAvatar:hover {
+    filter: contrast(0.8) blur(0px);
+}
+
 .CharacterName {
     text-align: center;
     margin: 0.3em;
