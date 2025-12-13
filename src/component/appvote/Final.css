@@ -130,6 +130,10 @@
     font-size: x-large;
 }
 
+.CharacterAvatar {
+    max-width: 30vw;
+}
+
 @media(max-width: 900px) {
     :root {
         --border-default-width: 2px;
