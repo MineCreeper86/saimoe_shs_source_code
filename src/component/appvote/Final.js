@@ -149,8 +149,8 @@ function Final() {
             }
         }
         return (
-            <div className="NominationSubmit">
-                <button className="NominationButton" onClick={submitVote}>提交</button>
+            <div className="VoteSubmit">
+                <button className="VoteButton" onClick={submitVote}>提交</button>
                 <p>{submitCallback}</p>
             </div>)
     }
