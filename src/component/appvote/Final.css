@@ -15,7 +15,7 @@
 
 .MainApp .ChnlDivision tr{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
 }
@@ -31,7 +31,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: 100;
     transition: linear 0.2s;
-    margin-block-start: 1em;
+    margin: 0 1em;
 }
 
 .MainApp .VoteInput:hover {
@@ -131,7 +131,7 @@
 }
 
 .CharacterAvatar {
-    max-width: 30vw;
+    max-width: 100%;
     display: block;
 }
 
