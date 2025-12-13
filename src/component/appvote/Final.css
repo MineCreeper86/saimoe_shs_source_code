@@ -122,7 +122,7 @@
 }
 
 .UnselectedAvatar:hover {
-    filter: brightness(1.05);
+    filter: contrast(1) blur(0px) brightness(1.05);
 }
 
 .CharacterName {
