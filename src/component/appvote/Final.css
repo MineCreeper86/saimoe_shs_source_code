@@ -64,7 +64,7 @@
     display: block;
     float: left;
     margin-block-start: 1em;
-    width: 8em;
+    width: 40%;
 }
 
 .MainApp .SelectedCandidate {
@@ -132,6 +132,7 @@
 
 .CharacterAvatar {
     max-width: 30vw;
+    display: block;
 }
 
 @media(max-width: 900px) {
