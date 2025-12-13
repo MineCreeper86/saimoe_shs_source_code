@@ -20,25 +20,6 @@
     flex-wrap: nowrap;
 }
 
-.MainApp .VoteInput {
-    width: 12rem;
-    height: 2em;
-    border-radius: 15px;
-    border: var(--border-default-width) solid rgb(186, 186, 186);
-    padding-left: 0.8em;
-    padding-top: 0.2em;
-    padding-bottom: 0.2em;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 100;
-    transition: linear 0.2s;
-    margin: 0 1em;
-}
-
-.MainApp .VoteInput:hover {
-    box-shadow: rgba(105, 105, 105, 0.37) 0 0 6px;
-    border: var(--border-default-width) solid black;
-}
-
 .MainApp .SearchResultSet{
     margin-left: 4em;
     border: var(--border-default-width) solid black;
@@ -63,7 +44,7 @@
 .MainApp .CandidateTag {
     display: block;
     float: left;
-    margin-block-start: 1em;
+    margin: 0 1em;
     width: 40%;
 }
 
