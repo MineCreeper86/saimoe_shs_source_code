@@ -22,15 +22,15 @@ function Playback() {
                 </tr>
                 <tr>
                     <td>萌王</td>
-                    <td>？？？</td>
+                    <td>椎名真昼</td>
                     <td>燃王</td>
-                    <td>？？？</td>
+                    <td>夜神月</td>
                 </tr>
                 <tr>
                     <td>亚军</td>
-                    <td>？？？</td>
+                    <td>御坂美琴</td>
                     <td>亚军</td>
-                    <td>？？？</td>
+                    <td>L</td>
                 </tr>
                 <tr>
                     <td>八奈见杏菜</td>
