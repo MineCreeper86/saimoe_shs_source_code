@@ -7,7 +7,7 @@ function Playback() {
         <Article>
             <h1>往届上萌赛况回顾！</h1>
             <h2>第四届上海市上海中学最受欢迎动漫人物赏</h2>
-            <h3>&emsp;萌王：？？？？&emsp;&emsp;燃王：？？？？</h3>
+            <h3>&emsp;萌王：椎名真昼&emsp;&emsp;燃王：夜神月</h3>
             <table className="PlaybackStats">
                 <tbody>
                 <tr>
